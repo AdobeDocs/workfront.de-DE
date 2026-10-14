@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 2%
 ---
 # Benachrichtigungen: Informationen über Projekte in meinem Besitz
@@ -49,7 +49,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ein Projekt, das in meinem Besitz ist, ist in Verzug geraten</strong> </p> <p>Der Projektbesitzer erhält eine E-Mail-Benachrichtigung, wenn das Projekt in Verzug ist. Ein Projekt ist in Verzug, wenn der Fortschrittsstatus "[!UICONTROL At Risk], "[!UICONTROL Behind]" oder "[!UICONTROL Late]" ist.</p> <p>Es empfiehlt sich, diese Benachrichtigung aktiv zu halten. </p> <p>Benutzende mit einer [!UICONTROL Review]-Lizenz erhalten keine Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektfortschrittsänderung]: &lt;Projektname&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Projects You Own] &lt;Date of Daily Digest&gt; </em></p> </td> 
+   <td> <p><strong>Ein Projekt, das in meinem Besitz ist, ist in Verzug geraten</strong> </p> <p>Der Projektbesitzer erhält eine E-Mail-Benachrichtigung, wenn das Projekt in Verzug ist. Ein Projekt ist in Verzug, wenn der Fortschrittsstatus "[!UICONTROL At Risk], "[!UICONTROL Behind]" oder "[!UICONTROL Late]" ist. <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] oder [!UICONTROL Planning] ist.</p> <p>Es empfiehlt sich, diese Benachrichtigung aktiv zu halten. </p> <p>Benutzende mit einer [!UICONTROL Review]-Lizenz erhalten keine Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektfortschrittsänderung]: &lt;Projektname&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Projects You Own] &lt;Date of Daily Digest&gt; </em></p> </td> 
    <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Projektfortschrittsstatus<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt-Prozentsatz abgeschlossen<br>Projektstatus<br>Projektinhaber<br>*Projektname<br>*Projekt-Referenznummer<br>*Projektfortschrittsstatus<br>*Datum der täglichen Zusammenfassung<br></p> </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 

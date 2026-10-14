@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 15%
 ---
 # Anfordern von Hilfe beim KI-Assistenten
 
 >[!IMPORTANT]
 >
->Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent kann Informationen aus der Workfront-Dokumentation finden, sodass Sie Adobe Experience League nicht mehr aufrufen müssen, um die benötigte Hilfe zu erhalten.
 

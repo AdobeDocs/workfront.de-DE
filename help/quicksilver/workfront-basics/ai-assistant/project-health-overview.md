@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2104'
 ht-degree: 4%
 ---
 # Überblick über den Projektzustand
 
 >[!IMPORTANT]
 >
->* Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* Die Funktion Projektdiagnose ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen.
 
 Die Funktion „Projektdiagnose“ von Adobe Workfront nutzt die Leistungsfähigkeit des KI-Assistenten, um Ihnen sofort eine Bewertung zu geben, wie Ihre Projekte funktionieren, welche Bereiche Ihre Aufmerksamkeit erfordern und wie Probleme vermieden werden können, die Sie Zeit und Geld kosten können.

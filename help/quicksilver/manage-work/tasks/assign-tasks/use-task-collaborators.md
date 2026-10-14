@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1080'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 Arbeitsagenten sind KI-Mitwirkende, die direkt Workfront-Aufgaben, -Problemen und -Anfragen zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Arbeitselementen wie Benutzenden zugewiesen.
 
-Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude, Writer, <span class="preview">OpenAI oder IBM konfiguriert haben. </span>
+Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude, <span class="preview">OpenAI oder IBM konfiguriert haben. </span>
 
 >[!IMPORTANT]
 >
->Der Autor verwirft die Verwendung von Agenten. Mit Writer-Agenten konfigurierte Arbeitsagenten funktionieren nach dem 9. Oktober nicht mehr. 2026.
+>Writer hat die Verwendung von Agenten abgelehnt. Mit Writer-Agenten konfigurierte Arbeitsagenten funktionieren nach dem 9. Oktober nicht mehr. 2026.
 >
 >Weitere Informationen zur Einstellung finden Sie unter [Migration und Einstellung von Agentenbibliotheken](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in der Writer-Dokumentation.
 
@@ -66,11 +66,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Voraussetzungen
 
-* Sie müssen einen Agenten in Copilot, Claude, Writer.ai, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten in Workfront verwenden können.
+* Sie müssen einen Agenten in Copilot, Claude, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten in Workfront verwenden können.
 
 ## Arbeitsagenten - Übersicht
 
-Arbeitsagenten sind eine Möglichkeit, Agenten bestimmten Aufgaben in Workfront zuzuweisen. Sie konfigurieren den Agenten in einer App wie Copilot Studio, Claude oder Writer.ai und verbinden diesen Agenten dann mit Workfront als Arbeitsagenten. Anschließend können Sie sie wie eine Benutzerin bzw. einen Benutzer Aufgaben zuweisen.
+Arbeitsagenten sind eine Möglichkeit, Agenten bestimmten Aufgaben in Workfront zuzuweisen. Konfigurieren Sie den Agenten in einer App wie Copilot Studio oder Claude.ai und verbinden Sie diesen Agenten dann mit Workfront als Arbeitsagenten. Anschließend können Sie sie wie eine Benutzerin bzw. einen Benutzer Aufgaben zuweisen.
 
 Beispiele für Workflows:
 
@@ -82,7 +82,7 @@ Beispiele für Workflows:
 >
 >* Spezifische Details zu den Zuständigkeiten und Fähigkeiten eines Agenten werden in der Anwendung konfiguriert, in der der Agent erstellt wird, nicht in Workfront.
 >* Der Workfront MCP-Server muss nicht zu dem als Arbeitsagent verwendeten Agenten hinzugefügt werden und muss nicht verbunden sein, damit der Arbeitsagent funktioniert.
->* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude und Writer.ai, <span class="preview">OpenAI und IBM erstellte Agenten</span>
+>* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude, <span class="preview">OpenAI und IBM erstellte Agenten. </span>
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
 >* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 

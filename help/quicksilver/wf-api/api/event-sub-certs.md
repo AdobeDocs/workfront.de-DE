@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0eb975dfed34736eafa57fe9b65a63001ce60e02
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '362'
+ht-degree: 5%
 ---
 # Konfigurieren von Client-TLS für Ereignisabonnement
 
@@ -122,12 +122,25 @@ Weitere Informationen finden Sie unter
 
 ## Herunterladen von Zertifikaten
 
-Klicken Sie auf die folgenden Links, um die Client-Zertifikate herunterzuladen.
+Laden Sie die ZIP-Datei herunter, die die aktuellen Clientzertifikate für das Workfront-Ereignisabonnement enthält. Diese Zertifikate laufen am 25. April 2027 ab.
 
-* [Client-Zertifikat - Produktionsumgebung](assets/prod-ES-client-cert-oct25.crt)
-* [Client-Zertifikat - Vorschau-Umgebung](assets/preview-ES-client-cert-oct25.crt)
-* [Client-Zertifikat - Sandbox-Umgebung](assets/sandbox-ES-client-cert-oct25.crt)
+[Client-Zertifikate herunterladen](assets/event-subscription-certificates-nov02.zip)
+
+| Umgebung | Zertifikatsdatei |
+| -- | -- |
+| Produktion | event-subs-prod-cert-nov02.crt |
+| Vorschau | event-subs-preview-cert-nov02.crt |
+| Sandbox | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
 >Sie können dasselbe Client-Zertifikat für beide Sandbox-Umgebungen verwenden.
+
+
+

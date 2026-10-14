@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 4%
 ---
 # Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe
@@ -165,7 +165,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von einem Problem zu einer Aufgabe geschieht:</p> 
        <ul> 
         <li><strong>Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in Geschlossen , wenn die Aufgabe abgeschlossen ist.</li> 
-        <li><strong>Primären Kontakt Zugriff auf die Aufgabe gewähren</strong>: Ermöglicht dem primären Kontakt (dem Problemersteller) Zugriff auf die Aufgabe, die Aufgabe zu überprüfen, Aktualisierungen vorzunehmen und über den Fortschritt auf dem Laufenden zu bleiben</li> 
+        <li><strong>Primären Kontakten Zugriff auf die Aufgabe gewähren</strong>: Ermöglicht dem primären Kontakt (dem Problemersteller), die Aufgabe zu überprüfen, über den Fortschritt der Aufgabe auf dem Laufenden zu bleiben und Kommentare zum Abschnitt „Aktualisierungen“ der Aufgabe abzugeben.</li> 
         <li> <p><strong>Ändern dieser Einstellungen während der Konvertierung zulassen</strong>: Ermöglicht dem Benutzer, der das Problem konvertiert, diese Optionen während der Konvertierung eines Problems in eine Aufgabe zu ändern.</p>
         <!--
           Screenshot when possible</p>

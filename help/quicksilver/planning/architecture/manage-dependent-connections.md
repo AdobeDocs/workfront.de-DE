@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 1%
 ---
 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![Tooltip des abhängigen Symbols in der Spaltenüberschrift](assets/dependent-icon-tooltip-in-column-header.png)
 1. (Optional) Klicken Sie auf **Filterregeln für Datensätze** und wählen Sie Felder aus dem Datensatztyp aus, mit dem Sie eine Verbindung herstellen, um die Optionen für die Werte dieses Felds zu beschränken. Klicken Sie dann auf **Fertig**.
 
-   Wenn die beiden Felder in einem dritten Datensatztyp vorhanden sind, werden die Optionen für den verbundenen Felddatensatztyp durch den hier ausgewählten Filter eingeschränkt.
+   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 1. (Optional und empfohlen) Wechseln Sie zu einem dritten Datensatztyp und fügen Sie sowohl den ersten als auch den zweiten Datensatztyp als verbundene Datensatzfelder hinzu.
 
    ![Abhängige Anzeige für verbundene Felder eines dritten Datensatztyps](assets/dependent-connected-field-indicator-on-a-third-record-type.png)
