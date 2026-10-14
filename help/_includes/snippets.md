@@ -1,9 +1,8 @@
 ---
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2294'
 ht-degree: 2%
-
 ---
 # Snippets
 
@@ -63,7 +62,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront.
 
-## ​1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
+## &#x200B;1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
@@ -97,7 +96,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup-2026.png).
 
@@ -285,7 +284,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Planung]**.
 
@@ -384,8 +383,8 @@ OLD:
 
 **Neueste Version**:
 
-* Mac: 2.1.54, Stand 12/11/2025
-* Windows: 2.1.54 vom 12/11/2025
+* Mac: 2.2.2 ab 09/17/2026
+* Windows: 2.2.2 ab 09/17/2026
 
 <!-- Release -->
 
@@ -411,7 +410,7 @@ OLD:
 
 ## Schritt 1: Erfahren Sie mehr über die Auslastung - {#step1-to-utilization-report}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **&#x200B;**&#x200B;und dann auf [!UICONTROL **Nutzung**].
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **** und dann auf [!UICONTROL **Nutzung**].
 
 <!-- Review and approve work -->
 
