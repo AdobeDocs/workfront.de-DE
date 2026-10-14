@@ -59,7 +59,7 @@ Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den G
 {{step-1-to-users}}
 
 1. Klicken Sie auf den Namen des Benutzers, für den Sie den Beschäftigungsverlauf anzeigen möchten.
-1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken ](assets/employment-history-left-nav.png)).
+1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken &#x200B;](assets/employment-history-left-nav.png)).
 1. Um einen ausgewählten Datumsbereich anzuzeigen, klicken Sie auf die Datumsauswahl und passen Sie die Daten an.
 
    Wenn Sie den Beschäftigungsverlauf eines Benutzers auf seiner Seite anzeigen, können Sie den gesamten Beschäftigungsverlauf des Benutzers anzeigen.
