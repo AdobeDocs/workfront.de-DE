@@ -6,16 +6,16 @@ description: Machen Sie sich mit den wichtigsten Unterschieden bei Adobe Cloud-S
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Unterschiede im Adobe Cloud-Speicher
 
-Nachdem Ihr Vertrag aktualisiert wurde, um das neue einheitliche Überprüfungs- und Validierungserlebnis einzuschließen, kann Ihre Umgebung zwei Objekttypen enthalten: Objekte auf veraltetem Workfront-Speicher (die Objekte, die Sie heute haben) und Objekte, die mit Adobe Cloud-Speicher erstellt wurden. Der neue Dokumentbereich, der Frame.io-Viewer und die anderen hier beschriebenen Verhaltensweisen gelten nur für Objekte, die den Adobe-Cloud-Speicher verwenden.
+Mit dem Adobe-Cloud-Speicher kann Ihre Umgebung zwei Objekttypen enthalten: Objekte auf dem alten Workfront-Speicher (die Objekte, die Sie heute haben) und Objekte, die mit dem Adobe-Cloud-Speicher erstellt wurden. Der neue Dokumentbereich, der Frame.io-Viewer und die anderen hier beschriebenen Verhaltensweisen gelten nur für Objekte, die den Adobe-Cloud-Speicher verwenden.
 
-Eine Ausrichtung zum Verschieben und dazu, was wann aktiviert ist, finden Sie unter [Wechseln zu Workfront auf Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Eine Orientierung zum Verschieben finden Sie unter [Wechseln zu Workfront auf Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Legacy-Workfront-Speicher und Adobe-Cloud-Speicher
 
