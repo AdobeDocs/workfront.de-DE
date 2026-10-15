@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -264,7 +264,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
@@ -305,5 +305,3 @@ Weitere Informationen finden Sie unter [Felder zum Nachverfolgen im Änderungsve
 Auf der Zugriffsebene Standard können Sie jetzt festlegen, ob Benutzer mit dieser Zugriffsebene Zugriff auf die Liste „Änderungsverlauf“ haben sollen. Die **Änderungsverlauf** ist im Abschnitt **Administratorzugriff zulassen für** auf der Zugriffsebene verfügbar.
 
 Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) und [Anzeigen und Verwalten des Änderungsverlaufs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
-
-
