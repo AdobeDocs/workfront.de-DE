@@ -6,36 +6,20 @@ description: Erfahren Sie, was mit Ihren bestehenden Dokumentgenehmigungs-Workfl
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-    internal-label: Work management
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource management
-subfeature_v2:
-  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
-    internal-label: Digital content and documents
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '396'
 ht-degree: 3%
 ---
 # Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen wechseln
 
-Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt, verschiebt Ihr Unternehmen auch von veralteten Dokumentengenehmigungen zu einheitlichen Genehmigungen. Dieser Artikel enthält Informationen dazu, welche Funktionen bei einheitlichen Genehmigungen verfügbar sein werden, sowie Empfehlungen für Workfront-Administratoren, die ältere Dokumentgenehmigungen für Benutzer deaktivieren.
+Adobe Cloud-Speicherprojekte verwenden standardmäßig einheitliche Genehmigungen. In diesem Artikel werden die Funktionen beschrieben, die bei einheitlichen Genehmigungen im Vergleich zu alten Dokumentgenehmigungen verfügbar sind.
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Diese Änderung gilt organisationsweit, sobald Sie zu einer Version von Workfront wechseln, die Adobe Cloud Storage unterstützt. Es gibt keine Option für die Pilotgruppe oder den schrittweisen Rollout für den Wechsel von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen.<br>
->Einzelheiten zu den Änderungen am Adobe-Cloud-Speicher finden Sie unter [Wechseln zu Workfront im Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+>Einheitliche Genehmigungen sind die Standardeinstellung nur für neue Objekte, die im Adobe Cloud-Speicher erstellt wurden. Ältere Workfront-Speicherobjekte behalten ihren aktuellen Genehmigungs-Service bei.<br>
+>Weitere Informationen finden Sie unter [Wechseln zu Workfront auf Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Verstehen, was sich von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen ändert
 
@@ -46,19 +30,19 @@ Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt
 | Genehmigungsphasen und -pfade | Eine Genehmigungsphase, keine parallelen Pfade | [Mehrere Genehmigungsphasen und parallele Prüfpfade](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Genehmigungsvorlagen | Jede Genehmigung von Grund auf neu konfiguriert | [Wiederverwendbare Vorlagen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) im Workfront-Setup verfügbar |
 | Überprüfung und Markup | Proofing-Betrachter | [Proofing Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) auf alten Workfront-Speicherobjekten oder der [Frame.io-Viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) auf Adobe-Cloud-Speicherobjekten |
-| KI-gestützte Überprüfung | Nicht verfügbar | Automatische Prüfung der Markenkonformität mit [AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| KI-gestützte Überprüfung | Nicht verfügbar | Automatische Prüfung der Markenkonformität mit [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy-Reporting | Startseite-KPI-Widgets und [Arbeitsflächen-Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### Was passiert mit bereits laufenden Genehmigungen?
 
-In-Flight-Genehmigungen, die mit Legacy-Dokumentgenehmigungen erstellt wurden, funktionieren weiterhin wie vor dem Upgrade. Neue Genehmigungen, die nach dem Upgrade erstellt werden, verwenden jedoch einheitliche Genehmigungen.
+In-Flight-Genehmigungen, die in Legacy-Dokumentgenehmigungen erstellt wurden, funktionieren weiterhin wie zuvor. Neue Genehmigungen für Adobe Cloud-Speicherobjekte verwenden einheitliche Genehmigungen. Neue Genehmigungen für veraltete Workfront-Speicherobjekte behalten den Genehmigungs-Service bei, den diese Objekte bereits verwenden.
 
 
-## Vorbereiten des Upgrades
+## Vorbereiten des Wechsels
 
 * Teilen Sie den [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) mit Ihren Endbenutzern.
-* Überprüfen Sie Ihre vorhandenen Workfront Fusion-Szenarien. Wenn Sie veraltete Dokumentengenehmigungen mit Proofing verwenden, lesen Sie [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) bevor Ihr Unternehmen Upgrades durchführt.
-* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [&#x200B; finden Sie unter „Erstellen eines Dashboards für &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
+* Überprüfen Sie Ihre vorhandenen Workfront Fusion-Szenarien. Wenn Sie veraltete Dokumentengenehmigungen mit Proofing verwenden, lesen Sie [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) bevor Sie Teams in den Adobe Cloud-Speicher integrieren.
+* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [ finden Sie unter „Erstellen eines Dashboards für ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
 
 
 ### Hilfeartikel für Endbenutzer
@@ -69,4 +53,4 @@ In-Flight-Genehmigungen, die mit Legacy-Dokumentgenehmigungen erstellt wurden, f
 * [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Überblick über den Entscheidungsstatus eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
