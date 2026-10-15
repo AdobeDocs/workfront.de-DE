@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: Nicht zutreffend
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Workfront-Instanzen auf Google Cloud Platform (GCP) und Azure können sich jetzt für die offene Beta-Version der Canvas-Dashboards anmelden. Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -39,8 +39,8 @@ Workfront-Instanzen auf Google Cloud Platform (GCP) und Azure können sich jetzt
 >[!NOTE]
 >
 >Vorschau: Nicht zutreffend
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können Ihre Workfront Data Connect-Daten jetzt direkt für das Snowflake-Konto Ihres Unternehmens freigeben, indem Sie einen privaten Eintrag registrieren. Diese Verbindungsmethode verwendet die Funktion der privaten Auflistung von Snowflake, um Daten sicher zwischen Organisationen auszutauschen, ohne sie öffentlich zugänglich zu machen, und funktioniert über Regionen und Hosting-Plattformen hinweg.
 
@@ -53,8 +53,8 @@ Weitere Informationen finden Sie unter [Registrieren eines privaten Listeneintra
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Um die Verwendung von Canvas-Dashboards zu vereinfachen, haben wir Tools zum Workfront MCP hinzugefügt. Jetzt können Sie Canvas-Dashboards über Chat erstellen und verwalten, und das Dashboard und die Widgets werden für Sie mithilfe Ihrer Workfront-Daten erstellt. Dies funktioniert von MCP-Clients wie Claude und Cursor.
 
@@ -97,8 +97,8 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können jetzt ein Widget in dasselbe Dashboard, in ein anderes Dashboard, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard kopieren. Sie können ein Widget auch in ein anderes Dashboard verschieben, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard.
 
@@ -109,8 +109,8 @@ Wenn Sie ein Widget kopieren, wird jetzt ein Dialogfeld geöffnet, in dem Sie da
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn Sie in einem Arbeitsflächen-Dashboard einen Filter erstellen, können Sie jetzt nach Sammlungsbeziehungen filtern. Dabei handelt es sich um Felder, die mit einer Gruppe verwandter Datensätze anstatt mit einem einzelnen Datensatz verknüpft sind. Sie können beispielsweise nach dem Status von Aufgaben filtern, die zu einem Projekt gehören, um eine Liste von Projekten anzuzeigen, deren Aufgaben den Status „Neu“ aufweisen.
 
@@ -124,7 +124,7 @@ Weitere Informationen finden Sie unter [Berichtsfilterreferenz für Arbeitsfläc
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können jetzt ein Arbeitsflächen-Dashboard mit der neuen Aktion **Dashboard kopieren** kopieren. Diese Aktion steht allen Benutzenden zur Verfügung, deren Zugriffsebene Bearbeitungsberechtigungen für Dashboards gewährt bzw. Rechte zum Erstellen gewährt, auch wenn sie nur Lesezugriff auf das jeweilige Dashboard haben, das kopiert wird. Benutzende ohne Bearbeitungsrechte oder Bearbeitungsrechte für Dashboards sehen diese Aktion nicht.
 
@@ -170,7 +170,7 @@ Diese Änderung hat keine Auswirkungen auf die Funktionsweise aktueller Berichte
 >
 >Vorschau: 27. August 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Der neue Berichtstyp „Pivot-Tabelle“ in Arbeitsflächen-Dashboards aggregiert Daten mit genauen, vollständigen Rollups. Sie können Metriken wie Zahlen, Summen und Durchschnittswerte direkt in Ihrem Dashboard erstellen und dann die zugrunde liegenden Datensätze hinter jedem Gesamtwert detailliert anzeigen.
 
@@ -182,7 +182,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Pivot-Tabellenberichts i
 >
 >Vorschau: 13. August 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Terminierte Berichte benötigen jetzt ein Enddatum, um den Versand auf unbestimmte Zeit zu verhindern. Zeitpläne, die ihr Enddatum überschritten haben, werden automatisch deaktiviert.
 
@@ -196,7 +196,7 @@ Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsberei
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können jetzt in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.
 
@@ -211,7 +211,7 @@ Informationen zum Hinzufügen von Feldern zu Berichten finden Sie unter [Erstell
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Jetzt werden ausgewählte Optionen für die Mehrfachauswahl benutzerdefinierter Felder in einer konsistenten, vorhersehbaren Reihenfolge in veralteten Listen und Berichten angezeigt. Die Reihenfolge der Felder wird durch die Anordnung der Felder im benutzerdefinierten Formular bestimmt.
 

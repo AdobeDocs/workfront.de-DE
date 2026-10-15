@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '3601'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 >
 >| Monatliche Veröffentlichung | Vierteljährliche Veröffentlichung |
 >|----|----|
->| <ul><li>26.8 (13. August 2026)</li><li>26.9 (17. September 2026)</li><li>26.10 (14. Oktober 2026)</li></ul> | <ul><li>26.10 (15. Oktober 2026)</li></ul> |
+>| <ul><li>26.8 (13. August 2026)</li><li>26.9 (17. September 2026)</li><li>26.10 (14. Oktober 2026)</li></ul> | <ul><li>26.10 (16. Oktober 2026)</li></ul> |
 >
 >* Beachten Sie, dass Benutzer, die den Zeitplan für die schnelle Veröffentlichung im letzten Quartal (in diesem Quartal 26.10) einhalten, die Version einen Tag früher erhalten (14. Oktober 2026).
 >
@@ -69,8 +69,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Workfront-Admins können jetzt Änderungen am Aufgabengebiet, an der Agentur, an der Kostenstelle und an den Abrechnungssätzen einer Benutzenden im Laufe der Zeit in einer einzigen, filterbaren Ansicht „Beschäftigungshistorie“ verfolgen.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Workfront-Administratoren können jetzt KI verwenden, um Übersetzungen für benutzerdefinierten Lokalisierungstext zu generieren und die Ergebnisse vor dem Speichern zu überprüfen oder anzupassen.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>An Layout-Vorlagen wurden verschiedene Verbesserungen vorgenommen, darunter das Ausblenden oder Anzeigen von Elementen im Hauptmenü, die Positionierung benutzerdefinierter Anwendungen im Hauptmenü und das Ausblenden von Details im linken Navigationsbereich.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Um Ihnen die Erstellung und Verwaltung der Ereignisabonnements Ihres Unternehmens zu erleichtern, haben wir den Bereich Ereignisabonnements zum Setup hinzugefügt.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Beim Arbeiten mit Dropdown-Feldern, Optionsfeldern und Kontrollkästchen im Formular-Designer können Sie jetzt in einem einzigen Dialogfeld Feldoptionen hinzufügen, bearbeiten und löschen.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Workfront-Administratoren können jetzt eine Zulassungsliste vertrauenswürdiger OAuth-Callback-URLs verwalten, damit benutzerdefinierte KI-Agentenplattformen eine Verbindung zu Workfront-MCP-Servern herstellen können.</p>
             </td>
             <td><p>22. September 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>KI-Mitwirkende können jetzt mit Agenten an Aufgaben und Problemen arbeiten, den Dokumentkontext verwenden und in Echtzeit Aktualisierungen im Bereich Aktualisierungen posten.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>Schrittweiser Rollout ab 3. September 2026</p></td>
             <td><p>Schrittweiser Rollout ab 17. September 2026</p></td>
-            <td><p>Schrittweiser Rollout ab 15. Oktober 2026</p></td>
+            <td><p>Schrittweiser Rollout ab 16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,8 +386,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können jetzt mehrere Dokumente unter einem einzigen Genehmigungs-Workflow gruppieren, sodass sie dieselben Phasen gemeinsam durchlaufen.</p>
             </td>
             <td><p>Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist.</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können jetzt eine Website als Weblink im Bereich Neue Dokumente zu Adobe Workfront hinzufügen und auf der Live-Webseite die Genehmigung anfordern.</p>
             </td>
             <td><p>Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist.</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -423,7 +423,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>K. A.</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>K. A.</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Fügen Sie mithilfe des Adobe-Cloud-Speichers Teams zu Genehmigungen für Objekte hinzu</a>
@@ -440,7 +440,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Eine benutzerdefinierte Nachricht, die bei einer Dokumentgenehmigung festgelegt wurde, wird jetzt auch in der Betreffzeile der E-Mail mit der Genehmigungsanfrage angezeigt.</p>
             </td>
             <td><p>K. A.</p></td>
-            <td><p>15. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Projektvorlagen unterstützen jetzt erweiterte Listenverbesserungen und Ratenattribut-Aktualisierungen für Abrechnungssätze.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Workfront-Instanzen auf Google Cloud Platform (GCP) und Azure können sich jetzt für die offene Beta-Version der Canvas-Dashboards anmelden.</p>
             </td>
             <td><p>K. A.</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können Ihre Workfront Data Connect-Daten jetzt direkt für das Snowflake-Konto Ihres Unternehmens freigeben, indem Sie einen privaten Eintrag registrieren. Diese Verbindungsmethode verwendet die Funktion der privaten Auflistung von Snowflake, um Daten sicher zwischen Organisationen auszutauschen, ohne sie öffentlich zugänglich zu machen, und funktioniert über Regionen und Hosting-Plattformen hinweg.</p>
             </td>
             <td><p>K. A.</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können jetzt Canvas-Dashboards über MCP-Clients wie Claude und Cursor erstellen und verwalten, indem Sie Eingabeaufforderungen in natürlicher Sprache und strukturierte Dashboard-Aktionen verwenden.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können jetzt ein Widget in dasselbe Dashboard, in ein anderes Dashboard, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard kopieren. Sie können ein Widget auch in ein anderes Dashboard verschieben, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard. </p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Sie können jetzt nach Sammlungsbeziehungen filtern. Dabei handelt es sich um Felder, die sich mit einer Gruppe verwandter Datensätze anstatt mit einem einzelnen Datensatz verknüpfen.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>27. August 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>13. August 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Über die neue Anfrageerfahrung können Sie jetzt auf Workfront-Anfragen zugreifen, die bis zu 3 Jahre vor Juli 2025 eingereicht wurden.</p>
             </td>
             <td><p>24. September 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Mehrere Listen in Setup, Projekte, Vorlagen und Aufgaben verwenden jetzt das erweiterte Listenformat.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>An den erweiterten Listenfiltern und Gruppierungen wurden einige Verbesserungen vorgenommen: Gruppen werden standardmäßig reduziert, und die Filteroperatoren wurden auf klarere Beschriftungen aktualisiert.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
-            <td><p>14. Oktober 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -851,7 +851,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -904,7 +904,7 @@ Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizi
 
 Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Die kennwortgeschützte Authentifizierung für Benutzende von Data Connect-Lesegeräten endet am 8. August 2026
 
@@ -914,7 +914,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 

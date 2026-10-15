@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 An der Funktion Abrechnungssätze einer Projektvorlage wurden mehrere Aktualisierungen vorgenommen.
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicks
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 An der Funktion Abrechnungssätze für Unternehmen wurden mehrere Aktualisierungen vorgenommen.
 
@@ -76,11 +76,11 @@ Weitere Informationen finden Sie unter [Überschreiben von Abrechnungssätzen f�
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 >Diese Funktion ist nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
 
 Bei Verwendung von Ratenattributen als Filter in verschiedenen Bereichen von Workfront, z. B. „Erweiterte Zuweisungen“, wird jetzt eine zusätzliche Validierung auf die Filterung übergeordneter Elemente angewendet.
 
 Wenn Sie zuvor ein Attribut mit einem übergeordneten Element verknüpft haben und dieses übergeordnete Element mit einem Großelternteil, hat das System das ursprüngliche Attribut auch nicht automatisch als zum Großelterteil gehörend erkannt. Wenn Sie nun das Attribut der untersten Ebene auswählen, wird jede darüber liegende Ebene automatisch zugewiesen.
 
-Weitere Informationen zu Attributen finden [&#x200B; unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen zu Attributen finden [ unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).

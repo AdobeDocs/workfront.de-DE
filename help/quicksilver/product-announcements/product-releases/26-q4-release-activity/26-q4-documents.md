@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 2%
@@ -55,8 +55,8 @@ Weitere Informationen finden Sie unter:
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können jetzt mehrere Dokumente unter einem einzigen Genehmigungs-Workflow gruppieren, sodass sie dieselben Phasen gemeinsam durchlaufen.
 
@@ -88,8 +88,8 @@ Weitere Informationen finden Sie unter [Erstellen einer gruppierten Genehmigung]
 >[!NOTE]
 >
 >Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 >[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt eine Website zu Adobe Workfront als Weblink im Bereich Neue Dokumente hinzufügen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern.
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter <!-- [Add a web link as a document](/help
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Genehmigungsvorlagen sind jetzt standardmäßig privat. Zuvor konnte jeder Validierungsanforderer jede Vorlage im System sehen, wodurch die Vorlagenlisten lang und schwer zu navigieren waren. Jetzt ist eine Vorlage nur noch für den Benutzer sichtbar, der sie erstellt hat, es sei denn, der Ersteller gibt sie frei.
 
@@ -126,7 +126,7 @@ Weitere Informationen finden Sie unter:
 
 Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
 
-Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame.io-Kommentaren in Workfront
 
@@ -134,7 +134,7 @@ Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilve
 >
 >Vorschau: Nicht zutreffend
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn ein Genehmigungs-Workflow für ein Dokument erstellt wird, können Benutzer im Frame.io-Viewer Kommentare hinterlassen und Anmerkungen vornehmen. Diese Kommentare werden nicht im Workfront-Kommentarbedienfeld angezeigt, Sie können sie jedoch im Frame.io-Viewer anzeigen.
 
@@ -148,7 +148,7 @@ Weitere Informationen finden Sie unter [Hinzufügen einer Aktualisierung zu eine
 >
 >Vorschau: Nicht zutreffend
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn an ein Dokument ein Korrekturabzug angehängt wird, wird der Link „Zur Überprüfung gehen“ in den Genehmigungs-E-Mails jetzt direkt in der Korrekturabzugsansicht geöffnet, sodass Prüfende und genehmigende Personen sofort mit ihrer Überprüfung beginnen können. Wenn für ein Dokument kein Korrekturabzug vorhanden ist, wird durch den Link weiterhin der Abschnitt Genehmigungen des Dokuments geöffnet, wie zuvor.
 
@@ -158,7 +158,7 @@ Wenn an ein Dokument ein Korrekturabzug angehängt wird, wird der Link „Zur Ü
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Sie können jetzt ein Workfront-Team als genehmigende Person oder Prüfende Person zu einer Dokumentgenehmigungs- oder Genehmigungsvorlage hinzufügen, anstatt jede Person einzeln hinzuzufügen:
 
@@ -178,7 +178,7 @@ Weitere Informationen finden Sie unter:
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet und Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie jetzt in den Projektdetails einer Projektvorlage einen Frame.io-Arbeitsbereich auswählen. Über die Vorlage erstellte Projekte verwenden automatisch den in der Vorlage festgelegten Arbeitsbereich, sodass Projekte an den gewünschten Frame.io-Arbeitsbereich weitergeleitet werden, ohne dass bei der Projekterstellung eine zusätzliche Aktion erforderlich ist.
 
@@ -198,7 +198,7 @@ Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicks
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Vorschau: Nicht zutreffend
->Produktion für alle: 15. Oktober 2026
->Diese Funktion wurde in der schnellen Produktionsversion vom 17. September 2026 nicht wie ursprünglich geplant veröffentlicht. Es wird nun am 15. Oktober 2026 in der Produktion für alle verfügbar sein.
+>Produktion für alle: 16. Oktober 2026
+>Diese Funktion wurde in der schnellen Produktionsversion vom 17. September 2026 nicht wie ursprünglich geplant veröffentlicht. Es wird nun am 16. Oktober 2026 in der Produktion für alle verfügbar sein.
 
 Wenn Sie eine benutzerdefinierte Nachricht für eine Dokumentgenehmigung festlegen, wird diese Nachricht jetzt auch in der Betreffzeile der E-Mail mit der Genehmigungsanfrage angezeigt, wobei das Fälligkeitsdatum im Feld festgelegt wird. Auf diese Weise können Validierungsverantwortliche sehen, was Aufmerksamkeit erfordert, und sie können sehen, wann dies direkt in ihrem Posteingang geschieht, ohne die E-Mail zu öffnen.
 
@@ -233,7 +233,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, hat das Bedienfeld „Versionen“ im Bereich „Neue Dokumente“ ein neues Design:
 
@@ -251,7 +251,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dokumentversionen](/help/q
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn Ihr Unternehmen Adobe Cloud-Speicher verwendet, zeigt das Bedienfeld Genehmigungen im Bereich Neue Dokumente jetzt einen versionsübergreifenden Genehmigungsverlauf an:
 
@@ -284,7 +284,7 @@ Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt. Verknüpfte Inhalte bleiben automatisch synchronisiert: In Experience Manager Assets vorgenommene Änderungen werden in Workfront angezeigt und Sie können neue Asset-Versionen abrufen, ohne Workfront verlassen zu müssen.
 
@@ -300,7 +300,7 @@ Weitere Informationen finden Sie unter [Verknüpfen von Inhalten aus Experience 
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 

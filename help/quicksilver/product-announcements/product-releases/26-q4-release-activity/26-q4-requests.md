@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 7%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: 24. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 16. Oktober 2026
+>Produktion für alle: 16. Oktober 2026
 
 Über die neue Anfrageerfahrung können Sie jetzt auf Workfront-Anfragen zugreifen, die bis zu 3 Jahre vor Juli 2025 eingereicht wurden. Zuvor hatten Sie nur Zugriff auf Anfragen, die nach Juli 2025 gesendet wurden.
 
