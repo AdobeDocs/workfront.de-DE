@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3561'
 ht-degree: 4%
 ---
 
@@ -353,13 +353,20 @@ Mit Reporting-Tools können Sie Canvas-Dashboards über Chat erstellen und verwa
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
-| Lesen | `read` | liest Berichtsdaten in drei Modi, die anhand der übergebenen IDs ausgewählt werden: Listet die Dashboards auf, die für Sie sichtbar sind, ruft die Struktur eines einzelnen Dashboards ab oder ruft die vollständige Konfiguration eines Widgets ab. | Lesen |
-| Dashboard erstellen | `create_dashboard` | Erstellt ein neues, leeres Reporting-Dashboard und gibt es zurück, mit einem Link zum Öffnen. | Schreiben |
-| Dashboard aktualisieren | `update_dashboard` | Aktualisiert teilweise die Metadaten, Eingabeaufforderung, Filter und Platzierung pro Widget eines Dashboards. Ausgelassene Felder bleiben unverändert. | Schreiben |
-| Widget erstellen | `create_widget` | Erstellt ein Widget und dessen Berichtskonfiguration in einem Dashboard. Ein Tool verarbeitet alle drei Widget-Typen: Diagramm, KPI und Tabelle. | Schreiben |
-| Widget aktualisieren | `update_widget` | Aktualisiert die Konfiguration eines vorhandenen Widgets teilweise. Der Widget-Typ wird automatisch abgeleitet, sodass Sie nur die Felder senden, die Sie ändern möchten. | Schreiben |
-| Objekt kopieren | `copy_object` | Kopiert ein ganzes Dashboard, einschließlich der Widgets, Eingabeaufforderung und Filter, in ein neues Dashboard oder kopiert ein einzelnes Widget innerhalb von Dashboards oder über Dashboards hinweg. | Schreiben |
-| Objekt löschen | `delete_object` | Löscht dauerhaft ein Reporting-Dashboard und alle zugehörigen Widgets oder ein einzelnes Widget. Diese Aktion kann nicht rückgängig gemacht werden. | Schreiben |
+| Auflisten von Dashboards | `reporting_relist_dashboards` | Listet die für Sie sichtbaren Reporting-Dashboards auf. Unterstützt die `view` Werte `"my"`, `"shared"`, `"all"` und `"favorites"`. Gibt nur Dashboard-Metadaten zurück, einschließlich einer URL zum Öffnen jedes Dashboards. | Lesen |
+| Dashboard abrufen | `reporting_get_dashboard` | Ruft ein Arbeitsflächen-Dashboard nach ID ab, einschließlich Metadaten, Layout, Eingabeaufforderungen, Filter und Widget-IDs. Widget-Daten sind nicht hydriert. | Lesen |
+| Widget abrufen | `reporting_get_widget` | Ruft eine Widget-Shell und ihre reduzierte Inhaltskonfiguration ab. Feldverweise werden als `{id, label, dataType}` zurückgegeben, damit sie direkt in den `reporting_update_*_widget`-Tools wiederverwendet werden können. Unterstützte Inhaltstypen sind „Table“, „KPI“ und „MultiSeries“. | Lesen |
+| Dashboard erstellen | `reporting_create_dashboard` | Erstellt ein leeres Reporting-Dashboard. Gibt das vollständige erstellte Dashboard zurück, einschließlich ID, Titel, Beschreibung, Währung, Ersteller-ID, Erstellungsdatum und leeres Widget, Eingabeaufforderung und Filtersammlungen. | Schreiben |
+| Dashboard aktualisieren | `reporting_update_dashboard` | Aktualisiert teilweise den Titel, die Beschreibung, die Währung, die Eingabeaufforderung, den Filter und die `ignoreDashboardFilters`- und Layout-Einstellungen eines Dashboards. Ausgelassene Felder bleiben unverändert und Eingabeaufforderung und Filter werden vollständig ersetzt, wenn sie angegeben werden. | Schreiben |
+| Tabellen-Widget erstellen | `reporting_create_table_widget` | Erstellt ein Tabellen-Widget und dessen Berichtskonfiguration in einem Dashboard. Gibt das vollständig erstellte Widget in der reduzierten `get_widget` zurück. | Schreiben |
+| Tabellen-Widget aktualisieren | `reporting_update_table_widget` | Aktualisiert ein vorhandenes Tabellen-Widget und seine Berichtskonfiguration. Ersetzt die gespeicherte Tabellenkonfiguration, einschließlich Spalten, Buckets, Zeilenbegrenzung, Beschriftung, Beschreibung, Bedingung und Run-as-User-Einstellungen. | Schreiben |
+| KPI-Widget erstellen | `reporting_create_kpi_widget` | Erstellt ein KPI-Widget und dessen Berichtskonfiguration in einem Dashboard. Gibt das vollständig erstellte Widget in der reduzierten `get_widget` zurück. | Schreiben |
+| KPI-Widget aktualisieren | `reporting_update_kpi_widget` | Aktualisiert ein vorhandenes KPI-Widget und dessen Berichtskonfiguration. `fieldId` und `aggregation` sind erforderlich, und der zugrunde liegende Bericht wird vollständig ersetzt. | Schreiben |
+| Diagramm-Widget erstellen | `reporting_create_chart_widget` | Erstellt ein Diagramm-Widget und dessen Berichtskonfiguration. Unterstützte Diagrammtypen sind BALKEN, SPALTEN, LINIEN und TORTEN, einschließlich SIMPLE, MULTI_SERIES und STACKED-Varianten, sofern unterstützt. | Schreiben |
+| Diagramm-Widget aktualisieren | `reporting_update_chart_widget` | Aktualisiert ein vorhandenes Diagramm-Widget und seine Berichtskonfiguration. `aggregationFieldId`, `aggregationType`, `groupByFields` und `chartType` sind erforderlich und der zugrunde liegende Bericht wird vollständig ersetzt. | Schreiben |
+| Widget kopieren | `reporting_copy_widget` | Kopiert ein vorhandenes Widget in dasselbe Dashboard oder in ein anderes Dashboard und dupliziert damit das Widget und seine Berichtskonfiguration. | Schreiben |
+| Dashboard kopieren | `reporting_copy_dashboard` | Kopiert ein Dashboard in ein neues Dashboard, einschließlich seiner Widgets und Berichtskonfigurationen. Sie können optional nur eine Untergruppe von Widgets kopieren und auswählen, ob die Eingabeaufforderung und der Filter einbezogen werden sollen. | Schreiben |
+| Objekt löschen | `reporting_delete_object` | Löscht dauerhaft ein Reporting-Dashboard und alle zugehörigen Widgets oder ein einzelnes Widget. Diese Aktion kann nicht rückgängig gemacht werden. | Schreiben |
 
 ## So werden Tools aktualisiert
 
