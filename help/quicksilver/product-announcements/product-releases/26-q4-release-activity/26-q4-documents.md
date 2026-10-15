@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 2%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
->Produktions-Schnellveröffentlichung: 22. Oktober 2026
->Produktion für alle: 22. Oktober 2026
+>Produktions-Schnellveröffentlichung: 15. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
 Sie können jetzt mehrere Dokumente unter einem einzigen Genehmigungs-Workflow gruppieren, sodass sie dieselben Phasen gemeinsam durchlaufen.
 
@@ -88,8 +88,8 @@ Weitere Informationen finden Sie unter [Erstellen einer gruppierten Genehmigung]
 >[!NOTE]
 >
 >Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
->Produktions-Schnellveröffentlichung: 22. Oktober 2026
->Produktion für alle: 22. Oktober 2026
+>Produktions-Schnellveröffentlichung: 15. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 >[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt eine Website zu Adobe Workfront als Weblink im Bereich Neue Dokumente hinzufügen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern.
@@ -126,7 +126,7 @@ Weitere Informationen finden Sie unter:
 
 Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
 
-Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame.io-Kommentaren in Workfront
 
