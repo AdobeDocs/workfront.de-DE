@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 16. Oktober 2026
->Produktion für alle: 16. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Damit Sie verfolgen können, wie sich das Aufgabengebiet, die Agentur, die Kostenstelle und die Abrechnungssätze eines Benutzers im Laufe der Zeit geändert haben, haben wir Beschäftigungshistorie hinzugefügt.
 
@@ -45,8 +45,8 @@ Weitere Informationen finden Sie unter [Anzeigen des Beschäftigungsverlaufs der
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 16. Oktober 2026
->Produktion für alle: 16. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Um Ihnen die Übersetzung von benutzerdefinierten Begriffen und Feldbezeichnungen zu erleichtern, haben wir die Möglichkeit hinzugefügt, KI-Übersetzungen für benutzerdefinierte Lokalisierung zu generieren. Jetzt können Workfront-Admins mithilfe von KI Übersetzungen für unübersetzten benutzerdefinierten Text erstellen oder zusätzliche Sprachübersetzungen für einen zuvor lokalisierten Begriff ausfüllen und die Ergebnisse vor dem Speichern überprüfen und anpassen.
 
@@ -59,8 +59,8 @@ Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lo
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
 
@@ -80,8 +80,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 16. Oktober 2026
->Produktion für alle: 16. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 An Layout-Vorlagen wurden mehrere Verbesserungen vorgenommen:
 
@@ -96,8 +96,8 @@ Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer 
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 16. Oktober 2026
->Produktion für alle: 16. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Beim Arbeiten mit Dropdown-Feldern, Optionsfeldern und Kontrollkästchen im Formular-Designer können Sie jetzt in einem einzigen Dialogfeld Feldoptionen hinzufügen, bearbeiten und löschen. Zuvor haben Sie Auswahlmöglichkeiten im rechten Bedienfeld des Designers hinzugefügt und bearbeitet, und es war nicht viel Platz vorhanden, wenn Sie eine lange Liste von Auswahlmöglichkeiten erstellt haben.
 
@@ -119,8 +119,8 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisabonnements in
 >[!NOTE]
 >
 >Vorschau: 22. September 2026
->Produktions-Schnellveröffentlichung: 16. Oktober 2026
->Produktion für alle: 16. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Um die Workfront MCP-Server flexibler und anpassbarer für Ihr Unternehmen zu gestalten, haben wir die Möglichkeit hinzugefügt, benutzerdefinierte OAuth-Callback-URLs hinzuzufügen. Workfront-Administratoren können jetzt die Zulassungsliste vertrauenswürdiger OAuth-Callback-URLs für MCP-Integrationen in ihrem eigenen Unternehmen verwalten. Auf diese Weise können Sie benutzerdefinierte KI-Agentplattformen verbinden, deren OAuth-Rückruf-URL für Ihr Unternehmen eindeutig ist, und zwar über die Plattformen hinaus, die Workfront nativ unterstützt.
 
@@ -134,7 +134,7 @@ Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen einer autoris
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
 
@@ -154,7 +154,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Sie können jetzt eine standardmäßige Zugriffsebene für Benutzende festlegen, die in Workfront über die Adobe Admin Console bereitgestellt werden. Ein Workfront-Administrator kann diese Standardeinstellung in den Systemeinstellungen konfigurieren.
 
@@ -168,7 +168,7 @@ Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/h
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Wenn Ihr Unternehmen zusätzlich zu einem Workflow-Paket auch ein Planungspaket erworben hat, können Sie jetzt benutzerdefinierte Wochen auf dieselbe Weise konfigurieren wie benutzerdefinierte Quartale als Workfront-Administrator.
 
@@ -182,7 +182,7 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Benutzerdefinierte Dokumentenintegrationen unterstützen jetzt fragmentierte Uploads für große Dateien. Wenn diese Option aktiviert ist, werden Dateien mit mehr als 25 MB in kleinere Abschnitte unterteilt und parallel hochgeladen, was das Hochladen großer Dateien schneller und zuverlässiger macht. Administratoren können dies aktivieren und die maximale Chunk-Größe (bis zu 100 MB) pro Integration festlegen.
 
@@ -194,7 +194,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Dokumentintegrationen]
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Gruppenadministratoren können jetzt Geschäftsprofile für die von ihnen verwalteten Gruppen erstellen, bearbeiten und löschen, ohne dass sie Systemadministratorzugriff benötigen. Dadurch erhalten Unternehmen mehr Flexibilität, die Verwaltung von Geschäftsprofilen auf Gruppenebene zu delegieren.
 
@@ -206,7 +206,7 @@ Weitere Informationen finden Sie unter [Geschäftsprofile anzeigen und verwalten
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Ansichten für erweiterte Listen werden jetzt auf Systemebene über eine Layout-Vorlage unterstützt. Sie können vorhandene Systemansichten ausblenden, eine bestimmte Ansicht als Standardansicht zuweisen und eine benutzerdefinierte Ansicht zur Liste der Systemansichten hinzufügen.
 
@@ -220,7 +220,7 @@ Weitere Informationen finden Sie [Anpassen von Filtern, Ansichten und Gruppierun
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Dialogfelder für die Massenbearbeitung ermöglichen jetzt die Bearbeitung von externen Suchfeldern. Dies war bisher nicht möglich.
 
@@ -236,7 +236,7 @@ Informationen zu externen Suchfeldern finden Sie unter [Erstellen eines benutzer
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Der Vorschaumodus des benutzerdefinierten Formular-Designers unterstützt jetzt erweiterte Logikoptionen einschließlich erweiterter Anzeigelogik, Standardwertlogik, Validierungslogik, Formatierungslogik und Bearbeitbarkeitslogik. Sie können die Logikformeln in der Formularvorschau testen und sie im Logik-Builder nach Bedarf anpassen. Sie können auch ein Testobjekt auswählen (Projekt, Aufgabe, Problem usw.), , um eine Vorschau des Formulars mit echten kontextuellen Daten anzuzeigen.
 
@@ -252,7 +252,7 @@ Weitere Informationen finden Sie unter [Hinzufügen von Logikregeln zu benutzerd
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Die Seite „Änderungsverlauf“ in Workfront erfasst jetzt Aktivitäten in einheitlichen Prüfungs- und Genehmigungs-Workflows und bietet Admins einen vollständigen Governance-Trail für Prüfungs- und Dokumentenlebenszyklus-Ereignisse.
 
@@ -264,7 +264,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
@@ -272,7 +272,7 @@ Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/he
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Sie können jetzt ein benutzerdefiniertes Programm als Landingpage in einer Layout-Vorlage festlegen. Benutzerdefinierte Programme, die bereits zum Hauptmenü hinzugefügt wurden, können als Landingpage verwendet werden.
 
@@ -286,7 +286,7 @@ Weitere Informationen finden Sie unter [Anpassen der Landingpage mithilfe einer 
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Sie können Felder hinzufügen, die Sie für einen bestimmten Objekttyp in Workfront verfolgen möchten. Wenn Benutzende Informationen in diesem Feld ändern, zeichnet das System Informationen über die Änderung als Eintrag im Änderungsverlauf auf.
 
@@ -300,7 +300,7 @@ Weitere Informationen finden Sie unter [Felder zum Nachverfolgen im Änderungsve
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 16. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Auf der Zugriffsebene Standard können Sie jetzt festlegen, ob Benutzer mit dieser Zugriffsebene Zugriff auf die Liste „Änderungsverlauf“ haben sollen. Die **Änderungsverlauf** ist im Abschnitt **Administratorzugriff zulassen für** auf der Zugriffsebene verfügbar.
 

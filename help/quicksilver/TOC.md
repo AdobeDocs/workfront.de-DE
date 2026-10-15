@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
+source-git-commit: 241795b08033954c848577ec2a52ae01dbd69bb1
 workflow-type: tm+mt
-source-wordcount: '14674'
+source-wordcount: '14687'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -17,6 +17,9 @@ ht-degree: 91%
     * [Überblick über Produktversionen](product-announcements/product-releases/product-releases.md)
     * [Veröffentlichungszeitplan und -prozess für Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
     * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
+    * Version 1. Quartal 2027 {#release-27-q1}
+      * [Übersicht über die Version im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Projektverbesserungen im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Version 4. Quartal 2026 {#release-26-q4}
       * [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [Verbesserungen für Administratoren im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
