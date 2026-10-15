@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 6%
+source-wordcount: '1670'
+ht-degree: 5%
 ---
 # Erste Schritte mit Adobe Workfront Planning Designer
 
@@ -274,7 +274,12 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten oder <span cl
 
 ## Erstellen oder Aktualisieren von Objekten mit der Planning-Designer
 
-Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten oder <span class="preview">-Mitarbeiters erstellen oder aktualisieren</span> sofern nichts anderes angegeben ist.
+Sofern nicht anders angegeben, können Sie Objekte in Workfront Planning entweder mithilfe des Planning-Designer, des KI-Assistenten oder <span class="preview"> Coworker</span> erstellen oder aktualisieren.
+
+>[!TIP]
+>
+>Es wird empfohlen, nach einem vorhandenen Arbeitsbereich zu suchen, bevor Sie mit der Erstellung desselben beginnen. Die Planning-Designer zeigt möglicherweise eine Fehlermeldung an, wenn bereits ein Arbeitsbereich vorhanden ist.
+
 
 1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 

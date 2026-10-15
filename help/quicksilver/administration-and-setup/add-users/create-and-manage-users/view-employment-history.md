@@ -7,7 +7,7 @@ description: Sie können den Beschäftigungshistorie eines Benutzers anzeigen, e
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den G
 1. Um die Ergebnisse zu filtern, klicken Sie **Filtern** und geben Sie das Feld, den Operator und den Wert ein, nach dem Sie filtern möchten. Die Ergebnisse werden automatisch gefiltert.
 1. Um Spalten hinzuzufügen oder zu entfernen, klicken Sie auf das Symbol Hinzufügen ![Symbol Hinzufügen](assets/add-column.png) rechts in der Tabelle und klicken Sie auf das Pluszeichen neben jeder Spalte, die Sie hinzufügen möchten, oder klicken Sie auf das Minuszeichen neben jeder Spalte, die Sie aus der Ansicht entfernen möchten.
 1. Um den Beschäftigungsverlauf zu exportieren, klicken Sie auf **Exportieren**. Sie können den Beschäftigungsverlauf als CSV- oder XLSX-Datei exportieren.
-
-
 
 

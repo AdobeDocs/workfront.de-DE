@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3154'
+source-wordcount: '3156'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -300,7 +300,7 @@ Sie können die Wochentitel anpassen, die in der Zeitleisten -Ansicht sichtbar s
 
 Benutzerdefinierte Wochen werden in Workfront nicht angezeigt. Sie sind nur in der Ansicht Workfront-Planungs-Zeitleiste sichtbar.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filter für verbundene Datensatzfelder
 

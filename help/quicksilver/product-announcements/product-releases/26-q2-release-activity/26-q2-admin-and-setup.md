@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 # Verbesserungen für Administratoren im zweiten Quartal 2026
@@ -81,7 +81,7 @@ Dieses Update umfasst Folgendes:
 * Der Abschnitt „Benutzerdefinierte Quartale“ wird zum linken Bedienfeld „Setup“ hinzugefügt. Die Funktionalität bleibt gleich. 
 * Der Abschnitt Benutzerdefinierte Quartale wurde aus dem Abschnitt Projektvoreinstellungen einer Gruppe entfernt. Gruppenadministratoren haben keinen Einblick mehr in die Einrichtung für benutzerdefinierte Quartale. 
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Benutzerdefinierter Formularabschnitt standardmäßig reduzieren
 

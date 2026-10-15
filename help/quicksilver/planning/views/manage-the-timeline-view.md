@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
@@ -225,7 +225,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    >
    >Ohne das benutzerdefinierte Quartal ordnungsgemäß gespeichert zu haben, zeigt die Zeitleisten -Ansicht die klassischen Quartale an.
    >Nach der Einrichtung von benutzerdefinierten Quartalen im Bereich „Setup“ werden in der Ansicht „Timeline“ die benutzerdefinierten Quartale anstelle der klassischen Quartale angezeigt.
-   >Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+   >Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Zum Setup wechseln**, um Ihr Quartal einzurichten. Wenn nicht, klicken Sie **OK** und bitten Sie Ihren Workfront-Administrator, die benutzerdefinierten Quartale einzurichten.
 
@@ -593,7 +593,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie im Feld „Benutzerdefinierte Quartale verwenden **auf** Zum Setup wechseln **,** den Bereich „Setup“ zu wechseln und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden.
 
-   Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+   Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
    ![Benutzerdefinierte Quartale in den Zeitleisten-Anzeigeeinstellungen verwenden](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

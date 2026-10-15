@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Benutzerdefinierte Quartale aktivieren
-description: Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die keine Kalenderdaten sind (z. B. Geschäftstage oder Einkaufstage).
+title: Benutzerdefinierte Quartale und Wochen aktivieren
+description: Zu Berichtszwecken können Sie benutzerdefinierte Quartale konfigurieren, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die keine Kalenderdaten sind (z. B. Geschäftstage oder Einkaufstage). Wenn Ihr Unternehmen Workfront Planning-Pakete kauft, können Sie auch benutzerdefinierte Wochen konfigurieren.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 5%
+source-wordcount: '912'
+ht-degree: 4%
 ---
-# Aktivieren von benutzerdefinierten Quartalen
+# Benutzerdefinierte Quartale und Wochen aktivieren
 
 <!--Audited: 03/2026-->
 

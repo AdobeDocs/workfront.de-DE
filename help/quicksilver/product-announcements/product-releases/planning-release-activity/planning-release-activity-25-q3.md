@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 3%
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## Aktualisiertes Erlebnis bei der Freigabe eines Anfrageformulars
@@ -195,7 +196,7 @@ Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update
 
 Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Gleichzeitige Berechnung aller abhängigen Formeln
 

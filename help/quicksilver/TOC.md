@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14648'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -484,7 +484,7 @@ ht-degree: 91%
       * [Erstellen von Ausgabentypen](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Erstellen von Scorecards](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Neuberechnungen der Projekt-Timeline](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Aktivieren von benutzerdefinierten Quartalen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Benutzerdefinierte Quartale und Wochen aktivieren](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Aktivieren des Adobe-Cloud-Speichers für Ihr Unternehmen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Alte Portfolios in Adobe Cloud-Speicher konvertieren](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
@@ -547,6 +547,7 @@ ht-degree: 91%
       * [Anzeigen und Exportieren von Auditprotokollen](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [Änderungsverlauf anzeigen und verwalten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [Felder konfigurieren, die im Änderungsverlauf verfolgt werden sollen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [Beschäftigungshistorie der Benutzer anzeigen](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [Anzeigen von Benutzeranmeldeinformationen](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Verwalten von Benutzenden in der Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Übersicht über Geschäftsprofile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
