@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: approvals
 title: Gruppierte Genehmigungen verwalten
-description: In einer gruppierten Genehmigung können Sie Teilnehmer und Assets hinzufügen oder entfernen, ohne den Workflow für den Rest der Gruppe zu unterbrechen.
+description: In einer gruppierten Genehmigung können Sie Teilnehmer und Dokumente hinzufügen oder entfernen, ohne den Workflow für den Rest der Gruppe zu unterbrechen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 ---
 
 # Gruppierte Genehmigungen verwalten
 
-{{highlighted-preview-article-level}}
-
-Bei einer gruppierten Genehmigung werden mehrere Assets in einem einzigen Genehmigungs-Workflow zusammengefasst, sodass alle Assets dieselben Phasen gemeinsam durchlaufen können, anstatt für jedes Asset eine separate Genehmigung erforderlich zu machen. Sie können Teilnehmer und Assets in einer aktiven gruppierten Genehmigung hinzufügen oder entfernen, ohne den Workflow neu zu erstellen.
+Bei einer gruppierten Genehmigung werden mehrere Dokumente in einem einzigen Genehmigungs-Workflow gebündelt, sodass alle Dokumente dieselben Phasen gemeinsam durchlaufen, anstatt pro Dokument eine separate Genehmigung erforderlich zu machen. Sie können Teilnehmer und Dokumente in einer aktiven gruppierten Genehmigung hinzufügen oder entfernen, ohne den Workflow neu zu erstellen.
 
 Gruppierte Validierungen unterstützen den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade auf die gleiche Weise wie Genehmigungen für einzelne Assets. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -90,19 +88,19 @@ So entfernen Sie Teilnehmer aus einer aktiven gruppierten Genehmigung:
 
 1. Klicken Sie auf ein beliebiges Dokument in der Gruppe **dann auf** Symbol „Genehmigungen“ rechts auf der Seite.
 
+   ![Genehmigende Personen in der Dokumentzusammenfassung entfernen](assets/approvals-icon-new.png)
+
 1. Klicken Sie **Workflow bearbeiten**.
 
 1. Suchen Sie den Teilnehmer, den Sie aus dem aktiven Stadium entfernen möchten, und klicken Sie auf das Symbol **Entfernen** neben seinem Namen.
 
 1. Klicken Sie auf **Speichern**.
 
-   Der Genehmigungsstatus der verbleibenden Teilnehmer wird neu bewertet, um der Änderung Rechnung zu tragen.
+## Dokumente zu einer gruppierten Genehmigung hinzufügen
 
-## Hinzufügen von Assets zu einer gruppierten Validierung
+Sie können einer gruppierten Genehmigung Dokumente hinzufügen, bis deren erster Schritt gesperrt ist. Sobald der erste Schritt gesperrt ist, können Sie keine Dokumente mehr hinzufügen.
 
-Sie können einer gruppierten Genehmigung Assets hinzufügen, bis die erste Phase gesperrt ist. Sobald die erste Phase gesperrt ist, können Sie keine Assets mehr hinzufügen, da die Teilnehmer in dieser Phase keine Gelegenheit gehabt hätten, sie zu überprüfen.
-
-So fügen Sie einer gruppierten Genehmigung ein Asset hinzu:
+So fügen Sie einer gruppierten Genehmigung ein Dokument hinzu:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das bzw. das die gruppierte Genehmigung enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 
@@ -110,17 +108,17 @@ So fügen Sie einer gruppierten Genehmigung ein Asset hinzu:
 
 1. Klicken Sie **Workflow bearbeiten** und dann auf die Registerkarte **Dokumente**.
 
-1. Wählen Sie das Asset bzw. die Assets aus, die Sie der Gruppe hinzufügen möchten.
+1. Wählen Sie das Dokument oder die Dokumente aus, die Sie der Gruppe hinzufügen möchten.
 
 1. Klicken Sie auf **Speichern**.
 
-   Alle Mitglieder der Gruppe werden darüber informiert, dass ihnen ein zusätzliches Asset zur Überprüfung hinzugefügt wurde.
+   Alle Mitglieder der Gruppe werden darüber informiert, dass ihnen ein zusätzliches Dokument zur Überprüfung hinzugefügt wurde.
 
-## Entfernen von Assets aus einer gruppierten Genehmigung
+## Entfernen von Dokumenten aus einer gruppierten Genehmigung
 
-Sie können ein Asset jederzeit aus einer gruppierten Genehmigung im Workflow entfernen. Das entfernte Asset wird zu einer eigenen eigenständigen Genehmigung und speichert alle vorhandenen Entscheidungen, Kommentare und den Verlauf, ohne neu gestartet zu werden. Da das Asset bereits über eine Genehmigungsentscheidung verfügt, können Sie es später nicht mehr zu einer gruppierten Genehmigung hinzufügen.
+Sie können ein Dokument jederzeit aus einer gruppierten Genehmigung im Workflow entfernen. Das entfernte Dokument wird zu einer eigenen eigenständigen Genehmigung und speichert alle vorhandenen Entscheidungen, Kommentare und den Verlauf, ohne neu gestartet zu werden. Da das Dokument bereits mit einer Genehmigungsentscheidung versehen ist, können Sie es später nicht mehr zu einer gruppierten Genehmigung hinzufügen.
 
-So entfernen Sie ein Asset aus einer gruppierten Genehmigung:
+So entfernen Sie ein Dokument aus einer gruppierten Genehmigung:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das bzw. das die gruppierte Genehmigung enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 
@@ -132,16 +130,30 @@ So entfernen Sie ein Asset aus einer gruppierten Genehmigung:
 
 1. Klicken Sie auf **Speichern**.
 
-   Der Genehmigungsstatus des Assets bleibt ab dem Zeitpunkt sichtbar und unverändert, zu dem es entfernt wurde. Die gruppierte Genehmigungsansicht wird aktualisiert und zeigt die verbleibenden Assets in der Gruppe an.
+   >[!NOTE]
+   >
+   >Der Genehmigungsstatus des Dokuments bleibt ab dem Zeitpunkt sichtbar und unverändert, zu dem es entfernt wurde. Die gruppierte Genehmigungsansicht wird aktualisiert und zeigt die verbleibenden Dokumente in der Gruppe an.
 
-## Auflösen einer Entscheidung „Arbeit erforderlich“ in einer mehrstufigen gruppierten Genehmigung
 
-Bei einer mehrstufigen gruppierten Genehmigung müssen alle Assets in einem Schritt zu einer Entscheidung gelangen, bevor die Gruppe zum nächsten Schritt übergehen kann. Wenn ein Asset mit **Arbeit erforderlich** gekennzeichnet ist, kann es mit dem Rest der Gruppe nicht weiterentwickelt werden, daher muss es aus der Gruppe entfernt werden, damit die Phase fortgesetzt wird.
+## Auflösen einer Entscheidung „Arbeit erforderlich“ für ein einzelnes Dokument in einer mehrstufigen gruppierten Genehmigung
+
+Bei einer mehrstufigen gruppierten Genehmigung müssen alle Dokumente in einem Schritt zu einer Entscheidung gelangen, bevor die Gruppe zum nächsten Schritt übergehen kann. Wenn ein Dokument als **Arbeit erforderlich** gekennzeichnet ist, kann es mit dem Rest der Gruppe nicht weiterentwickelt werden, daher muss es manuell aus der Gruppe entfernt werden, damit der Schritt fortgesetzt wird.
+
+Wenn Sie das Dokument aus der Gruppe entfernen, wird es zu einer eigenen eigenständigen Genehmigung und behält alle vorhandenen Entscheidungen, Kommentare und den Verlauf bei, ohne neu gestartet zu werden. Sie können das überarbeitete Dokument als neue Version zur eigenständigen Genehmigung hinzufügen oder eine neue gruppierte Genehmigung damit erstellen.
 
 So beheben Sie eine Entscheidung mit dem Status „Arbeit erforderlich“:
 
-1. Entfernen Sie das mit &quot;**Arbeit erforderlich“ markierte** aus der Gruppe. Weitere Informationen finden Sie unter [Entfernen von Assets aus einer gruppierten Genehmigung](#remove-assets-from-a-grouped-approval). Das entfernte Asset wird zu einer eigenen eigenständigen Genehmigung und speichert seine vorhandenen Entscheidungen, Kommentare und den Verlauf.
+1. Entfernen Sie das Dokument, das mit &quot;**Arbeit erforderlich** gekennzeichnet wurde, aus der Gruppe. Weitere Informationen finden Sie unter [Entfernen von Dokumenten aus einer gruppierten Genehmigung](#remove-documents-from-a-grouped-approval). Das entfernte Dokument wird zu einer eigenen eigenständigen Genehmigung und behält seine vorhandenen Entscheidungen, Kommentare und den Verlauf bei.
 
-1. Nachdem das Asset aktualisiert wurde, beantragen Sie erneut eine Genehmigung dafür, entweder als einzelnes Asset oder als Teil einer neuen Gruppe. Da das Asset bereits über eine Genehmigungsentscheidung verfügt, können Sie es nicht wieder zur ursprünglichen Gruppe hinzufügen.
+1. Laden Sie das Dokument nach dem Aktualisieren als neue Version hoch und fordern Sie die Genehmigung erneut an oder fügen Sie es als Teil einer neuen Gruppe hinzu.
 
-   Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](create-a-document-approval.md) und [Erstellen einer gruppierten Genehmigung](create-a-grouped-approval.md).
+   Weitere Informationen finden Sie unter
+
+   * [Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+   * [Erstellen eines Workflows für die Dokumentvalidierung](create-a-document-approval.md)
+   * [Erstellen einer gruppierten Genehmigung](create-a-grouped-approval.md)
+
+
+## Bekannte Einschränkungen
+
+Es gibt ein temporäres Synchronisationsproblem mit Frame.io, wenn Sie Dokumente in einer gruppierten Genehmigung hinzufügen oder entfernen. Die Änderungen werden erst dann in Frame.io übernommen, wenn das Dokument das nächste Mal synchronisiert wird.

@@ -5,9 +5,9 @@ title: Erstellen einer gruppierten Genehmigung
 description: Sie können mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammenfassen, damit sie dieselben Phasen gemeinsam durchlaufen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 3%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Eine gruppierte Genehmigung fasst mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammen. Sie können den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade mit gruppierten Genehmigungen verwenden, genau wie Sie es mit Genehmigungen für einzelne Dokumente tun können.
 
-Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar, der angezeigt wird, wenn Ihr Unternehmen den Adobe Cloud-Speicher verwendet. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>[!IMPORTANT]
+>
+>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 ## Zugriffsanforderungen
 
