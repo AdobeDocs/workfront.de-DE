@@ -42,7 +42,7 @@ Adobe Cloud-Speicherprojekte verwenden standardmäßig einheitliche Genehmigunge
 >
 >Wenn Sie Adobe-Cloud-Speicher als Standard festlegen, ändert sich der Genehmigungs-Service, der bereits in Ihren veralteten Workfront-Speicherobjekten verwendet wird, nicht. Einheitliche Genehmigungen sind die Standardeinstellung nur für neue Objekte, die im Adobe Cloud-Speicher erstellt wurden.
 
-Stellen Sie vor dem Rollout des Adobe-Cloud-Speichers sicher, dass die Personen, die die Genehmigungen verwalten, wissen, was zu erwarten ist. Weitere Informationen finden Sie unter [Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen ](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
+Stellen Sie vor dem Rollout des Adobe-Cloud-Speichers sicher, dass die Personen, die die Genehmigungen verwalten, wissen, was zu erwarten ist. Weitere Informationen finden Sie unter [Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen &#x200B;](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 
 ## Umzug planen
 
@@ -50,7 +50,7 @@ Bearbeiten Sie diese Artikel bei der Vorbereitung in der richtigen Reihenfolge:
 
 * [Was sich beim Adobe-Cloud-Speicher unterscheidet](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md): Die wichtigsten Unterschiede bei Adobe-Cloud-Speicherobjekten, vom neuen Dokumentbereich und dem Frame.io-Viewer bis zu Benennungsregeln, Speicherkontingent und Fusion.
 * [Planen des Adobe Cloud-Speicher-Rollouts](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md): Wählen Sie eine Rollout-Konfiguration, führen Sie Pilotprojekte mit einer einzigen Gruppe durch und Sequenzieren Sie die Arbeit, damit es für Ihre Anwender keine Überraschungen gibt.
-* [Aktivieren der Adobe-Cloud-Datenspeicherung für Ihr ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md): Die Schritte zum Festlegen der Standardspeicheroption für Ihr gesamtes Unternehmen oder für bestimmte Gruppen.
+* [Aktivieren der Adobe-Cloud-Datenspeicherung für Ihr &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md): Die Schritte zum Festlegen der Standardspeicheroption für Ihr gesamtes Unternehmen oder für bestimmte Gruppen.
 * [Ältere Objekte in Adobe-Cloud-Speicher konvertieren](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md) Die drei Fälle, in denen Sie ein älteres Objekt in Adobe-Cloud-Speicher konvertieren können und was während jeder Konvertierung bewegt wird.
 
 

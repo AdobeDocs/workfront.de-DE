@@ -42,7 +42,7 @@ In-Flight-Genehmigungen, die in Legacy-Dokumentgenehmigungen erstellt wurden, fu
 
 * Teilen Sie den [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) mit Ihren Endbenutzern.
 * Überprüfen Sie Ihre vorhandenen Workfront Fusion-Szenarien. Wenn Sie veraltete Dokumentengenehmigungen mit Proofing verwenden, lesen Sie [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) bevor Sie Teams in den Adobe Cloud-Speicher integrieren.
-* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [ finden Sie unter „Erstellen eines Dashboards für ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
+* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [&#x200B; finden Sie unter „Erstellen eines Dashboards für &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
 
 
 ### Hilfeartikel für Endbenutzer
