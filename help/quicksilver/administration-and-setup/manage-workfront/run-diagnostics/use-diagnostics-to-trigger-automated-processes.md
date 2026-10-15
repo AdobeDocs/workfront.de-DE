@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 20%
+source-wordcount: '307'
+ht-degree: 22%
 ---
 # Diagnose zum Auslösen automatisierter Prozesse verwenden
 
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Trigger automatisierter Prozesse mit Diagnosefunktionen
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Erweitern Sie **System** und klicken Sie dann auf **Diagnose**.
 1. Wählen Sie eine der folgenden Optionen aus:

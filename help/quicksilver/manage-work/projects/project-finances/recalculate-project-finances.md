@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # Neuberechnen der Projektfinanzen
 
 Die Finanzen werden für ein Projekt berechnet, da Änderungen in den für das Projekt protokollierten Stunden oder in den Sätzen auftreten, die zur Berechnung der Kosten und Einnahmen verwendet werden.
@@ -125,7 +129,7 @@ Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter [Re
 
 #### Projektumsatz durch Verwendung mehrerer Abrechnungssatz-Überschreibungen beibehalten {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-Wenn sich Abrechnungssätze für Aufgabengebiete auf Projektebene ändern, können Sie den vorhandenen Umsatz, der bereits für das Projekt berechnet wurde, beibehalten, indem Sie Überschreibungen mehrerer Abrechnungssätze verwenden, die innerhalb eines bestimmten Zeitraums gesperrt werden.
+Wenn sich Abrechnungssätze für Aufgabengebiete auf Projektebene ändern, können Sie den vorhandenen Umsatz, der bereits für das Projekt berechnet wurde, beibehalten, indem Sie mehrere Abrechnungssatz-Überschreibungen verwenden, die innerhalb eines bestimmten Zeitraums gesperrt werden.
 
 Weitere Informationen zur Verwendung mehrerer Abrechnungssatzüberschreibungen finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +150,7 @@ Die Kostensätze können sich auf folgenden Ebenen ändern:
 * Projektebene (für Benutzer)
 Weitere Informationen zum Überschreiben von Benutzerkostensätzen finden Sie unter [Überschreiben von Benutzerkostensätzen auf Projektebene](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-Wenn sich die Verrechnungssätze auf einer der oben genannten Ebenen ändern, können Sie bestehende Kosten, die bereits für das Projekt berechnet wurden, beibehalten, indem Sie die im Projekt aufgezeichnete Zeit, die mithilfe des alten Satzes berechnet wurde, in einen Verrechnungsdatensatz mit dem Status In Rechnung gestellt sperren. Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Wenn sich die Kostensätze auf einer der oben genannten Ebenen ändern, können Sie bestehende Kosten, die bereits für das Projekt berechnet wurden, beibehalten, indem Sie die im Projekt aufgezeichnete Zeit, die mithilfe des alten Satzes berechnet wurde, in einen Rechnungsnachweis mit dem Status In Rechnung gestellt eintragen. Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Sie können auch vermeiden, die Option „Finanzen manuell neu berechnen“ zu verwenden, wenn Sie keinen Rechnungsnachweis erstellen möchten, wie im Abschnitt [Finanzen für ein Projekt manuell neu berechnen](#manually-recalculate-finances-for-a-project) in diesem Artikel beschrieben.
 
@@ -162,9 +166,9 @@ Wenn sich Ihre Sätze während der Laufzeit eines Projekts ändern und Ihre Kost
 
 Sie können die Finanzen von Projekten in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in &#x200B;](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
+Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in ](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
    ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-dropdown.png)
 
@@ -172,7 +176,7 @@ Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten.
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Finanzen neu &#x200B;](assets/recalculate-expressions-timeline-finance.png)
+   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -183,7 +187,7 @@ Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten.
    Alle geplanten Kosten und Einnahmen für das Projekt werden mit neuen Informationen neu berechnet.
 
    Sie sollten oben im Browser eine Bestätigung erhalten, dass die Finanzen des Projekts erfolgreich neu berechnet wurden.
-Bestehende Kostenwerte und einige Umsatzwerte, die nicht gesperrt wurden, werden aktualisiert, um die neuen Sätze widerzuspiegeln.
+   Bestehende Kostenwerte und einige Umsatzwerte, die nicht gesperrt wurden, werden aktualisiert, um die neuen Sätze widerzuspiegeln.
 
 ## Finanzen stapelweise manuell neu berechnen{#manually-recalculate-finances-in-bulk}
 
@@ -198,7 +202,7 @@ So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Finanzen neu &#x200B;](assets/recalculate-expressions-timeline-finance.png)
+   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -217,9 +221,25 @@ Die finanzielle Neuberechnung von Projekten in Workfront wird durch folgende Ma�
 * Aufgabenstatus ändern
 * Verschieben einer Aufgabe mit Stunden in ein anderes Projekt
 * Ändern des Projektstatus von „Abgeschlossen“ in einen aktiven Status
+* Fakturierbare Ausgaben auf Projekt- oder Aufgabenebene hinzufügen
 
 >[!NOTE]
 >
 >Wenn Sie den Projektstatus ändern, werden nur die geplanten Werte neu berechnet.
 
 Sie können die Finanzen auch manuell unter dem Menü **Mehr** ![Mehr](assets/qs-more-menu.png) auf Projektebene neu berechnen, indem Sie auf **Finanzen neu berechnen** klicken.
+
+### Auswirkungen von Ausgaben auf die automatische Neuberechnung der Finanzen
+
+Diese Szenarien bestehen, wenn Ausgaben zu Projekten und Aufgaben hinzugefügt werden:
+
+* Durch das Hinzufügen einer nicht fakturierbaren Ausgabe zu einem Projekt werden die Projektkosten aktualisiert, ohne dass alle Finanzen neu berechnet werden.
+* Durch das Hinzufügen einer nicht fakturierbaren Ausgabe zu einem Vorgang werden die Kosten dieses Vorgangs und die Projektkosten neu berechnet. Es werden keine anderen Aufgaben neu berechnet.
+* Durch Hinzufügen einer fakturierbaren Ausgabe auf Projekt- oder Aufgabenebene wird eine finanzielle Neuberechnung des Projekts, einschließlich Arbeitskosten und Einnahmen, Trigger.
+
+>[!NOTE]
+>
+>Wenn ein geplanter Betrag für die Ausgabe gespeichert wird, werden die geplanten Kosten aktualisiert. Wenn ein Istbetrag für die Ausgabe gespeichert wird, werden die Istkosten aktualisiert.
+
+Weitere Informationen zu Ausgaben finden Sie unter [Projektausgaben verwalten](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
