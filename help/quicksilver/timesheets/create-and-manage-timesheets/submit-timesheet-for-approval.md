@@ -78,7 +78,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ### Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
-Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
+Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
 
 So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 
@@ -95,7 +95,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
    * Wenn er/sie die Genehmigung erteilt **ändert sich die Schaltfläche** Rückruf **in „Erneut öffnen** und der Arbeitszeittabellen-Status ändert sich in &quot;**Öffnen**.
    * Wenn er/sie ihn ablehnt, ersetzt **Schaltfläche „Zur Genehmigung**&quot; die Schaltfläche **Rückruf** und der Arbeitszeittabellen-Status wird auf **Abgelehnt** aktualisiert.
 
-1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.
+1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel.
 
 ### Anzeigen des Status einer übermittelten Arbeitszeittabelle {#view-the-status-of-a-submitted-timesheet}
 
@@ -135,8 +135,8 @@ Alle Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig ange
 
    | Status | Beschreibung |
    | --------- | ---------- |
-   | Öffnen | <p>Ihre Arbeitszeittabelle ist derzeit geöffnet und Sie können die Zeit protokollieren.</p><p>Eine zurückgerufene Arbeitszeittabelle wird mit dem Status Offen angezeigt. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.</p> |
-   | Gesendet | Sie haben Ihre Arbeitszeittabelle zur Genehmigung eingereicht, sie wurde jedoch noch nicht genehmigt. Sie können eine gesendete Arbeitszeittabelle abrufen, um sie weiter zu bearbeiten. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel. |
+   | Öffnen | <p>Ihre Arbeitszeittabelle ist derzeit geöffnet und Sie können die Zeit protokollieren.</p><p>Eine zurückgerufene Arbeitszeittabelle wird mit dem Status Offen angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel.</p> |
+   | Gesendet | Sie haben Ihre Arbeitszeittabelle zur Genehmigung eingereicht, sie wurde jedoch noch nicht genehmigt. Sie können eine gesendete Arbeitszeittabelle abrufen, um sie weiter zu bearbeiten. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel. |
    | Geschlossen | <p>Die folgenden Szenarien sind vorhanden:</p><ul><li>Wenn die Arbeitszeittabelle keine genehmigende Person enthält, haben Sie Ihre Zeit gespeichert und geschlossen.</li><li>Wenn die Arbeitszeittabelle eine genehmigende Person enthält, haben Sie diese zur Genehmigung eingereicht und sie wurde genehmigt.</li></ul> |
    | Abgelehnt | Sie haben die Arbeitszeittabelle zur Genehmigung eingereicht und die genehmigende Person hat sie abgelehnt. |
 

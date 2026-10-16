@@ -105,7 +105,7 @@ Alle Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig ange
 
 1. Wählen Sie die zu exportierenden Arbeitszeittabellen aus und klicken Sie dann auf das Symbol **Exportieren** ![Exportieren](assets/export-38x15.png).
 
-   ![Klicken Sie auf das Symbol Exportieren ](assets/export-timesheets.png)
+   ![Klicken Sie auf das Symbol Exportieren &#x200B;](assets/export-timesheets.png)
 
 1. Wählen Sie aus den folgenden Optionen den Dateityp aus, in den Sie die Liste der Arbeitszeittabellen exportieren möchten:
 

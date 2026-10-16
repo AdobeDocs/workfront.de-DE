@@ -106,7 +106,7 @@ Alle Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig ange
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
 1. Zeigen Sie die folgenden Informationen an oder geben Sie sie ein:
 
    | Feldname | Beschreibung |
