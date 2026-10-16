@@ -7,30 +7,28 @@ description: Sie können Adobe Cloud Storage für Ihr Unternehmen aktivieren, um
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 7%
+source-wordcount: '636'
+ht-degree: 5%
+
 ---
 # Aktivieren des Adobe-Cloud-Speichers für Ihr Unternehmen
 
-Adobe Cloud Storage ist eine einheitliche Speicherlösung für alle Adobe-Produkte. Es handelt sich dabei um eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient.
+Adobe Cloud-Speicher ist eine einheitliche, Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient. In diesem Artikel wird beschrieben, wie Sie die Adobe-Cloud-Datenspeicherung als standardmäßige Speicheroption für Ihr gesamtes Unternehmen oder für bestimmte Gruppen aktivieren.
 
-Die Adobe-Cloud-Datenspeicherung ist standardmäßig für neue Kunden aktiviert und kann für Bestandskunden bei Vertragsverlängerung aktiviert werden.
+Dies ist die einzige Aktion, die das neue Erlebnis aktiviert: Nach der Aktivierung verwenden neue Projekte den Adobe-Cloud-Speicher, der den Frame.io-Viewer und einheitliche Genehmigungen enthält. Es ändert sich nichts, bis Sie die Adobe-Cloud-Datenspeicherung aktivieren.
 
-Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Da Sie den zeitlichen Ablauf steuern, können Sie das Erlebnis testen, Ihre Workfront Fusion-Szenarien aktualisieren und Berichtsänderungen planen, bevor jemand damit arbeitet. Weitere Informationen zu den Unterschieden und zur Planung des Rollouts finden Sie unter [Wechseln zu Workfront auf Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+
+## Funktionsweise von Genehmigungen mit Adobe Cloud Storage
+
+Der Adobe-Cloud-Speicher bestimmt, welchen Validierungs-Service ein Projekt verwendet. Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt, schaltet nicht automatisch Ihr gesamtes Unternehmen auf einheitliche Genehmigungen um. Stattdessen hängt der Validierungs-Service vom Speichermodell jedes Projekts ab:
+
+* **Adobe-Cloud-**: Verwenden Sie standardmäßig einheitliche Genehmigungen, mit Prüfung und Genehmigung im Frame.io-Viewer.
+* **Ältere Workfront-Speicherprojekte** Behalten Sie den von ihnen bereits verwendeten Validierungs-Service bei. Abhängig von Ihrem Unternehmen kann dies einheitliche Genehmigungen oder Legacy-Dokumentgenehmigungen sein.
+
+Weitere Informationen zur Überprüfung und Genehmigung von Adobe Cloud Storage finden Sie unter [Wechseln zu Workfront auf Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Zugriffsanforderungen
 
@@ -78,10 +76,10 @@ So aktivieren Sie die Adobe-Cloud-Datenspeicherung für Ihr Unternehmen:
 
 1. Wählen Sie im Dropdown-Menü Gilt für eine der folgenden Optionen:
 
-   - **Gesamte Organisation**: Mit dieser Option wird der standardmäßige Speicheranbieter auf die gesamte Workfront-Umgebung angewendet. Jedes Mal, wenn ein Benutzer ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet.
-   - **Spezifische Gruppen**: Mit dieser Option wird der standardmäßige Speicheranbieter nur auf bestimmte Gruppen in Ihrer Organisation angewendet. Jedes Mal, wenn ein Benutzer in den angegebenen Gruppen ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet
+   * **Gesamte Organisation**: Mit dieser Option wird der standardmäßige Speicheranbieter auf die gesamte Workfront-Umgebung angewendet. Jedes Mal, wenn ein Benutzer ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet.
+   * **Spezifische Gruppen**: Mit dieser Option wird der standardmäßige Speicheranbieter nur auf bestimmte Gruppen in Ihrer Organisation angewendet. Jedes Mal, wenn ein Benutzer in den angegebenen Gruppen ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet.
 
-   ![Speichergruppen - Voreinstellungen](assets/configure-storage-preference.png)
+     ![Speichergruppen - Voreinstellungen](assets/configure-storage-preference.png)
 
 1. Klicken Sie auf **Speichern**.
 

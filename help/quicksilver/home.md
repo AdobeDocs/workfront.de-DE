@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 94%
+source-wordcount: '481'
+ht-degree: 93%
 ---
 # [!DNL Workfront]-Dokumentation
 
@@ -42,9 +42,16 @@ Willkommen auf der Homepage für Adobe Workfront und zugehörige technische Doku
 
 >[!TAB Neueste Version]
 
-* [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [Übersicht über die Version im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Veröffentlichungen von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+
+>[!TAB Versionen  2027]
+
+* [Übersicht über die Version im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+* [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion-Veröffentlichungen](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
 
 >[!TAB Versionen  2026]
 
@@ -53,6 +60,7 @@ Willkommen auf der Homepage für Adobe Workfront und zugehörige technische Doku
 * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [Überblick über die Version vom ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Veröffentlichungen von Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
 >[!TAB Versionen 2025]

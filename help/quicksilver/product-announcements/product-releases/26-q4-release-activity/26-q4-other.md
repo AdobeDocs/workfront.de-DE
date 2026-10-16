@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Die folgenden Änderungen wurden an der erweiterten Liste der Filter und Gruppierungen vorgenommen:
 
@@ -49,8 +49,8 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Die folgenden Workfront-Listen verwenden jetzt das erweiterte Listenformat:
 
@@ -83,7 +83,7 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 In allen erweiterten Listen sind jetzt die folgenden Aktualisierungen verfügbar:
 
@@ -98,7 +98,7 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Die folgenden Workfront-Listen verwenden jetzt das erweiterte Listenformat:
 
@@ -159,7 +159,7 @@ Weitere Informationen finden Sie unter [Linke Navigation in Adobe Workfront](/he
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 An den erweiterten Listen wurden mehrere Aktualisierungen vorgenommen:
 
@@ -174,7 +174,7 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Wenn Sie den Mauszeiger über den Breadcrumb eines Objekts bewegen, können Sie jetzt dessen Namen kopieren und in einer Aktion miteinander verknüpfen. Dadurch wird die Freigabe von Objekten in Slack, E-Mail oder anderen Tools beschleunigt, ohne dass Name und URL separat kopiert werden müssen.
 

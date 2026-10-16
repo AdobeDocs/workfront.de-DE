@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >
 >Vorschau: 30. Juli 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 Wenn eine Vorlage Finanzdaten enthält, bleiben diese Feldwerte erhalten, wenn Benutzende ein Projekt aus der Vorlage erstellen. Der Benutzer muss Ansichtszugriff auf Finanzdaten haben, um die Finanzfelder in den Projektdetails anzuzeigen.
 

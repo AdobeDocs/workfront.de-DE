@@ -2,26 +2,28 @@
 product-area: documents
 navigation-topic: approvals
 title: Überprüfen einer gruppierten Genehmigung
-description: Sie können alle Assets in einer gruppierten Genehmigung über das Widget Meine Genehmigungen auf der Startseite oder im Frame.io-Viewer überprüfen und Entscheidungen treffen.
+description: Sie können alle Dokumente in einer gruppierten Genehmigung über das Widget Meine Genehmigungen auf der Startseite oder im Frame.io-Viewer überprüfen und Entscheidungen treffen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 7%
+source-wordcount: '630'
+ht-degree: 6%
 ---
 
 # Überprüfen einer gruppierten Genehmigung
 
 {{highlighted-preview-article-level}}
 
-Wenn Sie einer gruppierten Genehmigung zugewiesen sind, werden alle Assets in der Gruppe zusammen angezeigt, sodass Sie für jede Genehmigung eine Entscheidung treffen können. Sie können Änderungen an jedem Asset gleichzeitig genehmigen oder anfordern oder eine Entscheidung für jedes Asset einzeln treffen.
+Wenn Sie einer gruppierten Genehmigung zugewiesen sind, werden alle Dokumente in der Gruppe zusammen angezeigt, sodass Sie für jede Genehmigung eine Entscheidung treffen können. Sie können Änderungen an jedem Dokument gleichzeitig genehmigen oder anfordern oder eine Entscheidung für jedes Dokument einzeln treffen.
 
-In diesem Artikel wird beschrieben, was bei der Überprüfung einer Gruppe von Assets spezifisch ist. Eine Anleitung zum Treffen einer einzelnen Entscheidung, zum Hinzufügen von Markup und zu den anderen Orten, an denen Sie genehmigen können, finden Sie unter [Genehmigen eines Dokuments in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md), [Überprüfen eines Dokuments in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md) und [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
+Wenn ein oder mehrere Dokumente in einer mehrstufigen **mit** Arbeit erforderlich“ gekennzeichnet sind, kann die Gruppe erst dann mit dem nächsten Schritt fortfahren, wenn für alle Dokumente in der Gruppe eine genehmigte Entscheidung vorliegt. Weitere Informationen finden Sie [Auflösen einer Entscheidung „Muss überarbeitet werden“ für ein einzelnes Dokument in einer mehrstufigen gruppierten Genehmigung](#resolve-a-needs-work-decision-on-a-single-document-in-a-multi-stage-grouped-approval).
+
+
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -59,7 +61,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Überprüfen einer gruppierten Genehmigung über das Widget Meine Genehmigungen in der Startseite
 
-Das Widget Meine Genehmigungen in Startseite fasst die Assets unter einer einzigen Genehmigung zusammen, sodass Sie alle Assets gemeinsam bearbeiten können.
+Das Widget Meine Genehmigungen in Startseite fasst die Dokumente unter einer einzigen Genehmigung zusammen, sodass Sie alle gemeinsam bearbeiten können.
 
 >[!NOTE]
 >
@@ -67,30 +69,43 @@ Das Widget Meine Genehmigungen in Startseite fasst die Assets unter einer einzig
 
 1. Klicken Sie auf **Startseite** in der oberen linken Ecke von Adobe Workfront und suchen Sie das Widget **Meine Genehmigungen**.
 
-1. Öffnen Sie die gruppierte Genehmigung. Alle Assets in der Gruppe werden zusammen aufgelistet, wobei die Anzahl der Elemente in der Gruppe oben angezeigt wird.
+1. Öffnen Sie die gruppierte Genehmigung. Alle Dokumente in der Gruppe werden zusammen aufgelistet, wobei die Anzahl der Elemente in der Gruppe oben angezeigt wird.
 
 1. Treffen Sie eine Entscheidung mithilfe einer der folgenden Möglichkeiten:
 
-   * **Alle als genehmigt markieren** - Zeichnet eine genehmigte Entscheidung für jedes Asset in der Gruppe gleichzeitig auf.
-   * **Alle Arbeitsaufträge markieren** - Zeichnet für jedes Asset in der Gruppe gleichzeitig eine Entscheidung über den Arbeitsaufwand auf.
-   * **Entscheidung treffen** - Eine einzelne Entscheidung für ein einzelnes Asset treffen. Wiederholen Sie den Vorgang für jedes Asset, für das Sie eine separate Entscheidung treffen möchten.
+   * **Alle als genehmigt markieren**: Zeichnet eine genehmigte Entscheidung gleichzeitig für jedes Dokument in der Gruppe auf.
+   * **Alle Arbeitsaufträge markieren**: Zeichnet eine Entscheidung über den Arbeitsaufwand für jedes Dokument in der Gruppe gleichzeitig auf.
+   * **Entscheidung treffen**: Eine einzelne Entscheidung über ein einzelnes Dokument treffen. Wiederholen Sie diesen Vorgang für jedes Dokument, über das Sie separat entscheiden möchten.
+
+
+   ![Widget „Meine Genehmigungen“ - gruppierte Genehmigung](assets/my-approvals-group.png)
 
 ## Überprüfen einer gruppierten Genehmigung im Frame.io-Viewer
 
-Im Frame.io-Viewer werden alle Assets in der Gruppe zusammen angezeigt, sodass Sie für jedes Asset eine schnelle Entscheidung treffen können. Alternativ können Sie ein Asset öffnen, um es im Detail zu überprüfen.
+Im Frame.io-Viewer werden alle Dokumente in der Gruppe zusammen angezeigt, sodass Sie für jedes Dokument eine schnelle Entscheidung treffen können. Alternativ können Sie ein Dokument öffnen, um es im Detail zu überprüfen.
 
 1. Wechseln Sie zu Ihrer E-Mail-Benachrichtigung zur Überprüfung und klicken Sie **Zum Überprüfen wechseln** oder öffnen Sie die gruppierte Genehmigung über das Widget **Meine Genehmigungen** auf der Startseite.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Treffen Sie eine schnelle Entscheidung für jedes Asset direkt auf der Gruppenseite, ohne es zu öffnen.
-   * Klicken Sie auf ein Asset, um es zu öffnen, fügen Sie Kommentare oder Markup hinzu und gehen Sie dann mit dem Pfeil zum nächsten Asset in der Gruppe. Der Asset-Zähler (z. B. **1 von 2**) zeigt Ihren Platz in der Gruppe an.
+   * Treffen Sie eine schnelle Entscheidung für jedes Dokument direkt auf der Gruppenseite, ohne es zu öffnen.
+   * Klicken Sie auf ein Dokument, um es zu öffnen, fügen Sie Kommentare oder Markup hinzu und gehen Sie dann mit dem Pfeil zum nächsten Dokument in der Gruppe. Der Dokumentzähler (z. B. **1 von 2**) zeigt Ihren Platz in der Gruppe an.
 
    Weitere Informationen zu Kommentaren und Markup im Frame.io-Viewer finden Sie unter [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
-1. Wählen Sie für jedes Asset eine Entscheidung:
+1. Wählen Sie für jedes Dokument eine Entscheidung:
 
-   * **Genehmigt** - Das Asset muss nicht geändert werden und ist einsatzbereit.
-   * **Muss überarbeitet werden** - das Asset muss geändert werden und ist nicht einsatzbereit.
+   * **Genehmigt**: Das Dokument muss nicht geändert werden und ist einsatzbereit.
+   * **Muss überarbeitet werden**: Das Dokument muss geändert werden und ist nicht einsatzbereit.
 
    Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+
+   ![Frame.io Viewer Gruppierte Genehmigung](assets/frame-group-approval.png)
+
+## Weitere Ressourcen
+
+Dieser Artikel enthält Informationen zum Überprüfen einer Gruppe von Dokumenten. Informationen zum Treffen einer Entscheidung für ein einzelnes Dokument, Hinzufügen von Markup und mehr finden Sie unter
+
+* [Genehmigen eines Dokuments in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+* [Überprüfen eines Dokuments in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

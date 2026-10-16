@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
->Produktion für alle: 15. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 An der Funktion Abrechnungssätze einer Projektvorlage wurden mehrere Aktualisierungen vorgenommen.
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicks
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 
 An der Funktion Abrechnungssätze für Unternehmen wurden mehrere Aktualisierungen vorgenommen.
 
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie unter [Überschreiben von Abrechnungssätzen f�
 >
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
+>Produktion für alle: 22. Oktober 2026
 >Diese Funktion ist nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
 
 Bei Verwendung von Ratenattributen als Filter in verschiedenen Bereichen von Workfront, z. B. „Erweiterte Zuweisungen“, wird jetzt eine zusätzliche Validierung auf die Filterung übergeordneter Elemente angewendet.
