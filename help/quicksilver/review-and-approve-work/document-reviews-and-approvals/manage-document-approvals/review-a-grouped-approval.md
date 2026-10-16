@@ -65,7 +65,7 @@ Das Widget Meine Genehmigungen in Startseite fasst die Dokumente unter einer ein
 
 >[!NOTE]
 >
->Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+>Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Klicken Sie auf **Startseite** in der oberen linken Ecke von Adobe Workfront und suchen Sie das Widget **Meine Genehmigungen**.
 
@@ -98,7 +98,7 @@ Im Frame.io-Viewer werden alle Dokumente in der Gruppe zusammen angezeigt, sodas
    * **Genehmigt**: Das Dokument muss nicht geändert werden und ist einsatzbereit.
    * **Muss überarbeitet werden**: Das Dokument muss geändert werden und ist nicht einsatzbereit.
 
-   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Frame.io Viewer Gruppierte Genehmigung](assets/frame-group-approval.png)
 
