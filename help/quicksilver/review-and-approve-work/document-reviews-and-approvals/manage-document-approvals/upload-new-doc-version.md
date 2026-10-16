@@ -30,13 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 7%
 ---
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
 
+{{highlighted-preview}}
 
 Wenn ein Dokument in einer früheren Überprüfung als „Überarbeitung erforderlich“ gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten. Nachdem Sie eine neue Version des Dokuments hochgeladen haben, werden die vorherigen Versionen gesperrt.
 

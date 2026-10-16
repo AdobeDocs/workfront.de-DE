@@ -5,15 +5,15 @@ title: Erstellen einer gruppierten Genehmigung
 description: Sie können mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammenfassen, damit sie dieselben Phasen gemeinsam durchlaufen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 3%
 ---
 
 # Erstellen einer gruppierten Genehmigung
 
-<span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab dem 14. und 15. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
+<span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab 22. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
 
 Eine gruppierte Genehmigung fasst mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammen. Sie können den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade mit gruppierten Genehmigungen verwenden, genau wie Sie es mit Genehmigungen für einzelne Dokumente tun können.
 

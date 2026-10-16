@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 8%
+source-wordcount: '668'
+ht-degree: 7%
 ---
 # Überprüfen und Genehmigen mit dem Frame.io-Viewer
 
@@ -82,6 +82,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Voraussetzungen
 
 * Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* Zum Überprüfen eines Weblink-Dokuments muss die [Frame.io Chrome-Erweiterung](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) installiert sein. Wenn es nicht installiert ist, werden Sie beim ersten Öffnen des Frame.io-Viewers für ein Weblink-Dokument in Workfront aufgefordert, es herunterzuladen.
 
 ## Überprüfen eines Dokuments
 
@@ -93,7 +94,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    >[!NOTE]
    > 
-   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen.
 Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Kommentare werden in Workfront nicht angezeigt. <span class="preview">Das Bedienfeld „Kommentare“ für das Dokument in Workfront zeigt jedoch einen Callout mit einer Anzahl dieser Kommentare an, wenn eine Anzahl verfügbar ist, sowie einen Link zum Öffnen des Frame.io-Viewers und zum Lesen dieser Kommentare.</span> Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
@@ -115,8 +116,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    >[!NOTE]
    > 
-   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
+   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen. Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
@@ -132,10 +132,6 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    Sobald Sie eine Entscheidung treffen, wird der Dokumentverantwortliche per E-Mail benachrichtigt.
 
-   Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Frame-Viewer und Entscheidung](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
