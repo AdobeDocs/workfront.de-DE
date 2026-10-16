@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Planungsdatensätzen aus Ideation Space Briefs
+title: Erstellen oder Bearbeiten von Planungsdatensätzen aus Ideation Space Briefs
 description: Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsunterlagen umwandeln. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene. In diesem Artikel wird beschrieben, wie Sie mit dem Ideation-Bereich vorhandene Planungsdatensätze erstellen oder bearbeiten können.
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# Erstellen von Planungsdatensätzen aus Ideation Space Briefs
+# Erstellen oder Bearbeiten von Planungsdatensätzen aus Ideation Space Briefs
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
-ODER
-<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,7 +112,7 @@ ODER
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -120,13 +124,13 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-## Überlegungen zur Verwendung des Ideenraums zum Erstellen von Datensätzen
+## Überlegungen zur Verwendung des Ideenraums zum Erstellen oder Bearbeiten von Planungsdatensätzen
 
-* Sie können den Ideation-Bereich nur über Workfront Planning oder das Hauptmenü von Workfront starten, während Sie Datensätze erstellen oder bearbeiten. Der Ideationsraum existiert außerhalb von Workfront nicht.
-* Für den Zugriff auf den Ideationsbereich sind ein Arbeitsbereich und ein Datensatztyp in Workfront Planning erforderlich.
+* Sie müssen den Ideationsbereich von Workfront Planning aus starten, um einen Planungsdatensatz erstellen oder bearbeiten zu können. Beim Zugriff auf den Ideenraum über das Workfront-Hauptmenü wird keine Ideenbeschreibung mit einem Planungsdatensatz verbunden.
+* Um Datensätze mithilfe des Ideationsbereichs erstellen oder bearbeiten zu können, benötigen Sie einen Arbeitsbereich und einen Datensatztyp in Workfront Planning.
 * Neue Datensätze beginnen immer mit Platzhalterinhalten, unabhängig davon, wie Sie sie erstellen.
-* Wenn Sie einen Planungsdatensatz löschen, der mit einer Ideenübersicht verknüpft ist, bleibt die Übersichtsübersicht im Ideenraum, und die zugehörige Arbeitsfläche im Ideenraum wird nicht gelöscht.
-* Die Synchronisation von Informationen erfolgt nur vom Ideationsraum bis zur Workfront-Planung. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz mit der Ideation Space Brief.
+* Wenn Sie einen Planungsdatensatz löschen, der mit einer Ideenbeschreibung verknüpft ist, bleibt die Zusammenfassung im Ideenbereich, und der zugehörige Bereich wird nicht gelöscht.
+* Die Synchronisation von Informationen erfolgt nur vom Ideationsraum bis zur Workfront-Planung. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz mit der Ideation Space Brief. <!--this might change?-->
 * Die folgenden Szenarien treten auf, wenn Felder in Workfront Planning erstellt, bearbeitet oder entfernt werden:
 
   * Neue Felder, die für Datensätze erstellt wurden, die mit Ideenbeschreibungen verknüpft sind, werden täglich zur Zusammenfassung hinzugefügt. Neue Felder erscheinen leer in der Ideenbeschreibung.
@@ -134,7 +138,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   * Umbenannte Felder aktualisieren ihre Namen in der Zusammenfassung.
 * Sie können Dokumente als Karten im Ideationsbereich hinzufügen. Dazu gehören auch Bilder.
 
-  Die folgenden Dateitypen werden unterstützt: PDF, Excel, CSV, PNG (und andere Bildformate), Word, PowerPoint. Videos werden nicht unterstützt.
+  Sie können die folgenden Dateitypen hinzufügen: PDF, Excel, CSV, PNG (und andere Bildformate), Word, PowerPoint. Videos werden nicht unterstützt.
 
   Alle hochgeladenen Dokumente werden im Backend zur Verarbeitung in PDF konvertiert.
 * Sie können Datensätze direkt aus Workfront Planning per Drag-and-Drop in den Bereich ziehen, sodass sie wie manuell hochgeladene Dateien aussehen.
@@ -201,7 +205,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    Dadurch wird die Erstellung des Datensatzes mit den zusätzlichen Informationen abgeschlossen und dem ursprünglich ausgewählten Datensatztyp hinzugefügt.
 
-## Bearbeiten vorhandener Datensätze im Ideationsbereich
+## Bearbeiten vorhandener Datensätze unter Verwendung des Ideenraums
 
 Sie können den Ideationsbereich aus vorhandenen Datensätzen öffnen, um sie zu aktualisieren.
 

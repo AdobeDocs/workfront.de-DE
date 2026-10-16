@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 3%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -204,7 +192,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -351,7 +339,6 @@ Beachten Sie beim Arbeiten mit Aktivierungen Folgendes:
 
 * Sie können keinen Aktivierungsdatensatz in Workfront Planning erstellen.
 
-
 * Ein GenStudio-Projekt wird einem Workfront Planning-Arbeitsbereich 1:1 zugeordnet. Aktivierungen werden in diesem Arbeitsbereich gespeichert und von dort aus referenziert.
 
 * Sichtbarkeit und Aktionen hängen von Ihrem Zugriff auf dieses GenStudio-Projekt und diesen Arbeitsbereich ab.
@@ -360,18 +347,11 @@ Beachten Sie beim Arbeiten mit Aktivierungen Folgendes:
 
 * Wenn Sie über GenStudio aktivieren, werden Aktivierungsdetails in Workfront Planning aufgezeichnet und verfolgt. GenStudio und Planning halten gemeinsame Datensätze (Kampagnen, Produkte, Personas, Aktivierungen und mehr) aufeinander abgestimmt.
 
-<!--
+* Zu den Aktivierungsdatensätzen gehören:
 
-<div class="preview">
+  * Ein Tracking-ID-Feld, das den aufgelösten Wert für jedes Segment einer Tracking-ID-Formel zusammen mit Fehlern speichert.
+  * Eine Statusauswahl „Wird generiert“, die anzeigt, dass die Tracking-ID-Generierung ausgeführt wird. Der Aktivierungsstatus wird auf „Entwurf“ zurückgesetzt, wenn die Generierung abgeschlossen wird oder fehlschlägt. Vorhandene Aktivierungen sind davon nicht betroffen.
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.
