@@ -9,24 +9,30 @@ exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 TQID: https://experienceleague.adobe.com/6ngmKzkpxxHYM7L9Z16JsJKcEW7CdFjJcdp6B6hgTtc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: 1071
-ht-degree: 5%
-
+source-wordcount: '1048'
+ht-degree: 7%
 ---
-
 # Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch
 
 <!--Audited: 6/2025-->
@@ -77,34 +83,29 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 {{step1-to-timesheets}}
 
-Der **Alle**-Filter ist standardmäßig ausgewählt. Dadurch werden alle Arbeitszeittabellen angezeigt, auf die Sie Zugriff haben.
+Alle Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig angezeigt.
 
-![Arbeitszeittabellen-Liste mit einer ausgewählten Arbeitszeittabelle](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Arbeitszeittabellen-Liste](assets/list-of-all-timesheets.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
-   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
+   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen.
 
      ODER
 
      Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-     Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
+     Dadurch werden die Filter **Meine Arbeitszeittabellen-Genehmigungen** oder **Meine Arbeitszeittabelle** auf die Liste der Arbeitszeittabellen angewendet.
 
-     ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png), um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png), um einen Filter anzuwenden oder einen neuen Filter zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie in den folgenden Artikeln:
-   > 
-   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Optional) Klicken Sie auf das Symbol **Suchen** ![Suchsymbol](assets/search-icon.png), um einen Suchbegriff einzugeben und nach einer bestimmten Arbeitszeittabelle zu suchen. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen mit Besitzernamen suchen.
 
-1. (Optional) Klicken Sie auf **Ansicht** ![Ansichtssymbol](assets/view-icon.png) oder **Gruppierung** ![Gruppierungssymbol](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf **Ansicht** ![Ansichtssymbol](assets/view-icon.png) oder **Gruppierung** ![Gruppierungssymbol](assets/grouping.png), um eine Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 
@@ -114,65 +115,18 @@ Der **Alle**-Filter ist standardmäßig ausgewählt. Dadurch werden alle Arbeits
 
 1. Klicken Sie **oben** der Liste der Arbeitszeittabellen auf „Neue Arbeitszeittabelle“.
 
-   Geben Sie die folgenden Informationen an:
+   Folgende Angaben sind erforderlich:
 
-   <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>Arbeitszeittabelle erstellen für</strong> </td> 
-      <td>Beginnen Sie mit der Eingabe des Namens des Benutzers, eines Aufgabengebiets oder eines Teams, für das Sie die Arbeitszeittabelle erstellen, und klicken Sie darauf, wenn sie in der Liste angezeigt werden.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Startdatum</strong> </td> 
-      <td>Dies ist das Startdatum der Arbeitszeittabelle.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Enddatum</strong> </td> 
-      <td> Dies ist das Enddatum der Arbeitszeittabelle.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Genehmigende Personen</strong> </td> 
-      <td>Genehmigende Personen sind Benutzer, die die Arbeitszeittabelle für die mit der Arbeitszeittabelle verbundenen Benutzer genehmigen. Nur Benutzer mit Verwaltungsrechten für Arbeitszeittabellen können als genehmigende Personen festgelegt werden. Weitere Informationen zu Arbeitszeittabellen-Administratorrechten finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.<br>Beginnen Sie mit der Eingabe der Namen der genehmigenden Personen für Arbeitszeittabellen und klicken Sie auf diese, wenn sie in der Liste angezeigt werden.<br>Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als "<strong>" </strong> und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Kann die Zeit bearbeiten</strong> </td>
-
-   <td> <p>Wählen Sie diese Option aus, wenn Sie genehmigenden Personen erlauben möchten, Stunden auf der Arbeitszeittabelle zu bearbeiten.</p>
-
-   Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup > Arbeitszeittabellen und Stunden > Voreinstellungen. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren</a>.
-
-   Die folgenden Szenarien sind vorhanden:
-
-   <ul>
-      <li>Wenn die <b>Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken</b> aktiviert ist:</li>
-   <ul><li>Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob <b>Kann Zeit bearbeiten</b> aktiviert ist oder nicht. </li>
-   <li>Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.</li></ul>
-   <li>Wenn die <b>Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken</b> deaktiviert ist:</li>
-   <ul><li>Wenn die <b>Kann die Zeit bearbeiten</b> aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.</li>
-   <li>Wenn die <b>Kann die Zeit bearbeiten</b> deaktiviert ist, können genehmigende Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und können die Zeit auch nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen. </li>
-   <li>Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.</li></ul>
-   </ul>
-
-   <p><b>NOTIZ</b>
-
-   Nachdem Sie eine Arbeitszeittabelle zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um eine übermittelte Arbeitszeittabelle in den bearbeitbaren Status zurückzuversetzen, rufen Sie die Arbeitszeittabelle zurück oder bitten Sie die genehmigende Person, die Arbeitszeittabelle abzulehnen. Weitere Informationen finden Sie unter <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Arbeitszeittabelle zur Genehmigung einreichen</a> und <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Arbeitszeittabelle genehmigen</a>.</p> </p>
-
-   </td> 
-      </tr>
-
-   <tr>
-
-   <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
-      <td>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
-      </tr> 
-      </tbody> 
-   </table>
+   | Feldname | Beschreibung |
+   | --------- | ---------- |
+   | Arbeitszeittabelle erstellen für | Beginnen Sie mit der Eingabe des Namens des Benutzers, eines Aufgabengebiets oder eines Teams, für das Sie die Arbeitszeittabelle erstellen, und klicken Sie darauf, wenn sie in der Liste angezeigt werden. |
+   | Startdatum | Dies ist das Startdatum der Arbeitszeittabelle. |
+   | Enddatum | Dies ist das Enddatum der Arbeitszeittabelle. |
+   | Genehmigende Personen | <p>Genehmigende Personen sind Benutzer, die die Arbeitszeittabelle für die mit der Arbeitszeittabelle verbundenen Benutzer genehmigen. Nur Benutzer mit Verwaltungsrechten für Arbeitszeittabellen können als genehmigende Personen festgelegt werden. Weitere Informationen zu Arbeitszeittabellen-Administratorrechten finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Geben Sie die Namen der genehmigenden Personen für Arbeitszeittabellen ein und wählen Sie sie aus, wenn sie in der Liste angezeigt werden.</p> <p>Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als &quot;**&quot;** und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.</p> |
+   | Kann Zeit bearbeiten | <p>Wählen Sie diese Option aus, wenn Sie genehmigenden Personen erlauben möchten, Stunden auf der Arbeitszeittabelle zu bearbeiten.</p><p>Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup > Arbeitszeittabellen und Stunden > Voreinstellungen. Weitere Informationen finden Sie unter [Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).</p><p>Die folgenden Szenarien sind vorhanden:</p><p>Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** aktiviert ist:</p><ul><li>Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob **Kann Zeit bearbeiten** aktiviert ist oder nicht.</li><li>Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.</li></ul><p>Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** deaktiviert ist:</p><ul><li>Wenn **Kann die Zeit bearbeiten** aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.</li><li>Wenn **Kann die Zeit bearbeiten** deaktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und auch die Zeit nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen.</li><li>Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.</li></ul><p>**HINWEIS**</br> Nachdem Sie eine Arbeitszeittabelle zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um eine übermittelte Arbeitszeittabelle in den bearbeitbaren Status zurückzuversetzen, rufen Sie die Arbeitszeittabelle zurück oder bitten Sie die genehmigende Person, die Arbeitszeittabelle abzulehnen. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung einreichen](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) und [Arbeitszeittabelle genehmigen](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md). |
+   | Überstunden | Sie können das Feld **Überstunden** auf der Arbeitszeittabelle ausblenden. Standardmäßig ist diese Option deaktiviert. |
 
 1. Klicken Sie **Arbeitszeittabelle erstellen**.
-
-<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
 ## Wenn Aufgaben und Probleme in den Arbeitszeittabellen der Benutzer angezeigt werden
 

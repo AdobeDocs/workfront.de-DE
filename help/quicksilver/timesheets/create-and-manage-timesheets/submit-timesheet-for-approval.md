@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '821'
 ht-degree: 6%
-
 ---
-
 # Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
 <!--Audited: 8/2024-->
@@ -72,7 +78,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ### Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
-Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
+Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
 
 So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 
@@ -80,7 +86,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 1. Zeit erfassen, wie in [Zeit erfassen](../../timesheets/create-and-manage-timesheets/log-time.md) beschrieben
 1. Klicken Sie **Zur Genehmigung einreichen**, um den Genehmigungsprozess für Arbeitszeittabellen zu starten.
 
-   ![Schaltfläche „Zur Genehmigung einreichen“](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Schaltfläche „Zur Genehmigung einreichen“](assets/submit-for-approval-button-on-timesheet.png)
 
    Die Schaltfläche **Zur Genehmigung einreichen** wird durch die Schaltflächen **Genehmigen**, **Ablehnen** und **Rückruf** ersetzt. Der Status der Arbeitszeittabelle ändert sich in **Gesendet**.
 
@@ -89,7 +95,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
    * Wenn er/sie die Genehmigung erteilt **ändert sich die Schaltfläche** Rückruf **in „Erneut öffnen** und der Arbeitszeittabellen-Status ändert sich in &quot;**Öffnen**.
    * Wenn er/sie ihn ablehnt, ersetzt **Schaltfläche „Zur Genehmigung**&quot; die Schaltfläche **Rückruf** und der Arbeitszeittabellen-Status wird auf **Abgelehnt** aktualisiert.
 
-1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel.
+1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.
 
 ### Anzeigen des Status einer übermittelten Arbeitszeittabelle {#view-the-status-of-a-submitted-timesheet}
 
@@ -103,23 +109,21 @@ So zeigen Sie den Status einer Arbeitszeittabelle an:
 
 {{step1-to-timesheets}}
 
-Der **Alle**-Filter ist standardmäßig ausgewählt.
+Alle Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig angezeigt.
 
-![Arbeitszeittabellen-Liste mit einer ausgewählten Arbeitszeittabelle](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Arbeitszeittabellen-Liste](assets/list-of-all-timesheets.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
-   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
+   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen.
 
      ODER
 
      Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-     Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
+     Dadurch werden die Filter **Meine Arbeitszeittabellen-Genehmigungen** oder **Meine Arbeitszeittabelle** auf die Liste der Arbeitszeittabellen angewendet.
 
-     ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Klicken Sie auf das Filtersymbol ![Filtersymbol](assets/filter-nwepng.png), um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png), um einen Filter anzuwenden oder einen neuen Filter zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -129,32 +133,12 @@ Der **Alle**-Filter ist standardmäßig ausgewählt.
 
    Arbeitszeittabellen können die folgenden Status aufweisen:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Öffnen</td> 
-      <td> <p>Ihre Arbeitszeittabelle ist derzeit geöffnet und Sie können die Zeit protokollieren. </p> <p>Eine zurückgerufene Arbeitszeittabelle wird mit dem Status Offen angezeigt. Weitere Informationen finden Sie <a href="#recall-a-timesheet" class="MCXref xref"> Abschnitt „Arbeitszeittabelle </a>" in diesem Artikel. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Gesendet</td> 
-      <td>Sie haben Ihre Arbeitszeittabelle zur Genehmigung eingereicht, sie wurde jedoch noch nicht genehmigt. Sie können eine gesendete Arbeitszeittabelle abrufen, um sie weiter zu bearbeiten. Weitere Informationen finden Sie <a href="#recall-a-timesheet" class="MCXref xref"> Abschnitt „Arbeitszeittabelle </a>" in diesem Artikel. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Geschlossen</td> 
-      <td> <p>Die folgenden Szenarien sind vorhanden:</p> 
-       <ul> 
-        <li> <p>Wenn die Arbeitszeittabelle keine genehmigende Person enthält, haben Sie Ihre Zeit gespeichert und geschlossen.</p> </li> 
-        <li> <p>Wenn die Arbeitszeittabelle eine genehmigende Person enthält, haben Sie diese zur Genehmigung eingereicht und sie wurde genehmigt.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Abgelehnt</td> 
-      <td>Sie haben die Arbeitszeittabelle zur Genehmigung eingereicht und die genehmigende Person hat sie abgelehnt.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Status | Beschreibung |
+   | --------- | ---------- |
+   | Öffnen | <p>Ihre Arbeitszeittabelle ist derzeit geöffnet und Sie können die Zeit protokollieren.</p><p>Eine zurückgerufene Arbeitszeittabelle wird mit dem Status Offen angezeigt. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.</p> |
+   | Gesendet | Sie haben Ihre Arbeitszeittabelle zur Genehmigung eingereicht, sie wurde jedoch noch nicht genehmigt. Sie können eine gesendete Arbeitszeittabelle abrufen, um sie weiter zu bearbeiten. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel. |
+   | Geschlossen | <p>Die folgenden Szenarien sind vorhanden:</p><ul><li>Wenn die Arbeitszeittabelle keine genehmigende Person enthält, haben Sie Ihre Zeit gespeichert und geschlossen.</li><li>Wenn die Arbeitszeittabelle eine genehmigende Person enthält, haben Sie diese zur Genehmigung eingereicht und sie wurde genehmigt.</li></ul> |
+   | Abgelehnt | Sie haben die Arbeitszeittabelle zur Genehmigung eingereicht und die genehmigende Person hat sie abgelehnt. |
 
 ## Arbeitszeittabelle zurückrufen {#recall-a-timesheet}
 
