@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 9%
 ---
 # Weblink als Dokument hinzufügen
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Weblink als Dokument hinzufügen
 
-Sie können eine HTML-Webseite als Weblink in Workfront hochladen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern. Weitere Informationen zum Umgang mit Weblinks mit Frame.io finden Sie unter [Frame.io-Weblinks](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+Sie können eine HTML-Webseite als Weblink in Workfront hochladen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern. Weitere Informationen zum Umgang mit Weblinks mit Frame.io finden Sie unter [Frame.io-Weblinks](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 <!--
 >[!IMPORTANT]

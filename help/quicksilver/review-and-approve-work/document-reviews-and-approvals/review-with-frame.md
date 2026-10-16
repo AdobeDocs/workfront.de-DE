@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 7%
+source-wordcount: '903'
+ht-degree: 5%
 ---
 # Überprüfen und Genehmigen mit dem Frame.io-Viewer
 
@@ -84,6 +84,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 * Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 * Zum Überprüfen eines Weblink-Dokuments muss die [Frame.io Chrome-Erweiterung](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) installiert sein. Wenn es nicht installiert ist, werden Sie beim ersten Öffnen des Frame.io-Viewers für ein Weblink-Dokument in Workfront aufgefordert, es herunterzuladen.
 
+
 ## Überprüfen eines Dokuments
 
 Als Reviewer können Sie Assets mit Kommentaren versehen und mit Markierungen versehen. Nach Abschluss des Vorgangs können Sie Ihre Überprüfung in Workfront als abgeschlossen markieren. Das Markieren der Überprüfung als abgeschlossen ist nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
@@ -94,7 +95,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    >[!NOTE]
    > 
-   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen.
 Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Kommentare werden in Workfront nicht angezeigt. <span class="preview">Das Bedienfeld „Kommentare“ für das Dokument in Workfront zeigt jedoch einen Callout mit einer Anzahl dieser Kommentare an, wenn eine Anzahl verfügbar ist, sowie einen Link zum Öffnen des Frame.io-Viewers und zum Lesen dieser Kommentare.</span> Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
@@ -116,7 +117,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    >[!NOTE]
    > 
-   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen. Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
@@ -132,6 +133,31 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    Sobald Sie eine Entscheidung treffen, wird der Dokumentverantwortliche per E-Mail benachrichtigt.
 
-   Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Frame-Viewer und Entscheidung](assets/make-decision-frame.png)
+
+## Überprüfen eines Weblinks
+
+Wenn es sich bei dem Dokument um eine Live-Web-URL handelt, können Sie die Seite im Frame.io-Viewer überprüfen und Feedback direkt auf der Seite hinterlassen.
+
+1. Navigieren Sie zu Ihrer E-Mail-Benachrichtigung zur Überprüfung und klicken Sie auf **Zum Überprüfen wechseln**.
+oder
+Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen und klicken Sie dann auf **Überprüfung öffnen**.
+
+   >[!NOTE]
+   > 
+   >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. Öffnen Sie in Frame.io das Weblink-Dokument. Installieren Sie bei Aufforderung die [Frame.io-Erweiterung](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) damit Sie die Seite anzeigen und den aktuellen Status der URL erfassen können.
+
+1. Verwenden Sie den Viewer, um Kommentare, Anmerkungen und mehr direkt auf der Seite hinzuzufügen.
+
+1. Nachdem Sie die Überprüfung des Weblink-Dokuments abgeschlossen haben, können Sie eine der folgenden Entscheidungen im Frame.io-Viewer auswählen:
+
+   * **Genehmigen**: Das Asset benötigt keine Änderungen und ist einsatzbereit.
+   * **Muss bearbeitet**: Das Asset muss geändert werden und ist nicht einsatzbereit. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Asset als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. Weitere Informationen finden Sie unter [Neue Dokumentversion hochladen und eine Genehmigung anfordern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   Sobald Sie eine Entscheidung treffen, wird der Dokumentverantwortliche per E-Mail benachrichtigt.
+
+Detaillierte Anweisungen zum Anzeigen und Überprüfen von Live-Web-URLs, einschließlich unterstützter URLs, Anforderungen an Browser-Erweiterungen und Kommentar-Optionen, finden Sie unter [HTML-Überprüfung für Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
