@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 4%
 ---
 # Exportieren der Details eines Eintrags
@@ -168,6 +168,8 @@ Old:
 
 * Die exportierte Datei behält das Layout der Datensatzseite bei, einschließlich der Miniatur und der Titelbilder.
 
+* Es ist nicht möglich, eine benutzerdefinierte Detailseite zu exportieren, wenn mehrere Felder ausgeblendet sind.
+
 ## Exportieren der Details eines Eintrags
 
 {{step1-to-planning}}
@@ -183,11 +185,11 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Das Vorschaufeld des Datensatzes wird geöffnet.
 
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 
 1. Wählen Sie die **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet sein.
 
-1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf ](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Microsoft Word**
    * **Adobe PDF**
