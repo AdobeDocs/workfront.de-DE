@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 6%
+source-wordcount: '270'
+ht-degree: 5%
 ---
 # Workfront-Kenntnisse in CX Enterprise Coworker
 
@@ -59,6 +59,9 @@ Diese Fähigkeit fragt Workfront Planning-Objekte ab und verwaltet sie, z. B.:
 * Felder
 * Ansichten
 * Einträge
+<!--
+* Business rules
+-->
 
 ### Verwalten von Workfront-Objekten
 
@@ -75,13 +78,12 @@ Diese Fähigkeit erstellt und aktualisiert Workfront-Projekte, -Aufgaben, -Probl
 
 Name: `query-workfront-data`
 
-Diese Qualifikation sucht, listet und berichtet über Workfront-Objekte wie:
+Diese Qualifikation sucht, listet und berichtet über Workfront-Objekte. Im Folgenden finden Sie einige Beispiele für solche Workfront-Objekte, die Liste ist jedoch nicht vollständig:
 
 * Projekte
 * Aufgaben
 * Probleme
 * Benutzende
 * Portfolios
-* und mehr
 
 

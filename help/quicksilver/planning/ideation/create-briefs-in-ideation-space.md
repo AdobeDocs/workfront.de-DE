@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1621'
 ht-degree: 1%
 ---
 
@@ -34,9 +34,20 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsunterlagen umwandeln. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene.
+Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsdatensätze umwandeln oder als externe Datei speichern. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene.
 
-In diesem Artikel wird beschrieben, wie Sie im Ideationsbereich Ideen diskutieren und Strategien entwickeln können, um Briefs zu erstellen. Um Datensätze zu erstellen oder zu aktualisieren, exportieren Sie fertige Ideenbeschreibungen in eine -Datei oder in Workfront Planning.
+In diesem Artikel wird beschrieben, wie Sie im Ideationsbereich Ideen diskutieren und Strategien entwickeln können, um Briefs zu erstellen.
+
+Sie können Folgendes tun:
+
+* Um Datensätze zu erstellen oder zu aktualisieren, exportieren Sie fertige Ideenbeschreibungen in Workfront Planning.
+
+* Um die Kurzinformationen in einem anderen Programm zu verwenden, exportieren Sie sie in einen der folgenden Dateitypen:
+
+  * PDF
+  * Wort
+  * PowerPoint
+  * PowerPoint-Vorlage
 
 ## Zugriffsanforderungen
 
@@ -60,8 +71,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
-ODER
-<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+<!--
+Add this at GA - not available in beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
 <!--
 <tr> 
@@ -82,7 +97,7 @@ ODER
    <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td> 
@@ -95,7 +110,10 @@ ODER
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten </p>
       <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
-      <p>Anzeigen von Berechtigungen für Workfront-Objekte, um sie zu Briefs hinzuzufügen <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>Editor-Berechtigungen für den Ideenraum zum Erstellen von Briefs</p>
    </td> 
   </tr>  
@@ -118,97 +136,97 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Erstellen von Ideen-Space-Briefs
 
-1. Beginnen Sie in Workfront Planning und erstellen oder bearbeiten Sie einen Datensatz mithilfe des Ideationsbereichs.
+Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbeiten oder um Dateien zu erstellen, die Sie in andere Programme exportieren können.
 
-   Weitere Informationen finden Sie unter [Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-1. Wenn **Ideationsbereich** geöffnet wird, verwenden Sie die Eingabeaufforderung, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
+1. Melden Sie sich bei Workfront mit Planning an, wenn der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
 
-   Geben Sie zum Beispiel „Erstellen Sie eine Kampagne „Zurück zur Schule“ für Schüler der Klasse K-12, die durch den Monat August läuft, für Eltern und Lehrer in den USA ein“.  Um die Zusammenfassung so vollständig wie möglich zu gestalten, geben Sie so viele Informationen an, wie Sie für welche Art von Kampagne verfügbar haben, den Zeitplan, die Stakeholder und andere Details.
+   * Navigieren Sie zum **Hauptmenü** > **Ideationsbereich**
+   * Wechseln Sie **Hauptmenü** > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp **Neuer Datensatz** > **Ideenraum starten**
 
-1. Klicken Sie **Ideating starten**.
+     Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[&#x200B; finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   * Wechseln Sie **Hauptmenü** > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > **Öffnen Sie im Ideationsbereich**
 
-   Nach dem Öffnen durchläuft der Ideation-Space-Agent die folgenden Schritte:
+   Der Bereich „Ideen“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel im folgenden Format:
 
-   1. **Datenaufnahme und -synthese**: Ruft relevante Informationen aus verbundenen Quellen ab. Beispiel:
+   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-      * Vorhandene Datensatztypen oder der vorhandene Datensatztyp, von dem aus Sie gestartet haben.
-      * Letzte Dokumente, die Sie möglicherweise im Ideenbereich hochgeladen haben.
-      * Web-Informationen, die Ihren Eingabeaufforderungskriterien entsprechen.
+   Wenn Sie eine Idee aus einem vorhandenen Datensatz öffnen, stimmt der Name der Idee mit dem Namen des Datensatzes überein.
 
-        >[!TIP]
-        >
-        >Die Web-Sucheinstellung muss aktiviert sein, damit KI im Web nach Informationen suchen kann.\
-        >Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Ideenraums](#configure-the-ideation-space) in diesem Artikel.
-        >
-   1. **Zielgruppendefinition**: Identifiziert oder empfiehlt Zielgruppenparameter basierend auf historischen Mustern.
-   1. **Strategie-**: Strukturiert die strategische Erzählung für die Kampagne
-   1. **Messaging und Konzeptidee**: Erzeugt Optionen für erste Nachrichten und kreative Konzeptrouten.
-   1. **Kurze Erstellung und Übergabe der Planung**: Erstellt eine strukturierte Zusammenfassung, die in den Workfront Planning-Arbeitsbereich zurückeinfließt.
+1. (Empfohlen) Klicken Sie auf den Namen der Idee, um den Namen zu ändern.
 
-      Wenn der Ideationsagent den Prozess der Erfassung aller Informationen abschließt, treten folgende Dinge auf:
+1. (Bedingt und optional) Um einen anderen vorhandenen Ideationsraum zu öffnen, klicken Sie auf das Dropdown-Menü rechts neben dem Ideennamen, suchen Sie nach dem Namen und klicken Sie dann auf die Idee, wenn sie in der Liste angezeigt wird.
 
-      * Fünf Karten werden erstellt und nach relevanten und ähnlichen Informationen geordnet.
+1. Wenn **Ideationsbereich** geöffnet wird, wird das CX Coworker auf der rechten Seite geöffnet. Verwenden Sie die Eingabeaufforderung des Mitarbeiters, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
 
-        Die Karten werden mit verschiedenen Schritten bei der Erstellung des angeforderten Datensatzes benannt, um eine einfache Erkennung zu ermöglichen.
+   Geben Sie zum Beispiel „Erstellen Sie eine Kampagne „Zurück zur Schule“ für Schüler der Klasse K-12, die durch den Monat August läuft, für Eltern und Lehrer in den USA ein“.  Um die Zusammenfassung so vollständig wie möglich zu gestalten, geben Sie so viele Informationen an, wie Sie für welche Art von Kampagne verfügbar haben, den Zeitplan, die Stakeholder, Validierungs-Checkpoints und andere Details.
 
-        Sie können beispielsweise folgendermaßen benannt werden:
+1. Klicken Sie auf die Eingabetaste.
 
-        * Plan
-        * Timeline
-        * Segmente
-        * Mechanik
-        * Messaging
+1. Beantworten Sie die Fragen von einem Kollegen, um die Idee fortzusetzen, und klicken Sie dann auf **Senden**
 
-      Die Kartentitel sind für jede Karte in der Idee benutzerdefiniert.
+   ODER
 
-      * Die Karten werden innerhalb desselben Rahmens platziert, was darauf hinweist, dass dies das Ergebnis einer Idee ist.
+   Klicken Sie **Umfrage überspringen**, um weitere Fragen zu überspringen.
 
-      * Eine Zusammenfassung wird erstellt und in einem Vorschaubild in der linken unteren Ecke des Ideenraums angezeigt. <!--add screen shot??-->
+1. (Bedingt) Wenn ein Mitarbeiter anbietet, Karten für die Idee zu erstellen, antworten Sie **Ja**.
 
-      Die Zusammenfassung enthält vorgeschlagene Felder, die das System für die zu untersuchenden Ideen für relevant hält.
+   Karten werden dem Ideenraum hinzugefügt und Sie können die Quellen für jede Karte sehen und entscheiden, welche Karte zu Ihrem Briefing hinzugefügt werden soll.
 
-1. (Optional) Klicken Sie auf das **Hilfe**-Symbol ![](assets/more-information-icon.png) oben rechts, um eine Liste der Tastaturbefehle anzuzeigen, die Ihnen bei der Navigation durch den Ideationsbereich helfen.
+1. Klicken Sie auf **Suchen**-Symbol ![Suchen](assets/search-icon.png), um im Ideationsbereich nach Elementen zu suchen, und klicken Sie dann auf die -Anzeige in der Liste, um dorthin zu navigieren.
 
 1. (Optional) Klicken Sie **Quellen** am unteren Rand jeder Karte, um zu verstehen, wo die Informationen erfasst wurden.
 
    Informationen können entweder aus Workfront Planning oder dem Web importiert werden.
-1. (Optional) Verwenden Sie die Daumen-nach-oben- oder Daumen-nach-unten-Symbole auf einer Karte, um Feedback zu geben.<!--is this still available??-->
+
+   Sie können auch auf das **Quellen**-Symbol ![Quellen-Symbol](assets/sources-icon.png) in der rechten oberen Ecke des Bereichs klicken, um eine Liste der Quellen für alle Karten im Bereich anzuzeigen.
+1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke des Bereichs und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
+
+   Benutzer erhalten eine E-Mail-Benachrichtigung über das Tag.
+1. (Optional) Klicken Sie auf das **Filter**-Symbol ![](assets/filter-comments-icon.png) in der Kommentarkarte, um Kommentare nach folgenden Kriterien zu filtern:
+
+   * Prüfer
+   * Zeitpunkt, zu dem der Kommentar hinzugefügt wurde
+   * Status (wo der Kommentar aufgelöst wurde oder noch aussteht)
+   * Ungelesen (zeigt nur ungelesene Kommentare an)
+1. (Optional) Verwenden Sie die Symbole **Daumen hoch** oder **Daumen runter** auf einer Karte ![Daumen hoch oder runter](assets/thumbs-up-and-down-icons.png), um Feedback zur Genauigkeit der Informationen auf der Karte zu geben.
 1. Klicken Sie auf eine Karte oder auf den Rahmen mit allen Karten und dann auf **Zu Zusammenfassung hinzufügen**, um ihre Informationen der Zusammenfassung hinzuzufügen.
 
    Workfront ordnet jedem Informationselement das Feld zu, in dem es am wahrscheinlichsten gespeichert wird.
 
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
-   1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-   1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
-      >[!TIP]
-      >
-      >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
-      >Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Ideenraums](#configure-the-ideation-space) in diesem Artikel.
-      > 
-   1. Klicken Sie auf das **WF-Taxonomiekarte hinzufügen**-Symbol ![Aus Workfront Planning hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) <!--send this tooltip to be revised--> und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
+1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
+1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
-      Es wird eine Karte für den Datensatz erstellt, den Sie der Platzierung hinzufügen möchten. Der Datensatztyp wird in der oberen linken Ecke der Datensatzkarte angezeigt.
-   1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie auf **In Workfront anzeigen**.
+   >[!TIP]
+   >
+   >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
+   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Ideenraums](#configure-the-ideation-space) in diesem Artikel.
+   > 
+1. Klicken Sie auf das **WF-Taxonomiekarte hinzufügen**-Symbol ![Aus Workfront Planning hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
 
-      Die Detailseite des Datensatzes wird in Workfront Planning auf einer anderen Browser-Registerkarte geöffnet.
-   1. (Optional) Wählen Sie den Ideenrahmen oder eine Karte aus und klicken Sie auf das Symbol Löschen und dann zur Bestätigung auf Löschen . Die Karte wird aus dem Ideationsraum entfernt.
+   Es wird eine Karte für den Datensatz erstellt, den Sie der Platzierung hinzufügen möchten. Der Datensatztyp wird in der oberen linken Ecke der Datensatzkarte angezeigt.
 
-      Wenn Sie Karten löschen, die einem gespeicherten Dokument oder Datensatz entsprechen, werden die Elemente aus dem Ideationsraum entfernt, bleiben aber in ihren jeweiligen Anwendungen.
+   >[!TIP]
+   >
+   >Das Symbol **WF-Taxonomiekarte hinzufügen** <!--check UI name--> ist nicht verfügbar, wenn Sie über das Hauptmenü auf den Ideationsbereich zugreifen, und die Zusammenfassung ist nicht mit einem Planungsdatensatz verbunden.
 
-1. (Optional) Verwenden Sie das **Alles fragen** Feld in der rechten unteren Ecke jederzeit, um Ihre Idee zu verfeinern.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) auf der verbundenen Datensatzkarte und klicken Sie auf **In Workfront anzeigen**.
+
+   Die Detailseite des Datensatzes wird in Workfront Planning auf einer anderen Browser-Registerkarte geöffnet.
+1. (Optional) Wählen Sie den Ideenrahmen oder eine Karte aus, klicken Sie auf das Symbol **Löschen** und klicken Sie dann zur Bestätigung auf **Löschen**. Die Karte wird aus dem Ideationsraum entfernt.
+
+   Wenn Sie Karten löschen, die einem gespeicherten Dokument oder Datensatz entsprechen, werden die Elemente aus dem Ideationsraum entfernt, bleiben aber in ihren jeweiligen Anwendungen.
+
+1. (Optional) Verwenden Sie das **Mitarbeiter fragen** in der rechten unteren Ecke jederzeit, um Ihre Idee zu verfeinern.
 
    Geben Sie beispielsweise `regenerate` für eine bestimmte Karte ein, damit KI diese Karte unter Verwendung des aktualisierten Kontexts wiederholen kann. Der Ideenraum führt seine logischen Schritte (Suchen, Synthetisieren, Zitieren) erneut aus und aktualisiert die betroffenen Karten.
 
-1. (Optional) Stellen Sie im Feld **Alles stellen** eine neue Frage, um eine neue Idee zu starten.
-
-   Ein neuer Satz von Karten wird generiert, nachdem die Leerstelle ihre Schritte zur Argumentation wiederholt hat.
-
-1. (Optional) Klicken Sie auf einen der lilafarbenen Anschlüsse in allen Ideenkartensätzen und klicken Sie dann auf das Symbol **In die Eingabeaufforderungsleiste kopieren**, um die Ideenbegründung erneut auszuführen.
+1. (Optional) Klicken Sie auf einen der lilafarbenen Connectoren aus beliebigen Ideenkartensätzen und klicken Sie dann auf das Symbol **Vollständige Eingabeaufforderung kopieren**, um die Eingabeaufforderung, die die Karte generiert hat, in die Zwischenablage zu kopieren, und fügen Sie sie dann in das Feld „Eingabeaufforderung für Mitarbeiter“ ein.
 
    ![In Eingabeaufforderungsleiste kopieren](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Optional) Klicken Sie auf **Rückgängig** oder **Wiederholen** Symbole ![Rückgängig und Wiederholen](assets/undo-redo-icons.png) oben auf der Seite, um eine Aktion abzubrechen oder rückgängig zu machen.
+1. (Optional) Klicken Sie auf **Rückgängig** oder **Wiederholen** Symbole ![Rückgängig und Wiederholen](assets/undo-redo-icons.png) oben im Ideenbereich, um eine Aktion abzubrechen oder rückgängig zu machen.
 1. Zoomen Sie heran, um das vollständige Bild zu sehen: Ihr ursprüngliches Kampagnenziel, alle KI-generierten Konzeptkarten mit Zitaten, zusätzliche Dokumente, die echten Workfront-Planungsdatensätze, die Sie eingezogen haben (Produkte, Personas usw.). Die **Brief** Zusammenfassungskarte in der linken unteren Ecke zieht alles zusammen.
 
 1. Klicken Sie auf das Bild für die Kurzvorschau in der linken unteren Ecke, prüfen Sie die Kurzvorschau und klicken Sie dann auf eine der folgenden Optionen:
@@ -218,9 +236,13 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
      * PDF
      * Wort
      * PowerPoint (mit oder ohne Vorlage)
-   * **In Workfront Planning exportieren**. Der Export überschreibt alle vorhandenen Felddaten im Datensatz in Workfront Planning.
+   * **In Workfront Planning exportieren**. Der Export überschreibt alle vorhandenen Felddaten im Planungsdatensatz entsprechend der Idee.
 
-   Dadurch wird die Erstellung des Datensatzes mit den zusätzlichen Informationen abgeschlossen und dem ursprünglich ausgewählten Datensatztyp hinzugefügt.
+   >[!TIP]
+   >
+   >**In Workfront Planning exportieren** ist abgeblendet, wenn Sie über das Hauptmenü auf den Ideationsbereich zugreifen und die Zusammenfassung nicht mit einem Planungsdatensatz verbunden ist.
+
+   Damit ist die Erstellung des Datensatzes oder der Datei mit den Zusatzinformationen abgeschlossen. Wenn Sie von einem vorhandenen Datensatz aus beginnen, werden die Informationen aus der Zusammenfassung zum Datensatz hinzugefügt. Wenn Sie mit einem neuen Datensatz beginnen, wird der Datensatz mit den Informationen in der Zusammenfassung erstellt.
 
    Weitere Informationen zur Aktualisierung von Planungsdatensätzen mithilfe von Briefs finden Sie im Abschnitt „Überlegungen zur Verwendung des Ideationsraums zur Erstellung von Datensätzen“ im Artikel [Erstellen von Planungsdatensätzen aus Ideationsraumbeschreibungen](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
@@ -233,11 +255,12 @@ Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren k�
 
    * **Dokumente** - Dokumente, die in den ausgewählten Bereich hochgeladen wurden
    * **Web Search** — externe Web-Forschung
-   * **CJA** — Adobe Customer Journey Analytics
-
+   <!--
+     **CJA** — Adobe Customer Journey Analytics
+    -->
 1. Klicken Sie auf **Speichern**.
 
-1. Klicken Sie auf **Hilfe**-Symbol ![Hilfe-Symbol](assets/more-information-icon.png), um die Tastaturbefehle anzuzeigen, mit denen Sie im Ideenraum navigieren oder einen anderen Zoom-Wert auswählen können.
+1. Klicken Sie auf das **Zoomstufe** Dropdown-Symbol links neben dem Symbol **Hilfe** oder dem Symbol **Hilfe** ![Hilfe](assets/more-information-icon.png), um eine Option auszuwählen oder die Tastaturbefehle zu überprüfen, mit denen Sie im Ideenraum navigieren oder einen anderen Zoomwert auswählen können.
 
    Wählen Sie aus den folgenden Zoomstufen:
 
@@ -248,16 +271,57 @@ Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren k�
    Oder verwenden Sie einen der folgenden Tastaturbefehle, um auf der Seite zu navigieren:
 
    | Aktion | Tastenkombination |
-   |---|---|
+   | --- | --- |
    | Vergrößern/Verkleinern | Strg/⌘ + / − |
    | An Auswahl anpassen/anpassen | – |
    | Zum Cursor zoomen | Strg/⌘ + Bildlauf |
    | Schwenken der Arbeitsfläche | Leertaste gedrückt halten + ziehen |
-   | Punktraster ein-/ausblenden | G |
-
-1. Klicken Sie auf das Suchsymbol, um im Ideenbereich nach Elementen zu suchen, und klicken Sie dann auf die -Anzeige in der Liste, um dorthin zu navigieren.
+   | Punktraster ein-/ausblenden | GB |
 
 
+
+<!--
+
+    Once opened, the Ideation space agent goes through the following steps:
+
+    1. **Data ingestion and synthesis**:  Pulls relevant information from connected sources. For example: 
+    
+        * Existing record types or the existing record type that you started from. 
+        * Recent documents you might have uploaded in the ideation space. 
+        * Web information that matches your prompt criteria.
+
+            >[!TIP]
+            >
+            >The Web search setting must be turned on for AI to be able to look for information on the web.  
+            >For information, see the section [Configure the Ideation space](#configure-the-ideation-space)in this article.
+            >
+    1. **Audience definition**: Identifies or recommends target audience parameters based on historical patterns
+    1. **Strategy framing**: Structures the strategic narrative for the campaign
+    1. **Messaging and concept ideation**: Generates initial message options and creative concept directions
+    1. **Brief generation and planning handoff**: Produces a structured brief that feeds back into the Workfront Planning workspace
+
+        When the Ideation agent finishes the process of collecting all the information, the following things occur: 
+    
+        * Five cards are created and are organized by relevant and like-information. 
+
+            The cards are titled using various steps in the creation of the requested record, for easy recognition. 
+    
+            For example, they could be named:
+
+            * Plan
+            * Timeline
+            * Segments
+            * Mechanics  
+            * Messaging 
+
+        The cards titles are custom to each card in the ideation. 
+
+        * The cards are placed inside the same frame indicating this is the result of one ideation. 
+
+        * A brief is created and displays in a preview image in the lower-left corner of the Ideation space. <!
+    
+        The brief contains suggested fields that the system considers pertinent to the ideas you are exploring. 
+-->
 
 
 

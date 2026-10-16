@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 2%
 ---
 # Aktualisieren der Arbeit
@@ -40,11 +40,11 @@ ht-degree: 2%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Kommentare anheften
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+Sie können Kommentare der obersten Ebene oben auf der Registerkarte „Kommentare“ anheften. Antworten, die Teil eines Threads sind, können nicht angeheftet werden.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Gehen Sie zu einem Objekt, das das Anheften von Kommentaren unterstützt, klicken Sie im linken Bereich auf Aktualisierungen und dann auf die Registerkarte **Kommentare**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Weitere Informationen finden Sie unter [Registerkarte „Aktualisierungen“ - Übersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Fügen Sie einen Kommentar hinzu oder klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Kommentar auf **Thread anheften**. Der Kommentar und alle vorhandenen Antworten werden oben auf der Registerkarte „Kommentare“ angeheftet.
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Ein neuer **angeheftete Threads**-Abschnitt wird oben auf der Registerkarte &quot;**&quot;**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   Die Anzahl der fixierten Threads wird in Klammern rechts neben dem Abschnittsnamen aufgeführt.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Threads im Kommentarabschnitt angeheftet](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Optional) Um einen Thread zu entfernen, klicken Sie auf **Loslösen**-Symbol ![Loslösen-Symbol](assets/unpin-icon-comments.png) in der oberen rechten Ecke des angehefteten Kommentars.
 
 </div>
 
--->
+
 
 ## Löschen eines Kommentars oder einer Antwort
 

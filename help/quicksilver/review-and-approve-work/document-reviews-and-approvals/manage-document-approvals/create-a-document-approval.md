@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 1%
 ---
 # Erstellen eines Workflows für die Dokumentvalidierung
 
 {{highlighted-preview}}
 
-Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
+Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument oder eine Live-Website in Adobe Workfront anfordern oder diese auffordern, es zu überprüfen, ohne es genehmigen zu müssen.
 
 Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. In diesem Artikel können Sie nur Vorlagen auswählen, die Sie erstellt haben oder die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Freigeben einer Vorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) unter Verwalten von Genehmigungsvorlagen.
 
@@ -359,6 +359,7 @@ preview screen
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
 1. Klicken Sie **Genehmigung anfordern**.
+
 
 <div class="preview">
 

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 1%
+source-wordcount: '721'
+ht-degree: 2%
 ---
 # Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console
 
@@ -100,13 +100,15 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
    >
    >Diese Aktionen in Bezug auf Benutzer-E-Mails müssen abgeschlossen sein, bevor Ihr Unternehmen zum Adobe Admin Console wechselt.
 
-1. (Optional) Aktualisieren Sie alle benutzerdefinierten Integrationen für die Verwendung von OAuth2.
+1. (Optional) Aktualisieren Sie alle benutzerdefinierten Integrationen, um die Adobe Developer Console-Authentifizierung zu verwenden.
 
-   Anweisungen zum Einrichten von OAuth2-Integrationen finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Informationen zum Migrieren von veralteten Workfront OAuth2-Integrationen finden Sie unter [Migrieren von Workfront OAuth2 zu Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
+   Eine Anleitung zur Authentifizierung finden Sie unter [Übersicht über die Adobe Developer Console-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
    >[!NOTE]
    >
-   >Dieser Schritt ist optional, wird aber dringend empfohlen, da andere Formen der API-Authentifizierung und -Autorisierung in Zukunft nicht mehr unterstützt werden.
+   >Dieser Schritt ist optional, wird aber dringend empfohlen. Benutzerdefinierte Workfront-OAuth2-Programme können nach dem 1. November 2026 nicht mehr erstellt werden und bestehende benutzerdefinierte OAuth2-Programme funktionieren ab dem 1. Februar 2027 nicht mehr.
 
 Nachdem Ihre Adobe Admin Console mit Workfront konfiguriert wurde, können Sie sie zum Erstellen Ihrer Workfront-Systemadministratoren verwenden.
 

@@ -5,13 +5,15 @@ title: Gruppierte Genehmigungen verwalten
 description: In einer gruppierten Genehmigung können Sie Teilnehmer und Dokumente hinzufügen oder entfernen, ohne den Workflow für den Rest der Gruppe zu unterbrechen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1062'
 ht-degree: 5%
 ---
 
 # Gruppierte Genehmigungen verwalten
+
+<span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab 22. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
 
 Bei einer gruppierten Genehmigung werden mehrere Dokumente in einem einzigen Genehmigungs-Workflow gebündelt, sodass alle Dokumente dieselben Phasen gemeinsam durchlaufen, anstatt pro Dokument eine separate Genehmigung erforderlich zu machen. Sie können Teilnehmer und Dokumente in einer aktiven gruppierten Genehmigung hinzufügen oder entfernen, ohne den Workflow neu zu erstellen.
 

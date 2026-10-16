@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Um in Workfront nach Elementen zu suchen, die dem Gesuchten entsprechen, fragen 
 * *Erhalte alle Aufgaben, die Joan Harris zugewiesen sind.*
 * *Alle Ausgaben im Projekt „Website-Neugestaltung“ in der Kategorie „Technisch“ anzeigen.*
 
-### Neue Elemente erstellen
+### Elemente erstellen
 
 Um Projekte, Aufgaben oder andere Workfront-Elemente zu erstellen, fragen Sie:
 
@@ -134,9 +134,14 @@ Um Dokument- und Asset-Genehmigungen zu verwalten, fragen Sie:
 
 Um Planungsdatensätze zu verwalten, fragen Sie:
 
-* *Erstellen Sie einen neuen Planungsdatensatz mit dem Namen „Q2-Marketing-Plan“ für das Brand Marketing-Team.*
-* *Fügen Sie eine neue Aufgabe namens „Social Media Audit“ zum Planungsdatensatz hinzu.*
-* *Aktualisieren Sie die Aufgabe „Social Media Audit“, sodass sie am 18. April abgeschlossen ist, und weisen Sie sie dem Kreativ-Team zu.*
+* *Erstellen Sie einen Planungsdatensatz mit dem Namen „Q2-Marketing-Plan“ für das Marken-Marketing-Team.*
+* *Fügen Sie ein neues Projekt mit dem Namen „Social Media Audit“ zum Planungsdatensatz hinzu.*
+* *Aktualisieren Sie das Projekt „Social Media Audit“, sodass es am 18. April abgeschlossen ist, und weisen Sie seine Aufgaben dem Creative-Team zu.*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### Arbeiten mit Workflows
 
@@ -261,31 +266,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### Warum hat die KI-Agent-Plattform die falschen Workfront-Elemente zurückgegeben?
 
-Die KI-Agent-Plattform wählt Elemente basierend auf den von Ihnen verwendeten Wörtern aus. Wenn Ihre
-Die Anfrage ist mehrdeutig - z. B. haben zwei Projekte ähnliche Namen - sie
-Sie könnten sich die falsche aussuchen. Fragen Sie erneut mit spezifischeren Namen, IDs, Daten,
-oder Filtern, um die Ergebnisse einzugrenzen.
+Die KI-Agent-Plattform wählt Elemente basierend auf den von Ihnen verwendeten Wörtern aus. Wenn Ihre Anfrage mehrdeutig ist - z. B. zwei Projekte ähnliche Namen haben - kann der falsche ausgewählt werden. Bitten Sie erneut mit spezifischeren Namen, IDs, Daten oder Filtern, um die Ergebnisse einzugrenzen.
 
 
 ### Mit welchen Workfront-Elementen kann ich über eine KI-Agentenplattform arbeiten?
 
-Alle Elemente, auf die Sie in Workfront über Ihre Zugriffsebene Zugriff haben, und
-Objektberechtigungen. Dazu gehören Projekte, Aufgaben, Probleme, Dokumente,
-Validierungen, Planungsunterlagen und mehr.
+Alle Elemente, auf die Sie in Workfront über Ihre Zugriffsebene und Objektberechtigungen Zugriff haben. Dazu gehören Projekte, Aufgaben, Probleme, Dokumente, Genehmigungen, Planungsunterlagen und mehr.
 
 ### Können andere Leute meine Konversationen mit der KI-Agentenplattform sehen?
 
 Workfront speichert weder Ihre Eingabeaufforderungen noch die Antworten der KI-Agentenplattform.
-Wer auch immer Ihre KI-Agentenplattform bereitstellt, steuert, wie Ihre Konversationen
-werden gespeichert oder freigegeben. Fragen Sie Ihren KI-Agenten-Plattformanbieter nach
-Details.
+Wer auch immer Ihre KI-Agent-Plattform bereitstellt, steuert, wie Ihre Konversationen gespeichert oder freigegeben werden. Weitere Informationen erhalten Sie von Ihrem KI-Agenten-Plattformanbieter.
 
 ### Muss ich die Workfront-API kennen oder welches MCP-Tool ich verwenden?
 
-Nein. Die KI-Agentenplattform übersetzt Ihre Anforderung in natürlicher Sprache in
-Wählen Sie die richtigen Workfront-Aktionen und die richtigen Tools für Sie aus. Wenn Sie
-Sie sind bereits mit der Workfront-API vertraut.
-Aber das ist keine Voraussetzung.
+Nein. Die KI-Agentenplattform übersetzt Ihre Anforderung in natürlicher Sprache in die richtigen Workfront-Aktionen und wählt die richtigen Tools für Sie aus. Wenn Sie
+Sie sind bereits mit der Workfront-API vertraut und die Aktionen werden Ihnen vertraut vorkommen, dies ist jedoch keine Voraussetzung.
 
 ### Werden meine Workfront-Daten an den Anbieter der KI-Agentenplattform gesendet oder von diesem gespeichert?
 

@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1313'
 ht-degree: 4%
 ---
 # Überblick über den Abschnitt „Aktualisierungen“
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angezeigt, die Benutzer zu dem Objekt oder zu Systemaktualisierungen abgeben, die Änderungen am Objekt verfolgen.
 
@@ -149,17 +144,16 @@ Der Abschnitt Aktualisierungen zeigt Informationen auf den folgenden Registerkar
 
 * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Verwenden Sie die Registerkarte Kommentare , um neue Kommentare hinzuzufügen oder auf vorhandene Kommentare zu antworten.
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **Angeheftete Threads**: Kommentare der obersten Ebene, die angeheftet sind, werden auf der Registerkarte „Kommentare“ im Abschnitt „Angeheftete Threads“ angezeigt.
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    Threads können nur auf der Registerkarte Kommentare von Objekten angeheftet werden, die einen Abschnitt Aktualisierungen aufweisen. Threads können nicht in anderen Bereichen von Workfront angeheftet werden, z. B. auf Pinnwänden oder der Startseite.
 
   </div>
-  -->
 
   Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+
 * **Systemaktivität**: Zeigt Systemaktualisierungen an, bei denen es sich um Informationsmeldungen handelt, die von Workfront erstellt werden, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen am Status, Namen oder benutzerdefinierten Feldern bei Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im Rahmen der bisherigen Kommentar-Funktion auf Systemaktivitätsdatensätze geantwortet wurden, werden auf der Registerkarte Systemaktivität schreibgeschützt angezeigt. Weitere Informationen finden Sie [Konfigurieren von Systemaktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Alle (schreibgeschützt)** Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine schreibgeschützte Registerkarte. Sie können in vorhandenen Kommentaren auf der Registerkarte Alle nicht auf Kommentare antworten oder andere Benutzer taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link von der Registerkarte Alle zur Registerkarte Kommentare . Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 

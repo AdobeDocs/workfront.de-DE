@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '519'
 ht-degree: 3%
 ---
 # Überblick über Arbeitszeittabellen
@@ -71,19 +71,19 @@ So greifen Sie auf eine Arbeitszeittabelle zu:
 
 {{step1-to-timesheets}}
 
-Alle Arbeitszeittabellen sowie Arbeitszeittabellen, auf die Sie standardmäßig zugreifen können, werden angezeigt. Weitere Informationen zum Arbeitszeittabellen-Layout in Adobe Workfront finden Sie unter [Arbeitszeittabellen-Layout - Übersicht](../../timesheets/timesheets/timesheet-layout.md).
+Alle Arbeitszeittabellen sowie Arbeitszeittabellen, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Weitere Informationen zum Arbeitszeittabellen-Layout in Adobe Workfront finden Sie unter [Arbeitszeittabellen-Layout - Übersicht](../../timesheets/timesheets/timesheet-layout.md).
 
-![Liste aller Arbeitszeittabellen](assets/all-timesheets-list-nwe-350x68.png)
+![Liste aller Arbeitszeittabellen](assets/list-of-all-timesheets.png)
 
 1. Klicken Sie auf eine der folgenden Optionen oben rechts, um Ihre Arbeitszeittabellen anzuzeigen:
 
    * **Meine Arbeitszeittabellen**, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-   ![Meine Arbeitszeittabellen-Liste](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **Meine Arbeitszeittabellen-Genehmigungen**, um nur von Ihnen genehmigte Arbeitszeittabellen anzuzeigen.
 
-     ![Arbeitszeittabellen, die ich genehmige](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Optional) Aktualisieren Sie Ansicht, Filter und Gruppierung oben in der Liste der Arbeitszeittabellen. Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
