@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Weitere Informationen finden Sie unter [Workfront-Kenntnisse in CX Enterprise Co
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Die Filteroperatoren mit mehreren Werten in allen Planning-Ansichten wurden in „Ist ein beliebiges von“ und „Ist kein von“ anstelle von „Hat eines von“ und „Hat keines von“ aktualisiert, wodurch Sie eine klarere und konsistentere Formulierung in den Workfront-Filterbuildern erhalten.
@@ -96,7 +96,7 @@ Die Änderungen sind in Filtern in allen Planning-Ansichten sichtbar. Weitere In
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Wir haben Aggregatoren für zusätzliche Feldtypen in der Tabellenansicht eingeführt. Vor dieser Verbesserung wurden am unteren Rand der Spalten nur numerische Felder mit Aggregatoren angezeigt.
@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Ersteller von Workspace sind derzeit als Standardbesitzer zugewiesen. Mit diesem Update können Workspace-Manager die Eigentümerschaft über das Dialogfeld „Freigabe“ an einen anderen Benutzer mit Standardlizenz übertragen.
@@ -132,7 +132,7 @@ Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/qu
 >[!NOTE]
 >
 >Vorschau: 1. Oktober 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Sie können jetzt Datensätze und Gruppierungen in der Zeitleisten -Ansicht sortieren. Vor dieser Verbesserung war diese Funktion nicht verfügbar.
@@ -144,7 +144,7 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 >[!NOTE]
 >
 >Vorschau: 25. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Workspace-Manager können jetzt den Zugriff auf einzelne Felder steuern, sodass bestimmte Benutzende und Teams sensible Daten innerhalb desselben Datensatztyps anzeigen, bearbeiten oder vollständig beschränken können.
@@ -160,21 +160,21 @@ Weitere Informationen finden Sie unter [Freigeben von Workfront-Planungsfeldern]
 >[!NOTE]
 >
 >Vorschau: 25. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Sie können jetzt im neuen Anfrageerlebnis im Bereich Anfragen eine Planungsanfrage für andere freigeben.
 
 Sie können anderen Benutzern eine der folgenden Berechtigungen für die Anfrage erteilen: Anzeigen, Mitwirken oder Verwalten.
 
-Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilver/planning/requests/share-requests.md)).
+Weitere Informationen finden Sie unter [Freigeben von ](/help/quicksilver/planning/requests/share-requests.md)).
 
 ## Mehrstufige Validierungen für Planungsanfragen einrichten
 
 >[!NOTE]
 >
 >Vorschau: 25. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Workspace-Admins können jetzt ein- oder mehrstufige Genehmigungsprozesse für jedes Planungsanfrageformular erstellen, einen oder mehrere Genehmiger oder Teams für jede Phase zuweisen und vorhandene Genehmigungsvorlagen wiederverwenden, um die Einrichtung zu beschleunigen. Anfragen werden automatisch weitergeleitet, sobald alle erforderlichen genehmigenden Personen in einer Phase ihre Genehmigung erteilt haben, und jede genehmigende Person wird benachrichtigt, wenn eine Anfrage ihre Phase erreicht. Anfordernde und genehmigende Personen können verfolgen, in welchem Stadium sich eine Anforderung befindet, und sehen, welche Genehmigungen noch ausstehen.
@@ -186,7 +186,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfragefor
 >[!NOTE]
 >
 >Vorschau: 25. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Sie können jetzt in Planning-Anfrageformularen eine erweiterte Anzeigelogik basierend auf den Werten der Verbindungsfelder erstellen, sodass sich Formulare an die Auswahl der Anfragenden anpassen. Alle Planungsfelder, einschließlich der Verbindungsfelder, werden beim Erstellen dieser Logik unterstützt.
@@ -200,7 +200,7 @@ Weitere Informationen finden Sie unter [Anforderungsformular erstellen](/help/qu
 >[!NOTE]
 >
 >Vorschau: 25. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Workfront- und Workspace-Administratoren können jetzt beim Konfigurieren des Anfrageformulars angeben, welche Berechtigungen ein Anfragender für seine Anfragen erhält.
@@ -266,7 +266,7 @@ Weitere Informationen finden Sie unter [CX Enterprise Coworker in Workfront](/he
 >[!NOTE]
 >
 >Vorschau: 17. September 2026
->Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktions-Schnellveröffentlichung: 22. Oktober 2026
 >Produktion für alle: 22. Oktober 2026
 
 Datensätze können jetzt auch dupliziert werden, wenn verbundene Eins-zu-eins- oder Eins-zu-viele-Datensätze vorhanden sind. Nach der Duplizierung können Benutzende den verbundenen Datensatz im ursprünglichen Datensatz beibehalten oder mit dem neuen Datensatz verbinden. Das Original beibehalten ist die Standardoption.
