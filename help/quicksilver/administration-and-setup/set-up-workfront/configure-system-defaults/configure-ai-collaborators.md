@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # KI-Mitwirkende konfigurieren
@@ -160,7 +160,7 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
 1. Im **Nachdem der Mitarbeiter seine Arbeit abgeschlossen hat, kann er im** die Aktionen umschalten, die der Mitarbeiter ausführen soll.
 
    * <span class="preview">Benachrichtigung senden: Der Agent gibt einen Kommentar im Aktualisierungsverlauf ab und markiert den Benutzer, der die Arbeit angefordert hat, dem Agenten zugewiesen hat oder dem das Projekt gehört. </span>
-   * <span class="preview">Dokument hochladen</span>
+   * <span class="preview">Hochladen textbasierter Dokumente</span>
    * <span class="preview">Aufgabe als abgeschlossen markieren</span>
    * Aufgabenfelder schreiben: Wählen Sie die Formulare und Felder aus, in die der Agent schreiben kann.
 

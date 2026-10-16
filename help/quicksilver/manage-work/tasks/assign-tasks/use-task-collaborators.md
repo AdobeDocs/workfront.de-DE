@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1143'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
@@ -35,7 +35,7 @@ Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio
 >
 >Weitere Informationen zur Einstellung finden Sie unter [Migration und Einstellung von Agentenbibliotheken](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in der Writer-Dokumentation.
 
-Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Zugriffsanforderungen
 
@@ -74,7 +74,7 @@ Arbeitsagenten sind eine Möglichkeit, Agenten bestimmten Aufgaben in Workfront 
 
 Beispiele für Workflows:
 
-* Erkennen von Bildern, die in eine Aufgabe hochgeladen wurden, Generieren von Varianten basierend auf den dem Agenten gegebenen Kriterien und Hochladen der neuen Bilder in die Aufgabe.
+* Generieren einer Kopie aus Aufgabendetails und angehängten textbasierten Dokumenten und anschließendes Senden der Ausgabe an den Aktualisierungsstrom oder Hochladen als textbasiertes Dokument.
 * Erstellen einer Kopie aus einer Aufgabenbeschreibung, Überprüfen der Kopie anhand der im Agenten konfigurierten Richtlinien und Senden einer Kopie an den Aktualisierungsverlauf.
 * Lesen der Details eines Ereignisses, Identifizieren fehlender Details und Posten von Fragen zu fehlenden Details im Aktualisierungsverlauf.
 
@@ -84,7 +84,7 @@ Beispiele für Workflows:
 >* Der Workfront MCP-Server muss nicht zu dem als Arbeitsagent verwendeten Agenten hinzugefügt werden und muss nicht verbunden sein, damit der Arbeitsagent funktioniert.
 >* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude, <span class="preview">OpenAI und IBM erstellte Agenten. </span>
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
->* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+>* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Informationen, die ein Arbeitsagent liest
 
@@ -94,7 +94,8 @@ Wenn ein Arbeitsagent mit der Arbeit an einer Aufgabe beginnt, liest er automati
 * Aufgabenbeschreibung
 * Kommentare im Aktualisierungsverlauf der Aufgabe
 * Informationen in jedem benutzerdefinierten Formular, das an die Aufgabe angehängt ist
-* <span class="preview"> Dokumente</span>
+* <span class="preview">Angehängte textbasierte Dokumente, z. B. DOC- und PDF-Dateien</span>
+* <span class="preview">Projektfelder, wenn sie in der Konfiguration des Arbeitsagenten eingerichtet sind</span>
 
 Diese Informationen werden immer gelesen und können nicht in Workfront konfiguriert werden.
 
@@ -104,6 +105,14 @@ Diese Informationen werden immer gelesen und können nicht in Workfront konfigur
 >
 >* Einschließlich Hintergrundinformationen, die vom Agenten direkt in der Aufgabenbeschreibung oder einem relevanten benutzerdefinierten Formularfeld verwendet werden sollen.
 >* Sicherstellen, dass die Aufgabe mit den Aufgaben übereinstimmt, für die Ihr Agent beauftragt wurde. Wenn Ihr Agent beispielsweise angewiesen wird, Text aus dem Englischen ins Französische zu übersetzen, fügen Sie den Text, den Sie übersetzen möchten, in die Aufgabenbeschreibung ein.
+
+## Aktionen, die ein Arbeitsagent ausführen kann
+
+Je nachdem, wie der Arbeitsagent in Workfront konfiguriert ist, kann er nach Abschluss seiner Arbeit die folgenden Aktionen ausführen:
+
+* Aufgabenfelder schreiben, falls konfiguriert
+* Hochladen textbasierter Dokumente
+* Aufgabe als abgeschlossen markieren
 
 ## Trigger zum Starten des Arbeitsagenten
 
