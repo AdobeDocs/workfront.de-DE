@@ -139,7 +139,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Zugriff auf den Ideenraum.
 
-   Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+   Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
 1. Klicken **oben rechts auf** Freigeben“ und dann auf das Symbol **Einstellungen** ![Einstellungen](assets/setting-icon.png) in der oberen rechten Ecke des Felds **Dokument freigeben**. <!--should this say "document"?-->
 1. Wählen Sie in **Liste &quot;** hat“ eine der folgenden Optionen aus:
