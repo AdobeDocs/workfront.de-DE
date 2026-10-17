@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '513'
 ht-degree: 11%
 ---
 # Testen eines verknüpften Assets für Experience Manager Assets oder Assets Essentials
@@ -101,7 +101,7 @@ So erstellen Sie einen Korrekturabzug:
 
    >[!NOTE]
    >
-   >Wenn Sie in **Benutzerprofil „Korrekturabzüge beim Hochladen von Dokumenten automatisch generieren** aktiviert haben, erstellt das System automatisch einen einfachen Korrekturabzug.
+   >Die **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren** gilt nicht für Dokumente in verknüpften Ordnern. Sie müssen Korrekturabzüge für diese Dokumente manuell erstellen.
 
 1. Wählen Sie eine der folgenden Optionen aus der Dropdown-Liste aus:
 

@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -158,50 +158,40 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    ![Neues Eintragsfeld mit der Schaltfläche „Ideationsraum öffnen“](assets/new-record-creation-picker-with-ideation.png)
 
-   Der Bereich Ideen wird in einer neuen Registerkarte mit einer leeren Eingabeaufforderung geöffnet.
+   Der Ideationsbereich wird in einer neuen Registerkarte geöffnet.
 
-   Der Datensatz wird sofort mit Platzhaltertext erstellt.
+   CX Coworker wird im rechten Bedienfeld geöffnet.
 
-1. (Optional) Klicken Sie im **auf** Vorhandene Zusammenfassung verwenden“, um ein vorhandenes Dokument zu suchen und hinzuzufügen, das der Ideationsbereich zum Erstellen der Zusammenfassung und des zukünftigen Datensatzes verwendet. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   Der Datensatz wird sofort mit einem Platzhalternamen erstellt.
 
-   ![Leere kurze Eingabeaufforderung für Ideen](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (Optional) Klicken Sie auf **Vorherige Arbeitsflächen öffnen** <!--accurate??--> Symbol ![Vorhandene Briefs öffnen](assets/open-existing-briefs-icon.png) in der oberen rechten Ecke des Eingabeaufforderungsfelds, um vorhandene Briefs zu öffnen
-
-1. In der **Woran arbeiten Sie?** Im Eingabeaufforderungsfeld wird beschrieben, welche Art von Datensatz erstellt werden soll.
+1. Fügen Sie im Dialogfeld **CX Coworker** eine Eingabeaufforderung hinzu und drücken Sie dann die Eingabetaste.
 
    Je mehr Details Sie teilen, desto nützlicher sind die Informationen aus dem Ideenraum. Geben Sie beispielsweise eine Beschreibung der geplanten Kampagne ein: „Zurück zur Schule für eine Marketing-Agentur“.
 
-1. Klicken Sie **Ideating starten**.
+1. Fahren Sie mit der Erstellung des Ideenberichts fort, wie im Artikel [Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md) beschrieben.
 
-   Der Ideationsbereich durchläuft die folgenden Schritte, während er Ihre Idee aufbaut: <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. Ihr Ziel und Kontext verstehen
-   2. Überprüfen Sie Ihren Raum und ausgewählte Materialien
-   3. Sammeln von Beweisen aus Dokumenten, Web und Daten
-   4. Zusammenfassen der Ergebnisse in einer Forschungszusammenfassung
-   5. Erstellen und Verfeinern von Karten mit Zitaten
-
-   Während dieses Vorgangs sehen Sie den Ideation Space, der aktiv verbundene Workfront-Planungsdaten oder Informationen im Internet durchsucht.
-
-   Sie kann beispielsweise nach vorhandenen Programmen, Produkten, Rollen oder Regionen sowie nach ähnlichen online verfügbaren Konzepten suchen. <!--check on this with Et-->
-
-   Wenn die Idee abgeschlossen ist, werden die folgenden Dinge zum Ideationsraum hinzugefügt:
-
-   * Eine Zusammenfassung der KI-Ergebnisse, die mit mehreren Karten verknüpft ist, mit detaillierten Informationen zu den zu berücksichtigenden Punkten. Die Detailkarten werden in einem neuen Abschnitt angezeigt. Ein Connector gibt an, welcher Kartenabschnitt zu welcher Zusammenfassung gehört.
-
-   * Eine **Brief**-Datei in der linken unteren Ecke des Ideenraums. Die Zusammenfassung ist ein Entwurf des zukünftigen Datensatzes und wird als Detailseite eines Datensatzes angezeigt.
-
-   ![Ideenkarte mit Verzweigungen](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. Fügen Sie weitere Informationen zum Ideenraum hinzu, um die Erstellung Ihres Briefs abzuschließen.
-
-1. (Bedingt) Wenn die Zusammenfassung abgeschlossen ist, klicken Sie auf das Vorschaubild in der linken unteren Ecke und dann auf eine der folgenden Aktionen:
-
-   * **In Datei exportieren** um eine Datei zu erstellen
-   * **In Workfront Planning exportieren**, um einen Planungsdatensatz zu erstellen
-
-   Informationen zum Hinzufügen und Exportieren von Elementen zur Zusammenfassung finden Sie unter [Erstellen von Briefs im Bereich Ideen](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+1. (Bedingt) Wenn die Zusammenfassung abgeschlossen ist, klicken Sie auf das Vorschaubild unten links und anschließend auf **In Workfront Planning exportieren**, um einen Planungsdatensatz zu erstellen.
 
    Dadurch wird die Erstellung des Datensatzes mit den zusätzlichen Informationen abgeschlossen und dem ursprünglich ausgewählten Datensatztyp hinzugefügt.
 
@@ -213,7 +203,7 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
 1. Wechseln Sie zu einem vorhandenen Datensatz in Workfront Planning und öffnen Sie dessen Detailseite.
 
-1. Klicken Sie **Öffnen im Ideationsbereich**. Dadurch wird der Ideationsbereich in einer neuen Registerkarte geöffnet.
+1. Klicken Sie **Öffnen im Ideationsbereich** ![](assets/open-in-ideation-space.png). Dadurch wird der Ideationsbereich in einer neuen Registerkarte geöffnet.
 
    Wenn bereits eine Idee für den Datensatz vorhanden ist, wird dieser Bereich geöffnet.
 
@@ -221,19 +211,14 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
    >[!TIP]
    >
-   >Massenbearbeitung von Datensätzen mit dem Ideationsbereich ist nicht verfügbar.
+   >Es ist nicht möglich, Datensätze mithilfe des Ideationsbereichs stapelweise zu bearbeiten.
+1. Fahren Sie mit der Bearbeitung der Zusammenfassung fort, wie im Abschnitt [Erstellen von Datensätzen mithilfe des Ideenraums](#create-records-using-the-ideation-space) in diesem Artikel beschrieben.
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. Fahren Sie mit der Bearbeitung der Zusammenfassung fort, wie im Abschnitt [Erstellen von Datensätzen mithilfe des Ideenraums](#create-records-using-the-ideation-space) in diesem Artikel beschrieben.
-
-
-
-
 
 
 <!--

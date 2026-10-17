@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 4%
 ---
 # Exportieren der Details eines Eintrags
@@ -167,6 +167,8 @@ Old:
 * Sie können nur die Registerkarte Details der Seite oder des Vorschaubereichs eines Datensatzes exportieren.
 
 * Die exportierte Datei behält das Layout der Datensatzseite bei, einschließlich der Miniatur und der Titelbilder.
+
+* Es ist nicht möglich, eine benutzerdefinierte Detailseite zu exportieren, wenn mehrere Felder ausgeblendet sind.
 
 ## Exportieren der Details eines Eintrags
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 7%
+source-wordcount: '574'
+ht-degree: 8%
 ---
 # Verstehen des Desktop Proofing Viewer
 
@@ -79,7 +79,7 @@ Wenn dies nicht der Fall ist, können Sie die folgenden Schritte ausführen.
 1. Führen Sie einen der folgenden Schritte aus, um die App herunterzuladen:
 
    * Wenn Sie die Produktionsumgebung verwenden, klicken Sie auf [Mac-Produktions-Download für den Desktop Proofing Viewer.](https://app.proofhq.com/desktopviewer/mac)
-   * Wenn Sie die Vorschau-Umgebung verwenden, klicken Sie auf [Mac-Vorschau-Download für den Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Wenn Sie die Vorschau-Umgebung verwenden, klicken Sie auf [Mac-Vorschau-Download für den Desktop Proofing Viewer.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Öffnen Sie die soeben heruntergeladene Datei, um die Installation zu starten.
 1. Klicken Sie im angezeigten Installationsfenster auf **Fortfahren** und dann auf **Installieren**.

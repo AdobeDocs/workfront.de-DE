@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 50078481f5318fd1fe1b79548ccd0f9385848c9a
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3579'
 ht-degree: 7%
@@ -33,7 +33,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 >
 >| Monatliche Veröffentlichung | Vierteljährliche Veröffentlichung |
 >|----|----|
->| <ul><li>26.8 (13. August 2026)</li><li>26.9 (17. September 2026)</li><li>26.10 (14. Oktober 2026)</li></ul> | <ul><li>26.10 (22. Oktober 2026)</li></ul> |
+>| <ul><li>26.8 (13. August 2026)</li><li>26.9 (17. September 2026)</li><li>26.10 (22. Oktober 2026)</li></ul> | <ul><li>26.10 (22. Oktober 2026)</li></ul> |
 >
 >* Der 26.10. (Oktober 2026) wurde in den 22. Oktober 2026 verschoben.
 >

@@ -1,6 +1,6 @@
 ---
 title: Ideenraum mit anderen teilen
-description: Adobe Workfront Planning bietet jetzt eine zusätzliche Funktion, mit der Sie Ideen ausarbeiten können, bevor Sie Ihre Kampagnen starten. Nutzen Sie die Leistungsfähigkeit von KI, um Ideen zu erstellen und mit anderen zusammenzuarbeiten, bevor sie zu Planungsdatensätzen werden.
+description: Adobe Workfront Planning bietet jetzt eine zusätzliche Funktion, mit der Sie Ideen ausarbeiten können, bevor Sie Ihre Kampagnen starten. Sie können den Ideenraum und die entsprechenden Kurzinformationen für eine bessere Zusammenarbeit mit anderen Benutzern teilen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 2%
 ---
 
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront Planning-Datensatzberechtigungen werden in den Ideenraum eines Datensatzes übertragen.
+Sie können den Ideationsbereich von Adobe Workfront verwenden, um Briefs für Ihre Kampagnen und andere Datensatztypen zu erstellen, bevor Sie sie starten. Dies lädt andere dazu ein, Ideen zu sammeln und Informationen zu sammeln, um gemeinsam die Zusammenfassung zu erstellen, bevor Sie Ihre Arbeit beginnen.
 
-Darüber hinaus können Sie anderen Benutzern die Berechtigung erteilen, den Ideenraum zu verwenden und ihm Ideen hinzuzufügen.
+Sie können den Ideenraum und die entsprechenden Kurzinformationen für eine bessere Zusammenarbeit mit anderen Benutzern teilen.
 
 Beachten Sie Folgendes:
 
+* Workfront Planning-Datensatzberechtigungen werden in den Ideenraum eines Datensatzes übertragen.
+
+* Darüber hinaus können Sie anderen Benutzern die Berechtigung erteilen, den Ideenraum zu verwenden und ihm Ideen hinzuzufügen.
+
 * Die Ersteller von Ideen haben immer Editor-Berechtigungen für ihre eigenen Ideen.
 
-* Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs zu erstellen und sie in andere Programme zu exportieren.
+* Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs erstellen oder zu ihnen beitragen und sie in andere Programme exportieren zu können.
 
 ## Zugriffsanforderungen
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
-ODER
-<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ ODER
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten </p>
       <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
       <p>Anzeigen von Berechtigungen für Workfront-Objekte, um sie zu Briefs hinzuzufügen <!--not sure if this is available--></p>
-      <p>Editor-Berechtigungen für den Ideenraum zum Erstellen von Briefs</p>
+      <p>Editor-Berechtigungen für den Ideenraum eines Briefs zum Erstellen von Briefs</p>
    </td> 
   </tr>  
   <!--
@@ -129,15 +137,12 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Ideenraum teilen
 
-1. Zugriff auf den Ideenraum eines Planungsdatensatzes.
+1. Zugriff auf den Ideenraum.
 
-   Weitere Informationen finden Sie in einem der folgenden Artikel:
+   Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   * [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Erstellen von Briefs im Ideationsbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Klicken **oben rechts auf** Freigeben“ und dann auf das Symbol **Einstellungen** ![Einstellungen](assets/setting-icon.png) in der oberen rechten Ecke des Felds **Dokument freigeben**.
-1. Wählen Sie in der Liste „Wer hat Zugriff“ eine der folgenden Optionen aus:
+1. Klicken **oben rechts auf** Freigeben“ und dann auf das Symbol **Einstellungen** ![Einstellungen](assets/setting-icon.png) in der oberen rechten Ecke des Felds **Dokument freigeben**. <!--should this say "document"?-->
+1. Wählen Sie in **Liste &quot;** hat“ eine der folgenden Optionen aus:
 
    * **Nur eingeladene Personen können darauf zugreifen**
 

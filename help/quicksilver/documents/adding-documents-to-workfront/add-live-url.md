@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 8%
 ---
 # Weblink als Dokument hinzufügen
 
@@ -56,13 +56,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Weblink als Dokument hinzufügen
 
-Sie können eine HTML-Webseite als Weblink in Workfront hochladen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern. Weitere Informationen zum Umgang mit Weblinks mit Frame.io finden Sie unter [Frame.io-Weblinks](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+Sie können eine HTML-Webseite als Weblink in Workfront hochladen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern. Weitere Informationen zum Verarbeiten von Weblinks durch Frame.io finden Sie unter [HTML-Überprüfung für Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* URLs werden unterstützt, wenn die Site iFrame-Einbettungen zulässt.
+>* Private Web-URLs werden unterstützt, aber bestimmte Authentifizierungsabläufe funktionieren möglicherweise nicht, abhängig von der Server-Konfiguration.
+>* YouTube- und Figma-URLs werden derzeit nicht unterstützt.<br>
+>Weitere Informationen finden Sie unter [Welche URL-Typen werden in Frame.io unterstützt](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 So fügen Sie einen Weblink hinzu:
 
