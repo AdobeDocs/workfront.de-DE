@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 7%
 ---
 # Zugriff auf Berichte, Dashboards und Kalender gewähren
@@ -71,7 +71,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Konfigurieren des Benutzerzugriffs auf Berichte, Dashboards und Kalender mit einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben „Berichte“ und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
    ![reports_access.png](assets/reports-access.png)
@@ -80,12 +80,15 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    * **Create**
    * **Löschen**
-   * **Integrierte Berichte anzeigen**: Dies muss ausgewählt sein, um die von Workfront erstellten Berichte anzuzeigen.
    * **Freigeben**
+
+   Folgende Optionen sind standardmäßig nicht aktiviert:
+
+   * **Integrierte Berichte anzeigen**: Dies muss ausgewählt sein, um die von Workfront erstellten Berichte anzuzeigen.
    * **Berichte öffentlich freigeben**: Berichte können öffentlich freigegeben werden, indem ein öffentlicher Link zum Bericht für alle freigegeben wird, die kein Workfront-Konto haben. Diese Option muss ausgewählt werden, um diese Freigabeebene zu ermöglichen.
    * **Systemweit freigeben** Berichte können für alle Personen im System freigegeben werden, die über eine Workfront-Lizenz verfügen. Diese Option muss ausgewählt werden, um diese Freigabeebene zu ermöglichen.
 
-     Informationen zum Freigeben von Berichten, Dashboards und Kalendern finden Sie unter [Freigeben von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Informationen zum Freigeben von Berichten, Dashboards und Kalendern finden Sie unter [Freigeben von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Optional) Um Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene, an der Sie arbeiten, zu konfigurieren, fahren Sie mit einem der in [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
