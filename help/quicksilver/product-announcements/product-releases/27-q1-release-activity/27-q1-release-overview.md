@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 58f437f05fd68d14ac96dae0449d8e67db816406
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 50%
+source-wordcount: '516'
+ht-degree: 30%
 ---
 
 # Übersicht über die Version im ersten Quartal 2027
@@ -58,7 +58,7 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
 ## Versionshinweise für andere Bereiche
 
 * [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Adobe Workfront Planning-Versionsaktivität](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview).
+* [Adobe Workfront Planning-Versionsaktivität](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 Für folgende Elemente gibt es derzeit keine Updates in der Version:
 
@@ -66,9 +66,41 @@ Für folgende Elemente gibt es derzeit keine Updates in der Version:
 * Korrekturabzug
 * Ziele
 
-### Wartungs-Updates für Workfront
+## Ankündigungen
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2027 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+### Veraltete Felder für Abrechnung und Kostensatz in Aufgabengebiet-Listenansichten werden entfernt
+
+Im Laufe der Zeit haben wir erweiterte Raten-Management-Funktionen und spezielle Aufgabengebiet-Erlebnisse eingeführt, die einen vollständigeren und skalierbareren Ansatz zur Pflege von Raten-Informationen bieten. Infolgedessen bewegt sich die Ratenverwaltung in Richtung dieser dedizierten Erlebnisse statt in Richtung listenbasierter Management-Workflows.
+
+Mit der Version vom Januar 2027 sind die alten Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** nicht mehr in der Workfront-API oder in Aufgabengebiet-Listenansichten verfügbar, einschließlich Filter-/Ansicht-/Gruppierungskonfigurationen (sowohl Direktverweise als auch berechnete Spalten im Textmodus).
+
+Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (verwenden Sie nach Bedarf `costRates` oder `billingRates`):
+
+    &quot;
+    displayName=Test
+    listDelimiter=&lt;br>
+    listMethod=nested(costRates).lists
+    type=iterate
+    valueExpression=CONCAT({startDate},“ - &quot;,{endDate},“: &quot;,{value})
+    valueFormat=HTML
+    &quot;
+
+Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizierten Tarifverwaltungserfahrungen:
+
+* Greifen Sie direkt über die Seite „Aufgabengebiet“ > „Tarife“ auf die Tarife für Aufgabengebiete zu und verwalten Sie sie.
+* Verwenden Sie Tarifberichte, um Tarifinformationen in allen Aufgabengebieten zu überprüfen, zu analysieren und in Berichten zu erfassen.
+
+Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
+
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+
+-->
 
 ### Updates für Schulungen
 
