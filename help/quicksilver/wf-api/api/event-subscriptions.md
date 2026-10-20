@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 77%
+source-wordcount: '83'
+ht-degree: 61%
 ---
 # Ereignisabonnements
 
@@ -28,9 +28,10 @@ Im Folgenden finden Sie verschiedene Ressourcen für Ereignisabonnements in Adob
 
 >[!NOTE]
 >
->Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in ](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 * [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
+* [Verwalten von Ereignisabonnements für Benutzer ohne Administratorrechte](../../wf-api/general/event-subs-non-admin.md)
 * [Best Practices für Ereignisabonnements](../../wf-api/general/event-sub-best-practice.md)
 * [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
