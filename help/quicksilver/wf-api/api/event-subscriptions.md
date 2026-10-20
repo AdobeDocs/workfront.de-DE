@@ -28,7 +28,7 @@ Im Folgenden finden Sie verschiedene Ressourcen für Ereignisabonnements in Adob
 
 >[!NOTE]
 >
->Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in ](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+>Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 * [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
 * [Verwalten von Ereignisabonnements für Benutzer ohne Administratorrechte](../../wf-api/general/event-subs-non-admin.md)

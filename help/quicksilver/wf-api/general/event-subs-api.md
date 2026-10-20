@@ -45,7 +45,7 @@ Da Ereignisabonnements Daten an einen anderen Service senden, werden sie über B
 
 >[!NOTE]
 >
->Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in ](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+>Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Um Payloads für Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen:
 
@@ -125,7 +125,7 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, müssen Ihr
 
   Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
 
-Informationen zum Verwalten von Ereignisabonnements in der Workfront-Anwendung, wenn Sie kein Workfront-Administrator sind, finden [ unter „Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+Informationen zum Verwalten von Ereignisabonnements in der Workfront-Anwendung, wenn Sie kein Workfront-Administrator sind, finden [&#x200B; unter „Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Vermeiden einer Überlastung von Ereignisabonnements
 
