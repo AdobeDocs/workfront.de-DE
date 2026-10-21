@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: a940bad993b8e0be1328d84dc8b113e9b513fbdb
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14708'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -2715,6 +2715,7 @@ ht-degree: 91%
   * Ereignisabonnements {#event-subscriptions}
     * [Ereignisabonnements](wf-api/api/event-subscriptions.md)
     * [Ereignisabonnement-API](wf-api/general/event-subs-api.md)
+    * [Verwalten von Ereignisabonnements für Benutzer ohne Administratorrechte](wf-api/general/event-subs-non-admin.md)
     * [Best Practices für Ereignisabonnements](wf-api/general/event-sub-best-practice.md)
     * [Versandanforderungen für Ereignisabonnements](wf-api/general/setup-event-sub-endpoint.md)
     * [Weitere Zustellversuche für Ereignisabonnements](wf-api/api/event-sub-retries.md)
