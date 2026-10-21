@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # Ereignisabonnement-API
 
@@ -45,7 +45,7 @@ Da Ereignisabonnements Daten an einen anderen Service senden, werden sie über B
 
 >[!NOTE]
 >
->Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) und [Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Um Payloads für Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen:
 
@@ -118,12 +118,14 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 
 ## Authentifizierung von Ereignisabonnements
 
-Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigen Benutzenden in Workfront Folgendes:
+Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, müssen Ihre Workfront-Benutzenden über den erforderlichen Zugriff auf die Ereignisabonnementfunktion und die entsprechenden Berechtigungen für die ausgeführte Aktion verfügen.
 
-* Für die Verwendung von Ereignisabonnements ist die Zugriffsebene „Systemadmin“ erforderlich.
-* Für die Verwendung der Ereignisabonnement-API ist ein `sessionID`-Header erforderlich
+* Benutzende mit dem erforderlichen Zugriff können Ereignisabonnements in Workfront verwalten, jedoch nur innerhalb des durch ihre Berechtigungen und Systemkonfiguration zulässigen Bereichs.
+* Für die Verwendung der Ereignisabonnement-API ist eine `sessionID` Kopfzeile erforderlich.
 
   Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
+
+Informationen zum Verwalten von Ereignisabonnements in der Workfront-Anwendung, wenn Sie kein Workfront-Administrator sind, finden [&#x200B; unter „Verwalten von Ereignisabonnements als Benutzer ohne Administratorrechte](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Vermeiden einer Überlastung von Ereignisabonnements
 

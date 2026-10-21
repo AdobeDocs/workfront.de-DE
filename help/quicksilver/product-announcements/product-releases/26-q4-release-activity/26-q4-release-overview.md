@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3627'
 ht-degree: 7%
 ---
 # Versionsübersicht für das vierte Quartal 2026
@@ -780,6 +780,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nicht-Administratoren können jetzt Ereignisabonnements erstellen<p>[!BADGE Außerplanmäßig]{type=Neutral}</p></a>
+                <p>Benutzende können jetzt Webhook-Benachrichtigungen für unterstützte Workfront-Objekte ohne Systemadministratorzugriff erhalten, indem sie zielgerichtete Abonnements und IMS-Benutzerzugriffstoken verwenden.</p>
+            </td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
+            <td><p>16. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>

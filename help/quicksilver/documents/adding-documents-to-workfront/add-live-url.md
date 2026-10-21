@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
+source-git-commit: 05f148f2c28555e37fb415f606e314a5df564047
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '463'
 ht-degree: 8%
 ---
 # Weblink als Dokument hinzufügen
@@ -64,7 +64,7 @@ Sie können eine HTML-Webseite als Weblink in Workfront hochladen. Nachdem Sie s
 >* URLs werden unterstützt, wenn die Site iFrame-Einbettungen zulässt.
 >* Private Web-URLs werden unterstützt, aber bestimmte Authentifizierungsabläufe funktionieren möglicherweise nicht, abhängig von der Server-Konfiguration.
 >* YouTube- und Figma-URLs werden derzeit nicht unterstützt.<br>
->Weitere Informationen finden Sie unter [Welche URL-Typen werden in Frame.io unterstützt](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+>Weitere Informationen finden Sie unter [HTML-Überprüfung für Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 
 So fügen Sie einen Weblink hinzu:

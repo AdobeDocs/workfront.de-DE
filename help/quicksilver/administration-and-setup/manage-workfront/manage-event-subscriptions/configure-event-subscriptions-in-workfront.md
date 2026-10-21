@@ -4,14 +4,14 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Konfigurieren von Ereignisabonnements in Workfront
-description: Als Adobe Workfront-Administrator können Sie Ereignisabonnements über den Bereich „Setup“ erstellen, anzeigen und löschen, um Workfront-Ereignisse an einen externen Endpunkt zu senden.
+description: Workfront-Admins können Ereignisabonnements im Setup erstellen, anzeigen und löschen. Benutzer mit dem erforderlichen Zugriff können auch Ereignisabonnements im Rahmen ihrer Berechtigungen und Systemkonfiguration verwalten.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '452'
+ht-degree: 8%
 ---
 
 # Konfigurieren von Ereignisabonnements in Workfront
@@ -21,6 +21,8 @@ ht-degree: 9%
 Als Adobe Workfront-Administrator können Sie Ereignisabonnements über den Bereich „Setup“ erstellen, anzeigen und löschen. Ereignisabonnements senden Workfront-Ereignisinformationen an einen externen Endpunkt, wenn angegebene Ereignisse eintreten.
 
 Sie können Ereignisabonnements in Workfront erstellen und löschen, ein bestehendes Abonnement jedoch nicht bearbeiten. Wenn Sie ein Abonnement ändern müssen, löschen Sie es und erstellen Sie ein neues.
+
+Benutzende, die über den erforderlichen Zugriff verfügen, können möglicherweise auch Ereignisabonnements in Workfront verwalten, jedoch nur innerhalb des durch ihre Berechtigungen und Systemkonfiguration zulässigen Bereichs. Weitere Informationen finden Sie unter [Ereignisabonnements als Benutzer ohne Administratorrechte verwalten](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Weitere Informationen zu Ereignisabonnements finden Sie in den Artikeln unter [Ereignisabonnements](/help/quicksilver/wf-api/api/event-subscriptions.md).
 
@@ -45,7 +47,10 @@ Weitere Informationen zu Ereignisabonnements finden Sie in den Artikeln unter [E
   </tr>
   <tr>
    <td role="rowheader">Konfigurationen der Zugriffsebene</td>
-   <td>Sie müssen ein Workfront-Administrator sein.</td>
+   <td>
+    <p>Sie müssen über den entsprechenden Zugriff verfügen, um Ereignisabonnements verwalten zu können.</p>
+    <p>Benutzende ohne Administratorrechte haben nur Zugriff innerhalb des durch ihre Berechtigungen und die Systemkonfiguration zulässigen Bereichs.</p>
+   </td>
   </tr>
  </tbody>
 </table>

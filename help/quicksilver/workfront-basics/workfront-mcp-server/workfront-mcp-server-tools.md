@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 4%
 ---
 
@@ -235,11 +235,11 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
-| Objekte suchen | `workflow_search_any_object` | Sucht nach Workfront-Objekten mit flexiblen Filterparametern, Sortierung und Paginierung. | Lesen |
+| Objekte suchen | `workflow_search_any_object` | Dieses Tool wird nicht mehr unterstützt. | Lesen |
 | Objekt erstellen | `workflow_create_any_object` | Erstellt ein neues Workfront-Objekt wie ein Projekt, eine Aufgabe, ein Problem, eine Stunde, eine Zuweisung, ein Programm oder ein Portfolio. | Schreiben |
 | Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert die Felder eines vorhandenen Objekts. Unterstützt auch das Verschieben einer Aufgabe oder eines Problems in ein anderes Projekt, das Konvertieren einer Aufgabe oder eines Problems in ein neues Projekt (oder ein Problem in eine Aufgabe) sowie das Festlegen von Aufgabenvorgängern (Abhängigkeiten). | Schreiben |
 | Objekt löschen | `workflow_delete_any_object` | Löscht ein Workfront-Objekt nach ID. Erfordert eine explizite Benutzerbestätigung, bevor die Aktion ausgeführt wird. | Schreiben |
-| Auflösen von Feldnamen | `workflow_resolve_field_names_any_object` | Konvertiert von Benutzenden bereitgestellte Feldnamen oder Kennzeichnungen in die zugrunde liegenden Workfront-API-Feldnamen, damit die KI-Agentenplattform genaue Anfragen erstellen kann. | Lesen |
+| Auflösen von Feldnamen | `workflow_resolve_field_names_any_object` | Dieses Tool wird nicht mehr unterstützt. | Lesen |
 | Workflow-Dokumente lesen | `workflow_read_workflow_docs` | Lädt die Workfront Workflow-Dokumentation, einschließlich Handbüchern zur Tool-Nutzung und objektspezifischen Playbooks für Vorgänge. Dies ist der erste erforderliche Schritt vor dem Ausführen von Workflow-Aktionen. | Lesen |
 
 ### Funktionen der Objektwerkzeuge aktualisieren
