@@ -255,7 +255,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
+   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
    * [Formular veröffentlichen](#publish-form), um das Formular zu veröffentlichen, damit Benutzer Anfragen an es senden können
    * [Anforderungsformular freigeben](#share-a-request-form) um das Formular für andere Personen oder öffentlich freizugeben
 
@@ -346,7 +346,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.

@@ -238,7 +238,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    ![Neues Kommentarsymbol in der Tabellenansicht](assets/new-comment-icon-in-table-view-highlighted.png)
 
-1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
 1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![Symbol „Kommentare ausblenden](assets/hide-comments-icon.png), um das rechte Bedienfeld zu schließen.
 
 <!--
