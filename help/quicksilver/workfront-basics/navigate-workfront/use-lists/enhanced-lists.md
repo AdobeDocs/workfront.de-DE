@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
-
-{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -84,20 +82,20 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | <span class="preview">Liste der Scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">Liste der Risikotypen</span> | <span class="preview">Setup > Risikotypen</span> |
 | Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
-| <span class="preview">Liste der Standorte</span> | <span class="preview">Setup > Standorte</span> |
+| Liste der Standorte | Setup > Standorte |
 | Liste der Übersetzungen | Setup > Lokalisierung |
-| <span class="preview">Integrationslisten </span> | <ul><li><span class="preview">Setup > Dokumente > SharePoint-Integration</span></li><li><span class="preview">Setup > Dokumente > Benutzerdefinierte Integration</span></li><li><span class="preview">Setup > Dokumente > Experience Manager Assets</span></li></ul> |
+| Integrationslisten | <ul><li>Setup > Dokumente > SharePoint-Integration</li><li>Setup > Dokumente > Benutzerdefinierte Integration</li><li>Setup > Dokumente > Experience Manager Assets</li></ul> |
 | Liste von Berichten | Hauptmenü > Berichte (**Freigebbare Ordner verwenden** muss aktiviert sein) |
-| <span class="preview">Listen mit Warteschlangenthemen, Themengruppen und Routing-Regeln</span> | <ul><li><span class="preview">Projekt oder Vorlage > Warteschlangenthemen</span></li><li><span class="preview">Projekt oder Vorlage > Themengruppen</span></li><li><span class="preview">Projekt oder Vorlage > Routing-Regeln</span></li></ul> |
+| Listen mit Warteschlangenthemen, Themengruppen und Routing-Regeln | <ul><li>Projekt oder Vorlage > Warteschlangenthemen</li><li>Projekt oder Vorlage > Themengruppen</li><li>Projekt oder Vorlage > Routing-Regeln</li></ul> |
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
 | Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
-| <span class="preview">Liste der Vorgänger</span> | <span class="preview">Setup > Aufgabe oder Vorlagenaufgabe > Vorgänger</span> |
+| Liste der Vorgänger | Setup > Aufgabe oder Vorlagenaufgabe > Vorgänger |
 | Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
-| <span class="preview">Ansicht „Alle Versionen“ eines Dokuments</span> | <span class="preview">Projekt > Dokumente > Dokumentdetails > Alle Versionen</span> |
+| Ansicht aller Versionen eines Dokuments | Projekt > Dokumente > Dokumentdetails > Alle Versionen |
 | Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
-| <span class="preview">Listen mit Szenario-Plänen und -Initiativen</span> | <span class="preview">Hauptmenü > Szenarien</span> |
-| <span class="preview">Listen mit Zielen und Fortschrittsindikatoren</span> | <ul><li><span class="preview">Hauptmenü > Ziele</span></li><li><span class="preview">Hauptmenü > Ziele > Fortschrittsanzeigen</span></li></ul> |
+| Listen mit Szenarioplänen und Initiativen | Hauptmenü > Szenarien |
+| Listen mit Zielen und Fortschrittsindikatoren | <ul><li>Hauptmenü > Ziele</li><li>Hauptmenü > Ziele > Fortschrittsanzeigen</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie 
 
 1. Klicken Sie **Spalten** über der Liste auf.
 
-   Beispielbild in der Produktionsumgebung:
-   ![Beispiel für Spalten anzeigen](assets/glist-display-move-columns.png)
-
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Beispiel für Spalten anzeigen](assets/display-columns-090126.png)
 
 1. Verwenden Sie die Umschalter zum Anzeigen oder Ausblenden von Spalten in der Liste.
 
-   <span class="preview">Sie können im Suchfeld nach einer Spalte suchen.</span>
+   Sie können im Suchfeld nach einer Spalte suchen.
 
 1. Um die Spalten neu anzuordnen, klicken Sie auf das Symbol **Ziehen** (![-Symbol](assets/drag-icon.png) und verschieben Sie eine Spalte an die gewünschte Position. Durch das Verschieben von Spalten wird die Liste automatisch geändert.
 
@@ -242,7 +236,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(Optional) Um die Spalten neu anzuordnen, bewegen Sie den Mauszeiger über einen Spaltennamen im Abschnitt **Ausgewählt** und klicken Sie auf das Symbol **Ziehen** ![Symbol ziehen](assets/drag-icon.png). Verschieben Sie die Spalten vertikal, um sie in der richtigen Reihenfolge zu platzieren.</span>
+1. (Optional) Um die Spalten neu anzuordnen, bewegen Sie den Mauszeiger über einen Spaltennamen im Abschnitt **Ausgewählt** und klicken Sie auf das Symbol **Ziehen** ![Symbol ziehen](assets/drag-icon.png). Verschieben Sie die Spalten vertikal, um sie in der richtigen Reihenfolge zu platzieren.
 1. Klicken Sie auf **Speichern**.
 
    ![Spalten-Manager](assets/glist-column-manager.png)
@@ -257,7 +251,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
 So ändern Sie die Zeilenhöhe in einer Ansicht:
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
@@ -390,7 +384,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    >
    >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
 
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
 
    >[!TIP]
    >
@@ -405,7 +399,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
 1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
 1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
    * Fett
    * Kursiv
 

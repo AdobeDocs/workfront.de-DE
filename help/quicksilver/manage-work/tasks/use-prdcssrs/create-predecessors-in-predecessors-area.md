@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 8%
 ---
 # Erstellen einer Vorgängerbeziehung mithilfe des Bereichs „Vorgänger“
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -122,7 +120,6 @@ Erstellen einer Vorgängeraufgabe für eine Projektaufgabe:
 
 1. Klicken Sie auf **Speichern**.
 
-1. (Optional) Um einen Vorgänger zu entfernen, wählen Sie ihn aus der Liste der Vorgänger aus und klicken Sie dann auf das **Entfernen**-Symbol ![Entfernen](assets/remove-or-delete-icon.png).
-   <span class="preview">Um einen Vorgänger zu entfernen, wählen Sie ihn in der Liste der Vorgänger aus und klicken **in der** unten auf dem Bildschirm auf „Entfernen“</span>
+1. (Optional) Um einen Vorgänger zu entfernen, wählen Sie ihn in der Liste der Vorgänger aus und klicken **in der** unten auf dem Bildschirm auf „Entfernen“.
 
    Der Vorgänger wird aus der Liste entfernt. Die Vorgängeraufgabe wird nicht aus ihrem Projekt gelöscht.

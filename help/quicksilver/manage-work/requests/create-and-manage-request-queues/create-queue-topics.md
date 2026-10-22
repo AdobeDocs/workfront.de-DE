@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '991'
 ht-degree: 6%
 ---
 # Erstellen von Warteschlangenthemen
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ So bearbeiten Sie ein vorhandenes Warteschlangenthema:
 
 1. Gehen Sie zu dem Projekt oder der Vorlage, das bzw. die das Warteschlangenthema enthält, das bzw. die Sie bearbeiten möchten.
 1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“.
-1. Klicken Sie auf das Warteschlangen-Thema, das Sie bearbeiten möchten.
-   <span class="preview">Aktivieren Sie das Kontrollkästchen neben dem Warteschlangen-Thema, das Sie bearbeiten möchten, und klicken Sie auf **Bearbeiten** in der blauen Aktionsleiste am unteren Bildschirmrand.</span>
+1. Aktivieren Sie das Kontrollkästchen neben dem Warteschlangenthema, das Sie bearbeiten möchten, und klicken Sie **der blauen Aktionsleiste am unteren Bildschirmrand auf** Bearbeiten“.
 
 Informationen zu den verfügbaren Bearbeitungsoptionen finden Sie unter [Warteschlangenthema erstellen](#create-a-queue-topic) in diesem Artikel.
 
@@ -218,6 +215,5 @@ Sie können ein oder mehrere Warteschlangenthemen gleichzeitig löschen.
 1. Gehen Sie zu dem Projekt oder der Vorlage, das/die das Warteschlangenthema enthält, das/die Sie löschen möchten.
 1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“.
 1. Klicken Sie auf das Kästchen neben dem Namen jedes Warteschlangen-Themas, das Sie löschen möchten. Im Feld wird ein Häkchen angezeigt.
-1. Klicken Sie auf **Löschen**-Symbol ![Löschen](assets/delete-icon.png) oben auf der Seite.
-   <span class="preview">Klicken Sie **Löschen** in der Aktionsleiste am unteren Bildschirmrand.</span>
+1. Klicken **unten** Bildschirm in der Aktionsleiste auf „Löschen“.
 

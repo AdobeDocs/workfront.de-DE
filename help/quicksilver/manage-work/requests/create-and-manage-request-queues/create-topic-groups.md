@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 9%
 ---
 # Erstellen von Themengruppen
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ Erstellen einer Themengruppe:
    Dadurch wird eine neue Themengruppe in Ihrer Anfragewarteschlange erstellt. Sie können jetzt zusätzliche Kategorien aus dem ersten Dropdown-Menü unter einer Anfrage-Warteschlange auswählen.\
    Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Um eine vorhandene Themengruppe zu bearbeiten, wählen Sie die Themengruppe in der Themengruppe-Liste aus, <span class="preview">klicken Sie **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand </span> bearbeiten Sie dann die Details in dem sich öffnenden Fenster. Klicken Sie **Speichern**, um die Änderungen zu speichern.
+1. Um eine vorhandene Themengruppe zu bearbeiten, aktivieren Sie das Kontrollkästchen neben der Themengruppe in der Themengruppenliste, klicken Sie auf **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand und bearbeiten Sie dann die Details in dem sich öffnenden Fenster. Klicken Sie **Speichern**, um die Änderungen zu speichern.
