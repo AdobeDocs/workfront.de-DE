@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 8%
 ---
 # Felder konfigurieren, die im Änderungsverlauf verfolgt werden sollen
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront generiert automatische Systemaktualisierungen, um die folgenden Ereignisse aufzuzeichnen:
 
@@ -37,7 +35,7 @@ Diese Systemaktualisierungen enthalten die folgenden Informationen:
 
 Als Workfront-Administrator können Sie konfigurieren, welche Objektfelder und Aktionen Workfront verfolgt.
 
-Sie können beispielsweise Workfront alle Änderungen nachverfolgen lassen, die Benutzer an den Namen von Problemen im gesamten System vornehmen. Jede Änderung des Problemnamens wird dann als Eintrag im Änderungsprotokoll angezeigt. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Sie können beispielsweise Workfront alle Änderungen nachverfolgen lassen, die Benutzer an den Namen von Problemen im gesamten System vornehmen. Jede Änderung des Problemnamens wird dann als Eintrag im Änderungsprotokoll angezeigt. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Zugriffsanforderungen
 
@@ -71,7 +69,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 Die Beschränkungen für die Anzahl der Felder, die Sie verfolgen können, werden durch Ihr Workfront-Paket definiert.
 
 | Workfront-Paket | Maximale Anzahl an getrackten Feldern |
-|---------|----------|
+| --------- | ---------- |
 | Auswählen | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -113,7 +113,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Klicken Sie **[!UICONTROL Ticket öffnen]** in der linken Seitenleiste auf.
-Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
+Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
 
    >[!TIP]
    >
@@ -129,7 +129,7 @@ Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können S
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Fall senden]**.
 
-   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL &#x200B; Fälle] wird angezeigt.
+   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL  Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -142,7 +142,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 
 1. Navigieren Sie zur Seite **[!UICONTROL Meine Fälle]** . Diese Seite wird geöffnet, wenn Sie eine Anfrage senden. Sie können sie aber auch öffnen, indem Sie im linken Navigationsbereich auf **[!UICONTROL Meine Anfragen]** klicken.
 
-1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Offen] oder CLosed) zu filtern. Sie können auch das Feld [!UICONTROL Suche] verwenden, um nach Keywords zu suchen, die sich auf Ihre Support-Fälle beziehen.
+1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL CX Enterprise] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Offen] oder [!UICONTROL Geschlossen]) zu filtern. Sie können auch das Feld [!UICONTROL Suche] verwenden, um nach Keywords zu suchen, die sich auf Ihre Support-Fälle beziehen.
 
 1. (Optional) Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf die **Fallnummer**, um darauf zuzugreifen.
 
@@ -156,7 +156,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

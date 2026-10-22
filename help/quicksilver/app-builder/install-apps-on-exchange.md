@@ -7,24 +7,26 @@ exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: '1301'
 ht-degree: 3%
-
 ---
-
 # Abrufen und Installieren von Anwendungen aus Adobe Exchange
 
 Sie können jetzt von Partnern erstellte Apps für Workfront direkt von Adobe Exchange aus installieren. Diese Funktion verbindet Kunden mit einem wachsenden Ökosystem von Adobe-Partnern, die maßgeschneiderte Tools bereitstellen, die die Produktivität verbessern, den Betrieb optimieren und die Workfront-Funktionalität erweitern. Über Adobe Exchange können Kunden Apps entdecken und installieren, die sich mithilfe von Benutzeroberflächenerweiterungen nahtlos in Workfront integrieren lassen.
 
-Adobe Exchange ist der zentrale Marktplatz für Programme, Erweiterungen und Integrationen von Drittanbietern in Adobe Experience Cloud, einschließlich Adobe Workfront. Für Workfront-Kunden ist dies das erste Ziel, um Apps zu entdecken und zu installieren, die die Funktionalität verbessern, Workflows optimieren und mit externen Systemen integrieren.
+Adobe Exchange ist der zentrale Marktplatz für Anwendungen, Erweiterungen und Integrationen von Drittanbietern in Adobe CX Enterprise - einschließlich Adobe Workfront. Für Workfront-Kunden ist dies das erste Ziel, um Apps zu entdecken und zu installieren, die die Funktionalität verbessern, Workflows optimieren und mit externen Systemen integrieren.
 
 ## Adobe Partner-Apps
 
@@ -96,7 +98,7 @@ Apps, die mit Adobe App Builder erstellt wurden, werden in Adobe Exchange als _A
 
 Um Apps für Workfront anzuzeigen, navigieren Sie zu Adobe Exchange und suchen Sie nach Workfront-kompatiblen Apps. Sie können auch Listeneinträge für Workfront App Builder-Apps filtern:
 
-1. Klicken Sie im linken **auf** Experience Cloud.
+1. Klicken Sie **linken Bedienfeld** Experience Cloud“.
 1. Suchen Sie im linken Bedienfeld nach **Produkt** und wählen Sie dann **Workfront**.
 1. Erweitern Sie **App Type** und wählen Sie **App Builder**.
 
