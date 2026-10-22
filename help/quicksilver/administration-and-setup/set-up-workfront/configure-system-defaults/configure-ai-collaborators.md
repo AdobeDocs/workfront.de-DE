@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 2%
+source-wordcount: '1362'
+ht-degree: 3%
 ---
 # KI-Mitwirkende konfigurieren
-
-{{preview-fast-release-general}}
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte, Aufgaben und Probleme einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
 
@@ -65,7 +63,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator] <span class="preview">oder Gruppenadministrator</span></td> 
+   <td>[!UICONTROL Systemadministrator] oder Gruppenadministrator</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -144,7 +142,7 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
 
    >[!NOTE]
    >
-   ><span class="preview">Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.</span>
+   >Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.
 
 1. Wählen **im Bereich „Ursprung des Agenten**&quot; aus, ob Sie einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
 1. (Bedingt) Wenn Sie einen Agenten von einer gemeinsamen Plattform verwenden, geben Sie Authentifizierungsdetails für die Plattform des Agenten ein:
@@ -153,16 +151,17 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
    |---|---|
    | CoPilot Studio | Geheimnis für Web-Kanal |
    | Claude Managed Agents | Anthropische API-Schlüssel<br>Agent-ID<br>Umgebungs-ID |
-   | <span class="preview">OpenAI-Agenten</span> | <span class="preview">API-Schlüssel <br>Agent-ID</span> |
-   | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview">Service-URL<br>API-Schlüssel<br> Agent-ID</span> |
+   | OpenAI-Agents | API-Schlüssel <br>Agent-ID |
+   | IBM watsonx Orchestrate | Service-URL<br>API-Schlüssel<br> Agent-ID |
 
 1. Klicken Sie **Verbindung testen**. Auf diese Weise wissen Sie, ob die Verbindung korrekt eingerichtet wurde.
 1. Im **Nachdem der Mitarbeiter seine Arbeit abgeschlossen hat, kann er im** die Aktionen umschalten, die der Mitarbeiter ausführen soll.
 
-   * <span class="preview">Benachrichtigung senden: Der Agent gibt einen Kommentar im Aktualisierungsverlauf ab und markiert den Benutzer, der die Arbeit angefordert hat, dem Agenten zugewiesen hat oder dem das Projekt gehört. </span>
-   * <span class="preview">Hochladen textbasierter Dokumente</span>
-   * <span class="preview">Aufgabe als abgeschlossen markieren</span>
+   * Benachrichtigung senden: Der Agent gibt einen Kommentar im Aktualisierungsverlauf ab und markiert den Benutzer, der die Arbeit angefordert hat, dem Agenten zugewiesen hat oder dem das Projekt gehört.
+   * Hochladen textbasierter Dokumente
+   * Aufgabe als abgeschlossen kennzeichnen
    * Aufgabenfelder schreiben: Wählen Sie die Formulare und Felder aus, in die der Agent schreiben kann.
+   * Projektfelder schreiben: Wählen Sie die Formulare und Felder aus, in die der Agent schreiben kann.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -282,7 +281,7 @@ Sie können vorhandene KI-Mitwirkende bearbeiten, kopieren und löschen.
 
 >[!NOTE]
 >
-><span class="preview">Gruppenadministratoren können nur KI-Kollaborateure anzeigen und mit ihnen interagieren, die Gruppen zugeordnet sind, für die sie Administratoren sind. Wenn andere Gruppen ebenfalls mit einem bestimmten KI-Mitwirkenden verknüpft sind, kann ein Gruppenadministrator sie anzeigen, aber nicht bearbeiten.</span>
+>Gruppenadministratoren können nur KI-Kollaborateure anzeigen und mit ihnen interagieren, die Gruppen zugeordnet sind, für die sie Administratoren sind. Wenn andere Gruppen ebenfalls mit einem bestimmten KI-Mitwirkenden verknüpft sind, kann ein Gruppenadministrator sie anzeigen, aber nicht bearbeiten.
 
 {{step-1-to-setup}}
 
