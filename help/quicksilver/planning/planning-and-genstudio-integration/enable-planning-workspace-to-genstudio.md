@@ -45,7 +45,7 @@ Beachten Sie Folgendes:
 * Sie müssen Zugriff auf Workfront Planning und GenStudio for Performance Marketing haben.
 * Sie müssen über ein Adobe-Cloud-Speicherprojekt verfügen, um eine Verknüpfung mit dem Arbeitsbereich herstellen zu können. Ein Organisations-Admin kann in der Adobe Admin Console eine erstellen.
 
-  Weitere Informationen finden Sie unter [Verwalten von Adobe-](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)<!--ensure this site still works-->
+  Weitere Informationen finden Sie unter [Verwalten von Adobe-](https://helpx.adobe.com/de/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)<!--ensure this site still works-->
 
 
 ## Aktivieren eines Workfront Planning Workspace für GenStudio
