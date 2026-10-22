@@ -99,10 +99,10 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. (Optional) Um die Betreffzeile der E-Mail-Benachrichtigung anzupassen, haben Sie folgende Möglichkeiten:
 
-   * Klicken Sie auf das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) oder **Mehr** Menü ![Mehr ](assets/more-icon.png) rechts neben der Benachrichtigung und wählen Sie **Bearbeiten**.
+   * Klicken Sie auf das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) oder **Mehr** Menü ![Mehr &#x200B;](assets/more-icon.png) rechts neben der Benachrichtigung und wählen Sie **Bearbeiten**.
    * Aktivieren Sie das Kontrollkästchen neben der Benachrichtigung und klicken Sie **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand.
 
-   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für &#x200B;](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
 1. (Optional) Um die Konfiguration für eine E-Mail-Benachrichtigung zu entsperren, sodass Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, haben Sie folgende Möglichkeiten:
 
