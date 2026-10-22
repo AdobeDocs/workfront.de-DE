@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 1%
+source-wordcount: '3574'
+ht-degree: 2%
 ---
 # Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
-
-{{preview-fast-release-general}}
 
 Mit logischen Regeln können Sie die Felder in Ihrem Formular weiter anpassen.
 
@@ -203,17 +201,11 @@ Unter Verwendung der folgenden Bedingung wird das Feld Verkaufs-KPI erst angezei
 
 1. Erstellen Sie die Anzeigebedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
    Die Logik wird angewendet, und die Logiksymbole werden dem Zielfeld und dem Referenzfeld im Formular-Designer hinzugefügt.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die erweiterte Anzeigelogik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen einer Logik zum Überspringen zu einem benutzerdefinierten Formular
 
@@ -283,17 +275,11 @@ Wenn das benutzerdefinierte Formular mit einem Projekt verknüpft ist und der Pr
 
 1. Erstellen Sie die Standardwertbedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
    Die Logik wird angewendet, und die Logiksymbole werden dem Zielfeld und dem Referenzfeld im Formular-Designer hinzugefügt.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die Standardwertlogik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen von Validierungslogik zu einem benutzerdefinierten Formular
 
@@ -334,17 +320,11 @@ Weitere Beispiele für Validierungslogik finden Sie unter [Beispiele für erweit
 
 1. Erstellen Sie die Validierungsbedingung im Editor, einschließlich der Fehlermeldung, die angezeigt werden soll, wenn die Validierung nicht erfüllt ist.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
    Die Logik wird angewendet, und die Logiksymbole werden dem Zielfeld und dem Referenzfeld im Formular-Designer hinzugefügt.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die Validierungslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen von Formatierungslogik zu einem benutzerdefinierten Formular
 
@@ -399,17 +379,11 @@ IF(
 
    Pro Funktion kann nur eine Farboption zusammen mit bis zu drei zusätzlichen Textformatierungsoptionen verwendet werden. Wenn keine Farboption angegeben wird, wird die Standardfarbe des Systems angewendet.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
    Die Logik wird angewendet, und die Logiksymbole werden dem Zielfeld und dem Referenzfeld im Formular-Designer hinzugefügt.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die Formatierungslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen einer Bearbeitbarkeitslogik zu einem benutzerdefinierten Formular
 
@@ -451,15 +425,9 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Erstellen Sie die Bearbeitbarkeitsbedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
    Die Logik wird angewendet, und die Logiksymbole werden dem Zielfeld und dem Referenzfeld im Formular-Designer hinzugefügt.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die Bearbeitbarkeitslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 

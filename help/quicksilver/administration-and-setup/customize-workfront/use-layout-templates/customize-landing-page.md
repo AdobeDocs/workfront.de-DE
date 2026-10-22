@@ -32,25 +32,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Anpassen der Landingpage mithilfe einer Layout-Vorlage
-
-{{preview-fast-release-general}}
 
 Als Adobe Workfront-Administrator können Sie mithilfe einer Layout-Vorlage festlegen, welchen Bereich Benutzerinnen und Benutzer bei jeder Anmeldung bei Workfront sehen sollen.
 
 Benutzer können eine der folgenden Aktionen öffnen:
 
 * Ein ausgewiesenes Workfront-Gebiet
-* Ein benutzerdefiniertes Dashboard.
+* Ein benutzerdefiniertes Dashboard
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -114,11 +112,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * Benutzende
    * Blueprints
    * In Planung
-   * <span class="preview">Benutzerdefinierte Anwendung</span>
+   * Benutzerdefinierte Anwendung
 
      >[!NOTE]
      >
-     ><span class="preview">Benutzerdefinierte Programme, die bereits zum Hauptmenü hinzugefügt wurden, können als Landingpage verwendet werden. Sie müssen separat erstellt werden, bevor sie als Hauptmenü- oder Landingpage-Optionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
+     >Benutzerdefinierte Programme, die bereits zum Hauptmenü hinzugefügt wurden, können als Landingpage verwendet werden. Sie müssen separat erstellt werden, bevor sie als Hauptmenü- oder Landingpage-Optionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
    >[!IMPORTANT]
    >

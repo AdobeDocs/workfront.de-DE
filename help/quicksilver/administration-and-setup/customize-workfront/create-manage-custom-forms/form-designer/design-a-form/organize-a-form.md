@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 4%
 ---
 # Organisieren eines Formulars und Anzeige in der Vorschau
-
-{{preview-fast-release-general}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer organisieren und eine Vorschau davon anzeigen, um zu überprüfen, ob es korrekt eingerichtet ist.
 
@@ -197,11 +195,4 @@ In einem benutzerdefinierten Formular mit einem Abschnittsumbruch, der mit der B
 1. Beginnen Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie in [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Klicken Sie **oben** auf „Vorschau“, um die Darstellung des Formulars bei Verwendung zu überprüfen, und dann auf **Vorschau beenden**, um zur Bearbeitung des Formulars zurückzukehren.
-
-   >[!NOTE]
-   >
-   >In der Produktionsumgebung wird die erweiterte Logik im Vorschaumodus des Formular-Designers nicht unterstützt.
-   >
-   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
-
 
