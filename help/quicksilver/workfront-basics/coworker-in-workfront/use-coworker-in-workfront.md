@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Verwenden von Kollegen in Workfront
 
-1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „Mitarbeiter“ ![KI-Symbol](assets/ai-icon.png).
+1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](assets/coworker-icon.png).
 1. Geben Sie Ihre Frage oder Ihren Prompt in das Panel auf der rechten Seite des Bildschirms ein.
 
 1. Wenn Coworker nicht die gewünschte Antwort liefert, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
