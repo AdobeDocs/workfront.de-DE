@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3425'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Sie können jetzt einen bestehenden Workfront Planning-Arbeitsbereich für die V
 
 Mithilfe von GenStudio Adobe-Speicherprojekten können Sie Ihre Planning-Datensatztypen und -felder den GenStudio Workspace-Datensatztypen und -feldern zuordnen und dann über den Projektumschalter auf die Informationen des Planning-Arbeitsbereichs in GenStudio zugreifen.
 
-Weitere Informationen finden Sie unter [Adobe Workfront Planning Workspace auf GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md).
+Weitere Informationen finden Sie unter [Aktivieren eines Adobe Workfront Planning Workspace für GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
 
 ## Dynamische Aktivierungstypen für Meta
 
@@ -193,7 +193,7 @@ Sie können jetzt im neuen Anfrageerlebnis im Bereich Anfragen eine Planungsanfr
 
 Sie können anderen Benutzern eine der folgenden Berechtigungen für die Anfrage erteilen: Anzeigen, Mitwirken oder Verwalten.
 
-Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilver/planning/requests/share-requests.md)).
+Weitere Informationen finden Sie unter [Freigeben von ](/help/quicksilver/planning/requests/share-requests.md)).
 
 ## Mehrstufige Validierungen für Planungsanfragen einrichten
 
