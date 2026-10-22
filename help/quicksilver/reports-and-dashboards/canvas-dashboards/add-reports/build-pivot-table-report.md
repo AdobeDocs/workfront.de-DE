@@ -5,14 +5,12 @@ title: Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Pivot-Tabellenbericht zu einem Arbeitsflächen-Dashboard hinzufügen, um aggregierte Summen für Ihre Daten in einem Tabellenformat anzuzeigen.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 8%
 ---
 # Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

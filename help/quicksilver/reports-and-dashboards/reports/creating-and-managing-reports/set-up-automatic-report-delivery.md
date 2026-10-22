@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1355'
 ht-degree: 6%
 ---
 # Planen eines automatischen Berichtversands
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -152,7 +150,7 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Wiederholungen</p> </td> 
-      <td> <p>Wählen Sie aus, ob der Bericht täglich, wöchentlich, monatlich oder jährlich bereitgestellt werden soll. <span class="preview">Wählen Sie in der Vorschau aus, ob der Bericht täglich, wöchentlich oder monatlich bereitgestellt werden soll.</span></p> </td> 
+      <td> <p>Wählen Sie aus, ob der Bericht täglich, wöchentlich oder monatlich bereitgestellt werden soll.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Wiederholung alle</p> </td> 
@@ -176,15 +174,11 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>endet am</p> </td> 
-      <td><p>Wählen Sie ein Enddatum für den geplanten Versand aus.</p> <p class="preview">Wählen Sie in der Vorschau ein Datum für das Ende des geplanten Versands aus.</p> <p class="preview">Hinweis: Das Enddatum darf nicht länger als 13 Monate ab dem Tag liegen, an dem Sie die Versandregel erstellen oder aktualisieren.</p></td> 
+      <td><p>Wählen Sie ein Enddatum für den geplanten Versand aus.</p> <p>Hinweis: Das Enddatum darf nicht länger als 13 Monate ab dem Tag liegen, an dem Sie die Versandregel erstellen oder aktualisieren.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Nie</p> </td> 
-      <td><p>Wählen <strong>Nie</strong>, wenn der geplante Versand unbegrenzt dauern soll.</p> <p class="preview">Diese Option ist in Vorschau- oder Fast-Release-Umgebungen nicht mehr verfügbar.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><div class="preview"><p>Aktiv</p></div></td> 
-      <td><div class="preview"><p>Schalten Sie ein, um diesen Versand aktiv zu halten. Neue Sendungen sind standardmäßig aktiv.</p> <p>Wenn das <strong>Endet am</strong>-Datum vergeht, schaltet Workfront diesen Umschalter automatisch aus und deaktiviert ihn. Um den Versand fortzusetzen, aktualisieren Sie <strong> Enddatum </strong> ein Datum in der Zukunft und aktivieren Sie dann den Umschalter wieder.</p></div></td> 
+      <td role="rowheader"><p>Aktiv</p></td> 
+      <td><p>Schalten Sie ein, um diesen Versand aktiv zu halten. Neue Sendungen sind standardmäßig aktiv.</p> <p>Wenn das <strong>Endet am</strong>-Datum vergeht, schaltet Workfront diesen Umschalter automatisch aus und deaktiviert ihn. Um den Versand fortzusetzen, aktualisieren Sie <strong> Enddatum </strong> ein Datum in der Zukunft und aktivieren Sie dann den Umschalter wieder.</p></td> 
      </tr> 
     </tbody> 
    </table>

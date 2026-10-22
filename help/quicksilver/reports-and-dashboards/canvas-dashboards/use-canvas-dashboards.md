@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 4%
 ---
 # Verwenden von Arbeitsflächen-Dashboards
@@ -110,9 +110,9 @@ Sie können Tabellenberichte in Dashboards vorübergehend anpassen. Diese Änder
    >
    >Diese Änderungen gelten nur für Ihre aktuelle Sitzung und wirken sich nicht auf die ursprüngliche Berichtskonfiguration aus. Um diese Änderungen dauerhaft vorzunehmen, müssen Sie den Bericht bearbeiten.
 
-<div class="preview">
 
-### Aufschlüsselung der Pivot-Tabellendaten in der Vorschau
+
+### Drilldown in Pivot-Tabellendaten
 
 Sie können auf einen Wert in einem Pivot-Tabellenbericht klicken, um einen Drilldown durchzuführen und die einzelnen Datensätze anzuzeigen, aus denen dieser aggregierte Wert besteht.
 
@@ -126,7 +126,7 @@ Sie können auf einen Wert in einem Pivot-Tabellenbericht klicken, um einen Dril
 
    Die Drilldown-Tabelle zeigt die Spalten an, die der Ersteller des Berichts in den Drilldown-Spalteneinstellungen konfiguriert hat. Weitere Informationen finden Sie unter [Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

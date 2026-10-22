@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # Einheitliche Prüfung und Genehmigung - Übersicht
-
-{{highlighted-preview}}
 
 Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
 Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
@@ -110,9 +108,9 @@ Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
 
 ## Vollständiges Audit-Protokoll
 
-<span class="preview">Einheitliche Prüfung und Genehmigung umfasst eine umfassende Auditprotokollierung, die einen vollständigen Governance-Trail über Workfront und Frame.io hinweg erstellt. Änderungs-Trackinglogs erfassen Genehmigungsentscheidungen, die im Viewer-Lebenszyklus von Frame.io und Dokumenten getroffen wurden. Jeder Protokolleintrag enthält die Attribution im Quellsystem (Workfront oder Frame.io) neben den standardmäßigen Workfront-Überwachungsfeldern: Datum und Uhrzeit, Protokolltyp, Benutzername, Aktion und Objektname. Frame.io-Viewer-Kommentare sind nicht in Audit-Protokollen enthalten.</span>
+Einheitliche Prüfung und Genehmigung umfasst eine umfassende Auditprotokollierung, die einen vollständigen Governance-Trail über Workfront und Frame.io hinweg erstellt. Änderungs-Trackinglogs erfassen Genehmigungsentscheidungen, die im Viewer-Lebenszyklus von Frame.io und Dokumenten getroffen wurden. Jeder Protokolleintrag enthält die Attribution im Quellsystem (Workfront oder Frame.io) neben den standardmäßigen Workfront-Überwachungsfeldern: Datum und Uhrzeit, Protokolltyp, Benutzername, Aktion und Objektname. Frame.io-Viewer-Kommentare sind nicht in Audit-Protokollen enthalten.
 
-<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)</span>
+Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Leistungsstarkes Projektmanagement in Workfront
 
@@ -360,17 +358,11 @@ Der Frame.io-Viewer enthält alle visuellen Markup-Tools, einschließlich Freiha
 
 Kommentare und Anmerkungen verbleiben im Frame.io-Viewer, damit sie ihren vollständigen Kontext beibehalten, einschließlich Zeitstempeln und visuellen Markierungen. Dies kann sich in zukünftigen Versionen ändern.
 
-<span class="preview">
-
-In der Vorschau zeigt das Bedienfeld „Kommentare“ in Workfront eine Meldung an, die Sie darüber informiert, wenn in Frame.io neue Kommentare verfügbar sind.</span>
-
-<div class="preview">
+Das Bedienfeld „Kommentare“ in Workfront zeigt eine Meldung an, die Sie darüber informiert, wenn neue Kommentare in Frame.io verfügbar sind.
 
 **Wer kann die Frame.io-Kommentaranzeige in Workfront sehen?**
 
 Nur Benutzer, die diese Kommentare bereits in Frame.io sehen konnten, können den Indikator sehen. Wenn Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie diese für Kommentare zum Dokument anzeigen. Wenn Sie keine Frame.io Enterprise-Lizenz haben, sehen Sie sie erst, wenn eine Genehmigung für das Dokument vorliegt. Genehmigungen machen alle vorherigen Kommentare zu dem Dokument auch für Sie sichtbar.
-
-</div>
 
 **Ist es möglich, zu einer heruntergeladenen Version eines Assets (z. B. einer PDF) Kommentare hinzuzufügen?**
 

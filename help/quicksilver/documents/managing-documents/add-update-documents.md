@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 8%
 ---
 # Hinzufügen einer Aktualisierung zu einem Dokument
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
    ![Bedienfeld „Neue Dokumentkommentare“](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### Frame.io-Kommentaranzeige in Vorschau
+### Frame.io Kommentaranzeige
 
 Wenn ein Genehmigungs-Workflow für ein Dokument erstellt wird, können Benutzer im Frame.io-Viewer Kommentare hinterlassen und Anmerkungen vornehmen. Diese Kommentare werden nicht im Workfront-Kommentarbedienfeld angezeigt, Sie können sie jedoch im Frame.io-Viewer anzeigen.
 
@@ -125,5 +121,3 @@ Das Bedienfeld „Kommentare“ in Workfront zeigt eine Meldung an, die Sie dar�
 >[!NOTE]
 >
 >* Wenn Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie Kommentare im Frame.io-Viewer ohne Genehmigungs-Workflow anzeigen.
-
-</div>
