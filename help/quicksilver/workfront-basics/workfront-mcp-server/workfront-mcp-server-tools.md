@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
+source-wordcount: '3774'
 ht-degree: 4%
 ---
 
@@ -42,6 +42,51 @@ Wenn Ihr Unternehmen nicht über die Berechtigung für einen Produktbereich verf
 
 In den folgenden Tabellen wird angegeben, zu welchem Produktbereich die einzelnen Tools gehören.
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Toolsets im Workfront MCP-Server
+
+>[!IMPORTANT]
+>
+>Toolsets werden ausgewählt, wenn Sie Ihre Verbindung mit dem Workfront MCP-Server konfigurieren.
+>Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Mit Toolsets können Sie die Workfront-Funktionen auswählen, die Ihr KI-Client benötigt, anstatt den vollständigen MCP-Katalog bereitzustellen. Dies ist nützlich für Clients, die alle Tool-Definitionen im Voraus laden, innerhalb der Tool-Anzahl bleiben oder von einer fokussierteren Tool-Liste profitieren müssen.
+
+Sie können Toolsets angeben, indem Sie den `toolsets` Abfrageparameter zur Workfront MCP-Server-URL hinzufügen.
+
+>[!BEGINSHADEBOX]
+
+Beispiel:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+In diesem Beispiel werden die `core` und `comment-stream` Funktionen verfügbar gemacht. Die `core` wird automatisch einbezogen, wenn eine Teilmenge ausgewählt wird.
+
+>[!ENDSHADEBOX]
+
+Zu den verfügbaren Toolsets gehören:
+
+* `core` - Das Workfront-Basis-Toolset, das automatisch eingefügt wird, wenn Sie eine Untergruppe von Toolsets auswählen.
+* `comment-stream` - Tools für Kommentare und Diskussionen in Workflows.
+* `planning` - Tools für die Planungsfunktionen in Workfront.
+* `approvals` - Tools für Genehmigungs-Workflows.
+
+Um den vollständigen autorisierten Katalog offenzulegen, lassen Sie den Parameter weg oder verwenden Sie `toolsets=all`.
+
+Sie können optionale Gruppen mit Kommas wie `toolsets=core,planning,approvals` kombinieren.
+
+Die Auswahl gilt für Tools, Ressourcen und Ressourcenvorlagen, Eingabeaufforderungen und MCP-Apps, die Workfront-Tools in ihrer Benutzeroberfläche anzeigen. Backend-spezifische Server-Anweisungen folgen ebenfalls der ausgewählten Toolset-Konfiguration.
+
+Toolsets ändern die Berechtigungen nicht. Ihre Workfront-Zugriffsebene und -Objektberechtigungen werden weiterhin erzwungen.
+
+Wenn der KI-Client auf eine andere Domain zugreifen soll, aktualisieren Sie die Verbindungskonfiguration, um das entsprechende Toolset auszuwählen.
+
+</div>
 
 ## Lese- und Schreibaktionen
 
