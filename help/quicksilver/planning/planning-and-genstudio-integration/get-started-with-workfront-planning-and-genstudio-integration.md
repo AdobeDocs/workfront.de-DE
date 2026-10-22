@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 3%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 3%
 
 
 # Erste Schritte mit der Integration von Adobe Workfront-Planung und Adobe GenStudio for Performance Marketing
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +194,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -350,6 +352,7 @@ Beachten Sie beim Arbeiten mit Aktivierungen Folgendes:
 * Zu den Aktivierungsdatensätzen gehören:
 
   * Ein Tracking-ID-Feld, das den aufgelösten Wert für jedes Segment einer Tracking-ID-Formel zusammen mit Fehlern speichert.
+  * Ein dynamisches Kreativbild und ein dynamischer Aktivierungstyp für kreative Videos, um Informationen zu Meta Dynamic Creative-Objekten zu speichern.
   * Eine Statusauswahl „Wird generiert“, die anzeigt, dass die Tracking-ID-Generierung ausgeführt wird. Der Aktivierungsstatus wird auf „Entwurf“ zurückgesetzt, wenn die Generierung abgeschlossen wird oder fehlschlägt. Vorhandene Aktivierungen sind davon nicht betroffen.
 
 

@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 2%
@@ -269,7 +269,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
+   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
    * [Formular veröffentlichen](#publish-form) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
 
 ### Konfigurieren von Formulareinstellungen
@@ -335,10 +335,30 @@ So konfigurieren Sie Formulareinstellungen:
    >
    ><span class="preview">Die granulare Berechtigung, die Sie hier abwählen, wird abgeblendet, wenn Sie die Anfrage für diese Benutzer auf der Anfrageseite freigeben. </span>
 
-1. <span class="preview">Klicken Sie auf **Speichern**.</span>
-
-
 1. Fahren Sie mit [Formular veröffentlichen](#publish-form) fort.
+
+1. Klicken Sie auf **Speichern**.
+
+
+
+<!--
+
+Add these before Continue to Publish form above:
+
+1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
+
+1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
+
+   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
+
+   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
+
+   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
+-->
 
 ### Formular veröffentlichen
 
@@ -354,7 +374,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.
