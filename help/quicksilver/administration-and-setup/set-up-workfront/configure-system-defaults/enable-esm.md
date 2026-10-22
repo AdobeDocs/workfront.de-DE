@@ -7,9 +7,9 @@ description: Sie können Adobe Cloud Storage für Ihr Unternehmen aktivieren, um
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 5%
 
 Adobe Cloud-Speicher ist eine einheitliche, Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient. In diesem Artikel wird beschrieben, wie Sie die Adobe-Cloud-Datenspeicherung als standardmäßige Speicheroption für Ihr gesamtes Unternehmen oder für bestimmte Gruppen aktivieren.
 
-Dies ist die einzige Aktion, die das neue Erlebnis aktiviert: Nach der Aktivierung verwenden neue Projekte den Adobe-Cloud-Speicher, der den Frame.io-Viewer und einheitliche Genehmigungen enthält. Es ändert sich nichts, bis Sie die Adobe-Cloud-Datenspeicherung aktivieren.
+>[!IMPORTANT]
+>
+>Ihre Umgebung ändert sich erst, wenn Sie die Adobe-Cloud-Datenspeicherung im Bereich „Setup“ von Workfront aktivieren.<br>
+>Sobald Sie die Adobe-Cloud-Datenspeicherung aktiviert haben, verwenden nur noch neue Projekte den Adobe-Cloud-Speicher, der die Viewer-Genehmigungen Frame.io und Unified Approvals enthält. Ihre vorhandenen Projekte nutzen weiterhin ihren aktuellen Speicher und bleiben unberührt.
 
 Da Sie den zeitlichen Ablauf steuern, können Sie das Erlebnis testen, Ihre Workfront Fusion-Szenarien aktualisieren und Berichtsänderungen planen, bevor jemand damit arbeitet. Weitere Informationen zu den Unterschieden und zur Planung des Rollouts finden Sie unter [Wechseln zu Workfront auf Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 

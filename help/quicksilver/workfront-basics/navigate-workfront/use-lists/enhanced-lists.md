@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -83,7 +83,6 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | <span class="preview">Listen der Aktionen und verfolgten Felder in den Aktualisierungs-Feeds</span> | <ul><li><span class="preview">Setup > Schnittstelle > Aktualisierungs-Feeds > Registerkarte „Getrackte Felder“</span></li> <li><span class="preview">Setup > Benutzeroberfläche > Aktualisierungsfeeds > Registerkarte „Aktionen“</span></li></ul> |
 | <span class="preview">Liste der Scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">Liste der Risikotypen</span> | <span class="preview">Setup > Risikotypen</span> |
-| <span class="preview">Liste der Ereignisbenachrichtigungen</span> | <ul><li><span class="preview">Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen</span></li><li><span class="preview">Seite „Gruppendetails“ > Ereignisbenachrichtigungen</span></li></ul> |
 | Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
 | <span class="preview">Liste der Standorte</span> | <span class="preview">Setup > Standorte</span> |
 | Liste der Übersetzungen | Setup > Lokalisierung |
@@ -104,6 +103,8 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
