@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 4%
@@ -41,10 +41,6 @@ Die Tools, die in Ihrer KI-Agentenplattform angezeigt werden, hängen von den Wo
 Wenn Ihr Unternehmen nicht über die Berechtigung für einen Produktbereich verfügt, werden die zugehörigen Tools nicht in der Toolliste für diese Verbindung angezeigt. Wenn eine KI-Agent-Plattform versucht, ein Tool aufzurufen, das für Ihre Berechtigungen nicht verfügbar ist, wird die Anfrage blockiert.
 
 In den folgenden Tabellen wird angegeben, zu welchem Produktbereich die einzelnen Tools gehören.
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Toolsets im Workfront MCP-Server
 
@@ -86,7 +82,6 @@ Toolsets ändern die Berechtigungen nicht. Ihre Workfront-Zugriffsebene und -Obj
 
 Wenn der KI-Client auf eine andere Domain zugreifen soll, aktualisieren Sie die Verbindungskonfiguration, um das entsprechende Toolset auszuwählen.
 
-</div>
 
 ## Lese- und Schreibaktionen
 
