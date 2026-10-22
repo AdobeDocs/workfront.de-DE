@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 4%
 ---
 # Bearbeiten von Eintragstypen
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -185,7 +185,7 @@ Old:
 
 1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet.
 
-   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ ](assets/edit-record-type-box-appearance-tab.png)
 
    Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
@@ -203,7 +203,7 @@ Old:
 
 1. Klicken Sie auf **Speichern**.
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
    Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 
@@ -222,8 +222,7 @@ Old:
    >
    >![Globales Suchfeld](assets/global-search-box.png)
 
-1. <span class="preview">(Optional) Zum Hinzufügen, Bearbeiten, Deaktivieren oder Löschen von Geschäftsregeln für Datensatztypen gehen Sie zur Seite „Datensatztyp“ und klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**. </span>
+1. (Optional) Zum Hinzufügen, Bearbeiten, Deaktivieren oder Löschen von Geschäftsregeln für Datensatztypen gehen Sie zur Seite „Datensatztyp“ und klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**.
+Geschäftsregeln sind Bedingungen, die für den Datensatztyp festgelegt werden und definieren, wann Datensätze dieses Typs bearbeitet oder gelöscht werden können.
 
-   <span class="preview">Geschäftsregeln sind Bedingungen, die für den Datensatztyp festgelegt werden und definieren, wann Datensätze dieses Typs bearbeitet oder gelöscht werden können. </span>
-
-   <span class="preview"> Informationen finden Sie unter [Erstellen von Datensatztypen für Geschäftsregeln](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>
+   Weitere Informationen finden Sie [Erstellen von Datensatztypen und Geschäftsregeln](/help/quicksilver/planning/architecture/configure-business-rules.md).

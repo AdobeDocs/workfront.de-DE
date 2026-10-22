@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 2%
+source-wordcount: '1150'
+ht-degree: 3%
 ---
 # Freigeben von Arbeitsbereichen
 
+<!--
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -173,11 +175,7 @@ Old:
 * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Sie müssen Ansichten separat freigeben.
 * Workspace-Berechtigungen werden für Datensatztypen als geerbte Berechtigungen angezeigt.
 
-<div class="preview">
-
 * Sie können den Eigentümer eines Arbeitsbereichs in einen aktiven, standardmäßig lizenzierten Benutzer ändern. Sie können eine Gruppe, ein Team, eine Firma oder ein Aufgabengebiet nicht zum Besitzer eines Arbeitsbereichs machen.
-
-</div>
 
 
 &lt;!—!—Überprüfen Sie die obigen Punkte bei der Produktion: MÜSSEN Sie sie durch einen AKTIVEN Benutzer ersetzen?? Oder inaktiv ist auch in Ordnung - hatte keine Umgebung—>
@@ -232,16 +230,11 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
      Informationen zu Berechtigungsebenen und den Aktionen, die Benutzende für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-   <div class="preview">
-
    * Besitzer bzw. Besitzerin
 
      Sie können nur einen anderen aktiven Benutzer mit Standardlizenz zum Besitzer eines Arbeitsbereichs machen. Der ursprüngliche Eigentümer verbleibt mit den Berechtigungen zum Verwalten im Arbeitsbereich.
 
-   </div>
-
-1. <span class="preview">(Bedingt) Wenn Sie den Workspace-Inhaber ändern möchten, klicken Sie zum Bestätigen auf **Eigentümer ändern**.</span>
-
+1. (Bedingt) Wenn Sie den Workspace-Inhaber ändern möchten, klicken Sie zur Bestätigung auf **Besitzer ändern**.
 
 1. Klicken Sie **Link kopieren**, um einen Link in den Arbeitsbereich in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.

@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -156,31 +156,25 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
 * Wenn Sie ein Anfrageformular übermitteln, um Datensätze aus einem globalen Datensatztyp zu erstellen, werden die neuen Datensätze je nachdem, von wo aus Sie sie übermitteln, entweder im primären oder im sekundären Datensatztyp gespeichert.
 
-  Je nachdem, welche Umgebung Sie zum Senden von Anfragen und Erstellen von Datensätzen verwenden, gibt es die folgenden Szenarien, wenn Sie Formulare für Anfrageformulare senden, die mit globalen Datensatztypen verknüpft sind:
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  Die folgenden Szenarien bestehen, wenn Sie Formulare für Anfrageformulare senden, die mit globalen Datensatztypen verknüpft sind:
 
-  * In der Produktionsumgebung:
+  * Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite des sekundären Datensatztyps angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben.
+  * Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.
+  * Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.
 
-    * Wenn Sie ein Anfrageformular übermitteln, das mit einem globalen Datensatztyp verknüpft ist, und zwar mithilfe einer in diesem Artikel beschriebenen Methode, werden die Datensätze auf der Seite des primären Datensatztyps angezeigt.
-
-  * <span class="preview"> In der Vorschau-Umgebung gibt es die folgenden Szenarien: </span>
-
-    <div class="preview">
-
-    * Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite des sekundären Datensatztyps angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben.
-    * Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.
-    * Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
-
-<div class="preview">
 
 * Sie können eine Anfrage für andere freigeben, nachdem sie übermittelt wurde.
 
   Weitere Informationen finden Sie unter [Planungsanfragen freigeben](/help/quicksilver/planning/requests/share-requests.md).
-
-</div>
 
 
 <!--
@@ -191,7 +185,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -223,15 +217,19 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
    >[!TIP]
    >
-   ><span class="preview">Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen &#x200B;](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   >Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-1. (Optional und bedingt) Klicken Sie auf **Formular ausfüllen**, damit KI das Formular für Sie ausfüllt. Workfront füllt die Formularfelder basierend auf Informationen aus früheren Anfragen aus.
+1. (Optional und bedingt) Klicken Sie **Formular ausfüllen** um eine Datei anzuhängen und KI das Formular mit Informationen innerhalb der Datei für Sie ausfüllen zu lassen. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >Ihr Unternehmen muss **KI-Formularausfüllen** im Bereich Systemeinstellungen zulassen, um die Funktion „Formular ausfüllen“ verwenden zu können.
+   >* Ihr Unternehmen muss **KI-Formularausfüllen** im Bereich Systemeinstellungen zulassen, um die Funktion „Formular ausfüllen“ verwenden zu können.
    >
-   >Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >     Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >
+   >* <span class="preview">Wenn der Workspace-Manager eine Standardaufforderung zum Anfrageformular hinzugefügt hat, füllt AI das Formular mit Informationen, die auf den in der Standardaufforderung festgelegten Regeln basieren.
+   >
+   >     Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 
@@ -286,7 +284,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
@@ -475,7 +473,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie **Löschen** im Feld **Dauerhaft löschen** zur Bestätigung.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.

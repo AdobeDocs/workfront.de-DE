@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 3%
+source-wordcount: '4138'
+ht-degree: 2%
 ---
 # Verwalten der Tabellenansicht
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Verwalten einer Tabellenansicht:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   ![Beispiel für eine Tabellenansicht](assets/table-view-example-g-list.png)
+   ![Beispiel für eine Tabellenansicht](assets/table-view-example.png)
 
 1. (Optional) Klicken Sie auf **Zeilenhöhe** und wählen Sie dann eine der folgenden Optionen, um die Höhe der Tabellenzeilen zu ändern:
    * Kurz
@@ -303,7 +305,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -333,9 +335,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
      * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
      * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
-     * <span class="preview">**NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.</span>
-
-   <div class="preview">
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.
 
    * Erweitern Sie für Datumsfelder das Dropdown-Menü des Aggregators unten in den Spalten und wählen Sie aus den folgenden Optionen:
 
@@ -351,17 +351,12 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
      * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
 
-   </div>
-
    Beachten Sie beim Arbeiten mit Aggregatoren Folgendes:
 
    * Die Aggregatorzeile in der Spalte wird eingefroren, wenn sie Werte anzeigt, und ist Teil der Anzeigeeinstellungen.
    * Als Ansichts-Manager können Sie den Aggregator auswählen. Dieser wird für die Ansicht freigegeben, wenn Sie die Ansicht für andere freigeben.
    * Als Viewer können Sie den Aggregator ändern, er wird jedoch nicht mit der Ansicht gespeichert.
    * Öffentliche freigegebene Ansichten werden mit den gespeicherten Aggregatoren geteilt, die nicht geändert werden können.
-
-   <div class="preview">
-
    * Die folgenden Feldtypen haben keinen Aggregator:
 
      * Erstellt von
@@ -369,7 +364,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      * Eintrags-ID
    * Formelfelder und Lookup-Felder verfügen über die Aggregatoren, die ihrem Feldformat entsprechen.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansichtsberechtigungen oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-   Dem neuen Datensatz </span> auch ein Standardminiaturbild <span class="preview">und -farbe) hinzugefügt.
+   Dem neuen Datensatz werden auch eine Standardminiaturansicht und eine Standardfarbe hinzugefügt.
 
    >[!TIP]
    >
-   ><span class="preview">Wenn ein Datensatz ungelesene Kommentare enthält, **oben rechts im Primärfeld des Datensatzes ein Indikator „Neuer Kommentar** angezeigt.</span>
+   >Wenn ein Datensatz ungelesene Kommentare enthält **wird oben rechts im Primärfeld des Datensatzes** Indikator „Neuer Kommentar“ angezeigt.
    >
    >![Neues Kommentarsymbol in der Tabellenansicht](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
    >
    >Die Änderungen an der Zeilenreihenfolge sind für alle Benutzer sichtbar, die in derselben Ansicht auf den Datensatztyp zugreifen.
    >
-   ><span class="preview">In der Drag-and-Drop-Zeile zeigt ein Zahlenindikator die Anzahl der ausgewählten Datensätze an, wenn mehrere Datensätze vorhanden sind. </span>
+   >In der Drag-and-Drop-Zeile zeigt ein Zahlenindikator die Anzahl der ausgewählten Datensätze an, wenn mehrere Datensätze vorhanden sind.
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatz und dann auf **Miniaturansicht bearbeiten**, um die Miniaturansicht zu bearbeiten.
-1. Klicken Sie **der Produktionsumgebung oben** der Tabelle auf „Felder“
-
-   ODER
-
-   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds</span> und wählen Sie dann den Umschalter für das Feld **Miniatur**, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
+1. Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für **Feld** Miniatur“, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Klicken Sie **Felder** oben in der Tabelle</span>
+1. Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für **Feld** Farbe“, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
-   ODER
-   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für das Feld **Farbe** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert. </span>
-
-1. <span class="preview"> (Optional und bedingt) Wenn Sie die Einstellung **Farbe** aktiviert haben, klicken Sie auf die Farbleiste links neben dem Primärfeld des Datensatzes und wählen Sie eine Farbe aus den Registerkarten **Farbfelder** oder **Benutzerdefiniert** aus und klicken Sie dann auf eine Stelle außerhalb des Felds, um es zu schließen. Die Farbe wird sofort angewendet.</span>
-
-<div class="preview">
+1. (Optional und bedingt) Wenn Sie die Einstellung **Farbe** aktiviert haben, klicken Sie auf die Farbleiste links neben dem Primärfeld des Datensatzes und wählen Sie eine Farbe aus den Registerkarten **Farbfelder** oder **Benutzerdefiniert** aus und klicken Sie dann auf eine Stelle außerhalb des Felds, um es zu schließen. Die Farbe wird sofort aufgetragen.
 
 ![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
 
 Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Filter hinzufügen {#add-filters-1}
 
@@ -514,10 +497,10 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
+            <td><p>Ist ein beliebiges von</p>
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p> oder <span class="preview"><p>Ist keines von</p></span>
+            <p>Ist keines von</p>
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -601,7 +584,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -663,7 +646,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.

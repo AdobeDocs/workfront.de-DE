@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 2%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -51,10 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Erstellen von Feldern
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -223,7 +224,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -307,15 +308,10 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
 1. (Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Löschen**, um das Feld zu löschen.
 
    Weitere Informationen finden Sie unter [Felder löschen](/help/quicksilver/planning/fields/delete-fields.md).
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. (Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Feld freigeben**, um das Feld freizugeben.
 
-1. <span class="preview">(Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Feld freigeben**, um das Feld freizugeben. </span>
-
-   </span>Weitere Informationen finden Sie unter [Freigeben von Feldern](/help/quicksilver/planning/access/share-fields.md). </span>
+   Weitere Informationen finden Sie unter [Felder freigeben](/help/quicksilver/planning/access/share-fields.md).
 
 ### Einzeiliger Text {#single-line-text}
 
@@ -645,7 +641,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.

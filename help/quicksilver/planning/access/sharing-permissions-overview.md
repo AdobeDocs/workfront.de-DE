@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 | Ansicht | ✓ | ✓ | ✓ |
 
 
-<span class="preview">Zusätzlich zu den in der obigen Tabelle beschriebenen Berechtigungen können Sie bei der Freigabe auch den Eigentümer eines Arbeitsbereichs ändern. Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).</span>
+Zusätzlich zu den in der obigen Tabelle beschriebenen Berechtigungen können Sie bei der Freigabe auch den Eigentümer eines Arbeitsbereichs ändern. Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Berechtigungen für Datensatztypen
@@ -263,25 +263,22 @@ Die folgenden Szenarien sind vorhanden:
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 
+<!--
 
-#### Berechtigungen zum Aufzeichnen von Feldern in der Produktionsumgebung
+#### Permissions to record fields in the Production environment
 
 
-Berechtigungen zum Bearbeiten von Feldeinstellungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-Die folgenden Berechtigungen beziehen sich auf die Feldeinstellungen und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | Verwalten | Mitwirken | Ansicht |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Erstellen | ✓ |            |       |
-| Löschen | ✓ |            |       |
-| Bearbeiten | ✓ |            |       |
-| Ansicht | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### Berechtigungen zum Aufzeichnen von Feldern in der Vorschau-Umgebung
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 Berechtigungen für Feldeinstellungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
@@ -308,8 +305,6 @@ Sie können den Feldwerten die folgenden Berechtigungen erteilen, indem Sie ein 
 | Ansicht | ✓ | ✓ |
 
 Benutzer müssen mindestens über Anzeigeberechtigungen für den Datensatztyp verfügen, um auf die Felder zugreifen zu können.
-
-</div>
 
 ### Berechtigungen für Ansichten
 

@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ So verwalten Sie eine Zeitleisten -Ansicht:
      * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
      * **Monat**: Zeigt Wochen und Tage an.
 
-     >[!TIP]
-     >
-     >Je nachdem, welche Umgebung Sie für den Zugriff auf die Zeitleisten -Ansicht verwenden, sind die folgenden Szenarien vorhanden:
-     >
-     >* In der Produktionsumgebung zeigt die Zeitleisten -Ansicht nur benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
-     >
-     >* <span class="preview">In der Vorschau -Umgebung zeigt die Zeitleisten -Ansicht standardmäßig benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale und Wochen im Bereich „Setup“ aktiviert, zeigt die Zeitleisten-Ansicht die benutzerdefinierten Quartale und Wochen im Quartal und Monat an. </span>
-     >
+     In der Zeitleisten -Ansicht werden standardmäßig benutzerdefinierte Wochen entsprechend den klassischen Quartalen angezeigt. Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale und Wochen im Bereich „Setup“ aktiviert, werden in der Zeitleisten-Ansicht die benutzerdefinierten Quartale und Wochen im Quartals- und Monatsmodus angezeigt.
+
+     Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
 
 
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
+            <td><p>Ist ein beliebiges von</p>
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p> oder <span class="preview"><p>Ist keines von</p></span>
+            <p><p>Ist keines von</p>
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -509,9 +506,9 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Gruppierung** Symbol ![Gruppierungssymbol](assets/grouping-icon.png) in der Symbolleiste, um das Feld **Datensätze gruppieren nach** zu öffnen, und klicken Sie dann auf **Alle erweitern**, um alle Gruppierungen zu erweitern, oder **Alle reduzieren**, um alle Gruppierungen auszublenden und nur die benötigten manuell auszublenden. </span>
-1. <span class="preview">(Optional und bedingt) Ziehen Sie die Trennlinie für das linke Bedienfeld per Drag-and-Drop in die Anzeige des Navigationsbereichs, um ihre Breite anzupassen. Die Breite des Bedienfelds jedes Benutzers wird sitzungsübergreifend gespeichert, mit einer Standardbreite für Erstbenutzer.</span>
-1. <span class="preview">(Optional) Bewegen Sie bei langen Gruppierungsnamen den Mauszeiger über die Zeile einer Gruppierung, um den vollständigen Namen der Gruppierung in einer QuickInfo anzuzeigen.</span>
+1. (Optional) Klicken Sie auf das Symbol **Gruppierung** ![Gruppierungssymbol](assets/grouping-icon.png) in der Symbolleiste, um das **&quot;** Datensätze gruppieren nach“ zu öffnen. Klicken Sie dann auf **Alle erweitern**, um alle Gruppierungen zu erweitern, oder **Alle reduzieren**, um alle Gruppierungen zu reduzieren und nur die benötigten Gruppierungen manuell auszublenden.
+1. (Optional und bedingt) Ziehen Sie die Trennlinie für das linke Bedienfeld per Drag-and-Drop in die Anzeige des Navigationsbereichs, um ihre Breite anzupassen. Die Breite des Bedienfelds jedes Benutzers wird sitzungsübergreifend gespeichert, mit einer Standardbreite für Erstbenutzer.
+1. (Optional) Bewegen Sie bei langen Gruppierungsnamen den Mauszeiger über die Zeile einer Gruppierung, um den vollständigen Namen der Gruppierung in einer QuickInfo anzuzeigen.
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
@@ -525,9 +522,8 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
-<div class="preview">
 
 ### Sortierung hinzufügen
 
@@ -568,12 +564,6 @@ So fügen Sie eine Sortierung in der Zeitleisten -Ansicht hinzu:
 
    Die Sortierung wird sofort angewendet.
 1. Klicken Sie auf eine beliebige Stelle auf der Seite, um den Sortierkasten zu schließen.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### Einstellungen für die Zeitleisten-Ansicht bearbeiten {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* Sie können die Farbe nur Feldern mit farbcodierten Optionen zuordnen. Sie können beispielsweise die Farbe mit Statusfeldern oder Feldern mit Optionen abgleichen, die mit Farben verknüpft sind.
    >    
-   >* In der Produktionsumgebung können Sie die Farbe nicht mit verbundenen Datensätzen oder deren Suchfeldern abgleichen. <span class="preview">In der Vorschau-Umgebung können Sie die Farbe mit verbundenen Datensätzen abgleichen, jedoch nicht mit ihren Suchfeldern. </span>
+   >* Sie können die Farbe mit verbundenen Datensätzen abgleichen, jedoch nicht mit ihren Suchfeldern.
 
-
-   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
    Wenn Sie nach Feldern ohne farbcodierte Optionen gruppieren, bleibt die Gruppierungsfarbe grau.
 
@@ -667,8 +655,8 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    * **Datensatztyp**: Die Farbe der Datensätze entspricht der Farbe des ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
+   * **Datensatz**: Die Farbe entspricht den Farben der Datensätze.
    * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn auf die Zeitleisten -Ansicht keine Gruppierungen angewendet wurden.
-   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt. <span class="preview">Die Option „Ohne“ wurde aus der Vorschau-Umgebung entfernt.</span>
 
 1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdown-Menü **Übereinstimmung der Datensatzfarbe mit** aus.
 
@@ -718,7 +706,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

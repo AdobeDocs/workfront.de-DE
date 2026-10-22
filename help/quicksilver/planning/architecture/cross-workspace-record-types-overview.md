@@ -26,16 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1831'
 ht-degree: 0%
 ---
 # Übersicht über Workspace-übergreifende Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,8 +208,8 @@ These two capabilities will come later - and edit some of the bullets below afte
   * Automatisierungen erstellen und verwalten
   * Anfrageformulare erstellen und verwalten
 
-    <span class="preview">Sie können Datensätze für einen sekundären Datensatztyp mithilfe eines Anfrageformulars auf der Seite „Sekundärer Datensatztyp“ erstellen oder indem Sie explizit angeben, in welchem Arbeitsbereich der Datensatz gespeichert werden soll, wenn Sie ein Anfrageformular ausfüllen, das für den primären globalen Datensatztyp erstellt wurde, und das Workspace-Feld aktualisieren.
-    Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).</span>
+    Sie können Datensätze für einen sekundären Datensatztyp mithilfe eines Anfrageformulars auf der Seite „Sekundärer Datensatztyp“ erstellen oder indem Sie explizit angeben, in welchem Arbeitsbereich der Datensatz gespeichert werden soll, wenn Sie ein Anfrageformular ausfüllen, das für den primären globalen Datensatztyp erstellt wurde, und das Workspace-Feld aktualisieren.
+    Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 
 * Datensätze, die in einem sekundären Arbeitsbereich hinzugefügt wurden, sind in den folgenden Arbeitsbereichen sichtbar, wenn Sie über Anzeigen- oder höhere Berechtigungen für diese Arbeitsbereiche verfügen:

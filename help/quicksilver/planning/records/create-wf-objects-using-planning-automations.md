@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
@@ -44,6 +44,8 @@ ht-degree: 1%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
+
+{{planning-important-intro}}
 
 Nachdem Sie Automatisierungen in Adobe Workfront Planning konfiguriert und aktiviert haben, können Sie sie zum Erstellen von Objekten in Adobe Workfront oder Datensätzen in Adobe Workfront Planning verwenden.
 
@@ -189,7 +191,7 @@ Old:
 
   `[ Name of the record ] Name of the field choice`
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
 
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
 

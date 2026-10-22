@@ -23,18 +23,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 20%
+source-wordcount: '137'
+ht-degree: 29%
 ---
 # Informationen zum Zugriff auf Adobe Workfront-Planung: Artikelindex
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -51,10 +51,7 @@ Die folgenden Artikel enthalten Informationen darüber, welchen Zugriff Ihre Ben
 * [Freigeben von Eintragstypen](/help/quicksilver/planning/access/share-record-types.md)
 * [Freigeben von Einträgen](/help/quicksilver/planning/access/share-records.md)
 * [Festlegen von Standardberechtigungen für Datensätze](/help/quicksilver/planning/access/set-default-record-permissions.md)
-
-<div class="preview">
-
 * [Workfront-Planungsfelder freigeben](/help/quicksilver/planning/access/share-fields.md)
 
-</div>
+
 

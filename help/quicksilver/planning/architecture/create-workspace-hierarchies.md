@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 2%
@@ -40,6 +40,8 @@ ht-degree: 2%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+{{planning-important-intro}}
 
 Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen Datensatztypen erstellen.
 
@@ -155,7 +157,7 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
 1. (Bedingt) Wenn das Feld **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
-   1. Klicken Sie **&#x200B;**&#x200B;Feld **Neue Hierarchie** auf „Abbrechen“.
+   1. Klicken Sie **** Feld **Neue Hierarchie** auf „Abbrechen“.
    1. Klicken Sie links neben dem Arbeitsbereichsnamen auf den Rückwärtspfeil und dann auf die Karte des Datensatztyps, den Sie als übergeordneten Datensatz auswählen möchten.
    1. Öffnen Sie die Tabellenansicht des Datensatztyps, den Sie im obigen Schritt ausgewählt haben, wechseln Sie dann zum Verbindungsfeld mit dem Objekttyp, den Sie als untergeordnetes Element verwenden möchten, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf **Bearbeiten** Feld.
    1. Aktivieren Sie die Einstellung **entsprechendes Feld für verknüpften Datensatztyp erstellen** und klicken Sie dann auf **Speichern**.

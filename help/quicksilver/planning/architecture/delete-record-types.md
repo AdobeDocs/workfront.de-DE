@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 2%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -187,7 +187,7 @@ Old:
 
 * Ein globaler Datensatztyp, der anderen Arbeitsbereichen hinzugefügt wurde, kann nicht gelöscht werden.
 
-  Weitere Informationen finden Sie im Abschnitt [Löschen globaler &#x200B;](#delete-global-record-types)) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Löschen globaler ](#delete-global-record-types)) in diesem Artikel.
 
 ## Löschen von Eintragstypen
 
@@ -244,7 +244,7 @@ Alle Datensätze und Felder werden ebenfalls gelöscht und können nicht wiederh
    * Wenn der Datensatztyp nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
    * Wenn der Datensatztyp mindestens einem anderen sekundären Arbeitsbereich hinzugefügt wurde, wechseln Sie zunächst zum sekundären Arbeitsbereich und löschen Sie den globalen Datensatz aus diesem Bereich.
 
-     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären ](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
 
 1. (Bedingt) Löschen Sie den Datensatztyp weiter, wie im Abschnitt [Löschen von Datensatztypen](#delete-record-types-1) in diesem Artikel beschrieben.
 
@@ -287,6 +287,8 @@ So löschen Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich
    * Der von einem globalen Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten sekundären Arbeitsbereich entfernt.
    * Der ursprüngliche Datensatztyp mit den Feldern verbleibt im ursprünglichen Arbeitsbereich.
    * Der Datensatztyp verbleibt in allen anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
-   * Die Datensätze, die dem Datensatztyp aus dem sekundären Arbeitsbereich hinzugefügt <!--and fields-->, werden gelöscht. Alle anderen Datensätze, die von zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben in ihren jeweiligen Arbeitsbereichen und im ursprünglichen Arbeitsbereich erhalten. &lt;!—!—Felder bleiben in den Arbeitsbereichen erhalten, in denen sie hinzugefügt wurden.
+   * Die Datensätze, die dem Datensatztyp aus dem sekundären Arbeitsbereich hinzugefügt <!--and fields-->, werden gelöscht. Alle anderen Datensätze, die von zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben in ihren jeweiligen Arbeitsbereichen und im ursprünglichen Arbeitsbereich erhalten.
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

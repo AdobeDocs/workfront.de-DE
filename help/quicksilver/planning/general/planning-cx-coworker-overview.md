@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1043'
 ht-degree: 4%
 ---
 
@@ -30,13 +30,10 @@ ht-degree: 4%
 <!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <!--
-
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 -->
-
 
 {{planning-important-intro}}
 
@@ -145,7 +142,7 @@ Sie können Coworker verwenden, um die folgenden Aktionen auszuführen:
 * Löschen, Duplizieren oder Wiederherstellen von Datensätzen
 * Datensätze mit anderen Datensätzen verknüpfen
 * Anzeigen des Änderungsverlaufs eines Datensatzes
-
+* Importieren Sie 10.000 oder mehr Datensätze, indem Sie eine Excel-Datei an Coworker anhängen.
 
 ## Kollegen in Workfront-Planung suchen
 
@@ -156,7 +153,7 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
 ## Zugriff auf Mitarbeiter im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 

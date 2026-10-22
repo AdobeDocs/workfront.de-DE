@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Übersicht über verbundene Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -167,7 +168,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
     * Planungsdatensätze sind im Abschnitt Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
     * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-    * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
     * Auf die Felder der Planungsdatensätze kann von den Marken in GenStudio for Performance Marketing nicht zugegriffen werden.
 
   * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
@@ -191,7 +192,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     >
     >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-    * Verbundene Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol) ![. &#x200B;](assets/relationship-field-icon.png).
+    * Verbundene Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol) ![. ](assets/relationship-field-icon.png).
 
     * Verbundene Suchfelder werden durch ein Symbol vorangestellt, das den Feldtyp identifiziert. Suchfelder werden von Symbolen vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 
@@ -210,20 +211,14 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     * Sie können GenStudio Brands aus GenStudio-Datensatztypen und aus Planning-Datensatztypen verbinden.
     * Sie können GenStudio-Marken nicht hierarchisch ordnen.
 
-  <div class="preview">
-
   * Sie können ein Verbindungsfeld vom entsprechenden verbundenen Feld des verbundenen Datensatztyps abhängig machen. Wenn die beiden Felder in einem dritten Datensatztyp angezeigt werden, hängt die Auswahl, die für ein Feld verfügbar ist, von der Auswahl des anderen Felds ab.
 
     Weitere Informationen und Überlegungen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Die folgenden Szenarien bestehen, wenn Datensätze mit einem verbundenen Datensatz in einem Verbindungstyp vom Typ Eins zu Eins oder Eins zu Viele dupliziert werden:
+* Beim Duplizieren von Datensätzen mit einem verbundenen Datensatz im Verbindungstyp Eins zu Eins oder Eins zu Viele können Sie auswählen, ob der verbundene Datensatz im Original verbleibt oder zum duplizierten Datensatz verschoben wird.
 
-  * In der Produktionsumgebung wird der verbundene Datensatz in den duplizierten Datensatz verschoben, oder Sie müssen ihn manuell aus dem Original entfernen, bevor Sie den Datensatz duplizieren, und ihn dann wieder hinzufügen.
-  * <span class="preview">In der Vorschau-Umgebung können Sie auswählen, ob der verbundene Datensatz auf dem Original verbleibt oder in den duplizierten Datensatz verschoben wird.</span>
-
-  Weitere Informationen finden Sie unter [Duplizieren von &#x200B;](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+  Weitere Informationen finden Sie unter [Duplizieren von ](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 
 ## Verbindungstypen
