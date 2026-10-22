@@ -5,15 +5,13 @@ title: Überprüfen einer gruppierten Genehmigung
 description: Sie können alle Dokumente in einer gruppierten Genehmigung über das Widget Meine Genehmigungen auf der Startseite oder im Frame.io-Viewer überprüfen und Entscheidungen treffen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '630'
 ht-degree: 6%
 ---
 
 # Überprüfen einer gruppierten Genehmigung
-
-<span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab 22. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
 
 Wenn Sie einer gruppierten Genehmigung zugewiesen sind, werden alle Dokumente in der Gruppe zusammen angezeigt, sodass Sie für jede Genehmigung eine Entscheidung treffen können. Sie können Änderungen an jedem Dokument gleichzeitig genehmigen oder anfordern oder eine Entscheidung für jedes Dokument einzeln treffen.
 
@@ -65,7 +63,7 @@ Das Widget Meine Genehmigungen in Startseite fasst die Dokumente unter einer ein
 
 >[!NOTE]
 >
->Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+>Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Klicken Sie auf **Startseite** in der oberen linken Ecke von Adobe Workfront und suchen Sie das Widget **Meine Genehmigungen**.
 
@@ -98,7 +96,7 @@ Im Frame.io-Viewer werden alle Dokumente in der Gruppe zusammen angezeigt, sodas
    * **Genehmigt**: Das Dokument muss nicht geändert werden und ist einsatzbereit.
    * **Muss überarbeitet werden**: Das Dokument muss geändert werden und ist nicht einsatzbereit.
 
-   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Frame.io Viewer Gruppierte Genehmigung](assets/frame-group-approval.png)
 
