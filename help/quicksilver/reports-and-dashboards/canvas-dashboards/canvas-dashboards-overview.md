@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 22%
 ---
 # Überblick über Arbeitsflächen-Dashboards
@@ -43,11 +43,7 @@ ht-degree: 22%
 >
 >Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
->Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
->
->* Eigene Schlüssel für Amazon Web Services mitbringen
->* Azure
->* Google Cloud Platform
+
 
 Arbeitsflächen-Dashboards ermöglichen es Ihnen, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem Berichtstypen zu einer Arbeitsfläche hinzugefügt werden, die viele flexible Layout-Optionen bietet, darunter Größenanpassung, Drag-and-Drop und mehr.
 
