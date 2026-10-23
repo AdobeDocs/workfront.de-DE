@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -101,7 +101,19 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Regeln blockieren nicht die Erstellung von Datensätzen. Benutzer können weiterhin Datensätze erstellen, müssen jedoch sicherstellen, dass die erforderlichen Felder nicht leer sind oder den angegebenen Wert enthalten.
 * Regeln bearbeiten oder löschen Datensätze nicht automatisch. Die Änderung muss absichtlich erfolgen und von einem Benutzer ausgelöst werden.
 * Regeln gelten nicht rückwirkend: alte Datensätze sind nicht betroffen. Die Regelprüfung wird nur ausgeführt, wenn das nächste Mal versucht wird, einen Datensatz zu bearbeiten oder zu löschen.
-* Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
+* <!--In the Production environment,--> Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * Sie können eine Bedingung für Ihre Geschäftsregel erstellen, die auf alle Feldtypen mit Ausnahme der folgenden verweist:
   * Formelfelder
   * Suchfelder

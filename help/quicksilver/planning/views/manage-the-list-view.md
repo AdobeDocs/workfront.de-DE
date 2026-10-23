@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfront Planning anzeigen:
+In Adobe Workfront Planning können Sie Objekte in der Listenansicht in den folgenden Bereichen anzeigen:
 
 * Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes
 
@@ -53,6 +53,8 @@ Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfron
   ![Anforderungsformulare in der Listenansicht](assets/request-forms-in-list-view.png)
 
 In diesem Artikel wird beschrieben, wie Sie in Workfront Planning eine Listenansicht navigieren, erstellen oder bearbeiten können.
+
+Weitere Informationen zu allen anderen in Workfront Planning verfügbaren Ansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
@@ -224,7 +226,7 @@ Removed - more direct steps below:
          >
          >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar.
 
-      1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen.
+      1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen.
 
          >[!TIP]
          >
@@ -239,7 +241,7 @@ Removed - more direct steps below:
       1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
       1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll. <!--edit this area, if it changes names??-->
       1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-      1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+      1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
          * Fett
          * Kursiv
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 2%
 ---
 <!--update metadata with real information at release-->
@@ -222,7 +222,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen oder mehrere Datensätze aus und klicken Sie dann unten in **blauen Symbolleiste auf** Freigeben“.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
@@ -234,7 +234,15 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
    >
    >Sie können keine Berechtigungen für Datensätze freigeben, die in verschiedenen Arbeitsbereichen hinzugefügt werden. Wenn Sie Datensätze stapelweise freigeben, müssen die Datensätze alle im selben Arbeitsbereich erstellt werden.
 
-1. (Optional) Im Bereich **Wer Zugriff hat** ist die Option **Jeder Benutzer im Arbeitsbereich kann** anzeigen) standardmäßig ausgewählt.  Alle Benutzer mit **Anzeigen** oder höheren Berechtigungen für den Arbeitsbereich und den Datensatztyp haben dieselben Berechtigungen für den Datensatz.
+1. (Optional) Die Option **Jeder Benutzer im Arbeitsbereich kann anzeigen** ist standardmäßig ausgewählt.  Alle Benutzer mit **Anzeigen** oder höheren Berechtigungen für den Arbeitsbereich und den Datensatztyp haben dieselben Berechtigungen für den Datensatz. Sie können die Berechtigungen nicht für alle Benutzer einschränken, die Zugriff auf den Arbeitsbereich haben.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (Optional) Klicken Sie unter der Option **Vererbte Berechtigungen von** auf die Avatare von Benutzern, um Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete anzuzeigen, die Berechtigungen vom Arbeitsbereich erben. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
       >* Benutzenden, die den Datensatztyp Contribute oder höher haben, können keine geringere Berechtigung für den Datensatz erteilt werden.
       >Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* Benutzern, die sich nicht im Arbeitsbereich befinden, können keine Berechtigungen erteilt werden. Benutzende, die keine Berechtigungen für den Arbeitsbereich und den Datensatztyp haben, können auf keinen der Datensätze zugreifen.
+      >* Sie müssen über Verwaltungsberechtigungen für einen Datensatz verfügen, um ihn für andere freigeben zu können.
 
    <!--   
    Not possible:
@@ -324,7 +333,7 @@ Sie können einen Benutzer nicht aus geerbten Berechtigungen entfernen.
 1. Öffnen Sie den Arbeitsbereich, dessen Datensätze Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen oder mehrere Datensätze aus und klicken Sie dann unten in **blauen Symbolleiste auf** Freigeben“.
 
      Sie müssen Datensätze auswählen, die im selben Arbeitsbereich erstellt wurden.

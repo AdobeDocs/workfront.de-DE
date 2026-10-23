@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung
@@ -255,7 +255,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
+   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
    * [Formular veröffentlichen](#publish-form), um das Formular zu veröffentlichen, damit Benutzer Anfragen an es senden können
    * [Anforderungsformular freigeben](#share-a-request-form) um das Formular für andere Personen oder öffentlich freizugeben
 
@@ -296,14 +296,14 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, der angibt, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 
-1. Klicken Sie **linken** auf „Berechtigungen“.
-1. Wählen Sie die Berechtigungsstufe für die Benutzer aus, die über dieses Formular Anfragen senden:
+1. Klicken Sie **linken** auf „Berechtigungen“, um die Berechtigungen zu konfigurieren, die Benutzer standardmäßig für Anfragen haben, die mit diesem Formular gesendet werden. Die hier erteilten Berechtigungen werden für zukünftige Anfragen sofort wirksam und wirken sich nicht auf bestehende Anfragen aus.
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Wählen Sie die Berechtigungsstufe für die Anfragen aus, die an dieses Formular gesendet werden, damit die Benutzer Anfragen über dieses Formular senden können:
 
    * **Anzeigen**: Alle Antragsteller können das Formular kommentieren und freigeben.
    * **Beitragen**: Alle Anfragenden können das Formular kommentieren, freigeben und bearbeiten.
-   * **Verwalten**: Alle Anfordernden können das Formular kommentieren, freigeben, bearbeiten und löschen.
+   * **Verwalten**: Alle Anfordernden können das Formular kommentieren, freigeben, bearbeiten und löschen. Dies ist die Standardberechtigung.
 
-1. (Optional) Deaktivieren Sie eine der granularen Berechtigungen für jede Berechtigungsstufe, um zu verhindern, dass Anfragende die folgenden Aktionen ausführen:
+1. (Optional) <!--<span class="preview">In the **Requestor access** section,</span>--> Deaktivieren Sie eine der granularen Berechtigungen für jede Berechtigungsstufe, um zu verhindern, dass Anfragende die folgenden Aktionen ausführen:
 
    * Kommentar
    * Freigeben
@@ -313,6 +313,28 @@ So konfigurieren Sie Formulareinstellungen:
    >[!TIP]
    >
    >Die granulare Berechtigung, deren Auswahl Sie hier aufheben, wird abgeblendet, wenn Sie die Anfrage für diese Benutzer auf der Anfrageseite freigeben.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Klicken Sie auf **AI-Formular ausfüllen**, um eine benutzerdefinierte Eingabeaufforderung zu konfigurieren, wenn die Funktion **Formular ausfüllen** beim Senden von Anfragen verwendet wird. </span>
 
@@ -346,7 +368,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.
