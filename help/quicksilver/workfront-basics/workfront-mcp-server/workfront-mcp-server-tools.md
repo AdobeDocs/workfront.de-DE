@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 4%
 ---
 
@@ -67,10 +67,11 @@ In diesem Beispiel werden die `core` und `comment-stream` Funktionen verfügbar 
 
 Zu den verfügbaren Toolsets gehören:
 
-* `core` - Das Workfront-Basis-Toolset, das automatisch eingefügt wird, wenn Sie eine Untergruppe von Toolsets auswählen.
-* `comment-stream` - Tools für Kommentare und Diskussionen in Workflows.
-* `planning` - Tools für die Planungsfunktionen in Workfront.
-* `approvals` - Tools für Genehmigungs-Workflows.
+* `core`: Das Workfront-Basis-Toolset, das automatisch bei der Auswahl einer Untergruppe von Toolsets enthalten ist.
+* `comment-stream`: Tools für Kommentare und Diskussionen in Workflows.
+* `planning`: Tools für Workfront-Planungsfunktionen.
+* `approvals`: Tools für Genehmigungs-Workflows.
+* `reporting`: Tools für das Reporting.
 
 Um den vollständigen autorisierten Katalog offenzulegen, lassen Sie den Parameter weg oder verwenden Sie `toolsets=all`.
 
