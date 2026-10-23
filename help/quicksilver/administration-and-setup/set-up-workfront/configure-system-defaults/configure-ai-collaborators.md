@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # KI-Mitwirkende konfigurieren
@@ -37,6 +37,8 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 * Arbeitsagent : Erstellen Sie einen Mitarbeiter mit einer standardmäßigen KI-Plattform wie Claude, OpenAI oder Copilot und weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
 
   Weitere Informationen finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Von KI-Mitwirkenden verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen KI-Mitwirkenden erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
