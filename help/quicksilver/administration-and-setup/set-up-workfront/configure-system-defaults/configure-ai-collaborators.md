@@ -17,7 +17,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 3%
@@ -123,16 +123,14 @@ Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfi
 
 Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
 
+Von Arbeitsagenten verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen Arbeitsagenten erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
+
 Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als Arbeitsagent finden Sie unter [Best Practices zum Erstellen eines Agenten für einen Arbeitsagenten](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Konfigurieren eines Arbeitsagenten in Workfront](#configure-a-work-agent-in-workfront)
 * [Best Practices für die Erstellung eines Agenten für einen Arbeitsagenten](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Konfigurieren eines Arbeitsagenten in Workfront
-
->[!NOTE]
->
->Von Arbeitsagenten verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen Arbeitsagenten erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
 {{step-1-to-setup}}
 
@@ -204,7 +202,6 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
