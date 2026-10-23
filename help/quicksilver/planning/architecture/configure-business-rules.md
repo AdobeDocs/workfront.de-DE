@@ -101,7 +101,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Regeln blockieren nicht die Erstellung von Datensätzen. Benutzer können weiterhin Datensätze erstellen, müssen jedoch sicherstellen, dass die erforderlichen Felder nicht leer sind oder den angegebenen Wert enthalten.
 * Regeln bearbeiten oder löschen Datensätze nicht automatisch. Die Änderung muss absichtlich erfolgen und von einem Benutzer ausgelöst werden.
 * Regeln gelten nicht rückwirkend: alte Datensätze sind nicht betroffen. Die Regelprüfung wird nur ausgeführt, wenn das nächste Mal versucht wird, einen Datensatz zu bearbeiten oder zu löschen.
-* <!--In the Production environment,--> Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
+* &#x200B;<!--In the Production environment,--> Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
 
 <!--
 <div class="preview">

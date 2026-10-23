@@ -255,7 +255,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
+   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
    * [Formular veröffentlichen](#publish-form), um das Formular zu veröffentlichen, damit Benutzer Anfragen an es senden können
    * [Anforderungsformular freigeben](#share-a-request-form) um das Formular für andere Personen oder öffentlich freizugeben
 
@@ -297,7 +297,7 @@ So konfigurieren Sie Formulareinstellungen:
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, der angibt, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 
 1. Klicken Sie **linken** auf „Berechtigungen“, um die Berechtigungen zu konfigurieren, die Benutzer standardmäßig für Anfragen haben, die mit diesem Formular gesendet werden. Die hier erteilten Berechtigungen werden für zukünftige Anfragen sofort wirksam und wirken sich nicht auf bestehende Anfragen aus.
-1. <!--<span class="preview">In the **Requestor access** section,</span>--> Wählen Sie die Berechtigungsstufe für die Anfragen aus, die an dieses Formular gesendet werden, damit die Benutzer Anfragen über dieses Formular senden können:
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Wählen Sie die Berechtigungsstufe für die Anfragen aus, die an dieses Formular gesendet werden, damit die Benutzer Anfragen über dieses Formular senden können:
 
    * **Anzeigen**: Alle Antragsteller können das Formular kommentieren und freigeben.
    * **Beitragen**: Alle Anfragenden können das Formular kommentieren, freigeben und bearbeiten.
@@ -368,7 +368,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.
