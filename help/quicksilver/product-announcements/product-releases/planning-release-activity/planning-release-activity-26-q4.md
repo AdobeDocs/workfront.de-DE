@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3413'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -43,19 +43,23 @@ Sie können die vorhandene Funktionalität zum Anhängen von Dateien in Coworker
 
 Weitere Informationen finden Sie unter [Verwenden von CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-## Aktivieren von Planning-Arbeitsbereichen in GenStudio for Performance Marketing
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->Vorschau und Produktion: 21. Oktober 2026
->[!BADGE Aus Zeitplan]{type=Neutral}
->Nur für Kunden verfügbar, die über eine Adobe GenStudio for Performance Marketing-Lizenz verfügen
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-Sie können jetzt einen bestehenden Workfront Planning-Arbeitsbereich für die Verwendung in einem GenStudio for Performance Marketing-Plan aktivieren, sodass Sie Ihre Kampagnen, Produkte, Personas und andere Datensätze wiederverwenden können, ohne sie neu zu erstellen.
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-Mithilfe von GenStudio Adobe-Speicherprojekten können Sie Ihre Planning-Datensatztypen und -felder den GenStudio Workspace-Datensatztypen und -feldern zuordnen und dann über den Projektumschalter auf die Informationen des Planning-Arbeitsbereichs in GenStudio zugreifen.
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-Weitere Informationen finden Sie unter [Aktivieren eines Adobe Workfront Planning Workspace für GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Dynamische Aktivierungstypen für Meta
 
