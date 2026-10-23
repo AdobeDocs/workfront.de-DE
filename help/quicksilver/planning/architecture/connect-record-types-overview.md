@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Übersicht über verbundene Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     * Sie können GenStudio Brands aus GenStudio-Datensatztypen und aus Planning-Datensatztypen verbinden.
     * Sie können GenStudio-Marken nicht hierarchisch ordnen.
 
-  <div class="preview">
-
   * Sie können ein Verbindungsfeld vom entsprechenden verbundenen Feld des verbundenen Datensatztyps abhängig machen. Wenn die beiden Felder in einem dritten Datensatztyp angezeigt werden, hängt die Auswahl, die für ein Feld verfügbar ist, von der Auswahl des anderen Felds ab.
 
     Weitere Informationen und Überlegungen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Die folgenden Szenarien bestehen, wenn Datensätze mit einem verbundenen Datensatz in einem Verbindungstyp vom Typ Eins zu Eins oder Eins zu Viele dupliziert werden:
-
-  * In der Produktionsumgebung wird der verbundene Datensatz in den duplizierten Datensatz verschoben, oder Sie müssen ihn manuell aus dem Original entfernen, bevor Sie den Datensatz duplizieren, und ihn dann wieder hinzufügen.
-  * <span class="preview">In der Vorschau-Umgebung können Sie auswählen, ob der verbundene Datensatz auf dem Original verbleibt oder in den duplizierten Datensatz verschoben wird.</span>
+* Beim Duplizieren von Datensätzen mit einem verbundenen Datensatz im Verbindungstyp Eins zu Eins oder Eins zu Viele können Sie auswählen, ob der verbundene Datensatz im Original verbleibt oder zum duplizierten Datensatz verschoben wird.
 
   Weitere Informationen finden Sie unter [Duplizieren von &#x200B;](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 

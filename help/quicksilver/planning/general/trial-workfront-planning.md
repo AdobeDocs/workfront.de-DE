@@ -3,6 +3,7 @@ title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planni
 description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. Mit dieser Testversion können Sie aus erster Hand erfahren, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
@@ -29,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 3%

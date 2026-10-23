@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 4%
 ---
 # Verwalten von Dokumentversionen
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Sie können mehrere Versionen eines Dokuments in Workfront verwalten.
 
@@ -162,9 +160,7 @@ Löschen einer Dokumentversion:
 
    ![Löschen Sie die Dokumentversion](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Dokumentversionen im neuen Dokumentbereich in der Vorschau verwalten
+## Verwalten von Dokumentversionen im Bereich „Neue Dokumente“
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -239,12 +235,6 @@ Workfront nummeriert jede Version in der Reihenfolge, in der Sie sie hochladen (
    >
    >Durch das Löschen einer Version ändern sich die Zahlen der anderen Versionen nicht. Wenn Sie beispielsweise V3 aus einem Dokument mit den Versionen V1 bis V5 löschen, behalten die übrigen Versionen ihre ursprünglichen Nummern bei, und es gibt anschließend keine V3. Die nächste hochgeladene Version ist V6.
 
-</div>
+### Aktuelle Datei während einer Validierung anzeigen
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+Wenn es sich bei einem Dokument um eine Creative Cloud-Datei (z. B. ein Photoshop-Cloud-Dokument) handelt und es von jemandem bearbeitet wird, während eine Genehmigung läuft, zeigt Workfront einen **Aktuelle Datei**-Abschnitt mit einem Badge an, das angibt, dass im Live-Dokument neue Aktualisierungen vorhanden sind, die von der zu genehmigenden Version getrennt sind.

@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 8%
 ---
 # Konfigurieren von Speicherorten
-
-{{preview-fast-release-general}}
 
 Sie können die verfügbaren Standardspeicherorte konfigurieren, um in Tarifkarten Aufgabengebiete als Attribute zuzuweisen. Dadurch wird sichergestellt, dass die Tarifkarten die Marktpreise an jedem Standort genau widerspiegeln.
 
@@ -62,13 +60,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf [!UICONTROL **Standorte**].
-1. Klicken Sie in der Produktionsumgebung unten [!UICONTROL **der Liste auf**]Weitere Standorte hinzufügen“.
-   <span class="preview">Klicken Sie in der Vorschau [!UICONTROL **Umgebung unten**] der Liste auf „Neue Zeile“</span>
-
+1. Klicken Sie [!UICONTROL **Neue**]) unten in der Liste auf.
 1. Geben Sie den Speicherort-Namen und die Beschreibung ein.
 1. Klicken Sie außerhalb der Zeile, um den Speicherort zu speichern.
-1. Um einen Speicherort in der Produktionsumgebung zu löschen, wählen Sie ihn in der Liste aus und klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png).
-   <span class="preview">Um einen Speicherort in der Vorschau-Umgebung zu löschen, wählen Sie ihn in der Liste aus und klicken [!UICONTROL **in der**] unten auf dem Bildschirm auf „Löschen“</span>
+1. Um einen Speicherort zu löschen, wählen Sie ihn in der Liste aus und klicken [!UICONTROL **in der**] unten auf dem Bildschirm auf „Löschen“.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ Jeder Unterspeicherort kann auf dieselbe Weise wie ein Standort der obersten Ebe
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf [!UICONTROL **Standorte**].
-1. Wählen Sie in der Produktionsumgebung einen vorhandenen Speicherort in der Liste aus und klicken Sie auf [!UICONTROL **Unterspeicherort hinzufügen**].
-   <span class="preview">Wählen Sie in der Vorschau-Umgebung einen vorhandenen Speicherort in der Liste aus und klicken Sie [!UICONTROL **Unterspeicherort hinzufügen**] in der Aktionsleiste am unteren Bildschirmrand.</span>
-
+1. Wählen Sie einen vorhandenen Speicherort in der Liste aus und klicken Sie [!UICONTROL **Unterspeicherort hinzufügen**] in der Aktionsleiste am unteren Bildschirmrand.
 1. Geben Sie den Speicherort-Namen und die Beschreibung ein.
 1. Klicken Sie außerhalb des Eingabebereichs, um den Speicherort zu speichern.
 
    Die Unterposition wird unter der Position auf der obersten Ebene eingerückt.
 
-   Beispielbild in der Produktionsumgebung:
-   ![Standorte und Unterstandorte](assets/locations-sublocations.png)
-
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Standorte und Unterstandorte](assets/locations-sublocations-082526.png)
 
 

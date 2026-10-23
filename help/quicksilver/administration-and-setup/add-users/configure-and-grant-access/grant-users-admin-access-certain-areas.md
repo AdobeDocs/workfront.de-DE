@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 11%
 ---
 # Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
       <td><p>Genehmigungsprozesse zur Verwendung im gesamten System und für bestimmte Gruppen erstellen und verwalten</p><p>Ohne diesen Zugriff können Benutzende nur Ad-hoc-Genehmigungsprozesse für Elemente erstellen, auf die sie Zugriff haben und die sie verwalten können.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">Verlauf ändern</span></td> 
-      <td><p><span class="preview">Die Workfront-Änderungsprotokolle finden Sie unter Setup &gt; Änderungsverfolgung &gt; Änderungsverlaufsliste.</span></p>
-      <p><span class="preview">Ohne diesen Zugriff verfügen Benutzer nicht über diese Option im Bereich „Setup“.</span></p></td> 
+      <td role="rowheader">Änderungsverlauf</td> 
+      <td><p>Die Workfront-Änderungsprotokolle finden Sie unter Setup &gt; Änderungsverfolgung &gt; Änderungsverlaufsliste.</p>
+      <p>Ohne diesen Zugriff verfügen Benutzer nicht über diese Option im Bereich „Setup“.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Firmen</td> 

@@ -32,20 +32,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '928'
 ht-degree: 6%
 ---
 # Überblick über den KI-Assistenten von Adobe Workfront-Planung
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +53,7 @@ Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zus
 
 >[!IMPORTANT]
 >
-><span class="preview">In einigen Unternehmen wurde der KI-Assistent durch CX Enterprise Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>In einigen Unternehmen wurde der KI-Assistent durch CX Enterprise Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -160,7 +158,7 @@ Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 >[!NOTE]
 >
-><span class="preview">Wenn Ihr Unternehmen Zugriff auf CX Enterprise Coworker erhalten hat, ist das Auffinden von Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>Wenn Ihr Unternehmen Zugriff auf CX Enterprise Coworker erhalten hat, ist das Auffinden von Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 
 Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:

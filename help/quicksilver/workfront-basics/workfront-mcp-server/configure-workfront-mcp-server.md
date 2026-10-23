@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2357'
 ht-degree: 1%
 ---
 
@@ -38,6 +38,16 @@ Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Ge
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+>Um die Größe des MCP-Katalogs für Clients zu reduzieren, die alle Tools im Voraus laden, können Sie den `toolsets` Abfrageparameter zur Workfront MCP-Server-URL hinzufügen. Beispiel:
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+>Weitere Informationen zu Toolsets finden Sie unter [Toolsets im Workfront MCP-Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) im Artikel Adobe Workfront MCP-Server-Tools .
+
 ## Voraussetzungen
 
 Bevor Sie Workfront mit einer KI-Agentenplattform verbinden können, müssen Sie Folgendes tun:
@@ -58,7 +68,7 @@ Der Zugriff auf MCP-Server wird von zwei separaten Administratoren gesteuert.
 
 * Wenn Sie eine Unternehmensversion einer KI-Agentenplattform verwenden, muss der Administrator für diese Plattform den [!DNL Adobe Workfront]-Connector für Ihr Unternehmen aktivieren oder Ihnen benutzerdefinierten URL-Zugriff gewähren, um eine Verbindung zum Workfront MCP-Server herzustellen.
 
-* <span class="preview">Wenn Sie eine benutzerdefinierte Anwendung oder Agentenplattform mit einer eindeutigen OAuth-Rückruf-URL pro Kunde verbinden, muss Ihr Workfront-Administrator diese URL der Liste **Autorisierte Umleitungs-URLs** in **Systemeinstellungen > MCP-Voreinstellungen** hinzufügen. Andernfalls wird die Authentifizierung abgelehnt. Weitere Informationen finden Sie unter [Verbinden mit OAuth](#connect-with-oauth) in diesem Artikel.</span>
+* Wenn Sie eine benutzerdefinierte Anwendung oder Agentenplattform mit einer eindeutigen OAuth-Rückruf-URL pro Kunde verbinden, muss Ihr Workfront-Administrator diese URL der Liste **Autorisierte Umleitungs-URLs** unter **Systemeinstellungen > MCP-Voreinstellungen** hinzufügen. Andernfalls wird die Authentifizierung abgelehnt. Weitere Informationen finden Sie unter [Verbinden mit OAuth](#connect-with-oauth) in diesem Artikel.
 
 
 ## Workfront mit Claude verbinden
@@ -244,8 +254,6 @@ Es gibt zwei Möglichkeiten, eine Verbindung herzustellen:
 
 ### Verbindung mit OAuth herstellen
 
-<div class="preview">
-
 Wenn die KI-Agentenplattform oder die benutzerdefinierte Anwendung, die Sie verbinden, eine eindeutige OAuth-Rückruf-(Umleitungs-)URL pro Kunde haben, z. B. eine URL, die eine Verbindungs- oder Mandanten-ID enthält, muss Ihr Workfront-Administrator diese URL der Liste der autorisierten Umleitungs-URLs Ihres Unternehmens hinzufügen, bevor Sie sich authentifizieren können.
 
 >[!NOTE]
@@ -270,7 +278,6 @@ Beim Verbinden werden Sie aufgefordert, sich mit Ihren Adobe ID-Anmeldeinformati
 
 Wenn sich Ihre Callback-URL nicht auf der Liste befindet, wird die Authentifizierungsanfrage abgelehnt. Bitten Sie Ihren Workfront-Administrator, zu bestätigen, dass die URL genau so eingegeben wird, wie es Ihre Integration vorsieht.
 
-</div>
 
 ## Verbindung überprüfen
 

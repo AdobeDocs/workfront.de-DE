@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 11%
 ---
 # Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * ![Symbol anzeigen](assets/add-icon-plus-in-circle.png) Elemente anzeigen, die im Hauptmenü angezeigt werden sollen.
    * Ziehen Sie ![Symbol ziehen](assets/move-icon---dots.png) Elemente, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
 
-     >[!NOTE]
-     >
-     >Die Reihenfolge der Systemelemente kann nicht geändert werden. Diese Elemente werden immer unten im Hauptmenü angezeigt, wenn sie aktiv sind. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. Führen Sie einen der folgenden Schritte für die Elemente **System** aus:
 
    * Elemente ![Symbol ausblenden](assets/remove-icon---x-in-circle.png), die nicht im Hauptmenü angezeigt werden sollen.
    * ![Symbol anzeigen](assets/add-icon-plus-in-circle.png) Elemente anzeigen, die im Hauptmenü angezeigt werden sollen.
-
-</div>
 
 1. Klicken Sie auf **Fertig**.
 

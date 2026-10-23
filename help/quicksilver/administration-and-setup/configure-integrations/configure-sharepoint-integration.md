@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 2%
 ---
 # [!DNL SharePoint] konfigurieren
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ So zeigen Sie die [!DNL SharePoint] Integrationen Ihres Unternehmens an und verw
 
    Eine Liste der [!DNL SharePoint] Integrationen Ihres Unternehmens wird angezeigt.
 
-1. (Optional) Um eine [!DNL SharePoint]-Integration zu bearbeiten, aktivieren Sie das Kontrollkästchen daneben und klicken dann auf **[!UICONTROL Bearbeiten]** <span class="preview">in der blauen Leiste am unteren Bildschirmrand</span>.
-1. <span class="preview">(Optional) Um eine [!DNL SharePoint]-Integration zu deaktivieren, aktivieren Sie das Kontrollkästchen daneben und klicken Sie dann **[!UICONTROL Deaktivieren]** in der blauen Leiste am unteren Bildschirmrand.</span>
+1. (Optional) Um eine [!DNL SharePoint]-Integration zu bearbeiten, aktivieren Sie das Kontrollkästchen daneben und klicken Sie dann auf **[!UICONTROL Bearbeiten]** in der blauen Leiste am unteren Bildschirmrand.
+1. (Optional) Um eine [!DNL SharePoint]-Integration zu deaktivieren, aktivieren Sie das Kontrollkästchen daneben und klicken **[!UICONTROL auf &quot;]**&quot; in der blauen Leiste am unteren Bildschirmrand.
 
 ## Informationen zu Sicherheit, Zugriff und Autorisierung für die [!DNL SharePoint] Integration
 

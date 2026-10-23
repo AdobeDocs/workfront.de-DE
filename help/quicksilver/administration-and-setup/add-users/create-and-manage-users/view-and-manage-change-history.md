@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 5%
 ---
 # Änderungsverlauf anzeigen und verwalten
-
-{{preview-fast-release-general}}
 
 Mit dem Änderungsverlauf kann der Systemadministrator Änderungen an Objekten und bestimmten Feldern in Adobe Workfront konfigurieren und verfolgen. Mit der flexiblen Konfiguration kann der Administrator festlegen, welche Objekte und Felder genau verfolgt werden.
 
@@ -31,7 +29,7 @@ Der Änderungsverlauf kann die folgenden Typen definierter Daten verfolgen:
 * Aktivität im Bereich „Setup“, z. B. Erstellen oder Löschen einer Zugriffsebene oder eines Aufgabengebiets
 * Aktualisierungen auf Feldebene, z. B. Bearbeiten einer Projektbeschreibung oder Ändern der Layout-Vorlage eines Benutzers
 * Objektaktualisierungen, z. B. Aktualisieren eines Projektstatus oder Anhängen eines benutzerdefinierten Formulars an eine Aufgabe
-* <span class="preview">Einheitliche Workflow-Aktivität für Überprüfung und Genehmigung, einschließlich Teilnehmern und Entscheidungen</span>
+* Einheitliche Workflow-Aktivität für Überprüfung und Genehmigung, einschließlich Teilnehmern und Entscheidungen
 
 Informationen zum Definieren der verfolgten Objekte und Felder finden Sie unter [Konfigurieren der nachzuverfolgenden Felder im Änderungsverlauf](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

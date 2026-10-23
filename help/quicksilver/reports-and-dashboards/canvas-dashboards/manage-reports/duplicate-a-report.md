@@ -25,24 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 12%
+source-wordcount: '539'
+ht-degree: 11%
 ---
 # Kopieren und Verschieben von Berichten in Arbeitsflächen-Dashboards
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
->
->* Eigene Schlüssel für Amazon Web Services mitbringen
->* Azure
->* Google Cloud Platform
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Sie können einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-Dashboard duplizieren, nachdem er erstellt wurde. Nach dem Duplizieren können Sie den Bericht nach Bedarf bearbeiten, bevor Sie ihn speichern.
 
@@ -93,28 +87,8 @@ Ein Bericht muss einem Dashboard hinzugefügt werden, bevor er dupliziert werden
 
 Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplizieren eines Berichts in der Produktionsumgebung
 
-{{step1-to-dashboards}}
-
-1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie duplizieren möchten, und wählen Sie dann **Duplizieren**.
-
-   ![Schaltfläche „Duplizieren](assets/duplicate-button.png)
-
-1. (Optional) Geben Sie im **Konfigurieren** angezeigten Feld auf der Registerkarte **Details** einen neuen Bericht **Name** ein.
-
-1. (Optional) Nehmen Sie über die Registerkarten auf der linken Seite die erforderlichen Anpassungen an den Konfigurationen vor.
-
-   >[!NOTE]
-   >
-   >Diese Registerkarten variieren je nachdem, ob Sie einen KPI-, Tabellen- oder Diagrammbericht dupliziert haben.  Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)-Dashboard[, Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) und [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-1. Klicken Sie auf **Speichern**. Der duplizierte Bericht wird im Dashboard angezeigt.
-
-<div class="preview">
-
-## Kopieren oder Verschieben eines Berichts in der Vorschau
+## Kopieren oder Verschieben eines Berichts
 
 Sie können einen Bericht in das aktuelle Dashboard kopieren, in ein anderes Dashboard kopieren oder in ein anderes Dashboard verschieben. Beim Kopieren wird ein Duplikat des Berichts am Ziel erstellt. Durch Verschieben wird er vom aktuellen Dashboard entfernt.
 
@@ -160,4 +134,3 @@ So kopieren oder verschieben Sie einen Bericht:
 
    ![Kopieren und Verschieben](assets/copy-and-move.png)
 
-</div>

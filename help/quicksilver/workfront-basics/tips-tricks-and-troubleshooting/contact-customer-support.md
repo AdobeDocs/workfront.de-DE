@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -142,7 +142,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 
 1. Navigieren Sie zur Seite **[!UICONTROL Meine Fälle]** . Diese Seite wird geöffnet, wenn Sie eine Anfrage senden. Sie können sie aber auch öffnen, indem Sie im linken Navigationsbereich auf **[!UICONTROL Meine Anfragen]** klicken.
 
-1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Offen] oder CLosed) zu filtern. Sie können auch das Feld [!UICONTROL Suche] verwenden, um nach Keywords zu suchen, die sich auf Ihre Support-Fälle beziehen.
+1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL CX Enterprise] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Offen] oder [!UICONTROL Geschlossen]) zu filtern. Sie können auch das Feld [!UICONTROL Suche] verwenden, um nach Keywords zu suchen, die sich auf Ihre Support-Fälle beziehen.
 
 1. (Optional) Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf die **Fallnummer**, um darauf zuzugreifen.
 

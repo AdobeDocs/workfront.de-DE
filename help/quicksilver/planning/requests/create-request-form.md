@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung
@@ -160,7 +160,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Listenansicht geöffnet.
 
-1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anforderungsformular erstellen**, wenn Sie das Formular zum ersten Mal erstellen. Klicken Sie **Anfrageformulare verwalten** oder <span class="preview">**Anfrageformulare**.</span>, wenn Sie bereits über ein Formular verfügen und zusätzliche Formulare erstellen möchten.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anforderungsformular erstellen**, wenn Sie das Formular zum ersten Mal erstellen. Klicken Sie auf **Formulare anfordern**.
 
    Die **Anforderungsformulare** wird geöffnet und die Anforderungen werden in der Listenansicht angezeigt.
 
@@ -212,49 +212,35 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
    * **label**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Der Name des Datensatzfelds wird dadurch nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen über das Feld hinzu.
 
-   <div class="preview">
-
    * **Wahlen**: Dies ist nur für ausgewählte Felder verfügbar. Führen Sie einen der folgenden Schritte aus:
 
      * Klicken Sie **Auswahl A-Z sortieren** um sie automatisch zu sortieren.
      * Auswahl per Drag-and-Drop ziehen oder manuell sortieren.
      * Klicken Sie auf das **Einstellungen**-Symbol ![Einstellungen](assets/settings-icon.png) und dann auf **Standardmäßig auswählen**, um anzugeben, welche Auswahl die Standardoption ist, oder **Auswahl ausblenden**, um sie auszublenden.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">Sie können Optionen in einem Planungsanfrageformular nicht umbenennen oder entfernen. Sie müssen die Feldoptionen in der Tabellenansicht des Datensatztyps bearbeiten.</span>
-
+   >Sie können Optionen in einem Planungsanfrageformular nicht umbenennen oder entfernen. Sie müssen die Feldoptionen in der Tabellenansicht des Datensatztyps bearbeiten.
 
 1. Wählen **im Bereich „Erweiterte**&quot; eine der unten aufgeführten Optionen aus. Nicht alle Optionen stehen für alle Feldtypen zur Verfügung.
 
    * **Erforderliches Feld festlegen**: Wenn diese Option aktiviert ist, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
-   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird. Logik hinzufügen ist nur verfügbar, wenn Felder Einzel- und Mehrfachauswahlfelder sind oder diesen vorangestellt sind. <span class="preview">Regeln für Validierungen und Standardwerte sind nicht für alle Feldtypen verfügbar.</span>
+   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird. Logik hinzufügen ist nur verfügbar, wenn Felder Einzel- und Mehrfachauswahlfelder sind oder diesen vorangestellt sind. Die Regeln Validierung und Standardwert sind nicht für alle Feldtypen verfügbar.
 
-     Wählen Sie in der Produktionsumgebung eine der folgenden Optionen aus:
+   Wählen Sie aus den folgenden Optionen aus:
 
-     * **Anzeigelogik**: Dem ausgewählten Feld muss ein Mehrfachauswahl- oder ein Einzelauswahlfeld vorangestellt werden.
-     * **Logik überspringen**: Fügen Sie Regeln für das Überspringen hinzu, wenn Benutzer das Feld überspringen und es leer lassen sollen.
+   * **Anzeige**
+   * **Überspringen**
+   * **Standardwert**
+   * **Validierung**
+   * **Formatierung**
+   * **Bearbeitbarkeit**
 
-     <div class="preview">
+   Weitere Informationen finden Sie unter [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
-     Wählen Sie in der Vorschau-Umgebung eine der folgenden Optionen aus:
-
-     * **Anzeige**
-     * **Überspringen**
-     * **Standardwert**
-     * **Validierung**
-     * **Formatierung**
-     * **Bearbeitbarkeit**
-
-     </div>
-
-     Weitere Informationen finden Sie unter [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-
-     >[!TIP]
-     >
-     ><span class="preview">Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.</span>
+   >[!TIP]
+   >
+   >Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
 
 1. (Optional) Klicken Sie mit der rechten Maustaste auf ein Feld und ziehen Sie es per Drag-and-Drop an eine andere Position im Formular.
 1. (Optional) Klicken Sie auf **Registerkarte** Inhaltselemente“ auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
@@ -269,24 +255,25 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
-   * [Formular veröffentlichen](#publish-form) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
+   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular konfigurieren möchten
+   * [Formular veröffentlichen](#publish-form), um das Formular zu veröffentlichen, damit Benutzer Anfragen an es senden können
+   * [Anforderungsformular freigeben](#share-a-request-form) um das Formular für andere Personen oder öffentlich freizugeben
 
 ### Konfigurieren von Formulareinstellungen
 
-Auf der Registerkarte Einstellungen können Sie Genehmigungsregeln festlegen, konfigurieren, wann eine aus diesem Formular erstellte Anfrage als abgeschlossen markiert wird, und <span class="preview">Benutzern Standardberechtigungen zuweisen, die mit zukünftigen, über das Formular gesendeten Anfragen interagieren.</span>
+Auf der Registerkarte Einstellungen können Sie Genehmigungsregeln festlegen, konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird, und Benutzern Standardberechtigungen zuweisen, die mit zukünftigen, über das Formular gesendeten Anfragen interagieren.
 
 Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
 
 Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
 
-<span class="preview">Im Genehmigungsprozess werden mehrere Phasen unterstützt. Wenn alle erforderlichen Entscheidungen in einem Schritt getroffen wurden, beginnt der nächste Schritt, und die genehmigenden Personen des neuen Schritts erhalten eine E-Mail-Benachrichtigung.</span>
+Im Genehmigungsprozess werden mehrere Phasen unterstützt. Wenn alle erforderlichen Entscheidungen in einem Schritt getroffen wurden, beginnt der nächste Schritt, und die genehmigenden Personen des neuen Schritts erhalten eine E-Mail-Benachrichtigung.
 
 Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Mit Abschlussoptionen können Sie festlegen, ob eine Anfrage beim Erstellen des angeforderten Objekts als „abgeschlossen“ markiert wird oder wann das erstellte Objekt abgeschlossen ist. Sie definieren, wann das Objekt basierend auf einer angegebenen Bedingung abgeschlossen sein soll.
 
-<span class="preview">Verwenden Sie den Abschnitt Berechtigungen im Bereich Einstellungen eines Anfrageformulars, um die Standardberechtigungen von Anfragenden <!--and non-requestors--> den mit dem Formular erstellten Anfragen zu definieren.</span>
+Verwenden Sie den Abschnitt Berechtigungen im Bereich Einstellungen eines Anfrageformulars, um die Standardberechtigungen von Anfragenden <!--and non-requestors--> den mit dem Formular erstellten Anfragen zu definieren.
 
 So konfigurieren Sie Formulareinstellungen:
 
@@ -297,7 +284,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Navigationsbereich.
 
-   Sie können einzelne <span class="preview"> oder mehrstufige Genehmigungsregeln erstellen </span> Benutzer oder Teams einer Genehmigung zuweisen.
+   Sie können ein- oder mehrstufige Genehmigungsregeln erstellen und einer Genehmigung Benutzer oder Teams zuweisen.
 
    Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -309,56 +296,41 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, der angibt, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 
-1. <span class="preview">Klicken Sie **Berechtigungen** im linken Bedienfeld.</span>
-1. <span class="preview">Wählen Sie die Berechtigungsstufe für die Benutzer aus, die Anfragen über dieses Formular senden:</span>
-
-   <div class="preview">
+1. Klicken Sie **linken** auf „Berechtigungen“.
+1. Wählen Sie die Berechtigungsstufe für die Benutzer aus, die über dieses Formular Anfragen senden:
 
    * **Anzeigen**: Alle Antragsteller können das Formular kommentieren und freigeben.
    * **Beitragen**: Alle Anfragenden können das Formular kommentieren, freigeben und bearbeiten.
    * **Verwalten**: Alle Anfordernden können das Formular kommentieren, freigeben, bearbeiten und löschen.
 
-   </div>
-
-1. <span class="preview"> (Optional) Deaktivieren Sie eine der granularen Berechtigungen für jede Berechtigungsstufe, um zu verhindern, dass Anfordernde die folgenden Aktionen ausführen:</span>
-
-   <div class="preview">
+1. (Optional) Deaktivieren Sie eine der granularen Berechtigungen für jede Berechtigungsstufe, um zu verhindern, dass Anfragende die folgenden Aktionen ausführen:
 
    * Kommentar
    * Freigeben
    * Bearbeiten. Nicht für Ansicht verfügbar.
    * Löschen. Nicht verfügbar für Contribute und Ansicht.
 
-   </div>
+   >[!TIP]
+   >
+   >Die granulare Berechtigung, deren Auswahl Sie hier aufheben, wird abgeblendet, wenn Sie die Anfrage für diese Benutzer auf der Anfrageseite freigeben.
+
+1. <span class="preview">Klicken Sie auf **AI-Formular ausfüllen**, um eine benutzerdefinierte Eingabeaufforderung zu konfigurieren, wenn die Funktion **Formular ausfüllen** beim Senden von Anfragen verwendet wird. </span>
 
    >[!TIP]
    >
-   ><span class="preview">Die granulare Berechtigung, die Sie hier abwählen, wird abgeblendet, wenn Sie die Anfrage für diese Benutzer auf der Anfrageseite freigeben. </span>
+   ><span class="preview">Sie müssen eine Datei anhängen, wenn Sie KI verwenden, um das Anfrageformular auszufüllen, damit die Eingabeaufforderung wirksam wird. </span>
+
+1. <span class="preview">Aktivieren Sie die Einstellung **Standardaufforderung aktivieren** und fügen Sie dann eine Standardaufforderung hinzu. </span>
+
+   <span class="preview">Machen Sie die Eingabeaufforderung so detailliert wie möglich. Wenn Sie beispielsweise bei Verwendung des Formulars zum Ausfüllen immer Dateien mit Datumsangaben verwenden, können Sie der Eingabeaufforderung „Datumsangaben immer im europäischen Format speichern“ hinzufügen. </span>
+
+   <span class="preview">Wenn Sie die Funktion **Formular ausfüllen** verwenden und beim Senden einer Anfrage mit diesem Formular eine Datei anhängen, führt AI bei der neuen Anfrage die Änderungen durch, die Sie in dieser Standardaufforderung vorschreiben. Sie haben die Möglichkeit, die Änderungen zu überprüfen, bevor Sie sie übermitteln. </span>
+
+   ![Beispiel für eine Standardaufforderung zum Ausfüllen eines KI-Formulars](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. Fahren Sie mit [Formular veröffentlichen](#publish-form) fort.
 
 1. Klicken Sie auf **Speichern**.
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### Formular veröffentlichen
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anforderungsformulare verwalten** oder <span class="preview">**Anforderungsformulare**</span>.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Formulare anfordern**.
 
    Die **Anforderungsformulare** wird geöffnet, und alle mit dem Datensatztyp verknüpften Anforderungsformulare werden in einer Listenansicht angezeigt.
 1. (Optional) Aktualisieren Sie die folgenden Ansichtselemente auf der Seite **Anfrageformulare**, um die Anzeige von Informationen in der Tabelle zu ändern:

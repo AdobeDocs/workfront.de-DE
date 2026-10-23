@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 12%
 ---
 # Geschäftsprofile anzeigen und verwalten
 
-{{highlighted-preview}}
-
 Um einem Benutzer ein Geschäftsprofil zuzuweisen, müssen Sie eine Gruppe und eine zugehörige Zugriffsebene zuweisen.
 
-Als Workfront-Administrator können Sie das Geschäftsprofil eines Benutzers festlegen, indem Sie Kombinationen aus Zugriffsebenen und Gruppen zuweisen. Dies wird über die Benutzerseite in Workfront verwaltet. <span class="preview">Gruppenadministratoren können auch Geschäftsprofile erstellen, bearbeiten und löschen, jedoch nur für die von ihnen verwalteten Gruppen.</span>
+Als Workfront-Administrator können Sie das Geschäftsprofil eines Benutzers festlegen, indem Sie Kombinationen aus Zugriffsebenen und Gruppen zuweisen. Dies wird über die Benutzerseite in Workfront verwaltet. Gruppenadministratoren können auch Geschäftsprofile erstellen, bearbeiten und löschen, jedoch nur für die von ihnen verwalteten Gruppen.
 
 Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -56,7 +54,7 @@ Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td><p>Systemadmin</p><p><span class="preview">Gruppenadministrator (für von ihm verwaltete Gruppen)</span></p></td>
+   <td><p>Systemadmin</p><p>Gruppenadministrator (für von ihm verwaltete Gruppen)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Geschäftsprofil bearbeiten
 
-<div class="preview">
-
 Das Bearbeiten eines Geschäftsprofils öffnet dasselbe Fenster, in dem es erstellt wurde.
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ Das Bearbeiten eines Geschäftsprofils öffnet dasselbe Fenster, in dem es erste
 >
 >Gruppenadministratoren können nur Geschäftsprofile für die von ihnen verwalteten Gruppen bearbeiten.
 
-</div>
-
 ## Löschen eines Geschäftsprofils
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ Das Bearbeiten eines Geschäftsprofils öffnet dasselbe Fenster, in dem es erste
 >[!NOTE]
 >
 >Gruppenadministratoren können nur Geschäftsprofile für von ihnen verwaltete Gruppen löschen.
-
-</div>

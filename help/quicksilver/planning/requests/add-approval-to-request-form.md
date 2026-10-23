@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 2%
+source-wordcount: '1141'
+ht-degree: 3%
 ---
 # Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Sie können einem Adobe Workfront Planning-Anforderungsformular einen Genehmigungsprozess hinzufügen, um für jede gesendete Anforderung eine Genehmigung zu starten, bevor ein Datensatz erstellt wird.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+Im Genehmigungsprozess werden mehrere Phasen unterstützt. Wenn alle erforderlichen Entscheidungen in einem Schritt getroffen wurden, beginnt der nächste Schritt, und die genehmigenden Personen des neuen Schritts erhalten eine E-Mail-Benachrichtigung.
 
 In diesem Artikel wird beschrieben, wie ein Workspace-Manager einem Anfrageformular, das mit einem Datensatztyp verknüpft ist, eine Genehmigung hinzufügen kann.
 
@@ -116,7 +116,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Wenn mehrere genehmigende Personen erforderlich sind, müssen alle von ihnen eine Entscheidung treffen, bevor die Anfrage genehmigt oder abgelehnt wird - es sei denn, die Option Nur eine Entscheidung ist erforderlich ist ist aktiviert.
 * Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung von einem Mitglied dieses Teams erforderlich.
 * Validierungen sind optional. Wenn einem Antragsformular keine Validierung beigefügt ist, erstellt Workfront Planning den Datensatz sofort nach der Übermittlung.
-* <span class="preview">Sie können Genehmigungen einen oder mehrere Schritte hinzufügen.</span>
+* Sie können Genehmigungen einen oder mehrere Schritte hinzufügen.
 
 ## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular
 
@@ -156,29 +156,29 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    >   * Wenn eine benutzerdefinierte Regel erfüllt ist, wird die Standardeinstellung nicht auf den Workflow für die Anfragegenehmigung angewendet. Für Genehmigungen gelten nur die passenden benutzerdefinierten Regeln, und die Standardregel wird ignoriert.
    >   * Wenn mehrere benutzerdefinierte Regeln erfüllt sind, gilt die erste in der Reihenfolge. In diesem Fall gilt die Standardgenehmigung nicht, falls eine solche vorhanden ist.
 
-1. <span class="preview">(Optional) Klicken Sie auf **Phase hinzufügen**, um der Genehmigung einen weiteren Schritt hinzuzufügen.</span>
+1. (Optional) Klicken Sie auf **Phase hinzufügen**, um der Genehmigung einen weiteren Schritt hinzuzufügen.
 
 1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 
-1. <span class="preview">(Optional) Gehen Sie wie folgt vor, um der Genehmigung weitere Phasen hinzuzufügen:</span>
+1. (Optional) Gehen Sie wie folgt vor, um der Genehmigung weitere Phasen hinzuzufügen:
 
-   1. <span class="preview">Klicken Sie auf **Phase hinzufügen**.</span>
+   1. Klicken Sie **Phase hinzufügen**.
 
-      <span class="preview">Das Feld **Mehrstufige Genehmigung** wird angezeigt. Wenn Sie bereits eine standardmäßige Genehmigungsaktion erstellt haben, werden diese genehmigenden Personen automatisch zu Schritt 1.</span> hinzugefügt
+      Das **Mehrstufige Genehmigung** wird angezeigt. Wenn Sie bereits eine standardmäßige Genehmigungsaktion erstellt haben, werden diese genehmigenden Personen automatisch zu Schritt 1 hinzugefügt.
 
-   1. <span class="preview">Fügen Sie im Feld **Personen oder Teams hinzufügen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das als genehmigende Person für das Stadium festgelegt werden soll.</span>
-   1. <span class="preview">(Bedingt und optional) Wenn Sie möchten, dass der Datensatz in den nächsten Schritt weitergeleitet wird, nachdem ihn eine der genehmigenden Personen genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anfrage in den nächsten Schritt übergeht.</span>
-   1. <span class="preview">Klicken Sie auf **Phase hinzufügen** und wiederholen Sie Schritt B, um der Genehmigung weitere Phasen hinzuzufügen.</span>
+   1. Fügen Sie im Feld **Personen oder Teams hinzufügen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das als genehmigende Person für die Phase festgelegt werden soll.
+   1. (Bedingt und optional) Wenn der Datensatz in den nächsten Schritt weitergeleitet werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anfrage in den nächsten Schritt übergeht.
+   1. Klicken Sie **Phase hinzufügen** und wiederholen Sie Schritt B, um der Genehmigung weitere Phasen hinzuzufügen.
 
-      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, &#x200B;](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
+      Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das **Drag**-Symbol ![Drag-Symbol](assets/drag-icon.png) klicken, um sie in die gewünschte Reihenfolge zu ziehen.
 
-      <span class="preview">Klicken Sie auf **Diesen Schritt löschen**, um einen Schritt aus der Genehmigung zu löschen, oder klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png) neben einer genehmigenden Person, um den Benutzer oder das Team aus der Liste der genehmigenden Personen in einem Schritt zu löschen.</span>
+      Klicken Sie auf **Diesen Schritt löschen**, um einen Schritt aus der Genehmigung zu löschen, oder klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png) neben einer genehmigenden Person, um den Benutzer oder das Team aus der Liste der genehmigenden Personen in einem Schritt zu löschen.
 
       ![Mehrstufen-Genehmigungsbox](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">Wenn Sie mit dem Erstellen des Genehmigungs-Workflows fertig sind, klicken Sie auf **Speichern**.</span>
+   1. Wenn Sie mit dem Erstellen des Genehmigungs-Workflows fertig sind, klicken Sie auf **Speichern**.
 
-      <span class="preview">Sie können die mehrstufige Genehmigung über die Seite Genehmigungen bearbeiten oder löschen.</span>
+      Sie können die mehrstufige Genehmigung über die Seite Genehmigungen bearbeiten oder löschen.
 
 1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.
 

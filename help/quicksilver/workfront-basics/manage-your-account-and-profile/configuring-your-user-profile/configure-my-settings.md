@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3386'
 ht-degree: 2%
 ---
 # Konfigurieren von „Meine Einstellungen“
@@ -370,7 +370,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail-Gebietsschema]</strong> </td> 
    <td><p>Geben Sie hier Ihre bevorzugte Sprache an. Damit wird die Sprache, das Datum und das Zahlenformat gesteuert, die in ausgehenden E-Mail-Nachrichten verwendet werden.</p>
-   <p><strong>HINWEIS</strong> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändern der Adobe Experience Cloud</a> im Artikel "<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Sprachen in Adobe Workfront</a>.</p></td> 
+   <p><strong>HINWEIS</strong> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Ändern der Adobe CX Enterprise</a> im Artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Unterstützte Sprachen in Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Automatisches Festlegen des Aufgabenstatus auf 'In Bearbeitung', wenn Aufgaben selbst zugewiesen werden]</strong> </td>
   <td>Wählen Sie diese Option aus, wenn der Status der Arbeit, die Sie sich selbst zuweisen, automatisch auf In Bearbeitung statt auf Neu gesetzt werden soll.</td>

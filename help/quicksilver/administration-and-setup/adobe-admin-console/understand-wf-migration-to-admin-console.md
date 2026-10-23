@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind S
 
 * **Wenn Benutzer migriert werden, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise, wie sie sich bei Workfront anmelden, informiert werden.** Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen Adobe ID mit derselben E-Mail-Adresse.
 
-  Informationen zur Anmeldung bei Workfront mit Adobe ID finden Sie unter [Bei Adobe Experience Cloud anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Informationen zum Anmelden bei Workfront mit einer Adobe ID finden Sie unter [Bei Adobe CX Enterprise anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise).
 
 ### Benutzermigration abgeschlossen
 

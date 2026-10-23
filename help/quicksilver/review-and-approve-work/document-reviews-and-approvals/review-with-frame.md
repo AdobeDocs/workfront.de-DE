@@ -26,22 +26,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 5%
 ---
 # Überprüfen und Genehmigen mit dem Frame.io-Viewer
-
-{{highlighted-preview}}
 
 Sie können Dokumente in Workfront mit dem Frame.io-Viewer überprüfen und genehmigen.
 
 Durch die Überprüfung von Workfront-Dokumenten mit dem Frame.io-Viewer können Sie Kommentare hinterlassen oder bestimmte Abschnitte eines Dokuments, Bildes oder Videos markieren, um effizient mit Ihrem Team zusammenzuarbeiten und sicherzustellen, dass das Feedback klar und umsetzbar ist.
 
 Weitere Informationen zur Integration von Frame.io mit Workfront finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
-
-
 
 ## Zugriffsanforderungen
 
@@ -98,7 +94,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
    >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen.
-Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Kommentare werden in Workfront nicht angezeigt. <span class="preview">Das Bedienfeld „Kommentare“ für das Dokument in Workfront zeigt jedoch einen Callout mit einer Anzahl dieser Kommentare an, wenn eine Anzahl verfügbar ist, sowie einen Link zum Öffnen des Frame.io-Viewers und zum Lesen dieser Kommentare.</span> Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Kommentare werden in Workfront nicht angezeigt. Das Kommentarbedienfeld für das Dokument in Workfront zeigt jedoch einen Hinweis mit einer Anzahl dieser Kommentare, wenn eine Anzahl verfügbar ist, und einen Link zum Öffnen des Frame.io-Viewers und zum Lesen dieser Kommentare. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Wenn Sie mit dem Dokument zufrieden sind, navigieren Sie zurück zur Seite Dokumentdetails in Workfront und markieren Sie Ihre Überprüfung als abgeschlossen.
 
    ![Review als abgeschlossen markieren](assets/mark-review-complete.png)
@@ -123,7 +119,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
 
    >[!NOTE]
    >
-   > <span class="preview">In der Vorschau zeigt das Bedienfeld „Kommentare“ in Workfront eine Meldung an, die Sie darüber informiert, wenn in Frame.io neue Kommentare verfügbar sind.</span>
+   >Das Bedienfeld „Kommentare“ in Workfront zeigt eine Meldung an, die Sie darüber informiert, wenn neue Kommentare in Frame.io verfügbar sind.</span>
 
 
 1. Wenn Sie mit dem Dokument zufrieden sind, können Sie eine der folgenden Entscheidungen im Frame.io-Viewer auswählen:

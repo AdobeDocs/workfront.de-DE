@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 1%
 ---
 # Überblick über den Berichtversand
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ Wenn Sie einen Bericht von Workfront an das PDF- oder Excel-Format senden, bleib
 
 Der Name des Berichts in der E-Mail-Nachricht ist auch ein Link.
 
-<div class="preview">
-
 ### Verfallshinweise für Berichte {#report-expiration-notices}
 
-In der Vorschau enthalten die gesendeten Berichts-E-Mails das Ablaufdatum des Berichts.
+Die zugestellten Berichts-E-Mails enthalten das Ablaufdatum des Berichts.
 
 Wenn sich der Versand täglich wiederholt, enthält die E-Mail bei jedem Versand eine Ablaufwarnung, sobald das Ablaufdatum innerhalb von 45 Tagen liegt.
 
 Wenn sich der Versand wöchentlich oder monatlich wiederholt, enthält die E-Mail eine Ablaufwarnung während der letzten vier geplanten Sendungen vor dem Ablaufdatum.
-
-</div>
 
 ## Bericht zu terminierten Berichten
 

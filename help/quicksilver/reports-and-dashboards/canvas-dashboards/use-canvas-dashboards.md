@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '647'
+ht-degree: 3%
 ---
 # Verwenden von Arbeitsflächen-Dashboards
 
@@ -34,12 +34,7 @@ ht-degree: 4%
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.
 >
 >Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
->
->* Eigene Schlüssel für Amazon Web Services mitbringen
->* Azure
->* Google Cloud Platform
+
 
 Arbeitsflächen-Dashboards ermöglichen es Ihnen, Ihre Adobe Workfront-Daten zu visualisieren, indem Sie verschiedene Berichtstypen zu einem flexiblen Arbeitsflächen-Layout hinzufügen. Dieser Artikel bietet einen Überblick darüber, wie Sie Canvas-Dashboards effektiv verwenden.
 
@@ -110,9 +105,9 @@ Sie können Tabellenberichte in Dashboards vorübergehend anpassen. Diese Änder
    >
    >Diese Änderungen gelten nur für Ihre aktuelle Sitzung und wirken sich nicht auf die ursprüngliche Berichtskonfiguration aus. Um diese Änderungen dauerhaft vorzunehmen, müssen Sie den Bericht bearbeiten.
 
-<div class="preview">
 
-### Aufschlüsselung der Pivot-Tabellendaten in der Vorschau
+
+### Drilldown in Pivot-Tabellendaten
 
 Sie können auf einen Wert in einem Pivot-Tabellenbericht klicken, um einen Drilldown durchzuführen und die einzelnen Datensätze anzuzeigen, aus denen dieser aggregierte Wert besteht.
 
@@ -126,7 +121,7 @@ Sie können auf einen Wert in einem Pivot-Tabellenbericht klicken, um einen Dril
 
    Die Drilldown-Tabelle zeigt die Spalten an, die der Ersteller des Berichts in den Drilldown-Spalteneinstellungen konfiguriert hat. Weitere Informationen finden Sie unter [Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

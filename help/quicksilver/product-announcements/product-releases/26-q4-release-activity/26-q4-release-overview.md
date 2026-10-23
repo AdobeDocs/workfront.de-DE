@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3661'
 ht-degree: 7%
 ---
 # Versionsübersicht für das vierte Quartal 2026
@@ -274,6 +274,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>October 22, 2026</p></td>
         </tr>
 -->        
+       <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP-Server-Toolsets</a></p>
+                <p>Sie können jetzt den Workfront MCP-Katalog auf bestimmte Toolsets beschränken und die Verfügbarkeit nach Produktberechtigungen filtern, sodass KI-Clients nur auf die benötigten Funktionen zugreifen.</p>
+            </td>
+            <td><p>22. Oktober 2026</p></td>
+            <td><p>22. Oktober 2026</p></td>
+            <td><p>22. Oktober 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen für KI-Mitwirkende</a>

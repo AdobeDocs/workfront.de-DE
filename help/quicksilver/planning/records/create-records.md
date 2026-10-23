@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 1%
 ---
 # Erstellen von Einträgen
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Sie können Datensätze wie folgt erstellen:
 * [Aus anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Senden eines Anfrageformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Informationen aus einer CSV- oder Excel-Datei importieren](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Erstellen von Datensätzen mit CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Automatisierungen verwenden](#create-records-by-using-automations)
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
@@ -196,14 +198,9 @@ Old:
   >
   >Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
 
-<div class="preview">
-
 * Alle Datensätze werden bei ihrer Erstellung automatisch farbcodiert, unabhängig von der Methode, mit der Sie sie erstellen.
 
   Weitere Informationen finden Sie im Abschnitt [Farbcodierungseinträge](#color-coding-records) in diesem Artikel.
-
-</div>
-
 
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
 
@@ -602,6 +599,16 @@ Sie können Datensätze für vorhandene Datensatztypen importieren, wenn Sie Inf
 
 Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
+## Erstellen von Datensätzen mit CX Enterprise Coworker
+
+Sie können die CX Enterprise Coworker verwenden, um Datensätze zu erstellen, indem Sie KI auffordern, diese für Sie zu erstellen.
+
+Sie können auch die Funktion **Datei anhängen** des Workfront CX Enterprise Coworker verwenden, um eine große Anzahl von Datensätzen gleichzeitig hochzuladen. Mit dieser Methode können Sie 10.000 oder mehr Datensätze importieren.
+
+CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung.
+
+Weitere Informationen finden Sie unter [Verwenden von CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 ## Erstellen von Datensätzen mithilfe von Automatisierungen
 
 Sie können Automatisierungen in Workfront Planning konfigurieren, die Datensätze erstellen, wenn sie aktiviert sind, sobald sie aus einem Planungsdatensatz ausgelöst werden. Die erstellten Datensätze werden automatisch mit den Datensätzen verbunden, für die Sie die Automatisierung auslösen.
@@ -613,8 +620,6 @@ Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adob
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## Einträge mit Farbcodierung
 
@@ -657,4 +662,3 @@ Alle Datensätze werden bei ihrer Erstellung automatisch einer Farbe zugeordnet.
 
       Nach der Auswahl wird die neue Farbe sofort angewendet.
 
-</div>

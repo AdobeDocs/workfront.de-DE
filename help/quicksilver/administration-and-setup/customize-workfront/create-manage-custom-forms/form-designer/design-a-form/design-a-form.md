@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 75%
 ---
 # Erstellen eines benutzerdefinierten Formulars
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">Auswahl </td> 
-    <td> 
-    <p>Wählen Sie eine der folgenden Optionen aus:</p> 
-    <ul> 
-    <li><strong>Werte anzeigen</strong>: Zeigt die Werte jeder Auswahlmöglichkeit im Feld an. Das Label jeder Auswahlmöglichkeit wird standardmäßig angezeigt.</li>
-   <li><strong>Auswahl von A–Z sortieren</strong>: Sortiert die im Feld hinzugefügten Auswahlmöglichkeiten alphabetisch.</li>
-    </ul>
-     <p>Klicken Sie für jede Auswahl, die Sie dem Benutzer bzw. der Benutzerin hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png"> und wählen Sie dann eine der folgenden Optionen aus:</p> 
-    <ul> 
-    <li><strong>Gemäß Standard anzeigen</strong>: Wählen Sie im Feld die Standardauswahl aus.</li> 
-    <li> <p><strong>Auswahl ausblenden</strong>: Blendet die Auswahl im Feld aus. Ausgeblendete Auswahlmöglichkeiten bleiben in Berichten verfügbar.</p> </li> 
-    <li> <p><strong>Auswahl entfernen</strong>: Entfernt die Auswahl aus dem Feld.</p> <p><b>Warnung</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahlmöglichkeit verwenden, entfernen Sie sie nicht aus dem Feld. Durch Entfernen gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden, sodass die Benutzenden sie in Zukunft nicht mehr auswählen können.</p> </li> 
-    </ul>   
-    <p><b>Hinweis:</b> Es gibt keine Begrenzung dafür, wie viele Optionen Sie auswählen können. </p>    
-    </td> 
-    <td><ul>
-    <li>Optionsfelder</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Einfachauswahl-Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">Auswahl</span></td> 
+    <td role="rowheader">Auswahl</td> 
     <td>
-    <div class="preview">
     <p>Klicken Sie <strong>Auswahl bearbeiten</strong>, um Auswahlmöglichkeiten für das Feld hinzuzufügen oder zu bearbeiten.</p>
     <p>So fügen Sie eine neue Auswahl im Dialogfeld Optionen bearbeiten hinzu:</p>
     <ol>
@@ -530,13 +503,12 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <li>Klicken Sie <strong>Auswahl A-Z sortieren</strong>, um die Auswahl alphabetisch im Feld zu sortieren.</li>
     </ul>
     <p>Klicken Sie <strong>Speichern</strong> wenn Sie die Bearbeitung der Auswahlmöglichkeiten abgeschlossen haben.</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">Optionsfelder</span></li>
-    <li><span class="preview">Kontrollkästchengruppe</span></li>
-    <li><span class="preview">Einfachauswahl-Dropdown</span></li>
-    <li><span class="preview">Mehrfachauswahl-Dropdown</span></li>
+    <li>Optionsfelder</span></li>
+    <li>Kontrollkästchengruppe</span></li>
+    <li>Einfachauswahl-Dropdown</span></li>
+    <li>Mehrfachauswahl-Dropdown</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
    Oder
 
    Klicken Sie auf **Speichern und schließen**.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

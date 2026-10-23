@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 3%
+source-wordcount: '638'
+ht-degree: 4%
 ---
 # Abrechnungssätze für Aufgabengebiete auf Firmenebene überschreiben
-
-{{preview-fast-release-general}}
 
 Wenn ein Aufgabengebiet erstellt wird, haben Sie die Möglichkeit, einen stündlichen Abrechnungssatz für diese Funktion auszuwählen. Sie können mehrere stündliche Abrechnungssätze erstellen, die spezifisch für eine Firma sind. Jeder Abrechnungssatz gilt für einen bestimmten Datumsbereich.
 
@@ -74,38 +72,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Suchen Sie das Unternehmen, dem das Aufgabengebiet zugewiesen ist.
 1. Klicken Sie auf den Firmennamen in der Liste.
 1. Klicken **[!UICONTROL im linken]** auf „Abrechnungssätze“.
-1. Klicken Sie **[!UICONTROL Abrechnungssatz hinzufügen] > [!UICONTROL Neuer Abrechnungssatz]** oder <span class="preview">**Abrechnungssatz hinzufügen**</span>.
+1. Klicken Sie **[!UICONTROL Abrechnungssatz hinzufügen]**.
 1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld „Neuer Abrechnungssatz] ein [!UICONTROL **Aufgabengebiet**], um den Abrechnungssatz für zu definieren.
-
-### In der Produktionsumgebung:
-
-Der [!UICONTROL **Standard-Abrechnungssatz**] zeigt den Satz auf Systemebene für dieses Aufgabengebiet an.
-
-![Dialogfeld „Neuer Abrechnungssatz“](assets/date-effective-billing-rates-for-company.png)
-
-1. Geben Sie [!DNL **Feld „Abrechnungssätze 1**] den Abrechnungssatz ein. Klicken Sie dann auf [!UICONTROL **Speichern**], um den Abrechnungssatz einmal zu überschreiben.
-
-   ODER
-
-   Klicken Sie [!UICONTROL **Abrechnungssatz hinzufügen**], um weitere Abrechnungssätze mit Gültigkeitsdaten hinzuzufügen.
-
-1. (Bedingt) Wenn Sie mehr als einen Abrechnungssatz hinzufügen, geben Sie die folgenden Informationen ein:
-
-   * **[!UICONTROL Abrechnungssätze 1], 2 usw.**: Der Wert des Abrechnungssatzes für den Zeitraum.
-   * **[!UICONTROL Startdatum]**: Das Datum, an dem der Kurs in Kraft tritt.
-   * **[!UICONTROL Enddatum]**: Das Datum, an dem der Kurs endet.
-
-     Abrechnungssatz 1 hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum. Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise Abrechnungssatz 1 kein Enddatum hat und Sie Abrechnungssatz 2 mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem Abrechnungssatz 1 das Enddatum 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.
-
-1. Klicken Sie auf [!UICONTROL **Speichern**].
-
-   >[!NOTE]
-   >
-   >Die im Projekt geänderten Tarife für Aufgabengebiete wirken sich nur auf dieses Projekt aus. Auf Unternehmensebene geänderte Tarife wirken sich auf alle Projekte aus. Weitere Informationen finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-
-<div class="preview">
-
-### In der Vorschau-Umgebung:
 
 1. Wählen Sie Attribute für den Satz aus, z. B. Agentur, Standort oder Kostenstelle.
 
@@ -145,5 +113,35 @@ Der [!UICONTROL **Standard-Abrechnungssatz**] zeigt den Satz auf Systemebene fü
    >
    >Die im Projekt geänderten Tarife für Aufgabengebiete wirken sich nur auf dieses Projekt aus. Auf Unternehmensebene geänderte Tarife wirken sich auf alle Projekte aus, denen das Unternehmen zugewiesen ist. Weitere Informationen finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

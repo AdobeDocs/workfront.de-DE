@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 88%
 ---
 # Verwalten von Benutzenden in der Adobe Admin Console
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Sie müssen einen Benutzer bzw. eine Benutzerin zu Ihrer Produktionsinstanz von 
 
    Die Person wird in Workfront mit der Zugriffsebene „Anfragende“ oder „Mitwirkende“ erstellt, je nach Workfront-Paket Ihres Unternehmens.
 
-   <span class="preview">Wenn Ihr Workfront-Administrator eine standardmäßige Zugriffsebene für in der Admin Console erstellte Benutzer festgelegt hat, wird die Benutzerin bzw. der Benutzer stattdessen mit dieser Zugriffsebene erstellt. Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
+   Wenn Ihr Workfront-Administrator eine standardmäßige Zugriffsebene für in der Admin Console erstellte Benutzer festgelegt hat, wird der Benutzer stattdessen mit dieser Zugriffsebene erstellt. Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
    >[!IMPORTANT]
    >

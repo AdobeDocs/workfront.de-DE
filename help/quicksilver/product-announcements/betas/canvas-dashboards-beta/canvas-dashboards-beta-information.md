@@ -26,22 +26,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 12%
+source-wordcount: '561'
+ht-degree: 9%
 ---
 # Informationen zur Beta-Version von Arbeitsflächen-Dashboards
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie uns Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
->
->* Eigene Schlüssel für Amazon Web Services mitbringen
->* Azure
->* Google Cloud Platform
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Arbeitsflächen-Dashboards sind eine Funktion, die sich derzeit in der Entwicklung befindet und es Ihnen ermöglicht, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem verschiedene Berichtstypen zu einer Arbeitsfläche hinzugefügt werden. Diese Funktion bietet viele flexible Layout-Optionen, einschließlich Größenanpassung, Drag-and-Drop und mehr.
 

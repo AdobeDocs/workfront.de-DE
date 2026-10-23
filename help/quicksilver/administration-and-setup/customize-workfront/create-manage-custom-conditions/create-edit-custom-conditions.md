@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 6%
+source-wordcount: '646'
+ht-degree: 7%
 ---
 # Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung
-
-{{preview-fast-release-general}}
 
 Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung für Projekte, Aufgaben und Probleme erstellen oder bearbeiten, um sie an die Anforderungen Ihres Unternehmens anzupassen.
 
@@ -80,15 +78,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ODER
 
-   So bearbeiten Sie eine vorhandene Bedingung:
+   Um eine vorhandene Bedingung zu bearbeiten, aktivieren Sie das Kontrollkästchen neben dem Namen der Bedingung, die Sie löschen möchten, und klicken Sie **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand.
 
-   * Klicken Sie in der Produktionsumgebung **Bearbeiten** neben dem Namen der Bedingung.
-   * <span class="preview">Aktivieren Sie in der Vorschau-Umgebung das Kontrollkästchen neben dem Namen der zu löschenden Bedingung und klicken Sie **unten** Bildschirm in der Aktionsleiste auf „Bearbeiten“</span>
 
-   Beispielbild in der Produktionsumgebung:
-   ![Benutzerdefinierte Bedingung bearbeiten](assets/custom-conditions-0825.png)
-
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Benutzerdefinierte Bedingung bearbeiten](assets/edit-conditions-082526.png)
 
 1. Konfigurieren Sie Ihre benutzerdefinierte Bedingung mit den folgenden Optionen:

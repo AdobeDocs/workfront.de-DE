@@ -16,14 +16,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
 ---
 # KI-Mitwirkung
-
-{{preview-fast-release-general}}
 
 KI-Mitwirkende sind KI-Agenten, die Sie Aufgaben auf dieselbe Weise zuweisen können wie eine Person. Sie können KI-Mitwirkende in Ihre vorhandenen Workflows integrieren und so Ihrem Team die Freiheit geben, sich auf das zu konzentrieren, was am wichtigsten ist.
 

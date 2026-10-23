@@ -30,16 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '2881'
+source-wordcount: '2673'
 ht-degree: 1%
 ---
 # Erstellen eines Workflows für die Dokumentvalidierung
 
-{{highlighted-preview}}
-
-Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument oder eine Live-Website in Adobe Workfront anfordern oder diese auffordern, es zu überprüfen, ohne es genehmigen zu müssen.
+Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
 
 Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. In diesem Artikel können Sie nur Vorlagen auswählen, die Sie erstellt haben oder die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Freigeben einer Vorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) unter Verwalten von Genehmigungsvorlagen.
 
@@ -178,13 +176,9 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td>Stadien werden standardmäßig <em>Stadium 1</em>, <em>Stadium 2</em> usw. benannt. Benennen Sie die Phase in eine aussagekräftigere Bezeichnung um, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
-   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</span></p>
-   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></p></td>
+   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</p>
+   <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -244,13 +238,9 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td>Das Feld Vorlagen ist standardmäßig reduziert. Klicken Sie auf das Feld, um es zu erweitern, und wählen Sie dann eine Vorlage aus dem Dropdown-Menü aus. Im Menü werden nur Vorlagen aufgelistet, die Sie erstellt haben oder die für Sie freigegeben wurden - entweder für Sie selbst oder für alle Personen in Ihrer Organisation. Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
-   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</span></p>
-   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></p></td>
+   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</p>
+   <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -320,13 +310,9 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td>Stadien werden standardmäßig <em>Stadium 1</em>, <em>Stadium 2</em> usw. benannt. Benennen Sie die Phase in eine aussagekräftigere Bezeichnung um, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
-   </tr>
-   <tr>&gt;
-   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
-   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</span></p>
-   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></p></td>
+   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</p>
+   <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -360,10 +346,7 @@ preview screen
 
 1. Klicken Sie **Genehmigung anfordern**.
 
-
-<div class="preview">
-
-## Anzeigen von Genehmigungs-Workflows für frühere Versionen im neuen Dokumentbereich in der Vorschau
+## Anzeigen von Genehmigungs-Workflows für frühere Versionen im Bereich „Neue Dokumente“
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -383,7 +366,6 @@ So zeigen Sie Genehmigungs-Workflows für frühere Versionen an:
    >
    >Wenn der Genehmigungs-Workflow einer Version zurückgezogen wurde, weil die Genehmigung einer neueren Version angefordert wurde, bleibt die Version in der Liste, wird reduziert, sodass Sie weiterhin die vorherigen Entscheidungen überprüfen können.
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version

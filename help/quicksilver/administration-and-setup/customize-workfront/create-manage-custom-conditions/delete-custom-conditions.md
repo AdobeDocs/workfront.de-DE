@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 16%
+source-wordcount: '237'
+ht-degree: 18%
 ---
 # Löschen einer benutzerdefinierten Bedingung
-
-{{preview-fast-release-general}}
 
 Sie können eine benutzerdefinierte Bedingung löschen, wenn sie nicht mehr benötigt wird.
 
@@ -67,11 +65,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step-1-to-setup}}
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
-
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), auf der sich die Bedingung befindet, die Sie löschen möchten.
-1. Klicken Sie in der Produktionsumgebung neben **Namen der Bedingung** die Sie löschen möchten, auf „Löschen“.
-   <span class="preview">Aktivieren Sie in der Vorschau-Umgebung das Kontrollkästchen neben dem Namen der zu löschenden Bedingung und klicken Sie in der **am unteren Bildschirmrand auf &quot;**&quot;</span>
-
+1. Aktivieren Sie das Kontrollkästchen neben dem Namen der Bedingung, die Sie löschen möchten, und klicken Sie **der Aktionsleiste unten** Bildschirm auf „Löschen“.
 1. Wählen Sie im **Löschbedingung** angezeigten Feld in der Dropdown-Liste für alle Projekte, Aufgaben oder Probleme, die die zu löschende Bedingung verwendet haben, eine neue Bedingung aus.
 
    Benutzerdefinierte Bedingungen sind in der Dropdown-Liste nur verfügbar, wenn sie mit derselben integrierten Bedingung übereinstimmen wie die, die Sie löschen möchten. Wenn Sie beispielsweise eine Bedingung löschen, die der Gefährdungsstufe entspricht, können nur benutzerdefinierte Bedingungen ausgewählt werden, die ebenfalls der Stufe Gefährdet entsprechen.

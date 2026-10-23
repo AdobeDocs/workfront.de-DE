@@ -5,15 +5,13 @@ title: Überprüfen einer gruppierten Genehmigung
 description: Sie können alle Dokumente in einer gruppierten Genehmigung über das Widget Meine Genehmigungen auf der Startseite oder im Frame.io-Viewer überprüfen und Entscheidungen treffen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '630'
 ht-degree: 6%
 ---
 
 # Überprüfen einer gruppierten Genehmigung
-
-<span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab 22. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
 
 Wenn Sie einer gruppierten Genehmigung zugewiesen sind, werden alle Dokumente in der Gruppe zusammen angezeigt, sodass Sie für jede Genehmigung eine Entscheidung treffen können. Sie können Änderungen an jedem Dokument gleichzeitig genehmigen oder anfordern oder eine Entscheidung für jedes Dokument einzeln treffen.
 

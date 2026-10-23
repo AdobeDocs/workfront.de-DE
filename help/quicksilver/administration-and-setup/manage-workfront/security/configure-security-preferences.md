@@ -38,14 +38,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
+source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 10%
 ---
 # Systemvoreinstellungen konfigurieren
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -164,8 +162,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td><p>Hier können Sie auswählen, ob Benutzer bei der Massenbearbeitung von Objekten zur Eingabe von Informationen in erforderliche Felder gezwungen werden sollen.</p> <p>Wenn diese Option ausgewählt ist, müssen die erforderlichen Felder vor dem Speichern im Massenbearbeitungsmodus Werte aufweisen. Wenn im erforderlichen Feld ein Wert für mindestens ein Massenobjekt fehlt, ist das Speichern nicht zulässig.</p> <p>Wenn diese Option nicht ausgewählt ist, werden erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Zugriffsebene für in Admin Console erstellte Benutzende</span></td>
-      <td><span class="preview">Ermöglicht die Auswahl einer standardmäßigen Zugriffsebene, die Benutzern automatisch zugewiesen wird, die in Workfront über die Adobe Admin Console erstellt wurden. Wenn Sie keinen Standardwert festlegen, erhalten diese Benutzer weiterhin eine Zugriffsebene für Mitwirkende oder Anfordernde. Die Zugriffsebenen „Systemadministrator“ und „Externe Benutzer“ sind nicht standardmäßig verfügbar, und diese Einstellung ist nicht für Organisationen verfügbar, die Workfront Planning als eigenständiges Produkt verwenden.<p><b>HINWEIS</b>: Eine Zugriffsebene kann nicht gelöscht werden, während sie als Standard festgelegt ist. Um die Standardzugriffsebene zu löschen, wählen Sie zuerst eine andere Standardzugriffsebene aus.</p></span></td>
+      <td role="rowheader">Zugriffsebene für in Admin Console erstellte Benutzende</td>
+      <td>Ermöglicht die Auswahl einer standardmäßigen Zugriffsebene, die Benutzern automatisch zugewiesen wird, die in Workfront über die Adobe Admin Console erstellt wurden. Wenn Sie keinen Standardwert festlegen, erhalten diese Benutzer weiterhin eine Zugriffsebene für Mitwirkende oder Anfordernde. Die Zugriffsebenen „Systemadministrator“ und „Externe Benutzer“ sind nicht standardmäßig verfügbar, und diese Einstellung ist nicht für Organisationen verfügbar, die Workfront Planning als eigenständiges Produkt verwenden.<p><b>HINWEIS</b>: Eine Zugriffsebene kann nicht gelöscht werden, während sie als Standard festgelegt ist. Um die Standardzugriffsebene zu löschen, wählen Sie zuerst eine andere Standardzugriffsebene aus.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Speichereinstellungen </td> 
@@ -201,16 +199,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Schreibgeschützte MCP-Tools</span></td> 
-      <td><span class="preview">Ermöglicht dem Workfront MCP-Server die Durchführung von Leseaktionen für Workfront-Daten, z. B. das Suchen oder Auflisten von Projekten, Aufgaben oder anderen Elementen. Standardmäßig ist diese Option aktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></span></td> 
+      <td role="rowheader">Schreibgeschützte MCP-Tools</td> 
+      <td>Ermöglicht dem Workfront MCP-Server die Durchführung von Leseaktionen für Workfront-Daten, z. B. das Suchen oder Auflisten von Projekten, Aufgaben oder anderen Elementen. Standardmäßig ist diese Option aktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">MCP-Tools schreiben</span></td> 
-      <td><span class="preview">Ermöglicht dem Workfront-MCP-Server das Erstellen, Aktualisieren und Löschen von Aktionen für Workfront-Daten. Standardmäßig ist diese Option deaktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></span></td> 
+      <td role="rowheader">MCP-Tools schreiben</td> 
+      <td>Ermöglicht dem Workfront-MCP-Server das Erstellen, Aktualisieren und Löschen von Aktionen für Workfront-Daten. Standardmäßig ist diese Option deaktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Autorisierte Umleitungs-URLs</span></td> 
-      <td><span class="preview">Steuert, welche Callback-(Umleitungs-)URLs die Anmeldung für die MCP-Agenten Ihres Unternehmens abschließen können, die über benutzerdefinierte KI-Agentplattformen eine Verbindung herstellen.<p>Anweisungen zum Hinzufügen von Umleitungs-URLs für MCP-Server finden Sie <a href="#add-or-remove-an-authorized-redirect-url">Hinzufügen oder Entfernen einer autorisierten Umleitungs-URL</a> in diesem Artikel.</p></span></td> 
+      <td role="rowheader">Autorisierte Umleitungs-URLs</td> 
+      <td>Steuert, welche Callback-(Umleitungs-)URLs die Anmeldung für die MCP-Agenten Ihres Unternehmens abschließen können, die über benutzerdefinierte KI-Agentplattformen eine Verbindung herstellen.<p>Anweisungen zum Hinzufügen von Umleitungs-URLs für MCP-Server finden Sie <a href="#add-or-remove-an-authorized-redirect-url">Hinzufügen oder Entfernen einer autorisierten Umleitungs-URL</a> in diesem Artikel.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 
@@ -223,8 +221,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    Die Änderungen, die Sie hier gespeichert haben, wirken sich auf das Erlebnis aller Benutzenden in Workfront und auf alle Benutzenden aus, die als externe Benutzende mit dem System interagieren.
 
 ## Hinzufügen oder Entfernen einer autorisierten Umleitungs-URL
-
-<div class="preview">
 
 Mit autorisierten Umleitungs-URLs können Sie eine benutzerdefinierte KI-Agent-Plattform verbinden, deren OAuth-Rückruf-URL für Ihre Organisation eindeutig ist, z. B. eine URL, die eine Verbindung oder eine Mandanten-ID enthält.
 
@@ -248,4 +244,3 @@ Hinzufügen einer URL:
 
 +++
 
-</div>
