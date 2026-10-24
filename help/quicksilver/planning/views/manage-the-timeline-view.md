@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
@@ -484,7 +484,6 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
-
 1. Wählen Sie **Bereich** Layout“ des Felds **Datensätze gruppieren nach** eine der folgenden Optionen aus:
 
    * **Gestapelt**: Gruppierungen werden ohne eingefrorene linke Spalte angezeigt und entsprechen der Breite der Timelines ihrer Elemente.
@@ -524,6 +523,11 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
 1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Sortierung hinzufügen
 
@@ -549,7 +553,17 @@ So fügen Sie eine Sortierung in der Zeitleisten -Ansicht hinzu:
 
    ![Sortieren Sie in der Zeitleiste mit Gruppierungssortierung](assets/sort-in-timeline.png)
 1. Wählen Sie aus dem Dropdown-Menü **Datensätze sortieren** und klicken Sie dann entweder auf ein Feld, das in der Liste **Mit einem vorgeschlagenen Feld beginnen** aufgeführt ist, oder klicken Sie auf **Anderes Feld auswählen**, suchen Sie nach dem Feld und klicken Sie auf es, wenn es in der Liste angezeigt wird.
-1. Auswählen der Richtung, in der die Datensatzsortierung angewendet werden soll (alphabetisch, untergeordnet in umgekehrter Reihenfolge usw.) Die Richtung, in der eine Sortierung angewendet wird, hängt vom Format des ausgewählten Felds ab.
+1. Auswählen der Richtung, in der die Datensatzsortierung angewendet werden soll (alphabetisch, untergeordnet in umgekehrter Reihenfolge usw.)
+
+   Die Sortierung eines Textfelds kann beispielsweise A -> Z oder Z -> A lauten.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   Die Richtung, in der eine Sortierung angewendet wird, hängt vom Format des ausgewählten Felds ab.
 1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um bis zu 10 Bedingungen hinzuzufügen.
 1. (Optional) Klicken Sie auf **Alle löschen** um alle Bedingungen zu entfernen.
 1. Wählen Sie aus dem Dropdown-Menü in der oberen linken Ecke des Sortierfelds die Option **Gruppierungen sortieren**.

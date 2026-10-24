@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfront Planning anzeigen:
+In Adobe Workfront Planning können Sie Objekte in der Listenansicht in den folgenden Bereichen anzeigen:
 
 * Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes
 
@@ -53,6 +53,8 @@ Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfron
   ![Anforderungsformulare in der Listenansicht](assets/request-forms-in-list-view.png)
 
 In diesem Artikel wird beschrieben, wie Sie in Workfront Planning eine Listenansicht navigieren, erstellen oder bearbeiten können.
+
+Weitere Informationen zu allen anderen in Workfront Planning verfügbaren Ansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
