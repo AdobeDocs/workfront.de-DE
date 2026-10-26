@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2423'
 ht-degree: 1%
 ---
 
@@ -112,7 +112,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie in der linken Navigation **Connectoren** aus.
 1. Klicken Sie auf das Symbol **+** und dann auf **Benutzerdefinierten Connector hinzufügen**.
@@ -170,7 +170,7 @@ Möglicherweise müssen Sie ein Profil und eine Workfront-Instanz auswählen. Da
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit ChatGPT im Web anzuzeigen.
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Klicken Sie unten links auf Ihren Namen und dann auf **Einstellungen**.
 1. Wählen Sie in der linken Navigation die Option **Sicherheit und Anmeldung** aus.
 1. Rufen Sie die Seite der ChatGPT-Plug-ins unter https://chatgpt.com/plugins auf.
@@ -197,12 +197,13 @@ Weitere Informationen zu benutzerdefinierten GPTs finden Sie in der [ChatGPT-Ben
 
 ## Workfront mit Copilot verbinden
 
-+++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit Copilot anzuzeigen.
 
 * [Verbinden von Workfront mit Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
 * [Workfront mit GitHub Copilot verbinden](#connect-workfront-to-github-copilot)
 
 ### Verbinden von Workfront mit Copilot Studio
+
++++ Erweitern Sie , um schrittweise Anleitungen zum Verbinden von Workfront mit Copilot Studio anzuzeigen.
 
 Verwenden Sie Copilot Studio, um einen benutzerdefinierten Copilot-Agenten zu erstellen, mit dem sich der Workfront-MCP verbinden kann.
 
@@ -235,7 +236,13 @@ Das Fenster des Agenten wird geöffnet.
 
    Sie sind möglicherweise nicht berechtigt, Folgendes zu veröffentlichen. Wenden Sie sich in diesem Fall an Ihren Copilot-Administrator.
 
++++
+
+
 ### Workfront mit GitHub Copilot verbinden
+
++++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit GitHub Copilot anzuzeigen.
+
 
 1. Navigieren Sie in GitHub-Copilot zu **Anpassen**.
 1. Klicken Sie **Hinzufügen** > **MCP-Server**.
