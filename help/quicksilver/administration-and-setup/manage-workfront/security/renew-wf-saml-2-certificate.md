@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >Da nun alle Organisationen in die Adobe Admin Console integriert wurden, ist diese Funktion veraltet.
 >
->Anweisungen zur Erneuerung des SAML-Zertifikats auf der Adobe Admin Console finden Sie im Abschnitt „Die digitale Signatur in der SAML-Antwort wurde nicht validiert …“ in [Fehlerbehebung bei Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
+>Anweisungen zur Erneuerung des SAML-Zertifikats auf der Adobe Admin Console finden Sie im Abschnitt „Die digitale Signatur in der SAML-Antwort wurde nicht validiert …“ in [Fehlerbehebung bei Federated ID](https://helpx.adobe.com/de/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
