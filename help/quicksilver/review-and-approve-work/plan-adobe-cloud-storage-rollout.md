@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -48,6 +48,12 @@ Jede Workfront-Umgebung ist anders. Bevor Sie den Adobe-Cloud-Speicher als Stand
 
 Bei einem Rollout im Gruppenbereich können Sie den Adobe-Cloud-Speicher vor ein kleineres Team stellen, Feedback einholen und vor einem größeren Rollout anpassen. Wählen Sie eine Gruppe aus, deren Arbeitsmuster repräsentativ genug sind, um Probleme aufzudecken, über die Sie frühzeitig Bescheid wissen möchten.
 
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
+
 ### Vor der Live-Schaltung testen
 
 Der Adobe-Cloud-Speicher ist in Workfront-Sandbox-Umgebungen verfügbar, sodass Sie einen Großteil des Erlebnisses vor der Produktion validieren können. Der Frame.io-Viewer ist in Sandbox nicht verfügbar. Daher müssen Sie die vollständige Überprüfung und Genehmigung in der Produktion mit Ihrer Pilotgruppe validieren. Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
@@ -66,7 +72,7 @@ Der Adobe-Cloud-Speicher erzwingt strikte Benennungsregeln, und Workfront benenn
 
 ### Planen Sie um Workfront Fusion
 
-Vorhandene, auf Korrekturabzügen basierende Fusion-Szenarien funktionieren weiterhin in alten Projekten, funktionieren jedoch nicht automatisch in Adobe Cloud-Speicherprojekten. Bevor Sie Teams, die von diesen Szenarien abhängig sind, in den Adobe-Cloud-Speicher einbinden, klassifizieren Sie jedes Szenario als „Bearbeiten“, „Neu erstellen“ oder „Auslaufen“. Weitere Informationen finden Sie unter [&#x200B; von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
+Vorhandene, auf Korrekturabzügen basierende Fusion-Szenarien funktionieren weiterhin in alten Projekten, funktionieren jedoch nicht automatisch in Adobe Cloud-Speicherprojekten. Bevor Sie Teams, die von diesen Szenarien abhängig sind, in den Adobe-Cloud-Speicher einbinden, klassifizieren Sie jedes Szenario als „Bearbeiten“, „Neu erstellen“ oder „Auslaufen“. Weitere Informationen finden Sie unter [ von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ### Planen von Berichtsänderungen
 

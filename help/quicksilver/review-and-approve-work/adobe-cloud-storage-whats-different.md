@@ -6,7 +6,7 @@ description: Machen Sie sich mit den wichtigsten Unterschieden bei Adobe Cloud-S
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Wenn ein Name mit diesen Regeln in Konflikt steht, benennt Workfront das Objekt 
 ## Objektportabilität
 
 In den meisten Szenarien können Sie Workfront-Objekte nur zwischen Speichermodellen verschieben, kopieren und konvertieren. Sie können beispielsweise eine Aufgabe von einem Adobe-Cloud-Speicherprojekt in ein anderes Adobe-Cloud-Speicherprojekt verschieben. In drei bestimmten Fällen können Sie ein veraltetes Workfront-Speicherobjekt in Adobe Cloud-Speicher konvertieren.
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 Weitere Informationen finden Sie unter [Konvertieren veralteter Objekte in Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md).
 
