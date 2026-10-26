@@ -72,7 +72,7 @@ Der Adobe-Cloud-Speicher erzwingt strikte Benennungsregeln, und Workfront benenn
 
 ### Planen Sie um Workfront Fusion
 
-Vorhandene, auf Korrekturabzügen basierende Fusion-Szenarien funktionieren weiterhin in alten Projekten, funktionieren jedoch nicht automatisch in Adobe Cloud-Speicherprojekten. Bevor Sie Teams, die von diesen Szenarien abhängig sind, in den Adobe-Cloud-Speicher einbinden, klassifizieren Sie jedes Szenario als „Bearbeiten“, „Neu erstellen“ oder „Auslaufen“. Weitere Informationen finden Sie unter [ von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
+Vorhandene, auf Korrekturabzügen basierende Fusion-Szenarien funktionieren weiterhin in alten Projekten, funktionieren jedoch nicht automatisch in Adobe Cloud-Speicherprojekten. Bevor Sie Teams, die von diesen Szenarien abhängig sind, in den Adobe-Cloud-Speicher einbinden, klassifizieren Sie jedes Szenario als „Bearbeiten“, „Neu erstellen“ oder „Auslaufen“. Weitere Informationen finden Sie unter [&#x200B; von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ### Planen von Berichtsänderungen
 
