@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 6%
@@ -87,7 +87,7 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
    Die folgenden Abschnitte sind im Bereich „Kundeninformationen“ verfügbar:
 
    | Abschnitt | Weitere Informationen |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **Grundlegende Informationen** | Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info). |
    | **Speicherübersicht** | Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md). |
    | **API-Schlüsseleinstellungen** | Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |

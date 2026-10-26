@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 27%
+source-wordcount: '1690'
+ht-degree: 26%
 ---
 # Integrierte Zugriffsebenen (veraltet)
 
@@ -104,7 +104,7 @@ Benutzende mit der Zugriffsebene „Systemadministrator“ können alles in Work
 
 Sie haben außerdem vollen Zugriff auf den Bereich Setup , in dem sie alle Einstellungen auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, falls verfügbar.
 
-Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Die Gewährung des Zugriffs für einen Benutzeradministrator erfolgt über die Adobe Admin Console. Anweisungen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console.
 
 ## Zugriffsebene des Planers
 
@@ -114,7 +114,7 @@ Die Zugriffsebene des Planers, die ebenfalls an die Planlizenz angehängt ist, i
 * Alle, die für die Planung, Erstellung und Verwaltung von Aufgaben, Projekten, Portfolios und Programmen verantwortlich sind
 * Jeder, der für die Zuweisung von Arbeit (Aufgaben und Probleme) an andere Benutzer verantwortlich ist
 * Benutzer, die Berichte erstellen und Arbeitszeittabellen, Arbeitselemente und Dokumente genehmigen
-* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png) Hauptmenü (![-Symbol](assets/main-menu-icon.png) benötigen, falls verfügbar
+* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol](assets/main-menu-icon.png) benötigen, falls verfügbar
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Planer erstellen und den Umfang des Zugriffs festlegen, den sie für die verschiedenen Workfront-Objekttypen zulässt. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -150,7 +150,7 @@ Benutzer mit dieser Zugriffsebene:
 * Kann Arbeiten und Dokumente genehmigen, jedoch keine Arbeitszeittabellen
 * Kann auf Berichte zugreifen und sie freigeben
 * Kann mit anderen Benutzenden im System kommunizieren
-* Es können nicht alle Bereiche im Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png) Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png), falls verfügbar, aufgerufen werden. Ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
+* Es können nicht alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol) ](assets/main-menu-icon.png), falls verfügbar, aufgerufen werden. Ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
 * Sie haben eingeschränkte Möglichkeiten, Objekte zu erstellen. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Worker erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -186,7 +186,7 @@ Beispielsweise könnte sich ein Stakeholder mit dieser Zugriffsebene bei Workfro
 Benutzer mit der Zugriffsebene des Reviewers:
 
 * Kann keine Arbeitselemente zugewiesen oder Arbeitszeittabellen genehmigt werden
-* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü (Hauptmenüsymbol![&#x200B; oder im Hauptmenü (Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, ![&#x200B; verfügbar](assets/main-menu-icon.png)
+* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü (Hauptmenüsymbol![ oder im Hauptmenü (Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, ![ verfügbar](assets/main-menu-icon.png)
 * Sie haben eingeschränkte Möglichkeiten, Objekte zu erstellen. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Reviewers erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Objekttypen von Workfront ermöglicht wird. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

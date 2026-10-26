@@ -24,41 +24,49 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '75'
 ht-degree: 0%
 ---
 # Übersicht über Single Sign-on in Adobe Workfront
 
 <!--Audited: 12/2023-->
 
+>[!IMPORTANT]
+>
+>Da die Anmeldung jetzt über Adobe IMS (Identity Management-System) abgewickelt wird, wurden die Informationen in diesem Artikel entfernt.
+
+<!--
+
 {{important-admin-console-onboard}}
 
 
-Workfront bietet eine zentral verwaltete Single-Sign-On-Konfiguration (SSO), die Workfront in Ihre bestehende SSO-Unternehmenslösung integriert. Diese Konfiguration ist sowohl für OnDemand- als auch für OnPremise Enterprise-Kunden verfügbar.
+Workfront provides a centrally managed single sign-on (SSO) configuration that integrates Workfront with your existing corporate SSO solution. This configuration is available for both OnDemand and OnPremise Enterprise customers. 
 
-Um die SSO-Funktion in Workfront verwenden zu können, muss Ihr Unternehmen eine SSO-Anwendung einrichten. Anschließend können Sie Workfront so konfigurieren, dass es mit Ihrer SSO-Lösung kommunizieren kann.
+To use the SSO functionality in Workfront, your organization needs to set up an SSO application. You can then configure Workfront so that it can communicate with your SSO solution.
 
-Federated Solutions ermöglichen es Benutzern, sich bei all ihren Anwendungen anzumelden, indem sie ihren Benutzernamen und ihr Passwort in einem zentralen Anmeldeportal eingeben.
+Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.
 
-![SSO Federated](assets/overview-sso-wf-fed-only.png)
+![SSO federated](assets/overview-sso-wf-fed-only.png)
 
 
-## Firewall konfigurieren
+## Configure your firewall
 
-Bei Verwendung einer SSO-Lösung initiiert Workfront eine Verbindung zu Ihrem Server über den angegebenen Port.
+When using an SSO solution, Workfront initiates a connection to your server on the specified port.
 
-Wenn Ihr Firewall- oder Mailserver so konfiguriert ist, dass er nur bestimmten Anbietern Zugriff gewährt, müssen Sie bestimmte Workfront-IP-Adressen zu Ihrer Firewall-Zulassungsliste hinzufügen. Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+If your firewall or mail server is configured to allow access only to specific vendors, you must add certain Workfront IP addresses to your firewall allowlist. For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## Konfigurieren von Single Sign-on
+## Configure Single Sign-On
 
-Workfront lässt sich mit den folgenden SSO-Lösungen integrieren:
+Workfront integrates with the following SSO solutions:
 
-* Federated Solutions, die SAML 2.0 unterstützen
+* Federated solutions that support SAML 2.0
 
-  Informationen zur Integration von Workfront mit SAML 2.0 finden Sie unter [Konfigurieren von Adobe Workfront mit SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+  For information about integrating Workfront with SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
-* Federated Solutions, die SAML 2.0 mit ADFS unterstützen
+* Federated solutions that support SAML 2.0 using ADFS
 
-  Informationen zur Integration von Workfront mit SAML 2.0 mithilfe von ADFS finden Sie unter [Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+  For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+
+  -->

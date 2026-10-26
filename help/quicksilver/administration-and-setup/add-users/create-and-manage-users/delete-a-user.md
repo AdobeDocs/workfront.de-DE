@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 5%
+source-wordcount: '608'
+ht-degree: 9%
 ---
 # Löschen von Benutzenden
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert haben. Wenn Sie in die Adobe Business-Plattform integriert wurden, müssen Sie Benutzende in der Adobe Admin Console löschen.
+>Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Da sich Ihr Unternehmen in die Adobe Admin Console integriert hat, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->**Da nun alle Unternehmen in die Adobe Admin Console integriert wurden, werden die Informationen auf dieser Seite in naher Zukunft entfernt.**
->
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe Business Platform verwendet, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  Anweisungen zum Löschen von Benutzenden in der Adobe Admin Console finden Sie im Abschnitt „Dauerhaftes Löschen von Benutzenden“ im Artikel [Einzelne Benutzende verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren Adobe Admin Console-Administrator.
 
 Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese Benutzende aus Adobe Workfront entfernen.
+
+Das Löschen eines Benutzers muss über die Adobe Admin Console durchgeführt werden. Anweisungen finden Sie im Abschnitt „Dauerhaftes Löschen von Benutzern“ im Artikel [Benutzer einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren Adobe Admin Console-Administrator.
 
 >[!IMPORTANT]
 >
 >Beim Löschen eines Benutzers aus dem System werden auch mit dem Benutzer verknüpfte Informationen gelöscht, die Sie möglicherweise beibehalten möchten. Es wird empfohlen, Benutzer zu deaktivieren, anstatt sie zu löschen. Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren eines Benutzers](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## Zugriffsanforderungen
 
@@ -78,11 +66,8 @@ Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen eine der folgenden Möglichkeiten haben:</p> 
-    <ul> 
-     <li> <p>Die Zugriffsebene des Systemadministrators. </li> 
-     <li> <p><b>Benutzer</b> Einstellung in Ihrer Zugriffsebene konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens einer der beiden <b>Benutzeradmin</b> Optionen unter <b>Optimieren Sie Ihre Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn diese beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)) aktiviert </b>, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
-    </ul> </td> 
+   <td> <p>Sie müssen Administrator der Adobe Admin Console sein.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +93,7 @@ Wenn Sie einen Benutzer deaktivieren, passiert Folgendes:
     >[!NOTE]
     >
     >Wenn Sie einen Benutzer deaktivieren und die mit einem Benutzer verknüpften Berichte oder Dashboards nicht mehr anzeigen können, müssen Sie möglicherweise das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** aktualisieren.\
-    >Weitere Informationen finden Sie unter [Warum kann ich nicht auf einen Bericht zugreifen, der einem deaktivierten Benutzer gehört?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) -Abschnitt des Artikels [Häufig gestellte Fragen zu &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
+    >Weitere Informationen finden Sie unter [Warum kann ich nicht auf einen Bericht zugreifen, der einem deaktivierten Benutzer gehört?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) -Abschnitt des Artikels [Häufig gestellte Fragen zu ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
 
   * Dokumente
   * Updates
@@ -128,7 +113,7 @@ Beim Löschen eines Benutzers passiert Folgendes:
   * Aufgaben, Probleme, Projekte, Portfolio
   * Dashboards
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ Beim Löschen eines Benutzers passiert Folgendes:
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* Updates
+* Stunden
 
-  * Updates
-  * Stunden
-
-    >[!NOTE]
-    >
-    >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
+  >[!NOTE]
+  >
+  >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
 
 * Wenn der Benutzer Dokumente unter dem Bereich Dokumente in der globalen Navigationsleiste hochgeladen hat, werden die Dokumente ebenfalls gelöscht.
 * Wenn der/die Benutzende Dokumente ausgecheckt hat, deren Inhaber er/sie ist, und die Dokumente im Hauptdokumentenbereich hochgeladen wurden (der Zugriff erfolgt über das Hauptmenü), werden die Dokumente mit dem/der Benutzenden gelöscht. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
 Weitere Informationen zum Deaktivieren von Benutzern finden Sie unter [Deaktivieren oder Reaktivieren von Benutzern](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Sie können Benutzer einzeln oder mehrere Benutzer gleichzeitig dauerhaft löschen. Wenn Sie einzelne Benutzer löschen, müssen Sie warten, bis der Löschvorgang abgeschlossen ist, bevor Sie zu anderen Aktivitäten in Workfront wechseln. Der Prozess des Löschens mehrerer Benutzer gleichzeitig wird als Hintergrundprozess ausgeführt, sodass Sie Workfront weiterhin verwenden können, während die Benutzer gelöscht werden.
 
-## Löschen eines oder mehrerer Benutzer
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. Wählen Sie mindestens einen Benutzer aus, den Sie löschen möchten, klicken Sie auf das Menü Mehr ![Mehr](assets/more-icon.png) und dann auf **Löschen**.
-1. Klicken Sie im angezeigten Feld auf **Löschen**, um den Löschvorgang zu bestätigen.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   Der Prozess zum Löschen von Benutzenden wird als Hintergrundprozess ausgeführt, sodass Sie Workfront weiter verwenden können, wenn die Benutzenden gelöscht werden.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   Je nach der Anzahl der Benutzer, die Sie löschen möchten, kann der Vorgang mehrere Minuten oder sogar einige Stunden dauern.
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   Nachdem Sie in Workfront die Bestätigung erhalten haben, dass die Benutzer gelöscht wurden, werden sie möglicherweise weiterhin im System angezeigt, bis der Löschvorgang im Hintergrund abgeschlossen ist.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   Wenn Sie zu einem späteren Zeitpunkt feststellen, dass ein oder mehrere Benutzer nicht erfolgreich gelöscht wurden, versuchen Sie, sie einzeln zu löschen.
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->

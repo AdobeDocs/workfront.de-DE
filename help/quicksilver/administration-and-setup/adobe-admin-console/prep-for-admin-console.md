@@ -31,87 +31,91 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '73'
+ht-degree: 0%
 ---
 # Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->Da nun alle Organisationen in die Adobe Admin Console verschoben wurden, wird dieser Artikel in naher Zukunft entfernt.
+>Da nun alle Organisationen in die Adobe Admin Console verschoben wurden, wurde dieser Artikel entfernt.
 
-Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Console darauf zugreifen. Dadurch können Sie Workfront zusammen mit anderen Adobe-Konten und -Produkten für Ihre Benutzenden an einem zentralen Ort verwalten.
+<!--
 
-Alle Workfront-Kunden werden bald in die Adobe Admin Console verschoben. Nachdem Ihr Unternehmen zur Adobe Admin Console gewechselt ist, wird die Workfront-Authentifizierung von der Konsole verwaltet. Die Vorbereitung und Durchführung dieses Schritts früher legt den Grundstein für ein effizientes Arbeitsmanagement und positioniert Ihr Unternehmen für schnellere Innovationen in der Zukunft
+Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
 
-Einen Überblick über Adobe Admin Console finden Sie unter [Übersicht über Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+All Workfront customers will soon be moved to the Adobe Admin Console. After your organization moves to the Adobe Admin Console, Workfront authentication is managed by the Console. Preparing and making this move sooner lays the groundwork for efficiency in work management and positions your organization for faster innovation in the future 
 
-## Migrations-Checkliste
+For an overview of the Adobe Admin Console, see [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
-Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann, müssen Sie die folgenden Schritte ausführen.
+## Migration checklist
 
-1. Identifizieren Sie die gewünschte Adobe Admin Console, der Sie Workfront hinzufügen möchten.
+To ensure that your organization can migrate to the Adobe Admin Console, you must perform the following actions.
 
-   * Wenn Ihr Unternehmen über keine bestehende Adobe Admin Console verfügt oder Sie keine bestehende Adobe Admin Console verwenden möchten, kann Ihnen der Workfront-Support bei der Erstellung einer neuen helfen.
+1. Identify the desired Adobe Admin Console where you would like to add Workfront.
+    
+   * If your organization does not have an existing Adobe Admin Console, or if you do not want to use an existing Adobe Admin Console, Workfront Support can assist you in creating a new one.
+        
+   * If you have multiple Adobe Admin Consoles and you are unsure which one is most appropriate to add Workfront to, contact Workfront Support.
 
-   * Wenn Sie über mehrere Adobe Admin Consoles verfügen und sich nicht sicher sind, welche am besten zum Hinzufügen von Workfront geeignet ist, wenden Sie sich an den Workfront-Support.
-
-1. Bestätigen Sie mit dem Workfront-Support, dass Sie eine bestehende Adobe Admin Console verwenden oder eine neue erstellen lassen möchten.
-
-1. Einrichten der Identitätsverwaltung auf der Adobe Admin Console.
-
+1. Confirm with Workfront Support that you want to use an existing Adobe Admin Console, or have a new one created.
+    
+1. Set up identity management on the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >Bereiten Sie sich darauf vor, mit dem Workfront-Support und Ihrem IT-Team über Authentifizierungseinstellungen wie Single Sign-on (SSO) oder Nicht-SSO zu sprechen.
+   >Be prepared to speak with Workfront Support and your IT team regarding authentication preferences such as Single Sign-on (SSO) or non-SSO.
+    
+   For instructions, see the Identity Management section of the [Deployment Guide for the Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
-   Anweisungen finden Sie im Abschnitt Identity Management des [Bereitstellungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/deployment-planning.html).
+1. (Conditional) If using Single Sign-on, connect the new Adobe Admin Console to your existing SSO provider.
 
-1. (Bedingt) Wenn Sie Single Sign-on verwenden, verbinden Sie die neue Adobe Admin Console mit Ihrem bestehenden SSO-Anbieter.
-
-   Weitere Informationen und Anweisungen finden Sie unter [Einrichten von Identitäten](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html).
+   For more information and instructions, see [Set up identity](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen kein Single Sign-on verwendet, erhalten alle Benutzenden, die zur Adobe Admin Console migriert wurden, eine E-Mail, in der sie ihr -Konto und -Passwort erstellen.
+   >If your organization does not use Single Sign-on, any users migrated to the Adobe Admin Console will receive an email to create their account and password.
 
-1. Sicherstellen, dass Benutzer-E-Mail-Adressen für die Migration bereit sind:
-
-   1. Entfernen Sie doppelte E-Mails aus Workfront.
-
-      Anweisungen finden Sie unter [Aktualisieren von E-Mail-Adressen vorhandener Benutzender in Ihrer Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Verhindern von Benutzerduplikaten](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
-
-      Wenn in Ihrer Organisation doppelte E-Mail-Adressen vorhanden sind, wird der durch die E-Mail-Adresse mit der neuesten `lastLoginDate` dargestellte Benutzer in die Adobe Admin Console-Organisation verschoben. Alle anderen Benutzer mit dieser E-Mail-Adresse werden deaktiviert.
-
+1. Ensure that user email addresses are ready for migration:
+    
+   1. Remove duplicate emails from Workfront.
+        
+      For instructions, see [Update email addresses of existing users in your Workfront instance](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Prevent duplicate users](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+        
+      If there are duplicate email address in your organization, the user represented by the email address with the most recent `lastLoginDate` will be moved to the Adobe Admin Console organization. Any other users with that email address will be deactivated.
+        
       >[!NOTE]
       >
-      >Da jeweils nur ein Benutzer mit einer bestimmten E-Mail-Adresse aktiv sein kann, müssen Sie, wenn Sie einen anderen Benutzer mit derselben E-Mail-Adresse wie einen derzeit aktiven Benutzer aktivieren müssen, zunächst den derzeit aktiven Benutzer deaktivieren, bevor Sie den deaktivierten Benutzer aktivieren.
-
-   1. (Bedingt) Wenn Sie benutzerdefinierte API-Integrationen verwenden, vergewissern Sie sich, dass diese Benutzer über eine gültige E-Mail-Adresse verfügen, auf die sie zugreifen können.
-
-   1. (Optional) Es wird empfohlen, Benutzer zu deaktivieren, die keinen Zugriff mehr auf Workfront benötigen, sodass sie nicht zur Adobe Admin Console hinzugefügt werden.
-
+      >Because only one user with a given email address can be active at a given time, if you need to activate another user with the same email address as a currently active user, you must first deactivate the currently active user before activating the deactivated user.
+        
+   1. (Conditional) If you are utilizing custom API integrations, confirm those users have a valid email address that they can access.
+        
+   1. (Optional) We recommend deactivating any users who no longer need access to Workfront, so they are not added to the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >Diese Aktionen in Bezug auf Benutzer-E-Mails müssen abgeschlossen sein, bevor Ihr Unternehmen zum Adobe Admin Console wechselt.
+   >These actions regarding user emails must be complete before your organization begins moving to the Adobe Admin Console.
+    
+1. (Optional) Update all custom integrations to use Adobe Developer Console authentication.
 
-1. (Optional) Aktualisieren Sie alle benutzerdefinierten Integrationen, um die Adobe Developer Console-Authentifizierung zu verwenden.
+    For information about migrating legacy Workfront OAuth2 integrations, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   Informationen zum Migrieren von veralteten Workfront OAuth2-Integrationen finden Sie unter [Migrieren von Workfront OAuth2 zu Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+    For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
-   Eine Anleitung zur Authentifizierung finden Sie unter [Übersicht über die Adobe Developer Console-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+    >[!NOTE]
+    >
+    >This step is optional, but highly recommended. Workfront custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027. 
 
-   >[!NOTE]
-   >
-   >Dieser Schritt ist optional, wird aber dringend empfohlen. Benutzerdefinierte Workfront-OAuth2-Programme können nach dem 1. November 2026 nicht mehr erstellt werden und bestehende benutzerdefinierte OAuth2-Programme funktionieren ab dem 1. Februar 2027 nicht mehr.
+After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 
-Nachdem Ihre Adobe Admin Console mit Workfront konfiguriert wurde, können Sie sie zum Erstellen Ihrer Workfront-Systemadministratoren verwenden.
+For more information, see [Manage users in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+For a list of other actions that are different based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Eine Liste weiterer Aktionen, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->

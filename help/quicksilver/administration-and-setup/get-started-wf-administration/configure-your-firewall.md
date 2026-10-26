@@ -32,22 +32,22 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # Firewall-Zulassungsliste konfigurieren
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Da nun alle Organisationen in die Adobe Admin Console integriert wurden, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -84,7 +84,7 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
 
@@ -406,12 +406,7 @@ Da sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis befindet, verwendet
 
 Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
 
-<!--Remove me October 2026-->
-
-* Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen:
-  * app.workfrontfusion.com (US AWS)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (US Azure)
+<!--Remove me January 2027-->
 
 * Für die Organisation des einheitlichen Adobe-Erlebnisses
 (Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.)
@@ -419,6 +414,14 @@ Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >Da alle Unternehmen nun über das einheitliche Adobe-Erlebnis verfügen, sind die folgenden Domains nicht mehr erforderlich.
+  >
+  >* app.workfrontfusion.com (US AWS)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (US Azure)
 
 
 

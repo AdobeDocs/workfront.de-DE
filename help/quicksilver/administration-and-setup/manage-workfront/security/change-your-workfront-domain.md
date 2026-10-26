@@ -29,59 +29,59 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 17%
+source-wordcount: '76'
+ht-degree: 0%
 ---
 # Ändern der Adobe Workfront-Domain
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Da nun alle Organisationen in die Adobe Admin Console integriert wurden (**kann die Workfront-Domain nicht geändert werden**.
->
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
->Dieser Artikel wird in naher Zukunft entfernt.
+>Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Da nun alle Organisationen in die Adobe Admin Console integriert wurden (**kann die Workfront-Domain nicht geändert werden**.
 
-Als Adobe Workfront-Administrator und autorisierter Workfront-Support-Kontakt können Sie Hilfe vom Workfront-Support-Team anfordern, um die Workfront-Domain Ihres Unternehmens zu ändern.
+<!--
 
-## Zugriffsanforderungen
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
-+++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td><p>Beliebig</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Abo</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Domain-Änderung anfordern
+## Request a domain change
 
-1. Beginnen Sie mit der Erstellung eines Support-Tickets in Experience League.
-1. Geben **im Feld** die neue Domain ein, die Sie möchten, sowie den Zeitrahmen, in dem die neue Domain live geschaltet werden soll.
-1. Füllen Sie alle Felder für den Support-Fall aus und klicken Sie dann auf **Senden**.
+1. Begin creating a support ticket on Experience League.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
-Sie können auch den Workfront-Support anrufen, um Hilfe beim Ändern Ihrer Domain zu erhalten.
+You can also call Workfront Support to get help changing your domain.
+
+-->
 
 <!--
 
