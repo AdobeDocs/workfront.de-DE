@@ -65,6 +65,6 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 * Zugriffsebene von **Systemadministrator**
 
   Systemadministratoren werden in der Adobe Admin Console erstellt.
-  Weitere Informationen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console. oder [Benutzern administrativen Zugriff auf bestimmte Bereiche ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Weitere Informationen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console. oder [Benutzern administrativen Zugriff auf bestimmte Bereiche &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Wenn Ihr Unternehmen Adobe IMS (Identity Management-System) verwendet, schließen Sie ein IMS-Benutzer-Token ein, das in der `X-User-Token`-Kopfzeile übergeben wird.
