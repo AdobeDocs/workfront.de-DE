@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Übersicht über die Version im ersten Quartal 2027
@@ -67,6 +67,23 @@ Für folgende Elemente gibt es derzeit keine Updates in der Version:
 * Korrekturabzug
 * Ziele
 
+## Desktop Proofing Viewer-Updates
+
+### Version 2.3.0
+
+>[!NOTE]
+>
+>Vorschau: 27. Oktober 2026
+>Produktionsversion für alle Kunden: 28. Oktober 2026
+
+Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update enthält die folgenden Änderungen:
+
+* Es wurde ein Problem mit interaktiven Korrekturabzügen behoben, bei dem durch Klicken auf den Link unter dem Screenshot beim Durchlaufen mehrerer Versionen die Seite in mehreren Registerkarten geöffnet wurde. Der Link öffnet die Seite jetzt in einer einzigen Registerkarte.
+
+* Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
+
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+
 ## Ankündigungen
 
 ### Veraltete Felder für Abrechnung und Kostensatz in Aufgabengebiet-Listenansichten werden entfernt
@@ -93,13 +110,13 @@ Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizi
 
 Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
