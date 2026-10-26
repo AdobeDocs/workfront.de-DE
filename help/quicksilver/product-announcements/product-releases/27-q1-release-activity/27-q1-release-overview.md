@@ -82,7 +82,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -116,7 +116,7 @@ Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwa
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
 
 -->
 
