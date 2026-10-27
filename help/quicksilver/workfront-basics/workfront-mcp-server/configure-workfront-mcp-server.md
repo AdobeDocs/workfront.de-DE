@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 1%
 ---
 
@@ -112,7 +112,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie in der linken Navigation **Connectoren** aus.
 1. Klicken Sie auf das Symbol **+** und dann auf **Benutzerdefinierten Connector hinzufügen**.
@@ -170,7 +170,7 @@ Möglicherweise müssen Sie ein Profil und eine Workfront-Instanz auswählen. Da
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit ChatGPT im Web anzuzeigen.
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Klicken Sie unten links auf Ihren Namen und dann auf **Einstellungen**.
 1. Wählen Sie in der linken Navigation die Option **Sicherheit und Anmeldung** aus.
 1. Rufen Sie die Seite der ChatGPT-Plug-ins unter https://chatgpt.com/plugins auf.
@@ -243,6 +243,30 @@ Das Fenster des Agenten wird geöffnet.
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit GitHub Copilot anzuzeigen.
 
+>[!NOTE]
+>
+>Wenn GitHub Copilot angibt, dass die dynamische Client-Registrierung nicht unterstützt wird, oder Sie um eine OAuth-Client-ID bittet, verwenden Sie die folgende Problemumgehung anstelle der standardmäßigen HTTP-Konfiguration. Einige GitHub-Copilot-MCP-Clients unterstützen den im Standardsetup verwendeten dynamischen Erkennungsfluss nicht.
+>
+>Um dies zu umgehen, konfigurieren Sie GitHub Copilot so, dass der Workfront MCP-Server über `mcp-remote` gestartet und `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. Navigieren Sie in GitHub-Copilot zu **Anpassen**.
 1. Klicken Sie **Hinzufügen** > **MCP-Server**.
