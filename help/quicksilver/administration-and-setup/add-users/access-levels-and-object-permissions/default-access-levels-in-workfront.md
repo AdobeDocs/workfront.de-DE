@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 27%
+source-wordcount: '1690'
+ht-degree: 26%
 ---
 # Integrierte Zugriffsebenen (veraltet)
 
@@ -104,7 +104,7 @@ Benutzende mit der Zugriffsebene „Systemadministrator“ können alles in Work
 
 Sie haben außerdem vollen Zugriff auf den Bereich Setup , in dem sie alle Einstellungen auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, falls verfügbar.
 
-Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Die Gewährung des Zugriffs für einen Benutzeradministrator erfolgt über die Adobe Admin Console. Anweisungen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console.
 
 ## Zugriffsebene des Planers
 

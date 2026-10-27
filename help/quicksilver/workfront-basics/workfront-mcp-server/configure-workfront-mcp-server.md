@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2423'
 ht-degree: 1%
 ---
 
@@ -197,7 +197,13 @@ Weitere Informationen zu benutzerdefinierten GPTs finden Sie in der [ChatGPT-Ben
 
 ## Workfront mit Copilot verbinden
 
-+++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit Copilot anzuzeigen.
+
+* [Verbinden von Workfront mit Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
+* [Workfront mit GitHub Copilot verbinden](#connect-workfront-to-github-copilot)
+
+### Verbinden von Workfront mit Copilot Studio
+
++++ Erweitern Sie , um schrittweise Anleitungen zum Verbinden von Workfront mit Copilot Studio anzuzeigen.
 
 Verwenden Sie Copilot Studio, um einen benutzerdefinierten Copilot-Agenten zu erstellen, mit dem sich der Workfront-MCP verbinden kann.
 
@@ -229,6 +235,20 @@ Das Fenster des Agenten wird geöffnet.
 1. Klicken Sie nach Konfiguration und Test eines Tools auf **Veröffentlichen**.
 
    Sie sind möglicherweise nicht berechtigt, Folgendes zu veröffentlichen. Wenden Sie sich in diesem Fall an Ihren Copilot-Administrator.
+
++++
+
+
+### Workfront mit GitHub Copilot verbinden
+
++++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit GitHub Copilot anzuzeigen.
+
+
+1. Navigieren Sie in GitHub-Copilot zu **Anpassen**.
+1. Klicken Sie **Hinzufügen** > **MCP-Server**.
+1. Geben Sie als Namen &quot;Workfront&quot; ein.
+1. Legen Sie **Server-Typ** auf `HTTP` fest.
+1. Legen Sie die URL auf `https://mcp.workfront.adobe.com/mcp/v1/workfront` fest.
 
 +++
 

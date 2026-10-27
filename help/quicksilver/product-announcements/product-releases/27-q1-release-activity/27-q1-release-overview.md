@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Übersicht über die Version im ersten Quartal 2027
@@ -66,6 +66,23 @@ Für folgende Elemente gibt es derzeit keine Updates in der Version:
 * Szenarienplaner
 * Korrekturabzug
 * Ziele
+
+## Desktop Proofing Viewer-Updates
+
+### Version 2.3.0
+
+>[!NOTE]
+>
+>Vorschau: 27. Oktober 2026
+>Produktionsversion für alle Kunden: 28. Oktober 2026
+
+Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update enthält die folgenden Änderungen:
+
+* Es wurde ein Problem mit interaktiven Korrekturabzügen behoben, bei dem durch Klicken auf den Link unter dem Screenshot beim Durchlaufen mehrerer Versionen die Seite in mehreren Registerkarten geöffnet wurde. Der Link öffnet die Seite jetzt in einer einzigen Registerkarte.
+
+* Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
+
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 

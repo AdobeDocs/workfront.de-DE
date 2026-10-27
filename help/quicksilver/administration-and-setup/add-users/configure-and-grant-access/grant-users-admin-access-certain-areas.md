@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '751'
 ht-degree: 11%
 ---
 # Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche
@@ -40,7 +40,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um B
 
 >[!NOTE]
 >
->Dies unterscheidet sich davon, einem Benutzer vollen administrativen Zugriff auf Workfront zu gewähren, wie unter [Gewähren des vollständigen administrativen Zugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) erläutert&#x200B;
+>Dies unterscheidet sich davon, Benutzenden vollen administrativen Zugriff auf Workfront zu gewähren. Die Gewährung des Zugriffs für einen Benutzeradministrator erfolgt über die Adobe Admin Console. Anweisungen zum Gewähren des vollständigen Administratorzugriffs in der Adobe Admin Console finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console.
+
 
 ## Zugriffsanforderungen
 

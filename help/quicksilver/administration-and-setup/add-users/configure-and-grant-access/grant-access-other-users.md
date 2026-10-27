@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 7%
+source-wordcount: '936'
+ht-degree: 6%
 ---
 # Gewähren von Zugriff auf Benutzende
 
@@ -63,7 +63,7 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
 
 * Einen Workfront-Administrator.
 
-  Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Workfront-Administratoren werden in der Adobe Admin Console konfiguriert. Anweisungen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console.
 
 * Ein Benutzer mit einer Standard- oder Planlizenz, der auch Zugriff auf Benutzer hat, wie in diesem Artikel erläutert.
 

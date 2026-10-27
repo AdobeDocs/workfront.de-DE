@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 4%
 ---
 # Überblick über den Projektzustand
@@ -93,9 +93,6 @@ Für Ihre Organisation muss der KI-Assistent aktiviert sein, damit sie die Proje
 
 Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivieren, müssen alle folgenden Bedingungen erfüllt sein:
 
-<!--Remove me October 2026-->
-
-* Ihr Unternehmen muss zum Adobe Identity Management System (IMS) migriert sein.
 * Ihr Unternehmen muss über ein Workfront- oder Workflow-, Prime- oder Ultimate-Paket verfügen.
 * Das einheitliche Adobe-Erlebnis muss aktiviert sein.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.

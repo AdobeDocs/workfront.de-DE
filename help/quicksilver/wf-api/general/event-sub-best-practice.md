@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 23%
+source-wordcount: '412'
+ht-degree: 20%
 ---
 # Best Practices für Ereignisabonnements
 
@@ -62,7 +62,9 @@ Um Payloads von Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
-* Eine Zugriffsebene von **Systemadministrator**
-Weitere Informationen finden Sie unter [Gewähren des vollständigen administrativen Zugriffs für einen Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren des administrativen Zugriffs für bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Zugriffsebene von **Systemadministrator**
+
+  Systemadministratoren werden in der Adobe Admin Console erstellt.
+  Weitere Informationen finden Sie im Abschnitt [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). im Artikel Verwalten von Benutzenden in der Adobe Admin Console. oder [Benutzern administrativen Zugriff auf bestimmte Bereiche &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Wenn Ihr Unternehmen Adobe IMS (Identity Management-System) verwendet, schließen Sie ein IMS-Benutzer-Token ein, das in der `X-User-Token`-Kopfzeile übergeben wird.

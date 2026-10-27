@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # Firewall-Zulassungsliste konfigurieren
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ Da sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis befindet, verwendet
 
 Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
 
-<!--Remove me October 2026-->
-
-* Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen:
-  * app.workfrontfusion.com (US AWS)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (US Azure)
+<!--Remove me January 2027-->
 
 * Für die Organisation des einheitlichen Adobe-Erlebnisses
 (Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.)
@@ -419,6 +414,14 @@ Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >Da alle Unternehmen nun über das einheitliche Adobe-Erlebnis verfügen, sind die folgenden Domains nicht mehr erforderlich.
+  >
+  >* app.workfrontfusion.com (US AWS)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (US Azure)
 
 
 

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 11%
+source-wordcount: '58'
+ht-degree: 13%
 ---
 # Sicherheit
 
@@ -43,10 +43,8 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Systemsicherheitseinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
 * [Konfigurieren von Passwortrichtlinien für die Authentifizierung](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [Entfernen verschiedener Single-Sign-On-Optionen](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
-* [Verlängern Sie das Adobe Workfront SAML 2.0-Metadatenzertifikat](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
 * [Verhindern Sie doppelte Benutzer](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
 * [Zugriff auf Adobe Workfront nach IP-Adresse beschränken](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
 * [Dateiverschlüsselung](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
-* [Ändern der Adobe Workfront-Domain](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
 * [API-Schlüssel verwalten](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md)
 * [Adobe Workfront-Datenschutzrichtlinie](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)

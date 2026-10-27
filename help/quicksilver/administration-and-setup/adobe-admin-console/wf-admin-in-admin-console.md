@@ -28,14 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 26%
+source-wordcount: '44'
+ht-degree: 15%
 ---
 # Workfront-Administration in der Adobe Admin Console
 
-Dieser Abschnitt enthält die folgenden Artikel:
+>[!IMPORTANT]
+>
+>Da nun alle Organisationen in Adobe Admin Console integriert sind, wurden die Informationen in diesem Abschnitt entfernt.
 
-* [Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-* [Grundlagen der Migration von Workfront zur Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+<!--
+
+This section contains the following articles:
+
+* [Prepare to onboard your organization to the Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [Understanding the Workfront Migration to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+
+-->

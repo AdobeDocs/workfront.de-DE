@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 14%
+source-wordcount: '202'
+ht-degree: 15%
 ---
 # Tipps, Tricks und Fehlerbehebung für Administration und Setup
 
@@ -38,7 +38,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Gruppenadmins müssen über höhere Zugriffsrechte verfügen als die von ihnen verwalteten](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [Aktive und deaktivierte Objekte](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
-* [ADFS-Abmelde-URL funktioniert nicht](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
 * [Häufig gestellte Fragen zur Administration und Einrichtung](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
 * [[!DNL Adobe Workfront]-Benutzeranmeldeinformationen im Vergleich zu SAML-Benutzeranmeldeinformationen](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [Automatische Erinnerungen vs. Erinnerungsbenachrichtigungen](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)

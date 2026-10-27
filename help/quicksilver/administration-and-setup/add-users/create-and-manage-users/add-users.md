@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 20%
+source-wordcount: '1246'
+ht-degree: 21%
 ---
 # Benutzer hinzufügen
 
@@ -42,8 +42,6 @@ ht-degree: 20%
 >   Anweisungen zum Erstellen von Systemadministratoren in der Adobe Admin Console finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >   Gruppenadministratoren in Organisationen, die in die Adobe Admin Console integriert wurden, können mit diesem Verfahren Benutzende erstellen und diese zur Genehmigung durch den Administrator einreichen.
->
->   Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Wenn Ihre Organisation Single Sign-on (SSO) verwendet** empfehlen wir, die Adobe Admin Console zu verwenden, um Benutzende zu erstellen und sie Workfront zuzuweisen. Das Erstellen dieser Benutzenden in Workfront ist möglich. Abhängig von der Konfiguration der Admin Console Ihrer Organisation kann es jedoch zu Problemen bei der Übertragung dieser Informationen an die Adobe Admin Console kommen.
 >   Nachdem Sie den Benutzer bzw. die Benutzerin in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in Workfront konfigurieren und z. B. Rollen, Gruppen, Teams und Zugriffsebenen zuweisen.
