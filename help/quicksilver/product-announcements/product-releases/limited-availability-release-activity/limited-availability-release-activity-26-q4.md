@@ -19,14 +19,14 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront im vierten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit
 
-In diesem Artikel wird die begrenzte Verfügbarkeit von Workfront-Funktionen beschrieben, die im dritten Quartal 2026 veröffentlicht werden.
+In diesem Artikel wird die begrenzte Verfügbarkeit von Workfront-Funktionen beschrieben, die im vierten Quartal 2026 veröffentlicht werden.
 
 <!--keep the sentence below for all future quarterly release pages-->
 

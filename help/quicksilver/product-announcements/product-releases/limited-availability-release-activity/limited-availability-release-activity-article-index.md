@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 22%
+source-wordcount: '115'
+ht-degree: 20%
 ---
 # Adobe Workfront Limited Availability Features Release Activity: Artikelindex
 
@@ -34,7 +34,7 @@ Dieser Artikel enthält eine Liste von Artikeln zu Veröffentlichungsaktivitäte
 
 Informationen zur aktuellen Workfront-Aktivität mit eingeschränkter Verfügbarkeit von Funktionen finden Sie im folgenden Artikel:
 
-* [Versionsaktivität für Adobe Workfront im vierten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+* [Versionsaktivität für Adobe Workfront im ersten Quartal 2027 - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,3 +45,5 @@ Informationen zu früheren Funktionsversionen finden Sie in den folgenden Artike
 * 2026
   * [Veröffentlichungen Adobe Workfront im ersten Quartal 2026 – Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
   * [Veröffentlichungen für Adobe Workfront im zweiten Quartal 2026 – Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+  * [Versionsaktivität für Adobe Workfront im vierten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+
