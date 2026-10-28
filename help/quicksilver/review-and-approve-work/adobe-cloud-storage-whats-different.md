@@ -6,9 +6,9 @@ description: Machen Sie sich mit den wichtigsten Unterschieden bei Adobe Cloud-S
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Unterschiede im Adobe Cloud-Speicher
@@ -94,7 +94,7 @@ Der Frame.io-Viewer bietet:
 * Markup- und Kommentar-Tools, einschließlich Freihandzeichnung und Standardformen wie Kreise, Pfeile und Quadrate
 * Mit Zeitstempel versehene Kommentare mit rahmengenauer Präzision für Videobesprechungen
 * Versionsverlauf und Versionsvergleich
-* Mobile-Zugriff für Überprüfungen und Genehmigungen von unterwegs
+* Mobile-Zugriff für die Prüfung und Genehmigung unterwegs mit der iOS-App [Frame.io](https://help.frame.io/en/collections/9679120-ios-app)
 * Unterstützung von über 40 Dateiformaten, einschließlich aller gängigen Video-, Bild-, Audio-, PDF- und Microsoft Office-Typen, mit nativer Wiedergabe für professionelle Videoformate wie ProRes, H.265 und DNxHD sowie Unterstützung für Dateien mit bis zu 500 GB
 
 ## Benennungsregeln für Objekte
