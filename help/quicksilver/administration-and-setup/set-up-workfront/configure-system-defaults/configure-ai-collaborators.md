@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1564'
 ht-degree: 3%
 ---
 # KI-Mitwirkende konfigurieren
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte, Aufgaben und Probleme einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
 
@@ -34,9 +36,13 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Arbeitsagent : Erstellen Sie einen Mitarbeiter mit einer standardmäßigen KI-Plattform wie Claude, OpenAI oder Copilot und weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
+* Arbeitsagent : Erstellen Sie einen Mitarbeiter <span class="preview">unterstützt von Adobe CX Coworker, </span> oder verbinden Sie einen Agenten von einer unterstützten externen Plattform, und weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
 
   Weitere Informationen finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+  Weitere Informationen zu Adobe CX Enterprise Coworker finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
 
 Von KI-Mitwirkenden verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen KI-Mitwirkenden erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
@@ -93,11 +99,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ### Für Arbeitsagenten
 
-Sie müssen einen Agenten in Claude, Copilot Studio, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten verwenden können.
+<span class="preview">Die Voraussetzungen hängen von der Herkunft des Agenten ab:</span>
+
+* <span class="preview">Nativ für Adobe: Für Ihr Unternehmen muss Adobe CX Coworker aktiviert sein. Es ist nicht erforderlich, einen Agenten in einer externen Plattform zu konfigurieren oder Anmeldeinformationen für eine externe Plattform bereitzustellen.</span>
+* Externe Plattform oder benutzerdefinierter Agent: Konfigurieren Sie den Agenten auf der Plattform, mit der Sie eine Verbindung herstellen möchten, bevor Sie den Arbeitsagenten in Workfront erstellen.
 
 >[!NOTE]
 >
 >Wir sind bestrebt, uns mit einem beliebigen Agentenanbieter zu verbinden. Wenn der von Ihnen verwendete Anbieter daher derzeit nicht mit Work Agents kompatibel ist, wenden Sie sich bitte an Ihr Account-Team, um Hilfe zu erhalten.
+
+<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
 
 ## Erstellen eines neuen KI-Reviewers
 
@@ -119,11 +130,15 @@ KI-Reviewer können so konfiguriert werden, dass sie Workfront-Marken oder Adobe
 
 ## Konfigurieren eines Arbeitsagenten
 
+<span class="preview">Die folgende Einrichtungsanleitung spiegelt die native Unterstützung von Adobe und das ursprüngliche Setup-Modell wider, das sich noch in der Vorschau befindet.</span>
+
 Arbeitsagenten sind Agenten, die Sie in Workfront Aufgaben oder Problemen zuweisen können. Sie konfigurieren den Arbeitsagenten mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn einer Aufgabe zu, wie Sie es bei der Zuweisung von Benutzenden tun würden.
 
-Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können als Arbeitsagenten verwendete Agenten in Copilot Studio, Claude, OpenAI und IBM erstellt werden.
+Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Arbeitsagenten können <span class="preview">native Arbeitsagenten sein, die Coworker verwenden, </span> oder von einer unterstützten externen Plattform wie Copilot Studio, Claude, OpenAI und IBM stammen.
 
-Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
+>Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
+
+<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 Von Arbeitsagenten verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen Arbeitsagenten erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
@@ -148,7 +163,8 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
    >
    >Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.
 
-1. Wählen **im Bereich „Ursprung des Agenten**&quot; aus, ob Sie einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
+1. Wählen **im Bereich &quot;** des Agenten auswählen“ aus, ob Sie <span class="preview">nativen Adobe-</span> verwenden, einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
+1. <span class="preview">(Bedingt) Wenn Sie Adobe Native auswählen, bestätigen Sie, dass Adobe CX Coworker für Ihr Unternehmen aktiviert ist und dass Sie den einsatzbereiten nativen Adobe-Agenten verwenden möchten.</span>
 1. (Bedingt) Wenn Sie einen Agenten von einer gemeinsamen Plattform verwenden, geben Sie Authentifizierungsdetails für die Plattform des Agenten ein:
 
    | Plattform | Erforderliche Authentifizierung |

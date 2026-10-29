@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
+
 Arbeitsagenten sind KI-Mitwirkende, die direkt Workfront-Aufgaben, -Problemen und -Anfragen zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Arbeitselementen wie Benutzenden zugewiesen.
 
-Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude, OpenAI oder IBM konfiguriert haben.
+<span class="preview">Sie können einen einsatzbereiten, nativen Adobe-Arbeitsagenten mit Adobe CX Coworker </span> oder einen mit einer externen Plattform verbundenen Arbeitsagenten verwenden. Die verfügbaren Funktionen und Setup-Anforderungen hängen von der Herkunft des Agenten ab.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -33,7 +37,7 @@ Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio
 >
 >Weitere Informationen zur Einstellung finden Sie unter [Migration und Einstellung von Agentenbibliotheken](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in der Writer-Dokumentation.
 
-Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Zugriffsanforderungen
 
@@ -64,7 +68,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Voraussetzungen
 
-* Sie müssen einen Agenten in Copilot, Claude, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten in Workfront verwenden können.
+* Ein Administrator muss den Arbeitsagenten in Workfront konfigurieren, bevor Sie ihn verwenden können.
+* <span class="preview">Für einen nativen Adobe-Arbeitsagenten muss Adobe CX Coworker in Ihrem Unternehmen aktiviert sein.</span>
+* Für einen Arbeitsagenten, der mit einer externen Plattform verbunden ist, muss der Agent auch in dieser Plattform konfiguriert werden.
 
 ## Arbeitsagenten - Übersicht
 
@@ -82,7 +88,7 @@ Beispiele für Workflows:
 >* Der Workfront MCP-Server muss nicht zu dem als Arbeitsagent verwendeten Agenten hinzugefügt werden und muss nicht verbunden sein, damit der Arbeitsagent funktioniert.
 >* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude, OpenAI und IBM erstellte Agenten.
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
->* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+>* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Informationen, die ein Arbeitsagent liest
 
@@ -116,21 +122,22 @@ Je nachdem, wie der Arbeitsagent in Workfront konfiguriert ist, kann er nach Abs
 
 Wenn ein Arbeitsagent einer Aufgabe oder einem Problem zugewiesen wird, beginnt seine Arbeit, wenn eine der folgenden Situationen eintritt:
 
-<!--update wording to include issues when this goes to production-->
-
 * Der Arbeitsagent ist einer Aufgabe zugewiesen, die startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Der Arbeitsagent und ein Benutzer werden einer Aufgabe zugewiesen, und der Arbeitsagent wird zuerst zugewiesen.
 * Eine Aufgabe, der bereits ein Arbeitsagent als zugewiesen wurde, ist startbereit und der Arbeitsagent ist der einzige oder primäre Zugewiesene. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Eine Aufgabe, der bereits ein Arbeitsagent und ein Benutzer zugewiesen sind, ist startbereit, und der Arbeitsagent wurde zuerst zugewiesen oder ist der primäre Zugewiesene. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Ein Benutzer und ein Arbeitsagent werden einer Aufgabe zugewiesen und der Benutzer wird entfernt.
 * Ein(e) Benutzende(r) und ein Arbeitsagent werden einer Aufgabe zugewiesen und der Arbeitsagent wird als der Primäre Beauftragte für die Aufgabe festgelegt.
+* <span class="preview">Ein nativer Workfront-Arbeitsagent wird in einer Aufgabe @mentioned.
 
 Die folgenden Situationen führen nicht dazu, dass der Arbeitsagent mit der Arbeit an der Aufgabe beginnt:
 
 * Ein Arbeitsagent ist einer Aufgabe zugewiesen, der bereits ein Benutzer zugewiesen ist.
-* Ein Arbeitsagent wird in einer Aufgabe @mentioned.
+* <span class="preview">Ein Arbeitsagent wird in einer Aufgabe für einen Provider @mentioned, der keine Start-Trigger unterstützt.</span>
 * Ein Arbeitsagent wird einer Aufgabe zugewiesen, der bereits ein Arbeitsagent zugewiesen ist. In diesem Fall hat der erste zugewiesene Arbeitsagent bereits mit der Arbeit begonnen, und der zweite Arbeitsagent unternimmt nichts.
 * Ein Arbeitsagent ist einer Aufgabe zugewiesen, die noch nicht startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger noch nicht abgeschlossen.)
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## Zuweisen eines Arbeitsagenten zu einer Aufgabe, einem Problem oder einer Anfrage
 
