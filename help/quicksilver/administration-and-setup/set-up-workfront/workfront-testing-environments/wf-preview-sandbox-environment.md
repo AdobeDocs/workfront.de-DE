@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # Die Sandbox-[!DNL Adobe Workfront]
@@ -83,6 +83,10 @@ Die Daten fließen unidirektional von der Produktion zur Vorschau und nicht umge
 Die Sandbox-Vorschau ermöglicht es [!DNL Workfront] auch, neue Funktionen in einer sicheren Umgebung bereitzustellen, bevor sie für die Produktion bereitgestellt werden können. Sie können die neuen Funktionen testen und [!DNL Workfront] Feedback zu ihrer Funktionalität geben, indem Sie auf die Sandbox „Vorschau“ zugreifen. Aus diesem Grund ist der Code der Sandbox-Vorschau immer vor dem Produktions-Code, obwohl Ihre Daten wöchentlich aktualisiert werden.
 
 Die Vorschauumgebung ist ideal für Schulungen, das Testen neuer Funktionen und das Bestimmen der Einrichtungsfunktionalität.
+
+>[!IMPORTANT]
+>
+>Planungsdaten in Arbeitsflächen-Dashboards sind nur für [!DNL Workfront] Administratoren in Sandbox-Umgebungen sichtbar.
 
 >[!NOTE]
 >
@@ -144,7 +148,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; &#x200B;](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
