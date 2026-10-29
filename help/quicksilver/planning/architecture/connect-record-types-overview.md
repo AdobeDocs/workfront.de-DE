@@ -192,7 +192,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     >
     >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-    * Verbundene Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol) ![. ](assets/relationship-field-icon.png).
+    * Verbundene Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol) ![. &#x200B;](assets/relationship-field-icon.png).
 
     * Verbundene Suchfelder werden durch ein Symbol vorangestellt, das den Feldtyp identifiziert. Suchfelder werden von Symbolen vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 
@@ -234,7 +234,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
 * Beim Duplizieren von Datensätzen mit einem verbundenen Datensatz im Verbindungstyp Eins zu Eins oder Eins zu Viele können Sie auswählen, ob der verbundene Datensatz im Original verbleibt oder zum duplizierten Datensatz verschoben wird.
 
-  Weitere Informationen finden Sie unter [Duplizieren von ](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+  Weitere Informationen finden Sie unter [Duplizieren von &#x200B;](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 
 ## Verbindungstypen
