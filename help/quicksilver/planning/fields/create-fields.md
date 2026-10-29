@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5673'
+source-wordcount: '5676'
 ht-degree: 2%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -188,7 +188,7 @@ Old:
 * Felder können nur in der Tabellenansicht erstellt werden.
 * In der Produktionsumgebung werden neu hinzugefügte Felder hinzugefügt, die in allen Tabellenansichten sichtbar sind.
 
-  <span class="preview">In der Vorschau -Umgebung werden neu hinzugefügte Felder in allen Tabellenansichten als ausgeblendete Felder hinzugefügt. Die neuen Felder sind in der Ansicht sichtbar, die Sie zum Hinzufügen verwenden. </span>
+  <span class="preview">In der Vorschau -Umgebung werden neu hinzugefügte Felder in allen Tabellenansichten, die sie enthalten, als ausgeblendete Felder hinzugefügt. Die neuen Felder sind in der Ansicht sichtbar, die Sie zum Hinzufügen verwenden. </span>
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
@@ -232,7 +232,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -649,7 +649,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
