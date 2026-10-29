@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '377'
 ht-degree: 9%
 ---
 # Layout-Vorlagen einer Gruppe erstellen und ändern
@@ -88,9 +88,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
      Informationen zum Kopieren einer Layout-Vorlage, um eine neue zu erstellen, finden Sie unter [Kopieren einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
+     Weitere Informationen zur Aktionsleiste und anderen Funktionen erweiterter Listen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    * Um eine vorhandene Gruppenlayoutvorlage zu bearbeiten, wählen Sie sie aus und klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
      Informationen zum Bearbeiten einer Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    * Um eine oder mehrere Layout-Vorlagen zu löschen, wählen Sie sie aus und klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png).
    * Um die Liste der Layout-Vorlagen zu exportieren, klicken Sie auf das Symbol **Exportieren** ![Symbol Exportieren](assets/export-icon.png).
+

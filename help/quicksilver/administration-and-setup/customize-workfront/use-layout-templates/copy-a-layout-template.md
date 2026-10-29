@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 13%
+source-wordcount: '337'
+ht-degree: 12%
 ---
 # Kopieren einer Layout-Vorlage
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -36,7 +38,7 @@ Sie können eine vorhandene Layout-Vorlage kopieren. Dies ist hilfreich, wenn Ih
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -74,10 +76,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie im linken Bereich auf **Schnittstelle** > **Layoutvorlagen**.
 
-1. Klicken Sie auf den Namen der Layout-Vorlage, die Sie ändern möchten.
-1. Klicken Sie auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png).
+1. Aktivieren Sie das Kontrollkästchen neben der Layout-Vorlage, die Sie ändern möchten.
+1. Klicken Sie auf **Kopieren**-Symbol ![Kopieren-Symbol](assets/copy-icon.png) oder <span class="preview">oder klicken Sie **Kopieren** in der Aktionsleiste am unteren Bildschirmrand.</span>
 
    Alle Einstellungen mit Ausnahme des Namens, der Beschreibung und der Benutzerzuweisungen in der vorhandenen Layout-Vorlage werden in die neue Vorlage kopiert.
+
+   Weitere Informationen zur Aktionsleiste und anderen Funktionen erweiterter Listen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Geben Sie auf dem angezeigten Bildschirm einen neuen **Layoutvorlagennamen** und (optional) eine **Beschreibung** ein.
 
@@ -92,3 +96,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * [Landingpage mithilfe einer Layout-Vorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Anpassen der Terminologie der Benutzeroberfläche mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Klicken Sie auf **Erstellen**.
+
