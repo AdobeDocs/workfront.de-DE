@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. (Optional) Wenn Sie die Ereignisbenachrichtigung für eine Gruppe der obersten Ebene konfigurieren möchten, anstatt diese Aufgabe dem Gruppenadministrator zu überlassen, haben Sie folgende Möglichkeiten:
 
    * Löschen Sie **Systemereignis** Benachrichtigungen) im Suchfeld über der Benachrichtigungsliste, suchen Sie nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und aktivieren oder deaktivieren Sie dann die entsperrten Benachrichtigungen in der angezeigten Liste.
-   * Klicken **im linken** auf „Gruppen“ und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie **linken Bereich auf** Ereignisbenachrichtigungen“ und konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie in [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe“ ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Klicken **im linken** auf „Gruppen“ und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie **linken Bereich auf** Ereignisbenachrichtigungen“ und konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie in [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe“ &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 
 <div class="preview">
@@ -112,13 +112,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Um eine Benachrichtigung für eine Gruppe zu entsperren, klicken Sie auf das Sperrsymbol ![Sperrsymbol](assets/lock-icon-100626.png) rechts neben der Benachrichtigung und wählen Sie **Gruppenzugriff entsperren**. Das Sperrsymbol wird nicht mehr angezeigt, wenn die Benachrichtigung entsperrt wurde.
 
-1. Um eine Benachrichtigung für eine Gruppe zu sperren, wählen Sie ![ Menü Mehr ](assets/more-icon.png) rechts neben der Benachrichtigung und klicken Sie **Gruppenzugriff sperren** in der Aktionsleiste am unteren Bildschirmrand. Das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) wird angezeigt, wenn die Benachrichtigung gesperrt ist.
+1. Um eine Benachrichtigung für eine Gruppe zu sperren, wählen Sie ![&#x200B; Menü Mehr &#x200B;](assets/more-icon.png) rechts neben der Benachrichtigung und klicken Sie **Gruppenzugriff sperren** in der Aktionsleiste am unteren Bildschirmrand. Das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) wird angezeigt, wenn die Benachrichtigung gesperrt ist.
 
 
 
 1. (Optional) Wenn Sie die Ereignisbenachrichtigung für eine Gruppe der obersten Ebene konfigurieren möchten, anstatt diese Aufgabe dem Gruppenadministrator zu überlassen, haben Sie folgende Möglichkeiten:
 
    * Löschen Sie **Systemereignis** Benachrichtigungen) im Suchfeld über der Benachrichtigungsliste, suchen Sie nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und aktivieren oder deaktivieren Sie dann die entsperrten Benachrichtigungen in der angezeigten Liste.
-   * Klicken **im linken** auf „Gruppen“ und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie **linken Bereich auf** Ereignisbenachrichtigungen“ und konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie in [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe“ ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Klicken **im linken** auf „Gruppen“ und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie **linken Bereich auf** Ereignisbenachrichtigungen“ und konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie in [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe“ &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
    </div>
