@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 12%
 ---
 # Erstellen von Gruppierungen in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ Der Interface Builder zum Erstellen der Gruppierungsstarts.
 1. Klicken Sie im Bereich **Gruppierungsvorschau** auf **Gruppierung hinzufügen**, um festzulegen, wie die Informationen im Bericht organisiert werden sollen. Nachfolgend finden Sie eine Vorschau der Gruppierung im Bericht.
 
 1. Geben Sie den Namen des Felds ein, das die Art und Weise darstellt, wie Sie Informationen im Bericht organisieren möchten, und klicken Sie dann auf den Bericht, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   ><span class="preview">Benutzerdefinierte Felder, die als Favoriten markiert sind, werden im Abschnitt **Vorgeschlagen** oben in den Suchergebnissen angezeigt.</span>
+
 1. (Optional und bedingt) Wählen Sie beim Erstellen einer Gruppierung in einer aktualisierten Liste **Diese Gruppierung standardmäßig reduzieren**, wenn die Ergebnisse in der Gruppierung reduziert anstatt erweitert angezeigt werden sollen. Diese Einstellung ist standardmäßig deaktiviert und die Ergebnisse der Gruppierung werden immer in der erweiterten Liste angezeigt.
 
    Informationen zu aktualisierten und veralteten Listen finden Sie im Abschnitt [Der Unterschied zwischen aktualisierten und veralteten Listen](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).

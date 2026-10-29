@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2792'
 ht-degree: 9%
 ---
 # Hinzufügen berechneter Felder zu einem Formular
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
       <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer das Format <strong>Zahl</strong> oder <strong>Währung</strong>. Wenn Sie <strong>Zahl</strong> oder <strong>Währung</strong> auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</p> 
       <p><b>WICHTIG</b>: Bevor Sie ein Format auswählen, überlegen Sie, welches Format für das neue Feld korrekt ist. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats kann sich auf zukünftige Berechnungen und Aggregatwerte in Berichts- und Listengruppierungen auswirken.</p>
       <p><strong>HINWEIS</strong>: Berechnete Felder mit dem Format <strong>Währung</strong> sollten keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht „800.00.„) Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen unerwartete Folgen haben.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
      <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>

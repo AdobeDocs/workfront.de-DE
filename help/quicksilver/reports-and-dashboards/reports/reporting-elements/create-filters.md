@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 4%
 ---
 # Erstellen oder Bearbeiten von Filtern in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -133,7 +135,7 @@ Sie können Filter mithilfe der in der folgenden Tabelle beschriebenen Typen von
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberflächen Folgendes:
 
@@ -249,6 +251,10 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
    Weitere Informationen zu Filteroperatoren finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicken Sie auf das Dropdown-Menü Feld , um eine Liste der zuletzt verwendeten Felder und der vorgeschlagenen Felder anzuzeigen, nach denen gefiltert werden soll. Die vorgeschlagenen Felder werden derzeit in der Liste angezeigt, die Sie filtern.
+
+   >[!TIP]
+   >
+   ><span class="preview">Benutzerdefinierte Felder, die als Favoriten markiert sind, werden im Abschnitt **Vorgeschlagen** oben in den Suchergebnissen angezeigt.</span>
 
    Sie können auch **Felder durchsuchen** auswählen, um eine Liste aller Felder anzuzeigen, nach denen Sie filtern können. Die Felder in der erweiterten Suche sind nach Objektkategorie gruppiert.
 
@@ -390,6 +396,10 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
    * Fügen Sie eine Filterregel hinzu, indem Sie auf **Weitere Filterregel hinzufügen** klicken, beginnen Sie mit der Eingabe des Namens der Option, für die Sie eine Regel hinzufügen möchten, in das Feld **Feldnamen eingeben** und klicken Sie dann auf sie, wenn sie in der Dropdown-Liste angezeigt wird.
 
      Felder, die mit dem Objekt Ihres Filters verknüpft sind, werden im Feld **Feldnamen eingeben** aufgeführt.
+
+     >[!TIP]
+     >
+     ><span class="preview">Benutzerdefinierte Felder, die als Favoriten markiert sind, werden im Abschnitt **Vorgeschlagen** oben in den Suchergebnissen angezeigt.</span>
 
    * Klicken Sie **UND** oder **ODER** wenn Sie eine Filterregel hinzufügen.\
      Verwenden Sie beim Hinzufügen von Filterregeln die Filtermodifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
