@@ -55,4 +55,4 @@ Der Änderungsverlauf zeichnet jetzt Änderungen an den Arbeitsflächen-Dashboar
 
 Um Änderungen am Arbeitsflächen-Dashboard nachzuverfolgen, müssen Sie die Objekte **Dashboard**, **Report** und **Report Config** unter „Setup“ > „Tracking ändern“ > „Konfiguration“ konfigurieren.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
