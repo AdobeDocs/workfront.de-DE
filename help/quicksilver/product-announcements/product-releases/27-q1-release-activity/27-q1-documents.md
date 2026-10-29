@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten für das erste Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 5%
 ---
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## Konfigurieren einheitlicher E-Mail-Benachrichtigungen zur Überprüfung und Genehmigung
 
+>[!IMPORTANT]
+>
+>Diese Funktion ist in der Vorschau-Umgebung vorübergehend nicht verfügbar.
+
+
+<!--
 >[!NOTE]
 >
->Vorschau: 29. Oktober 2026
->Produktions-Schnellveröffentlichung: 12. November 2026
->Produktion für alle: 21. Januar 2027
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 Sie können jetzt einheitliche E-Mail-Benachrichtigungen zur Überprüfung und Genehmigung konfigurieren. Workfront hat diese E-Mails immer gesendet, aber bisher konnten Sie sie nicht konfigurieren. Es gibt jetzt 18 Benachrichtigungen, die als einheitliche Genehmigungen gruppiert sind und standardmäßig aktiv sind. Workfront-Admins können sie für alle Personen im Setup aktivieren oder deaktivieren und Benutzende können sie in ihren Profilen verwalten.
 
