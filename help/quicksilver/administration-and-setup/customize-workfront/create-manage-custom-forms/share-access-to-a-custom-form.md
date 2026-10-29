@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 5%
 ---
 # Freigeben eines benutzerdefinierten Formulars
+
+{{preview-fast-release-general}}
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer es anzeigen, freigeben und bearbeiten kann - Person, Rolle, Gruppe, Team, Unternehmen, Geschäftsprofil.
 
@@ -108,7 +110,8 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
       <td> <p>Diese Option ist nur für Benutzer mit einer Standard- oder Planlizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, um es zu bearbeiten, sondern auch das benutzerdefinierte Formular vollständig bearbeiten, einschließlich Felder hinzufügen, bearbeiten und löschen.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li> <p><strong>An benutzerdefinierte Daten anhängen</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, für die sie Verwaltungszugriff haben</p> </li> 
-        <li><strong>Löschen</strong>: Löschen des benutzerdefinierten Formulars aus dem System</li> 
+        <li><strong>Löschen</strong>: Löschen des benutzerdefinierten Formulars aus dem System</li>
+        <li> <p><span class="preview"><strong>Benutzerdefinierte Daten entfernen</strong>: Möglichkeit, das benutzerdefinierte Formular aus Projekten, Aufgaben und Problemen zu entfernen, für die sie Verwaltungszugriff haben</span></p> </li> 
         <li><strong>Freigeben</strong>: Freigeben des benutzerdefinierten Formulars für andere Personen im System</li> 
        </ul> </td> 
      </tr> 
