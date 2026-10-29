@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 4%
 ---
 # Ereignisbenachrichtigungen für alle Systembenutzenden konfigurieren
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -101,7 +103,7 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. (Optional) Klicken Sie auf den Namen einer Ereignisbenachrichtigung, um die Betreffzeile der E-Mail-Benachrichtigung anzupassen.
 
-   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für &#x200B;](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
 1. (Optional) Wenn Sie die Konfiguration einer E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche ![Sperren-Umschalter](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position zu ![Entsperren-Umschalter](assets/unlock-toggle-button.png).
 
@@ -135,10 +137,10 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. (Optional) Um die Betreffzeile der E-Mail-Benachrichtigung anzupassen, haben Sie folgende Möglichkeiten:
 
-   * Klicken Sie auf das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) oder **Mehr** Menü ![Mehr &#x200B;](assets/more-icon.png) rechts neben der Benachrichtigung und wählen Sie **Bearbeiten**.
+   * Klicken Sie auf das Schlosssymbol ![Schlosssymbol](assets/lock-icon-100626.png) oder **Mehr** Menü ![Mehr ](assets/more-icon.png) rechts neben der Benachrichtigung und wählen Sie **Bearbeiten**.
    * Aktivieren Sie das Kontrollkästchen neben der Benachrichtigung und klicken Sie **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand.
 
-   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für &#x200B;](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
 1. (Optional) Um die Konfiguration für eine E-Mail-Benachrichtigung zu entsperren, sodass Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, haben Sie folgende Möglichkeiten:
 

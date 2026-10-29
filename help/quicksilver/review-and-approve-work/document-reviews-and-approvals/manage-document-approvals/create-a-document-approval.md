@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
+source-wordcount: '2622'
 ht-degree: 1%
 ---
 # Erstellen eines Workflows für die Dokumentvalidierung
@@ -43,7 +43,7 @@ Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. 
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -106,13 +106,9 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td>Wählen Sie eine Vorlage aus dem Dropdown-Menü aus. Im Menü werden nur Vorlagen aufgelistet, die Sie erstellt haben oder die für Sie freigegeben wurden - entweder für Sie selbst oder für alle Personen in Ihrer Organisation. Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
-   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</span></p>
-   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></p></td>
+   <td><strong>Personen oder Teams hinzufügen</strong></td>
+   <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</p>
+   <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -176,7 +172,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td>Stadien werden standardmäßig <em>Stadium 1</em>, <em>Stadium 2</em> usw. benannt. Benennen Sie die Phase in eine aussagekräftigere Bezeichnung um, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
    </tr>
    <tr>
-   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><strong>Personen oder Teams hinzufügen</strong></td>
    <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</p>
    <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</p></td>
    </tr>
@@ -200,12 +196,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 
 1. (Optional) Um einen Pfad zu entfernen, bewegen Sie den Mauszeiger über die Pfadbeschriftung und klicken Sie auf das Papierkorbsymbol. **Pfad 1** kann nicht entfernt werden und Pfade können nicht neu angeordnet werden. Andere Pfade können nur entfernt werden, wenn kein Schritt innerhalb des Pfades gesperrt oder abgeschlossen ist.
 
-   ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![Erweiterter Modus mit parallelen Pfaden](assets/parallel-path-v2.png)
 
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
@@ -238,7 +229,7 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td>Das Feld Vorlagen ist standardmäßig reduziert. Klicken Sie auf das Feld, um es zu erweitern, und wählen Sie dann eine Vorlage aus dem Dropdown-Menü aus. Im Menü werden nur Vorlagen aufgelistet, die Sie erstellt haben oder die für Sie freigegeben wurden - entweder für Sie selbst oder für alle Personen in Ihrer Organisation. Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
    </tr>
    <tr>
-   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><strong>Personen oder Teams hinzufügen</strong></td>
    <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</p>
    <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</p></td>
    </tr>
@@ -258,11 +249,10 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
 
 1. Klicken Sie **Genehmigung anfordern**.
 
-   ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic.jpeg)
+   ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td>Stadien werden standardmäßig <em>Stadium 1</em>, <em>Stadium 2</em> usw. benannt. Benennen Sie die Phase in eine aussagekräftigere Bezeichnung um, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
    </tr>
    <tr>
-   <td><strong>Personen oder Teams in der Vorschau hinzufügen</strong></td>
+   <td><strong>Personen oder Teams hinzufügen</strong></td>
    <td><p>Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</p>
    <p>Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</p></td>
    </tr>
@@ -335,12 +325,11 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 
 1. (Optional) Um einen Pfad zu entfernen, bewegen Sie den Mauszeiger über die Pfadbeschriftung und klicken Sie auf das Papierkorbsymbol. **Pfad 1** kann nicht entfernt werden und Pfade können nicht neu angeordnet werden. Andere Pfade können nur entfernt werden, wenn kein Schritt innerhalb des Pfades gesperrt oder abgeschlossen ist.
 
-   ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-advanced.jpeg)
+   ![Erweiterter Modus mit parallelen Pfaden](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 

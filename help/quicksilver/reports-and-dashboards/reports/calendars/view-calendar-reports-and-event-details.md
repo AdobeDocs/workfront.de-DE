@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f6d452008162409f36883dc93345c5ae0ce69f03
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 7%
 ---
 # Anzeigen von Kalenderberichten und Ereignisdetails
+
+{{highlighted-preview}}
 
 Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie in Adobe Workfront erstellt haben oder die für Sie freigegeben wurden.
 
@@ -86,7 +88,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)
