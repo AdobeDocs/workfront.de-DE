@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f6d452008162409f36883dc93345c5ae0ce69f03
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 8%
+source-wordcount: '648'
+ht-degree: 7%
 ---
 # Anzeigen von Kalenderberichten und Ereignisdetails
 
@@ -86,7 +86,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)
@@ -108,20 +108,26 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. (Optional) Wenn Sie den Kalender in der Ansicht **Monat** oder **Woche** anzeigen, können Sie Ihre Kalenderansicht mit den folgenden Optionen ändern:
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * So ändern Sie die angezeigten Daten schnell:
-
-     1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
-
-        ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht **Woche** anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
-
-     1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Wochenenden beim Anzeigen des Kalenders in der Monatsansicht ausschließen</td> 
+      <td>Schalten Sie oben rechts im Kalender <b>Wochenenden anzeigen</b> ein oder aus.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Ein- oder Ausblenden der Tageszeiten beim Anzeigen des Kalenders in der <b>[!UICONTROL Week]</b>Ansicht</span></td> 
+      <td><span class="preview">Schalten Sie oben rechts im Kalender <b>Stunden anzeigen</b> ein oder aus.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">So ändern Sie die angezeigten Daten schnell</td> 
+      <td> <p>Klicken Sie in der Symbolleiste <b>[!UICONTROL Calendar]</b> auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Auf den Pfeil klicken, um Datum zu ändern"></p> <p>Die angezeigten Datumsangaben werden durch ein Intervall entsprechend Ihrer aktuellen Kalenderansicht angepasst. Wenn Sie z. B. den Kalender in der Ansicht <b>Woche</b> anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.</p> <p>(Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf <b>[!UICONTROL Today]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Optional) Um die Ereignisse für ein mit dem Kalender verknüpftes Projekt oder eine mit dem Kalender verknüpfte Kalendergruppierung auszublenden, löschen Sie das Projekt oder die Kalendergruppierung in der Projektliste.
    ![Ereignisse ausblenden](assets/hide-events-for-project-or-cal-grouping.png)
