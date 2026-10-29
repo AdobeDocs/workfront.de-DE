@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '545'
 ht-degree: 5%
 ---
 # Änderungsverlauf anzeigen und verwalten
@@ -30,6 +30,7 @@ Der Änderungsverlauf kann die folgenden Typen definierter Daten verfolgen:
 * Aktualisierungen auf Feldebene, z. B. Bearbeiten einer Projektbeschreibung oder Ändern der Layout-Vorlage eines Benutzers
 * Objektaktualisierungen, z. B. Aktualisieren eines Projektstatus oder Anhängen eines benutzerdefinierten Formulars an eine Aufgabe
 * Einheitliche Workflow-Aktivität für Überprüfung und Genehmigung, einschließlich Teilnehmern und Entscheidungen
+* Aktivität der Arbeitsflächen-Dashboards, z. B. wer ein Dashboard oder einen Bericht erstellt, aktualisiert oder gelöscht hat, wann die Aktualisierungen vorgenommen wurden und was sich geändert hat
 
 Informationen zum Definieren der verfolgten Objekte und Felder finden Sie unter [Konfigurieren der nachzuverfolgenden Felder im Änderungsverlauf](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 9%
 ---
 # Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ Das **Ansicht anpassen** wird angezeigt.
 
    * Ändern Sie den Wert einer beliebigen Spalte, indem Sie auf den Spaltentitel klicken und dann ein neues Feld auswählen.
    * Fügen Sie eine Spalte hinzu, indem Sie auf **Spalte hinzufügen** klicken, den Namen der Spalte eingeben, die Sie hinzufügen möchten, und dann auf sie klicken, wenn sie in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   ><span class="preview">Benutzerdefinierte Felder, die als Favoriten markiert sind, werden im Abschnitt **Vorgeschlagen** oben in den Suchergebnissen angezeigt.</span>
+
    * Passen Sie die Reihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
    * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen. Diese Option ist für die folgenden Spaltentypen verfügbar:

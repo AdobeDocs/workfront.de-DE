@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 9%
+source-wordcount: '559'
+ht-degree: 8%
 ---
 # Layout-Vorlagen erstellen und verwalten
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../.
 
 1. Klicken Sie **Neue Layout-Vorlage**.
 
-   ODER
+   So bearbeiten Sie eine Layout-Vorlage:
 
-   Klicken Sie auf den Namen der Layout-Vorlage, die Sie ändern möchten.
+   * Klicken Sie auf den Namen der Layout-Vorlage, die Sie ändern möchten, oder
+   * <span class="preview">Aktivieren Sie das Kontrollkästchen neben der Layout-Vorlage in der Liste und klicken Sie auf **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand.</span>
+
+     Weitere Informationen zur Aktionsleiste und anderen Funktionen erweiterter Listen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Wenn Sie eine neue Layout-Vorlage erstellen, geben Sie einen **Namen der Layout-Vorlage** und (optional) eine **Beschreibung** ein.
 

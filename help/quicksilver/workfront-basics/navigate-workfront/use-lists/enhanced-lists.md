@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
+
+{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -77,14 +79,16 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | --- | --- |
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Hauptmenü > Anfragen (nur für neue Umgebung)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
-| Listen mit Status, Prioritäten, Schweregraden, <span class="preview">Bedingungen</span> und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li><span class="preview">Setup > Projektvoreinstellungen > Bedingungen</span></li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
-| <span class="preview">Listen der Aktionen und verfolgten Felder in den Aktualisierungs-Feeds</span> | <ul><li><span class="preview">Setup > Schnittstelle > Aktualisierungs-Feeds > Registerkarte „Getrackte Felder“</span></li> <li><span class="preview">Setup > Benutzeroberfläche > Aktualisierungsfeeds > Registerkarte „Aktionen“</span></li></ul> |
-| <span class="preview">Liste der Scorecards</span> | <span class="preview">Setup > Scorecards</span> |
-| <span class="preview">Liste der Risikotypen</span> | <span class="preview">Setup > Risikotypen</span> |
+| Listen mit Status, Prioritäten, Schweregraden, Bedingungen und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Setup > Projektvoreinstellungen > Bedingungen</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
+| Listen der Aktionen und verfolgten Felder in den Aktualisierungs-Feeds | <ul><li>Setup > Benutzeroberfläche > Aktualisierungs-Feeds > Registerkarte „Getrackte Felder“</li> <li>Setup > Benutzeroberfläche > Aktualisierungs-Feeds > Registerkarte „Aktionen“</li></ul> |
+| Scorecard-Liste | Setup > Scorecards |
+| Liste der Risikotypen | Setup > Risikotypen |
 | Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
 | Liste der Standorte | Setup > Standorte |
 | Liste der Übersetzungen | Setup > Lokalisierung |
 | Integrationslisten | <ul><li>Setup > Dokumente > SharePoint-Integration</li><li>Setup > Dokumente > Benutzerdefinierte Integration</li><li>Setup > Dokumente > Experience Manager Assets</li></ul> |
+| <span class="preview">Liste der Layout-Vorlagen</span> | <span class="preview">Einrichtung > Schnittstelle > Layoutvorlagen</span> |
+| <span class="preview">Liste der Ereignisbenachrichtigungen</span> | <ul><li><span class="preview">Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen</span></li><li><span class="preview">Seite „Gruppendetails“ > Ereignisbenachrichtigungen</span></li></ul> |
 | Liste von Berichten | Hauptmenü > Berichte (**Freigebbare Ordner verwenden** muss aktiviert sein) |
 | Listen mit Warteschlangenthemen, Themengruppen und Routing-Regeln | <ul><li>Projekt oder Vorlage > Warteschlangenthemen</li><li>Projekt oder Vorlage > Themengruppen</li><li>Projekt oder Vorlage > Routing-Regeln</li></ul> |
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
@@ -99,10 +103,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront bietet eine begrenzte Anzahl vordefinierter Gruppierungen, die Sie nic
 
    ![Gruppierung auswählen](assets/glist-grouping-choose-a-group-by.png)
 
-1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen Gruppierungen anzuzeigen.
+1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen erweiterten Gruppierungen anzuzeigen.<!--Delete this line at January release-->
 1. Wenn die Gruppierung angewendet wird, können Sie die Gruppierungsoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
 
-   ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
+   ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Auf der Schaltfläche **Gruppierung** wird ein Indikator angezeigt, wenn eine Gruppierung auf die Liste angewendet wird.
 
    ![Gruppierung angewendet Indikator](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">Um alle Gruppierungen in der Liste zu reduzieren oder zu erweitern, klicken Sie auf den Pfeil neben der ersten Spaltenüberschrift.</span>
+
+   <span class="preview">![Alle Gruppierungen reduzieren](assets/collapse-expand-all-groupings.png)</span>
 
 ### Sortieren in eine erweiterte Liste
 

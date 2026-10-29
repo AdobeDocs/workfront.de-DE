@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 75%
+source-wordcount: '8508'
+ht-degree: 72%
 ---
 # Erstellen eines benutzerdefinierten Formulars
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten
 ### Wiederverwenden eines vorhandenen Feldes oder Widgets, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde
 
 1. Klicken Sie oben links im Bildschirm auf **Feldbibliothek**.
+1. Suchen Sie nach dem Feld, das Sie dem Formular hinzufügen möchten.
+
+   >[!TIP]
+   >
+   ><span class="preview">Felder, die als Favoriten markiert sind, werden im Abschnitt **Vorgeschlagen** oben in der Feldbibliothek angezeigt.</span>
 
 1. Verschieben Sie das gewünschte Feld oder Widget per Drag-and-Drop auf die Arbeitsfläche. Wiederholen Sie diesen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
@@ -332,6 +339,15 @@ So fügen Sie ein Textfeld hinzu:
     <td><ul><li>Beschreibender Text</li></ul></td>
     </tr>
     <tr>
+     <td>Als Favoriten kennzeichnen</td>
+     <td><p><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     <td><ul>
+     <li>Einzeiliger Text</li>
+     <li>Absatz</li>
+     <li>Rich Text</li>
+     <li>Beschreibender Text</li></ul></td>
+    </tr>
+    <tr>
      <td>Aktiv</td>
      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <li>Mehrfachauswahl-Dropdown</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Als Favoriten kennzeichnen</td>
+     <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     <td><ul>
+     <li>Optionsfelder</li>
+     <li>Kontrollkästchengruppe</li>
+     <li>Einfachauswahl-Dropdown</li>
+     <li>Mehrfachauswahl-Dropdown</li></ul></td>
     </tr> 
     <tr>
      <td>Aktiv</td>
@@ -754,6 +779,10 @@ Hinzufügen von Datumsfeldern:
       <td><p>Wählen Sie diese Option aus, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</p></td>
      </tr> 
      <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
+     <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
@@ -870,6 +899,10 @@ So fügen Sie eine externe Suche hinzu:
       <td><p>Wählen Sie diese Option aus, damit die Benutzerin bzw. der Benutzer mehrere Werte in der Dropdown-Liste auswählen kann.</p></td>
      </tr>
      <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
+     <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
@@ -971,6 +1004,10 @@ Hinzufügen einer internen Suche:
       <td><p>Wählen Sie diese Option aus, damit die Benutzerin bzw. der Benutzer mehrere Werte in der Dropdown-Liste auswählen kann.</p></td>
      </tr>
      <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
+     <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
      <tr> 
       <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
      <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
+     </tr>
+     <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ So fügen Sie eine Adobe XD-Datei hinzu:
       <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
      </tr>
      <tr>
       <td>Aktiv</td>
@@ -1369,6 +1418,10 @@ So fügen Sie ein Feld des Typs „Planungsverbindung“ hinzu:
       <td role="rowheader">Eintragstypfelder</td> 
       <td><p>(Optional) Wählen Sie aus dem verbundenen Eintragstyp bis zu 7 Suchfelder aus, die im benutzerdefinierten Formular angezeigt werden sollen. Das primäre Feld ist standardmäßig ausgewählt und kann nicht bearbeitet werden. </p> <p> Die ausgewählten Felder des verbundenen Eintrags werden in einer Tabellenansicht im benutzerdefinierten Formular angezeigt. Wenn das Formular mit einem Workfront-Objekt verbunden ist, ist die Tabellenansicht schreibgeschützt. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Als Favoriten kennzeichnen</td>
+      <td><span class="preview">Wählen Sie diese Option aus, damit das Feld beim Erstellen von Filtern, Ansichten und Gruppierungen in Listen und Berichten und im Formular-Designer oben in der Feldbibliothek als empfohlenes Feld angezeigt wird.</span></td>
      </tr>
      <tr>
       <td>Aktiv</td>
