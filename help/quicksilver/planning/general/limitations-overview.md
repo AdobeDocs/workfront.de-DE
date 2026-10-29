@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 5%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -77,6 +77,9 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Hierarchien in einem Arbeitsbereich | 5 |
 | Anzahl der Datensätze eines übergeordneten Datensatztyps, die mit einem Datensatz eines untergeordneten Datensatztyps verbunden sind, innerhalb einer Hierarchie | 10 |
 | Anzahl der mit einem Datensatz verbundenen Datensätze bei einem Mehrfachauswahl-Verbindungstyp, ohne dass eine Hierarchie zwischen den Datensätzen konfiguriert ist | 500 |
+| <span class="preview">Anzahl der Suchfelder pro Datensatztyp</span> | 40 |
+| <span class="preview">Anzahl der Langtext-Lookup-Felder pro Datensatztyp</span> | 5 |
+| <span class="preview">Anzahl der Zeichen im Wert einer einzelnen Langtext-Lookup-Feldzelle (in der Tabellenansicht)</span> | 50.000 Zeichen |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

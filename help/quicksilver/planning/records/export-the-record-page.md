@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 ---
 # Exportieren der Details eines Eintrags
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * Die exportierte Datei behält das Layout der Datensatzseite bei, einschließlich der Miniatur und der Titelbilder.
 
-* Es ist nicht möglich, eine benutzerdefinierte Detailseite zu exportieren, wenn mehrere Felder ausgeblendet sind.
+* In die Produktionsumgebung können Sie keine benutzerdefinierte Detailseite exportieren, auf der mehrere Felder ausgeblendet sind.
+
+<div class="preview">
+
+* In der Vorschau -Umgebung können Sie eine benutzerdefinierte Detailseite exportieren, auf der mehrere Felder ausgeblendet sind.
+
+</div>
 
 ## Exportieren der Details eines Eintrags
 
@@ -188,11 +192,11 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Das Vorschaufeld des Datensatzes wird geöffnet.
 
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 
 1. Wählen Sie die **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet sein.
 
-1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf ](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -206,7 +210,6 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
    >[!NOTE]
    >
    >    Zusätzliche Informationen, die nicht auf der Seite angezeigt werden und erst angezeigt werden, nachdem im Bereich Datensatzdetails auf Mehr anzeigen geklickt wurde, werden nicht in der exportierten PDF-Datei angezeigt. In der exportierten Datei werden nur die auf der Seite sichtbaren Informationen angezeigt.
-
 
 1. (Optional) Wechseln Sie zur heruntergeladenen Datei, öffnen Sie sie und bearbeiten Sie sie (wenn es sich um eine Word-Datei handelt) oder geben Sie sie für andere frei.
 

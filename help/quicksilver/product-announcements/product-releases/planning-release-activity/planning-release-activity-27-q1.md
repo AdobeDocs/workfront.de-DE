@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2027
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Produktions-Schnellveröffentlichung: 12. November 2026
 >Produktion für alle: 21. Januar 2027
 
-Wenn zwei verbundene globale Datensatztypen zu einem sekundären Arbeitsbereich hinzugefügt werden, können Sie jetzt die arbeitsbereichsübergreifende Konnektivität deaktivieren und weiterhin Datensätze lokal verknüpfen. Jeder sekundäre Arbeitsbereich sieht nur eigene Datensätze für beide Datensatztypen und kann diese miteinander verbinden. Datensätze aus dem globalen Arbeitsbereich und anderen sekundären Arbeitsbereichen werden nicht mehr angezeigt.
+Wenn zwei verbundene globale Datensatztypen zu einem sekundären Arbeitsbereich hinzugefügt werden, können Sie die Workspace-übergreifende Konnektivität deaktivieren und weiterhin Datensätze lokal verknüpfen.
+
+Jeder sekundäre Datensatztyp zeigt nur seine eigenen Datensätze für beide Datensatztypen an und kann sie miteinander verbinden. Datensätze aus dem globalen Arbeitsbereich und anderen sekundären Arbeitsbereichen werden nicht mehr angezeigt.
 
 Vor dieser Verbesserung konnten sekundäre Arbeitsbereiche keine eigenen Datensätze miteinander verknüpfen, wenn die Workspace-übergreifende Konnektivität für verbundene globale Datensatztypen deaktiviert war. Wenn sie aktiviert war, konnten Benutzer Datensätze aus dem globalen Arbeitsbereich und allen anderen sekundären Arbeitsbereichen sehen und verknüpfen.
 
 Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## Anzeigen der Gesamtzahl der Einträge in Tabellenansichten
+## Anzeigen der Gesamtzahl der Einträge in der Tabelle, Zeitleiste und Listenansicht
 
 >[!NOTE]
 >
@@ -79,7 +81,9 @@ Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztype
 >Produktions-Schnellveröffentlichung: 12. November 2026
 >Produktion für alle: 21. Januar 2027
 
-Die Tabellenansicht zeigt jetzt die Gesamtzahl der Datensätze an, und die Anzahl wird automatisch aktualisiert, wenn Sie Filter anwenden, suchen oder die Ansicht ändern. Die Anzahl der Einträge entspricht immer den vollständigen gefilterten Ergebnissen und den Berechtigungen.
+Die Tabellen-, Timeline- und Listenansichten zeigen jetzt die Gesamtzahl der Datensätze an, und die Anzahl wird automatisch aktualisiert, wenn Sie Filter anwenden, suchen oder die Ansicht ändern. Die Anzahl der Einträge entspricht immer den vollständigen gefilterten Ergebnissen und den Berechtigungen.
+
+Die Anzahl der Datensätze wird links neben dem Schnellsuchfeld in der oberen rechten Ecke der Tabelle, der Zeitleiste oder der Listenansicht angezeigt.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Verbesserte Leistung durch inkrementelles Laden von Daten in die Tabellen- und Zeitleisten-Ansichten
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Vorschau: 29. Oktober 2026
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 Um die Leistung bei einer großen Anzahl von Datensätzen zu verbessern, haben wir die folgenden Verbesserungen an den Tabellen- und Zeitleisten-Ansichten vorgenommen:
 
-* Die Ansicht lädt jetzt die ersten 500 Datensätze zu Beginn, wobei zusätzliche Datensätze automatisch geladen werden, wenn Sie in Stapeln von 500 scrollen.
-* Schnellsuche und Gruppierung wirken sich nur auf die Datensätze aus, die derzeit in der Ansicht geladen sind.
+* Die Tabellenansicht lädt jetzt die ersten 500 Datensätze zu Beginn. Beim Scrollen in 500-Batches werden automatisch zusätzliche Datensätze geladen.
+* Die Zeitleisten -Ansicht hat ein ähnliches Verhalten, lädt jedoch beim Scrollen 1.000 Datensätze gleichzeitig, wobei die nächsten 1.000 geladen werden.
+* Die Schnellsuche gilt für alle Datensätze, nicht nur für die, die in der aktuellen Ansicht angezeigt werden. Beim Scrollen in der Zeitleiste und in den Tabellenansichten werden mehr Datensätze geladen.
+* Wenn Sie eine Schnellsuche in der Zeitleisten -Ansicht anwenden und mehr als 1.000 Elemente gefunden werden, können Sie unten in der Zeitleiste auf Mehr laden klicken, um mehr Datensätze anzuzeigen, die der Suche entsprechen.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md) und [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

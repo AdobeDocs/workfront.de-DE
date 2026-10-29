@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    Die Datensätze, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Balken in einer Zeitleiste angezeigt und standardmäßig in chronologischer Reihenfolge ihres Startdatums sortiert.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">Die ersten 1.000 Datensätze werden standardmäßig angezeigt. Beim Scrollen durch die Seite werden weiterhin zusätzliche Datensätze in Stapeln von 1.000,</span> angezeigt
+
+   <span class="preview">Die Gesamtzahl der Datensätze wird links neben dem Feld „Schnellsuche“ in der oberen rechten Ecke der Tabelle angezeigt.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. Die **Standard**-Option ist die Standardeinstellung.  <!--check to see if they updated the name of the setting here-->
 
-
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein, der mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
+   1. Klicken Sie auf **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein, der mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird.
+
+      Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
+
+      <span class="preview">Die Gesamtzahl der links neben dem Suchfeld angezeigten Datensätze wird durch die Anzahl der bei der Suche gefundenen Datensätze ersetzt. </span>
 
       ![Suchfeld und Timeline-Ansicht der Ergebnisse](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
       Sie können keine Keywords verwenden, die mit Feldern verknüpft sind, die in der Zeitleisten -Ansicht nicht angezeigt werden.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">Die Schnellsuche funktioniert für alle Datensätze, nicht nur für die, die derzeit auf der Seite angezeigt werden. Standardmäßig werden 1.000 Datensätze angezeigt. Klicken Sie **Mehr laden**, um weitere bei der Schnellsuche gefundene Datensätze anzuzeigen. </span>
 
    1. Drücken Sie die Eingabetaste auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
    1. (Optional) Wenn mehr als eine Übereinstimmung vorliegt, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
    1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
-   1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
+1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
 
 1. (Optional) Klicken Sie auf **Aufschlüsselung**, um verbundene Datensätze in der Zeitleiste anzuzeigen.
 
@@ -521,13 +519,11 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(Optional) Nehmen Sie eine Gruppierung in der **Swimlane**- oder **Stacked** Anordnung auf und legen Sie sie an einer anderen Position ab.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">Dadurch wird die Gruppierungsreihenfolge geändert und die Sortierung der Gruppierung in &quot;**&quot;**. Weitere Informationen finden Sie im Abschnitt [Sortierung hinzufügen](#add-sort) in diesem Artikel.</span>
 
 ### Sortierung hinzufügen
 
@@ -557,11 +553,9 @@ So fügen Sie eine Sortierung in der Zeitleisten -Ansicht hinzu:
 
    Die Sortierung eines Textfelds kann beispielsweise A -> Z oder Z -> A lauten.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Wenn die Zeitleisten -Ansicht Gruppierungen enthält und Sie die Gruppierungsreihenfolge manuell neu angeordnet haben, wird die Sortierrichtung als &quot;**&quot;**. </span>
 
    Die Richtung, in der eine Sortierung angewendet wird, hängt vom Format des ausgewählten Felds ab.
 1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um bis zu 10 Bedingungen hinzuzufügen.
@@ -720,7 +714,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
