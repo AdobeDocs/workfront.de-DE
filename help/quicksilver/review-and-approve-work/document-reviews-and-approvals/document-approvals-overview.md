@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # Einheitliche Prüfung und Genehmigung - Übersicht
@@ -82,7 +82,7 @@ Verwenden Sie den Frame.io-Viewer, um Assets zu überprüfen und zu genehmigen. 
 * Markup- und Kommentierungswerkzeuge
 * Versionsverlauf und -vergleich
 * Kommentare mit Zeitstempel für Videobewertungen
-* Mobile-Zugriff für Überprüfungen und Genehmigungen von unterwegs
+* Mobile-Zugriff für die Prüfung und Genehmigung unterwegs mit der iOS-App [Frame.io](https://help.frame.io/en/collections/9679120-ios-app)
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
