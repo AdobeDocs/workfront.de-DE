@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -249,6 +249,25 @@ So fügen Sie Spalten hinzu und entfernen sie:
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Führen Sie einen der folgenden Schritte aus, um die Gesamtzahl der Elemente in einer Liste anzuzeigen:
+
+* In der Produktionsumgebung:
+
+  1. Öffnen Sie eine erweiterte Liste.
+  1. Scrollen Sie nach unten in der Liste.
+
+     Die Gesamtzahl der Elemente unter Berücksichtigung aller angewendeten Filter wird in der rechten unteren Ecke der Liste angezeigt.
+
+<div class="preview">
+
+* In der Vorschau-Umgebung:
+
+  1. Öffnen Sie eine erweiterte Liste.
+  1. Wenn verfügbar, wird die Gesamtzahl der Elemente links neben dem Schnellsuchfeld in der oberen rechten Ecke der Liste angezeigt.
+  1. (Bedingt) Wenn Elemente nicht standardmäßig auf dem Bildschirm angezeigt werden, scrollen Sie zur Seite, um weitere anzuzeigen.
+
+</div>
 
 So ändern Sie die Zeilenhöhe in einer Ansicht:
 
@@ -516,7 +535,11 @@ So sortieren Sie einzelne Spalten:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Geben Sie einen Suchbegriff ein, nach dem Sie suchen möchten, in das Suchfeld in der oberen rechten Ecke der Liste. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
+1. Geben Sie einen Suchbegriff ein, nach dem Sie suchen möchten **in das Feld** Suchen“ in der oberen rechten Ecke der Liste.
+
+   In der Produktionsumgebung werden die Ergebnisse bei der Eingabe in der Liste hervorgehoben.
+
+   <span class="preview">In der Vorschau -Umgebung wird die Liste gefiltert, sodass nur die Elemente angezeigt werden, die den Suchkriterien entsprechen. Die Gesamtzahl der Datensätze links neben dem Feld „Schnellsuche“ wird durch die Anzahl der gefundenen Elemente ersetzt.</span>
 
    ![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
 

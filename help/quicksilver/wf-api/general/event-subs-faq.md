@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1101'
 ht-degree: 1%
 ---
 # Häufig gestellte Fragen – Ereignisabonnements
@@ -96,6 +96,16 @@ Sie können eine beliebige Authentifizierung verwenden, die ein Bearer-Token ver
 ## Wie lange sollte es dauern, bis ich meine Ereignis-Payload von Workfront-Ereignisabonnements erhalte?
 
 Im Allgemeinen kann davon ausgegangen werden, dass Versandanfragen für Ereignisabonnement-Ereignisse in weniger als 5 Sekunden nach der protokollierten Datenänderung empfangen werden. Im Durchschnitt werden Webhook-Benachrichtigungen in weniger als 1 Sekunde ab dem Zeitpunkt der Datenänderung empfangen. Der Service kann jedoch Nachrichten in einer derart großen Menge empfangen, dass er möglicherweise auch länger dauert.
+
+## Kann ich dasselbe Ereignis mehrmals erhalten?
+
+Ja. Workfront verwendet die Deduplizierung, um doppelte Ereignissendungen zu reduzieren, aber es ist kein exakt einmaliger Versand gewährleistet.
+
+Nachdem ein Endpunkt eine erfolgreiche HTTP-Antwort (2xx) zurückgegeben hat, zeichnet Workfront diesen Versand vorübergehend auf und verwendet diesen Datensatz, um nachfolgende Sendungen desselben Ereignisses für dasselbe Abonnement zu unterdrücken. Sendungen für separate Abonnements werden unabhängig verfolgt.
+
+Duplikate können weiterhin auftreten, z. B. wenn sich Versandversuche überschneiden, ein Endpunkt ein Ereignis verarbeitet, seine Antwort jedoch Workfront nicht erreicht, oder der Versanddatensatz abläuft oder nicht verfügbar ist.
+
+Gestalten Sie Ihren Endpunkt, um wiederholte Sendungen sicher zu verarbeiten (idempotently). Verwenden Sie den Header der `X-Event-ID`-Anfrage zusammen mit der `subscriptionId` der Payload, um wiederholte Sendungen für ein Abonnement zu identifizieren.
 
 ## Weitere Ressourcen
 

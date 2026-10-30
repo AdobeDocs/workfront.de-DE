@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1300'
 ht-degree: 1%
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, um anzugeben, dass bestimmte Felder erforderlich sind, bevor eine Aktion für einen Datensatz dieses Typs zulässig oder verhindert wird.
 
@@ -101,18 +100,18 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Regeln blockieren nicht die Erstellung von Datensätzen. Benutzer können weiterhin Datensätze erstellen, müssen jedoch sicherstellen, dass die erforderlichen Felder nicht leer sind oder den angegebenen Wert enthalten.
 * Regeln bearbeiten oder löschen Datensätze nicht automatisch. Die Änderung muss absichtlich erfolgen und von einem Benutzer ausgelöst werden.
 * Regeln gelten nicht rückwirkend: alte Datensätze sind nicht betroffen. Die Regelprüfung wird nur ausgeführt, wenn das nächste Mal versucht wird, einen Datensatz zu bearbeiten oder zu löschen.
-* &#x200B;<!--In the Production environment,--> Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
+* In der Produktionsumgebung können Sie keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* In der Vorschau -Umgebung können Sie folgende Geschäftsregeln hinzufügen:
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * Globale Datensatztypen in ihrem primären Arbeitsbereich. Regeln, die für globale Datensatztypen erstellt wurden, sind in den sekundären Arbeitsbereichen im schreibgeschützten Modus sichtbar und gelten für alle Datensätze desselben Typs in allen Arbeitsbereichen.
+  * Sekundäre Datensatztypen, aus anderen Arbeitsbereichen importiert. Regeln, die für sekundäre Datensatztypen erstellt wurden, sind im schreibgeschützten Modus im globalen Datensatztyp sichtbar und gelten für alle Datensätze desselben Typs in allen Arbeitsbereichen.
+
+* Geschäftsregeln im schreibgeschützten Modus können nur von ihren ursprünglichen Arbeitsbereichen aus bearbeitet werden.
+
 </div>
--->
 
 * Sie können eine Bedingung für Ihre Geschäftsregel erstellen, die auf alle Feldtypen mit Ausnahme der folgenden verweist:
   * Formelfelder

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a62afa30eb4727619e64ea2a98e639891a29af
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 4%
+source-wordcount: '1117'
+ht-degree: 3%
 ---
 # Zuweisen von Benutzern zu einer Layout-Vorlage
 
@@ -104,17 +104,28 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Zuweisungspriorität der Layoutvorlage {#layout-template-assignment-priority}
 
-Sie und andere Workfront-Admins können demselben Benutzenden auf vier verschiedene Arten mehrere verschiedene Layout-Vorlagen zuweisen:
+Sie und andere Workfront-Admins können demselben Benutzenden mehrere verschiedene Layout-Vorlagen auf folgende Weise zuweisen:
 
 * An den einzelnen Benutzer
 * Einem bestimmten Aufgabengebiet zuweisen, das der Benutzer hat
 * Für ein bestimmtes Team ist der Benutzer aktiv.
 * Für eine bestimmte Gruppe ist der Benutzer in
 * Einer bestimmten Zugriffsebene wird der Benutzer zugewiesen
+* An ein Geschäftsprofil, das dem Benutzer zugewiesen ist
 
 Es ist jedoch immer nur eine Layoutvorlage für den Benutzer sichtbar. Die sichtbare Vorlage wird durch die folgende Prioritätshierarchie bestimmt:
 
-* **Einzelner Benutzer**: Die Layout-Vorlage, die der Person als einzelner Benutzer zugewiesen ist, überschreibt alle anderen. Sie können eine frühere Zuweisung überschreiben, die für einen einzelnen Benutzer vorgenommen wurde, indem Sie eine neue Zuweisung vornehmen. Die neueste Zuweisung hat Vorrang.
+* **Geschäftsprofil**: Geschäftsprofile stellen die höchste Prioritätsstufe für eine Layout-Vorlage dar. Wenn der/die Benutzende über ein Geschäftsprofil mit Layout-Vorlagen verfügt, die den Zugriffsebenen zugewiesen sind, und sich der/die Benutzende auf einer gruppenspezifischen Seite befindet (z. B. ein mit einer Gruppe verknüpftes Projekt), werden alle Geschäftsprofil-Layout-Vorlagen für diese Gruppe mit der zugewiesenen Layout-Vorlage des/der Benutzenden kombiniert. Wenn sich der/die Benutzende nicht auf einer gruppenspezifischen Seite befindet, werden alle Geschäftsprofil-Layout-Vorlagen mit der zugewiesenen Layout-Vorlage des/der Benutzenden kombiniert.
+
+  Wenn Layout-Vorlagen für mehrere Geschäftsprofile und Zugriffsebenen kombiniert werden, werden alle verfügbaren Layout-Elemente angezeigt. Wenn ein Menüelement in einer Vorlage angezeigt, aber in einer anderen ausgeblendet wird, wird es angezeigt. Nur Elemente, die in allen Vorlagen für das Geschäftsprofil ausgeblendet sind, werden ausgeblendet.
+
+  >[!NOTE]
+  >
+  >Geschäftsprofile stehen nur Organisationen zur Verfügung, die über ein Workflow-Ultimate-Paket verfügen.
+
+  Weitere Informationen finden Sie unter [Übersicht über Geschäftsprofile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Einzelner Benutzer**: Die Layout-Vorlage, die der Person als einzelner Benutzer zugewiesen wurde, überschreibt alle anderen, mit Ausnahme von Layout-Vorlagen, die aus einem Geschäftsprofil stammen. Sie können eine frühere Zuweisung an einen einzelnen Benutzer überschreiben, indem Sie eine neue Zuweisung vornehmen. Die neueste Zuweisung hat Vorrang.
 * **Primäres Aufgabengebiet**: Wenn der Person keine Layout-Vorlage als Einzelperson zugewiesen ist, wird ihr die Vorlage für ihr primäres Aufgabengebiet zugewiesen.
 
   Nur die Layout-Vorlage, die dem primären Aufgabengebiet eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die sekundären Aufgabengebieten zugewiesen wurden, die vom Benutzer verwaltet werden, sind nicht sichtbar.
@@ -127,7 +138,7 @@ Es ist jedoch immer nur eine Layoutvorlage für den Benutzer sichtbar. Die sicht
 
   Nur die Vorlage, die der Hauptgruppe eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die einer der anderen Gruppen zugewiesen sind, sind nicht sichtbar.
 
-* Zugriffsebene: Wenn der Person keine Layoutvorlage als einzelner Benutzer, als Benutzer mit einem primären Aufgabengebiet, als Mitglied eines Home-Teams oder als Mitglied einer Home-Gruppe zugewiesen ist, wird ihr die Vorlage angezeigt, die ihrer Zugriffsebene zugewiesen ist.
+* **Zugriffsebene**: Wenn der Person keine Layout-Vorlage als einzelner Benutzer, als Benutzer mit einem primären Aufgabengebiet, als Mitglied eines Haupt-Teams oder als Mitglied einer Hauptgruppe zugewiesen ist, wird die Vorlage angezeigt, die ihrer Zugriffsebene zugewiesen ist.
 
 ## Große Anzahl von Benutzern, die einer Layout-Vorlage zugewiesen sind
 

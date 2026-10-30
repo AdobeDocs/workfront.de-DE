@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 2%
 ---
 # Die [!DNL Adobe Workfront] benutzerdefinierte Sandbox-Aktualisierungsumgebung
 
 Die benutzerdefinierte Aktualisierungs-Sandbox ist eine Umgebung, in der Sie mit Daten aus Ihrer Produktionsumgebung testen und arbeiten können. Es ist auch ideal für Schulungen und die Bestimmung der Einrichtungsfunktionalität.
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ So greifen Sie auf Ihre benutzerdefinierte Sandbox zu:
    Ihre benutzerdefinierten Sandbox-Aktualisierungs-Anmeldeinformationen sind mit Ihren Produktions-Anmeldeinformationen identisch, es sei denn, Sie haben Ihre Produktions-Anmeldeinformationen seit der letzten Aktualisierung Ihrer benutzerdefinierten Sandbox-Aktualisierung geändert. Die Anmeldungen werden nur synchronisiert, wenn eine Aktualisierung erfolgt. Sie werden nicht automatisch synchronisiert.
 
    Die benutzerdefinierte Aktualisierungs-Sandbox zeigt im Banner oben im Bildschirm die Version sowie das Datum der letzten Aktualisierung an. Alle Informationen aus der Produktion sind verfügbar und können nach Abschluss einer Aktualisierung verwendet werden.
+
+>[!IMPORTANT]
+>
+>Planungsdaten in Arbeitsflächen-Dashboards sind nur für [!DNL Workfront] Administratoren in Sandbox-Umgebungen sichtbar.
 
 ## Zugriff auf die benutzerdefinierte Aktualisierungs-Sandbox über eine URL {#access-the-custom-refresh-sandbox-using-a-url}
 

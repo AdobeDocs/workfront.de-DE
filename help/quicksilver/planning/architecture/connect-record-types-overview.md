@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -201,6 +201,22 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
       >Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
       >
       >Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15:00 Uhr angezeigt wird, wird es in Workfront Planning in einem importierten Suchfeld als 15:00 Uhr angezeigt.
+
+  <div class="preview">
+
+  * Beim Hinzufügen von Suchfeldern gibt es die folgenden Einschränkungen:
+
+    * Pro Datensatztyp können bis zu 40 Suchfelder verwendet werden.
+
+    * Pro Datensatztyp können bis zu 5 Langtext-Suchfelder verwendet werden. Verbundene Lookup-Felder werden auf die Beschränkung ihres ursprünglichen Felds gezählt.
+
+    * Der Wert einer einzelnen Langtext-Lookup-Zelle kann bis zu 50.000 Zeichen lang sein.
+
+      Wenn der kombinierte Inhalt der Nachschlagewerte diesen Wert überschreitet, werden die Werte in der Verbindungsreihenfolge angezeigt, bis das Limit erreicht ist.
+
+      Der erste Wert, der diesen Wert überschreiten würde, und alle nachfolgenden Werte werden weggelassen. Das ursprünglich verbundene Objektfeld wird nie geändert.
+
+  </div>
 
   * Sie müssen Datensatztypen verbinden, um in Workfront Planning Hierarchien erstellen zu können. Wenn keine Verbindungen vom Typ Datensatz vorhanden sind, werden sie automatisch erstellt, wenn Sie eine Hierarchie erstellen. Weitere Informationen finden Sie unter [Erstellen von Workspace-Hierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '598'
 ht-degree: 5%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Überblick über Objektbeschränkungen bei Adobe Workfront-Planung
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Hierarchien in einem Arbeitsbereich | 5 |
 | Anzahl der Datensätze eines übergeordneten Datensatztyps, die mit einem Datensatz eines untergeordneten Datensatztyps verbunden sind, innerhalb einer Hierarchie | 10 |
 | Anzahl der mit einem Datensatz verbundenen Datensätze bei einem Mehrfachauswahl-Verbindungstyp, ohne dass eine Hierarchie zwischen den Datensätzen konfiguriert ist | 500 |
+| <span class="preview">Anzahl der Suchfelder pro Datensatztyp</span> | 40 |
+| <span class="preview">Anzahl der Langtext-Lookup-Felder pro Datensatztyp</span> | 5 |
+| <span class="preview">Anzahl der Zeichen im Wert einer einzelnen Langtext-Lookup-Feldzelle (in der Tabellenansicht)</span> | 50.000 Zeichen |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

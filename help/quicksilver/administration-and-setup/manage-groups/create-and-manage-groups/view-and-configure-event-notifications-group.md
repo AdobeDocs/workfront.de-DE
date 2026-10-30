@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 4%
 ---
 # Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe
+
+{{highlighted-preview}}
 
 Als Gruppenadministrator können Sie die Ereignisbenachrichtigungen anzeigen, die für eine von Ihnen verwaltete Gruppe aktiviert sind.
 
@@ -73,7 +75,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Anzeigen und Konfigurieren der Ereignisbenachrichtigungen einer Gruppe
+## Ereignisbenachrichtigungen einer Gruppe in der Produktion anzeigen und konfigurieren
 
 >[!TIP]
 >
@@ -108,3 +110,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## Ereignisbenachrichtigungen einer Gruppe in der Vorschau anzeigen und konfigurieren
+
+>[!TIP]
+>
+>Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite „E-Mail-Benachrichtigungen“ befinden (Einstellungen > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann mit Schritt 6 fortfahren: Löschen **Systemereignis-Benachrichtigungen** im Feld über der Liste, Beginnen Sie, den Namen der Gruppe in das Feld einzugeben, und klicken Sie dann auf die Gruppe, wenn sie angezeigt wird.
+
+{{step-1-to-setup}}
+
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
+
+1. Klicken Sie auf den Namen der Gruppe der obersten Ebene.
+1. Klicken Sie im linken Menü auf **Ereignisbenachrichtigungen**.
+1. Klicken Sie in die **Aktiv** für das Ereignis und wählen Sie **Aktiv** aus, um es zu aktivieren, oder **Inaktiv**, um es zu deaktivieren.
+
+   >[!IMPORTANT]
+   >
+   >Elemente mit einem Sperrsymbol können nicht für Gruppen bearbeitet oder konfiguriert werden.
+
+   ![Benachrichtigungsbereich unter „E-Mails einrichten“](assets/group-event-notifications-g.png)
+
+   Den Standardbenachrichtigungsstatus für ein Ereignis finden Sie unter [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md).
+
+</div>
