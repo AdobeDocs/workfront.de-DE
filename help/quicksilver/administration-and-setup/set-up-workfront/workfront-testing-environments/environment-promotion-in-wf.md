@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 3%
@@ -64,7 +64,9 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 * [Benutzerdefinierte Datenobjekte](#custom-data-objects)
 * [Organisationsobjekte](#organization-objects)
 * [Andere Konfigurationsobjekte](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### Arbeitsobjekte
 
@@ -137,6 +139,22 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 
 -->
 
+<!--
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
+
 ## Umgebungsförderungsstatus
 
 Umgebungs-Promotion-Pakete durchlaufen beim Erstellen und Vorbereiten des Wechsels zwischen Umgebungen mehrere Status. Sie können diese Status in Ihrer Paketliste in Workfront oder in den API-Antworten sehen, wenn Sie die Workfront-API verwenden.
@@ -173,7 +191,7 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
+   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>

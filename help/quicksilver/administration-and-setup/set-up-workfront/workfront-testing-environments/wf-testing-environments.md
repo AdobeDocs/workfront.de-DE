@@ -27,24 +27,30 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 28%
+source-wordcount: '138'
+ht-degree: 27%
 ---
 # [!DNL Adobe Workfront]-Testumgebungen
 
-Dieser Abschnitt enthält die folgenden Artikel:
+Dieser Abschnitt enthält Artikel zu den folgenden Umgebungen und Funktionen:
+
+* [Testumgebungen](#testing-environments)
+* [Umgebungsförderung](#environment-promotion)
+
+## Testumgebungen
 
 * [Die  [!DNL Adobe Workfront] -Vorschau-Sandbox-Umgebung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 * [Die  [!DNL Adobe Workfront] -benutzerdefinierte Sandbox-Umgebung aktualisieren](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-* Umweltförderung:
 
-  * [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
-  * [Erstellen oder Bearbeiten eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-  * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
-  * [Zurücksetzen eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
-  * [Vergleichen von Objekten zwischen Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
-  * [Verschieben von Objekten  [!DNL Workfront]  Umgebungen mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-  * [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-  * [Fehlerbehebung bei der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+## Umgebungsförderung
+
+* [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+* [Erstellen oder Bearbeiten eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+* [Zurücksetzen eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
+* [Vergleichen von Objekten zwischen Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
+* [Verschieben von Objekten  [!DNL Workfront]  Umgebungen mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+* [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* [Fehlerbehebung bei der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
