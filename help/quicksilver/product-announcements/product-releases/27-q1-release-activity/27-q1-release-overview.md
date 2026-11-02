@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Benutzerdefiniertes Feld als Favorit markieren</a></p>
                 <p>Sie können jetzt ein benutzerdefiniertes Feld als Favorit markieren, sodass es oben in den verfügbaren Feldern angezeigt wird, wenn Sie Filter, Ansichten und Gruppierungen erstellen, sowie in der Feldbibliothek von Form Designer.</p>
+            </td>
+            <td><p>29. Oktober 2026</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>21. Januar 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">In benutzerdefinierten Feldern überprüfte Werte beim Ändern des Formats</a></p>
+                <p>Das System prüft jetzt auf inkompatible Werte, wenn Sie ein vorhandenes benutzerdefiniertes Textfeldformat in „Zahl“ oder „Währung“ ändern.</p>
             </td>
             <td><p>29. Oktober 2026</p></td>
             <td><p>12. November 2026</p></td>
@@ -291,7 +300,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -319,13 +328,13 @@ Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizi
 
 Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
