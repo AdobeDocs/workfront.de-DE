@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 7%
+source-wordcount: '476'
+ht-degree: 6%
 ---
 # Anzahl der zugeordneten und in einer Gruppe verwendeten Lizenzen anzeigen
 
@@ -72,11 +72,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe.
-1. Zeigen Sie auf der angezeigten Seite im Kopfzeilenbereich oben rechts den Bereich **Verwendete Lizenzen** an, um die Anzahl der **Plan** und **Work**-Lizenzen anzuzeigen.
+1. Sehen Sie sich auf der angezeigten Seite im Kopfzeilenbereich oben rechts den Bereich **Verwendete Lizenzen** an, um die Anzahl der aktuell verwendeten Lizenzen anzuzeigen.
 
-   Wenn Sie eine Gruppe der obersten Ebene anzeigen und der Workfront-Administrator eine Höchstzahl jedes Lizenztyps für die Gruppe definiert hat, werden diese Zahlen ebenfalls angezeigt. In der folgenden Gruppe können beispielsweise maximal 10 Benutzende über eine Planlizenz und 15 über eine Arbeitslizenz verfügen:
+   Je nach Workfront-Paket können die Lizenzen wie folgt aussehen:
 
-   ![Zugeordnete Lizenzen](assets/licenses-used-allocated.png)
+   * **Standard** und **Light**
+   * **Plan** und **Arbeit**
+
+   ![Zugeordnete Lizenzen](assets/how-many-licenses-standard-light.png)
+
+   Wenn Sie eine Gruppe der obersten Ebene anzeigen und der Workfront-Administrator eine Höchstzahl jedes Lizenztyps für die Gruppe definiert hat, werden diese Zahlen ebenfalls als Verhältnis angezeigt. 2/10 bedeutet beispielsweise, dass von zehn verfügbaren Lizenzen zwei Lizenzen zugewiesen wurden.
 
    Informationen dazu, wie Workfront-Admins die maximale Anzahl zugewiesener Lizenzen für eine Gruppe definieren, finden Sie im Abschnitt [Festlegen der maximalen Lizenzanzahl für eine Hauptgruppe](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) im Artikel [Verwalten verfügbarer Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -84,15 +89,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >
    >Wenn es sich bei der gewünschten Gruppe um eine Untergruppe handelt, können Sie nur die Anzahl der verwendeten Lizenzen und nicht die maximale Anzahl der für die Gruppe zugewiesenen Lizenzen anzeigen. Dies liegt daran, dass Workfront-Admins keine maximale Lizenzanzahl für eine Untergruppe definieren.
    >
-   >![Verwendete Lizenzen in Untergruppe](assets/subgroup-used-licenses-only.png)
-   >
 
-1. Für eine separate Zählung der einzelnen Lizenztypen, die derzeit in der Gruppe verwendet werden (einschließlich Überprüfung und Anfrage), klicken Sie auf den Textbereich direkt unter **Verwendete Lizenzen:**
+1. Klicken Sie auf den Bereich mit den verwendeten Lizenzen, um eine separate Anzahl für jeden derzeit in der Gruppe verwendeten Lizenztyp anzuzeigen (einschließlich Überprüfung und Anfrage).
 
-   ![Hier klicken, um mehr zu sehen](assets/click-text-to-see-more.png)
+   Das angezeigte Feld enthält dieselben Informationen für alle anwendbaren Workfront-Lizenztypen. Je nach Workfront-Paket kann dies Folgendes sein:
 
-   Das angezeigte Feld enthält dieselben Informationen für alle vier Workfront-Lizenztypen: Plan, Arbeit, Überprüfung und Anfrage. Unten im Feld sehen Sie die Gesamtzahl der Lizenzen, die von den Mitgliedern dieser Gruppe oder einer ihrer Untergruppen verwendet werden:
+   * Standard, Licht, Mitwirkende und Extern
+   * Planen, Arbeiten, Überprüfen und Anfrage
 
-   ![Weitere Lizenzinformationen](assets/more-license-info.png)
+   Unten im Feld sehen Sie die Gesamtzahl der Lizenzen, die von den Mitgliedern dieser Gruppe oder einer ihrer Untergruppen verwendet werden.
 
    Bei Prüfungs- und Anfragelizenzen wird in der Spalte Maximal immer Unbegrenzt angezeigt.

@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 6%
+source-wordcount: '938'
+ht-degree: 5%
 ---
 # Einrichten von Wechselkursen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Als Adobe Workfront-Administrator können Sie in Workfront Wechselkurse einrichten. Dazu gehört Folgendes:
 
@@ -109,6 +110,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Festlegen eines effektiven Datums für die Wechselkurse einer Währung
 
 Termine für die Wechselkurse einer Währung sind so konfiguriert, dass ein Kurswert an einem bestimmten Datum endet und ein anderer Kurs beginnt. Der Wechselkurs für das richtige Datum wird dann in finanziellen Berechnungen verwendet.
+
+>[!NOTE]
+>
+>Durch die Konfiguration datumswirksamer Wechselkurse wird festgelegt, welcher Systemwechselkurs für ein bestimmtes Datum gilt. Dies bedeutet nicht, dass alle finanziellen Berechnungen des Projekts für jeden Tag einen anderen Wechselkurs verwenden.
+>
+>Wenn die Einstellung **Datumsbasierte effektive Wechselkurse vom System verwenden** für ein Projekt aktiviert ist, verwenden die geplanten Kosten und Einnahmen den Systemwechselkurs, der am **Wechselkursdatum“ des Projekts**. Sie verwenden nicht automatisch den effektiven Tarif für jeden Tag der geplanten Arbeit.
+>
+>Informationen dazu, wie Sie ein Projekt so einrichten, dass die datumswirksamen Wechselkurse auf Systemebene verwendet werden, finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 

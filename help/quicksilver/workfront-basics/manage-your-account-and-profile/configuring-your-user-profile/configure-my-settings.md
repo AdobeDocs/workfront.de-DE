@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3297'
 ht-degree: 2%
 ---
 # Konfigurieren von „Meine Einstellungen“
@@ -421,10 +421,12 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
     &lt;/p> &lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>(Bedingt) [!UICONTROL Benutzer kann Korrekturabzüge generieren (… von … Korrekturabzugslizenzen verbleibend)]</strong></td> 
-   <td>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen ein veraltetes [!DNL Workfront] verwendet und die [!DNL Workfront Proof]-Komponente erworben hat. Wenn er ausgewählt ist, werden Sie als Proofing-Benutzer aktiviert. Außerdem wird die Anzahl der in Ihrem System verwendeten Proof-Lizenzen im Verhältnis zur Gesamtzahl der erworbenen Proof-Lizenzen angezeigt. Dieses Feld ist nur für Benutzer sichtbar und bearbeitbar, die auch [!DNL Workfront] sind. Weitere Informationen zu den Planoptionen für das Proofing in [!DNL Workfront] finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Zugriff auf die Proofing-Funktion in [!DNL Workfront]</a>.</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Berechtigungsprofil]</strong></td> 
    <td> <p>In diesem Feld wird die Zugriffsebene angezeigt, die Sie in [!DNL Workfront Proof] haben. Sie ist nur verfügbar, wenn:</p> 

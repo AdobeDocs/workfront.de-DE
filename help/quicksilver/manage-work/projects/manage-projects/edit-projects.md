@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8244'
 ht-degree: 2%
-
 ---
-
 # Bearbeiten von Projekten
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Beachten Sie beim Bearbeiten von Projekten Folgendes:
 * Sie können Dokumente oder Vorlagen nur dann an ein Projekt anhängen, das den Status „Abgeschlossen“, „Eingestellt“ oder „Ausstehende Genehmigung“ hat, wenn diese Funktion von Ihrem Workfront-Administrator oder einem Gruppenadministrator im Bereich „Projektvoreinstellungen“ aktiviert wurde. Informationen zum Festlegen von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Sie können nur die folgenden Informationen zu einem Projekt mit dem Status „Eingestellt“ oder „Abgeschlossen“ bearbeiten:
 
-   * Bestehende Ausgaben ändern.
-   * Hinzufügen, Entfernen oder Bearbeiten benutzerdefinierter Formulare.
+  * Bestehende Ausgaben ändern.
+  * Hinzufügen, Entfernen oder Bearbeiten benutzerdefinierter Formulare.
 
 ## Bearbeiten eines Projekts
 
@@ -456,7 +454,10 @@ So bearbeiten Sie Felder im Bereich Finanzen:
     <tbody> 
      <tr>
       <td><strong>Verwenden von datumswirksamen Wechselkursen aus dem System</strong></td>
-      <td><p>Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</p> <p>Sie müssen auch das <strong>Wechselkursdatum</strong> auswählen, um mit der Auswahl der Option zu beginnen.</p></td> 
+      <td><p>Wählen Sie diese Option aus, um immer die datumswirksamen Wechselkurse auf Systemebene zu verwenden und Wechselkursüberschreibungen im Projekt zu verhindern.</p><p>Weitere Informationen zu Wechselkursen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Wechselkursdatum</strong></td>
+     <td><p>Wenn Sie die Option auswählen, um die datumswirksamen Wechselkurse aus dem System zu verwenden, müssen Sie auch ein Datum auswählen. Dieses Datum wird verwendet, um die Wechselkurse für geplante Kosten und Einnahmen zu definieren.</p><p>Beispiel: Wenn das Wechselkursdatum der 12. Februar ist, verwendet Workfront den Wechselkurs auf Systemebene vom 12. Februar für geplante Währungsumrechnungen der Kosten und des Umsatzes, auch wenn die geplanten Arbeiten an anderen Daten durchgeführt werden.</p><p>Für Istkosten und Umsatz wird der Wechselkurs für das Datum verwendet, an dem die Stunden protokolliert werden.</p></td>
      </tr>
      <tr>
       <td><strong>Informationen zu Projektabrechnungssätzen beibehalten</strong></td>
@@ -813,17 +814,17 @@ Beachten Sie beim Massenbearbeiten von Projekten Folgendes:
 
 * Wenn die ausgewählten Optionen in mindestens einem der ausgewählten Projekte unterschiedlich sind, werden zusätzlich zum Indikator „Mehrere Werte“ Felder mit mehreren Optionen auf eine der folgenden Arten angezeigt:
 
-   * Kontrollkästchen-Felder enthalten eine Zeile anstelle eines Kontrollkästchens für die Option, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
+  * Kontrollkästchen-Felder enthalten eine Zeile anstelle eines Kontrollkästchens für die Option, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
-     ![Kontrollkästchen für die Anzeige mehrerer Werte im Feld für die Massenbearbeitung von Projekten](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![Kontrollkästchen für die Anzeige mehrerer Werte im Feld für die Massenbearbeitung von Projekten](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * Felder vom Typ Umschalter werden abgeblendet angezeigt, wobei der Umschalter in der Mitte für die Option steht, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
+  * Felder vom Typ Umschalter werden abgeblendet angezeigt, wobei der Umschalter in der Mitte für die Option steht, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
   ![Mehrere Werte in Projekten für die Massenbearbeitung hervorgehoben](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * Für Felder vom Typ Optionsfelder, für die einige Optionen ausgewählt sind, aber nicht alle, werden alle Optionsfelder als leer angezeigt.
+  * Für Felder vom Typ Optionsfelder, für die einige Optionen ausgewählt sind, aber nicht alle, werden alle Optionsfelder als leer angezeigt.
 
-     ![Optionsfeld Mehrwertanzeige für Massenbearbeitung eines Projekts](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![Optionsfeld Mehrwertanzeige für Massenbearbeitung eines Projekts](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wenn Sie eine Option in einem Feld mit mehreren Optionen aktualisieren (z. B. in einem Feld, das als eine Reihe von Ein-/Ausschaltern oder Kontrollkästchen angezeigt wird), müssen alle anderen Optionen zwischen den ausgewählten Projekten übereinstimmen.
 
