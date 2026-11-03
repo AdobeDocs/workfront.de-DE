@@ -17,7 +17,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 2%
@@ -81,7 +81,7 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio-Objekten und -Marken</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -141,6 +141,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Damit die Abhängigkeitskette funktioniert, müssen alle abhängigen Felder gleichzeitig für denselben Datensatztyp vorhanden sein.
 
 * Abhängige Felder werden für alle Bereiche unterstützt, in denen die verbundenen Datensatzfelder angezeigt werden, einschließlich der Detailbereiche eines Datensatzes oder Anfrageformulars.
+
+<!--
+* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
+-->
 
 ## Erstellen einer abhängigen Verbindung
 

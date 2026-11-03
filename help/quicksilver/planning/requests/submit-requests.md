@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 1%
@@ -185,7 +185,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -218,6 +218,8 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >[!TIP]
    >
    >Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   >
+   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
 
 1. (Optional und bedingt) Klicken Sie **Formular ausfüllen** um eine Datei anzuhängen und KI das Formular mit Informationen innerhalb der Datei für Sie ausfüllen zu lassen. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -284,7 +286,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
@@ -292,6 +294,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >* Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
    >* Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
    >* Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
+   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
 
 1. (Optional) Klicken Sie nach Bearbeiten der Anfrage auf **Änderungen übermitteln**.
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
@@ -473,7 +476,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie **Löschen** im Feld **Dauerhaft löschen** zur Bestätigung.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
