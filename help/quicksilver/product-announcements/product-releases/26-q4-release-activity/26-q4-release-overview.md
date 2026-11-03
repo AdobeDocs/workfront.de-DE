@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3631'
 ht-degree: 7%
 ---
 # Versionsübersicht für das vierte Quartal 2026
@@ -276,7 +276,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 -->        
        <tr>
             <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP-Server-Toolsets</a></p>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP-Server-Toolsets</a></p>
                 <p>Sie können jetzt den Workfront MCP-Katalog auf bestimmte Toolsets beschränken und die Verfügbarkeit nach Produktberechtigungen filtern, sodass KI-Clients nur auf die benötigten Funktionen zugreifen.</p>
             </td>
             <td><p>22. Oktober 2026</p></td>
@@ -406,15 +406,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist.</p></td>
             <td><p>15. Oktober 2026</p></td>
             <td><p>15. Oktober 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Zugriff auf Workfront-Projekte in Adobe Creative Cloud-Programmen</a>
-                <p>Sie können jetzt über das Bedienfeld „Projekte“ direkt aus Adobe Photoshop, Illustrator und InDesign auf Ihre Workfront-Projekte zugreifen.</p>
-            </td>
-            <td><p>K. A.</p></td>
-            <td><p>[DATUM]</p></td>
-            <td><p>[DATUM]</p></td>
         </tr>
         <tr>
             <td>
@@ -792,7 +783,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nicht-Administratoren können jetzt Ereignisabonnements erstellen<p>[!BADGE Außerplanmäßig]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Nicht-Administratoren können jetzt Ereignisabonnements erstellen<p>[!BADGE Außerplanmäßig]{type=Neutral}</p></a>
                 <p>Benutzende können jetzt Webhook-Benachrichtigungen für unterstützte Workfront-Objekte ohne Systemadministratorzugriff erhalten, indem sie zielgerichtete Abonnements und IMS-Benutzerzugriffstoken verwenden.</p>
             </td>
             <td><p>16. Oktober 2026</p></td>

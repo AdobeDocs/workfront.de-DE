@@ -4,10 +4,10 @@ description: Verbesserungen für Administratoren im ersten Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 5%
+source-wordcount: '413'
+ht-degree: 3%
 ---
 
 # Verbesserungen für Administratoren im ersten Quartal 2027
@@ -39,6 +39,20 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 Sie können jetzt ein benutzerdefiniertes Feld als Favorit markieren, entweder in der Feldliste oder im Designer für benutzerdefinierte Formulare. Wenn Sie in bestimmten Listen und Berichten (z. B. Projekt-, Aufgaben- und Problemlisten) arbeiten und Filter, Ansichten und Gruppierungen erstellen, werden die Lieblingsfelder oben in der Liste der verfügbaren Felder im Abschnitt Vorgeschlagen angezeigt.
 
 Als Favoriten markierte Felder werden auch oben in der Feldbibliothek im Formular-Designer angezeigt.
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## In benutzerdefinierten Feldern überprüfte Werte beim Ändern des Formats
+
+>[!NOTE]
+>
+>Vorschau: 29. Oktober 2026
+>Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktion für alle: 21. Januar 2027
+
+Das System prüft jetzt auf inkompatible Werte, wenn Sie ein vorhandenes benutzerdefiniertes Textfeldformat in „Zahl“ oder „Währung“ ändern.
+
+Wenn alle vorhandenen Werte für das Feld numerisch sind, aktualisiert das System einfach das Feldformat. Wenn einer der vorhandenen Werte jedoch nicht numerisch ist, zeigt das System eine Warnmeldung an, dass inkompatible Werte beim Speichern des Felds gelöscht werden.
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
