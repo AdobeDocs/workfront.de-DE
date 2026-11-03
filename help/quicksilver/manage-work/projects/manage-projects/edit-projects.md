@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 2%
 ---
 # Bearbeiten von Projekten
@@ -454,10 +454,10 @@ So bearbeiten Sie Felder im Bereich Finanzen:
     <tbody> 
      <tr>
       <td><strong>Verwenden von datumswirksamen Wechselkursen aus dem System</strong></td>
-      <td><p>Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</p><p>Weitere Informationen zu Wechselkursen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>. </p></td> 
+      <td><p>Wählen Sie diese Option aus, um immer die datumswirksamen Wechselkurse auf Systemebene zu verwenden und Wechselkursüberschreibungen im Projekt zu verhindern.</p><p>Weitere Informationen zu Wechselkursen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>. </p></td> 
      </tr>
      <tr><td><strong>Wechselkursdatum</strong></td>
-     <td><p>Wenn Sie die datumswirksamen Wechselkurse aus dem System verwenden möchten, müssen Sie ein Datum auswählen. Dieses Datum wird verwendet, um die Wechselkurse für geplante Kosten und Einnahmen zu definieren.</p><p>Für Istkosten und Umsatz wird der Wechselkurs für das Datum verwendet, an dem die Stunden protokolliert werden.</p></td>
+     <td><p>Wenn Sie die Option auswählen, um die datumswirksamen Wechselkurse aus dem System zu verwenden, müssen Sie auch ein Datum auswählen. Dieses Datum wird verwendet, um die Wechselkurse für geplante Kosten und Einnahmen zu definieren.</p><p>Beispiel: Wenn das Wechselkursdatum der 12. Februar ist, verwendet Workfront den Wechselkurs auf Systemebene vom 12. Februar für geplante Währungsumrechnungen der Kosten und des Umsatzes, auch wenn die geplanten Arbeiten an anderen Daten durchgeführt werden.</p><p>Für Istkosten und Umsatz wird der Wechselkurs für das Datum verwendet, an dem die Stunden protokolliert werden.</p></td>
      </tr>
      <tr>
       <td><strong>Informationen zu Projektabrechnungssätzen beibehalten</strong></td>
