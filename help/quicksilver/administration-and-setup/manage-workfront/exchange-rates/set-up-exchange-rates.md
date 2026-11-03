@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 6%
+source-wordcount: '938'
+ht-degree: 5%
 ---
 # Einrichten von Wechselkursen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Als Adobe Workfront-Administrator können Sie in Workfront Wechselkurse einrichten. Dazu gehört Folgendes:
 
@@ -96,7 +97,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Basiswährung (Standard) zu ändern:
 
    * Aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen Sie **Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
-   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **&#x200B;**&#x200B;Mehr. Wählen Sie dann **Als Standard festlegen** aus.
+   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **** Mehr. Wählen Sie dann **Als Standard festlegen** aus.
 
      Die neue Standardwährung wird mit dem Symbol ![Standardwährungssymbol](assets/default-icon.png) aktualisiert.
 
@@ -109,6 +110,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Festlegen eines effektiven Datums für die Wechselkurse einer Währung
 
 Termine für die Wechselkurse einer Währung sind so konfiguriert, dass ein Kurswert an einem bestimmten Datum endet und ein anderer Kurs beginnt. Der Wechselkurs für das richtige Datum wird dann in finanziellen Berechnungen verwendet.
+
+>[!NOTE]
+>
+>Durch die Konfiguration datumswirksamer Wechselkurse wird festgelegt, welcher Systemwechselkurs für ein bestimmtes Datum gilt. Dies bedeutet nicht, dass alle finanziellen Berechnungen des Projekts für jeden Tag einen anderen Wechselkurs verwenden.
+>
+>Wenn die Einstellung **Datumsbasierte effektive Wechselkurse vom System verwenden** für ein Projekt aktiviert ist, verwenden die geplanten Kosten und Einnahmen den Systemwechselkurs, der am **Wechselkursdatum“ des Projekts**. Sie verwenden nicht automatisch den effektiven Tarif für jeden Tag der geplanten Arbeit.
+>
+>Informationen dazu, wie Sie ein Projekt so einrichten, dass die datumswirksamen Wechselkurse auf Systemebene verwendet werden, finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 
@@ -138,7 +147,7 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Auf dem Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für ein Aufgabengebiet zu ändern
 
