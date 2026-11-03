@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 6%
 ---
 # Konfigurieren des Proofing-Zugriffs von Benutzenden
 
@@ -70,65 +70,69 @@ Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel a
 
 +++
 
-## Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden
+<!--
 
-Das ausgewählte Berechtigungsprofil wird den Benutzern für jeden Korrekturabzug gewährt, der in Ihrer Organisation vorhanden ist.
+## Configure a user's proof permission profile
+
+The permission profile you select is granted to the users for each proof that exists within your organization.
 
 {{step-1-to-users}}
+ 
+1. Select one or more users, then click **Edit**.  
 
-1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf **Bearbeiten**.
-
-1. Klicken Sie **Abschnitt** auf eine der folgenden Workfront Proof-Berechtigungsoptionen im Dropdown **Menü Testversandberechtigungsprofil**:
+1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile** drop-down menu:
 
    >[!NOTE]
    >
-   >Wenn Sie einen alten Workfront-Plan verwenden, stellen Sie sicher, dass die Option **Benutzer kann Korrekturabzüge generieren** aktiviert ist, wie oben im Abschnitt [Aktivieren und Deaktivieren des Korrekturabzugs für einen Benutzer (nur für alte Pläne)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
+   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only). 
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Verantwortlicher</strong> </td> 
-      <td>Benutzer können alle im Konto Ihrer Organisation erstellten Korrekturabzüge verwalten und anzeigen. Sie können auch Prüfer bearbeiten, die zu diesen Korrekturabzügen hinzugefügt wurden. Benutzende mit diesem Berechtigungsprofil können keine Benutzenden verwalten oder Workfront Proof-Einstellungen bearbeiten.</td> 
+      <td role="rowheader"><strong>Supervisor</strong> </td> 
+      <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Manager</strong> </td> 
-      <td> <p> Benutzer können Korrekturabzüge verwalten und anzeigen, die im Konto Ihres Unternehmens erstellt wurden oder sich in dessen Besitz befinden. Sie können die Korrekturabzüge anderer Benutzer nur anzeigen, wenn sie als Prüferin bzw. Prüfer hinzugefügt werden. Dies ist eine Standardeinstellung. </p> </td> 
+      <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administrator</strong> </td> 
-      <td> Benutzende erhalten in Workfront Proof Administratorberechtigungen und können Kontoeinstellungen bearbeiten. Benutzer können alle im Konto Ihrer Organisation erstellten Korrekturabzüge verwalten und anzeigen. Dazu gehört das Hinzufügen und Entfernen von Reviewern, Testsendungen und Kommentaren.</td> 
+      <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Benutzerspezifisch</strong> </td> 
-      <td> <p>Nur verfügbar, wenn Sie ein benutzerdefiniertes Berechtigungsprofil in Workfront Proof konfiguriert haben.</p> <p><b>HINWEIS</b>:  <p>Stellen Sie sicher, dass das hier gewährte Berechtigungsprofil keinen höheren Zugriff bietet als die Zugriffsebenen-Einstellung des Benutzers in Workfront (siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>). Wenn es einen höheren Zugriff bietet, kann der/die Benutzende in Workfront Proof auf Korrekturabzüge zugreifen, auf die er/sie nicht in Workfront zugreifen kann.</p> <p>Dies ist besonders wichtig, wenn Sie planen, allen Workfront-Benutzenden den direkten Zugriff auf Workfront Proof über Workfront zu ermöglichen, wie unter <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Zugriff auf Workfront Proof über Adobe Workfront</a> beschrieben.</p> <p>Standardmäßig haben nur Workfront-Administratoren Zugriff auf einen direkten Link zur Workfront Proof-Site über die globale Navigationsleiste von Workfront.</p> </p> </td> 
+      <td role="rowheader"><strong>Custom</strong> </td> 
+      <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <p><b>NOTE</b>:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's Access Level setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Das ausgewählte Berechtigungsprofil wird den Benutzern für jeden Korrekturabzug gewährt, der in Ihrer Organisation vorhanden ist.
+   The permission profile you select is granted to the users for each proof that exists within your organization.
 
-1. Klicken Sie **Änderungen speichern**, um die Aktualisierung der Benutzereinstellungen abzuschließen.
+1. Click **Save Changes** to complete the update to the user settings.
 
    >[!NOTE]
    >
-   >Wenn Sie einen Benutzer in Workfront erstellen oder aktualisieren und die Workfront-E-Mail-Adresse des Benutzers mit der eines lizenzierten Workfront Proof-Benutzers übereinstimmt, aktiviert das System das Proofing für den Benutzer in Workfront. Weitere Informationen finden Sie unter [Benutzersynchronisierung zwischen Adobe Workfront und Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
+   >When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront. For more information, see [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
-### Zu beachten
+### Considerations
 
-Beachten Sie beim Festlegen von Berechtigungen die folgenden Informationen:
+Consider the following information when setting permissions:
 
-* Wenn Sie das Berechtigungsprofil eines/r Benutzenden in ein Profil mit weniger Berechtigungen ändern, kann es sein, dass der/die Benutzende die Sichtbarkeit vorhandener Korrekturabzüge in Workfront verliert. Dies kann vorkommen, wenn eine Person eine Aufgabe für eine Benutzerin oder einen Benutzer in Workfront freigibt, den an die Aufgabe angehängten Korrekturabzug jedoch nicht freigibt (siehe [Freigeben eines Korrekturabzugs in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Freigeben eines Korrekturabzugs in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
-* Sie können Workfront Proof-Berechtigungen nur dann von Workfront aus festlegen, wenn Ihre Workfront-Umgebung mit einem Workfront Proof Premium-Konto integriert ist. Wenn Sie Proofing nicht wie in diesem Abschnitt erläutert verwenden können, wenden Sie sich an Ihren Workfront-Administrator.
-* Mindestens ein Benutzer in Ihrer Workfront-Umgebung muss über Administratorberechtigungen für das Proofing verfügen. Eine Fehlermeldung wird angezeigt, wenn Sie versuchen, allen Benutzern die Administratorberechtigungen für das Proofing zu entfernen.
-* Wenn Sie die Workfront-Zugriffsebene einer Benutzerin oder eines Benutzers in eine andere Ebene als „Systemadministrator“ ändern, wird für das Workfront Proof-Berechtigungsprofil der Benutzerin oder des Benutzers standardmäßig „Manager“ festgelegt.
+* If you change a user's permission profile to a profile with fewer permissions, the user might lose visibility to existing proofs within Workfront. This can occur when someone shares a task with a user within Workfront, but doesn't share the proof attached to the task (see [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* You can set Workfront Proof permissions from Workfront only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed in this section, contact your Workfront administrator.
+* At least one user in your Workfront environment must have Administrator permissions for proofing. An error message appears if you try to attempt to remove Administrator permissions for proofing from all users.
+* When you change a user's Workfront Access level to any level other than System Administrator, the user's Workfront Proof permission profile defaults to Manager.   
 
-* Wenn Sie die Workfront-Zugriffsebene in „Systemadministrator“ ändern, ändert sich das Profil für Korrekturabzugsberechtigungen in „Administrator“.
+* When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
+
+-->
 
 ## Konfigurieren des Workfront Proof-Zugriffs für alle Benutzer über das Workfront-Hauptmenü {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
-Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [&#x200B; Adobe Workfront) beschrieben auf Workfront Proof &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [ Adobe Workfront) beschrieben auf Workfront Proof ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Sie können allen Benutzenden Zugriff auf die Schaltfläche Workfront Proof im Hauptmenü von Workfront gewähren, indem Sie sich an den Workfront-Support wenden und eine Anfrage senden.
 

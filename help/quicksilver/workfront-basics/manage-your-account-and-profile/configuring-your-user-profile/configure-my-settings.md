@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3297'
 ht-degree: 2%
 ---
 # Konfigurieren von „Meine Einstellungen“
@@ -59,9 +59,9 @@ Je nachdem, welche Zugriffsebene Sie in [!DNL Workfront] haben, können Sie eini
 
 ## Wie sich Zugriffsebenen auf die Bearbeitung des Bereichs [!UICONTROL Meine Einstellungen] auswirken
 
-Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; &#x200B;] oder nicht bearbeiten.
+Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; ] oder nicht bearbeiten.
 
-Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine &#x200B;]](#configuring-the-my-settings-area).
+Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine ]](#configuring-the-my-settings-area).
 
 Wenden Sie sich an Ihren [!DNL Workfront], um zu erfahren, welche Zugriffsebene Sie haben.
 
@@ -105,7 +105,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Voreinstellungen]</td> 
+   <td rowspan="2">[!UICONTROL-Voreinstellungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -122,7 +122,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Benachrichtigungen]</td> 
+   <td rowspan="2">[!UICONTROL-Benachrichtigungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -207,7 +207,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Kommentar]</td> 
+   <td rowspan="2">[!UICONTROL-Kommentar]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -300,7 +300,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td>Geben Sie Ihren Titel an. Dies ist nicht dasselbe wie Ihr Aufgabengebiet. Ihr Titel ist nicht Teil der Ressourcenplanung, Ihr Aufgabengebiet hingegen schon. Ihr Titel wird in der [!DNL Workfront]-Oberfläche überall dort angezeigt, wo Ihr Name und Ihr Avatar erscheinen. Sie ist für alle sichtbar, die Zugriff auf Ihr Benutzerprofil haben.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL , mit mir sprechen über]</strong></td>
+        <td><strong>[!UICONTROL, mit mir sprechen über]</strong></td>
         <td>Geben Sie Ihre beruflichen Interessen in diesem Feld an.</td>
     </tr>
 </table>
@@ -315,7 +315,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Erweiterung]</strong></td>
+        <td><strong>[!UICONTROL-Erweiterung]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -323,7 +323,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Adresse]</strong></td>
+        <td><strong>[!UICONTROL-Adresse]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -354,7 +354,7 @@ Geben Sie in diesem Abschnitt an, was in Ihrer [!DNL Workfront] angezeigt werden
 
 >[!NOTE]
 >
->Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL &#x200B; angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
+>Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL  angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
 
 In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
 
@@ -421,10 +421,12 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
     &lt;/p> &lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>(Bedingt) [!UICONTROL Benutzer kann Korrekturabzüge generieren (… von … Korrekturabzugslizenzen verbleibend)]</strong></td> 
-   <td>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen ein veraltetes [!DNL Workfront] verwendet und die [!DNL Workfront Proof]-Komponente erworben hat. Wenn er ausgewählt ist, werden Sie als Proofing-Benutzer aktiviert. Außerdem wird die Anzahl der in Ihrem System verwendeten Proof-Lizenzen im Verhältnis zur Gesamtzahl der erworbenen Proof-Lizenzen angezeigt. Dieses Feld ist nur für Benutzer sichtbar und bearbeitbar, die auch [!DNL Workfront] sind. Weitere Informationen zu den Planoptionen für das Proofing in [!DNL Workfront] finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Zugriff auf die Proofing-Funktion in [!DNL Workfront]</a>.</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Berechtigungsprofil]</strong></td> 
    <td> <p>In diesem Feld wird die Zugriffsebene angezeigt, die Sie in [!DNL Workfront Proof] haben. Sie ist nur verfügbar, wenn:</p> 
@@ -557,7 +559,7 @@ Ihr [!DNL Workfront] muss benutzerdefinierte Formulare für das Benutzerobjekt k
 
 ### [!UICONTROL Kommentar]
 
-Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL &#x200B; gespeichert &#x200B;].
+Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL  gespeichert ].
 
 Sie können auf das [!UICONTROL Personen]-Symbol klicken, um andere in das Update aufzunehmen.
 
