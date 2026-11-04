@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # Erstellen eines Workflows für die Dokumentvalidierung
@@ -43,7 +43,7 @@ Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. 
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -206,6 +206,10 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 ## Erstellen eines Validierungs-Workflows im Bereich „Neue Dokumente“
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Die genehmigende Person oder die prüfende Person muss das Projekt, das das Dokument enthält, für sie freigegeben haben. Andernfalls wird die Genehmigung nicht im Widget Meine Genehmigungen angezeigt.
 
 Das **Genehmigung anfordern** wird standardmäßig im **Standard** Modus geöffnet. Der Standardmodus ist ein einzelner Schritt mit einer Gruppe von genehmigenden Personen oder Prüfenden. Wechseln Sie in **Erweitert**-Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
 
