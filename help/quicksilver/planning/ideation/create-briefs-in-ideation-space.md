@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbeiten oder um Dateien zu erstellen, die Sie in andere Programme exportieren können.
 
-1. Melden Sie sich bei Workfront mit Planning an, wenn der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
+1. Melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus, um den Ideationsbereich zum ersten Mal zu öffnen und Briefs zu erstellen:
 
-   * Navigieren Sie zum **Hauptmenü** > **Ideationsbereich**
-   * Wechseln Sie **Hauptmenü** > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp **Neuer Datensatz** > **Ideenraum starten**
-
-     Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[&#x200B; finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-   * Wechseln Sie **Hauptmenü** > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > **Öffnen Sie im Ideationsbereich**
+   * Navigieren Sie zum **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Ideationsraum**
+   * Wechseln Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > **Neuer Datensatz** > **Ideen-Raum starten**
 
    Der Bereich „Ideen“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel im folgenden Format:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Wenn Sie eine Idee aus einem vorhandenen Datensatz öffnen, stimmt der Name der Idee mit dem Namen des Datensatzes überein.
+   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[ finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
-1. (Empfohlen) Klicken Sie auf den Namen der Idee, um den Namen zu ändern.
+1. (Bedingt) Um eine bestehende Zusammenfassung im Ideation-Bereich zu öffnen, melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
+
+   * Gehen Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > **Öffnen Sie im Ideationsbereich**
+
+     Der Ideenname entspricht dem Namen des Datensatzes.
+
+1. (Empfohlen) Klicken Sie auf den Namen der Idee, um den Namen zu ändern, wenn Sie sie zum ersten Mal geöffnet haben.
 
 1. (Bedingt und optional) Um einen anderen vorhandenen Ideationsraum zu öffnen, klicken Sie auf das Dropdown-Menü rechts neben dem Ideennamen, suchen Sie nach dem Namen und klicken Sie dann auf die Idee, wenn sie in der Liste angezeigt wird.
 
-1. Wenn **Ideationsbereich** geöffnet wird, wird das CX Coworker auf der rechten Seite geöffnet. Verwenden Sie die Eingabeaufforderung des Mitarbeiters, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
+   Der **Ideationsraum** wird geöffnet und der CX Coworker wird rechts geöffnet.
+1. Verwenden Sie die Eingabeaufforderung des Mitarbeiters, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
 
    Geben Sie zum Beispiel „Erstellen Sie eine Kampagne „Zurück zur Schule“ für Schüler der Klasse K-12, die durch den Monat August läuft, für Eltern und Lehrer in den USA ein“.  Um die Zusammenfassung so vollständig wie möglich zu gestalten, geben Sie so viele Informationen an, wie Sie für welche Art von Kampagne verfügbar haben, den Zeitplan, die Stakeholder, Validierungs-Checkpoints und andere Details.
+1. (Optional) Klicken Sie auf das Symbol **+** im Eingabeaufforderungsfeld „Mitarbeiter“ und fügen Sie Informationen wie folgt hinzu:
+
+   * **Befehle**: Verwenden Sie einen Befehl aus der Liste, um einen Kollegen zur Eingabe von Inhalten aufzufordern.
+   * **Datei anhängen**: Hängen Sie eine Datei an das Eingabeaufforderungsfeld an, um sie oder ihre Informationen zum Ideenraum hinzuzufügen. Sie müssen Ihren Kollegen bitten, Karten basierend auf der Datei zu erstellen, um die Karten später an den Brief zu senden.
+   * **Objekt referenzieren**: Wählen Sie ein Objekt aus der Liste aus, um in Ihrer Idee darauf zu verweisen. Das Objekt muss in Workfront vorhanden sein.
 
 1. Klicken Sie auf die Eingabetaste.
 
@@ -171,6 +180,11 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 1. (Bedingt) Wenn ein Mitarbeiter anbietet, Karten für die Idee zu erstellen, antworten Sie **Ja**.
 
    Karten werden dem Ideenraum hinzugefügt und Sie können die Quellen für jede Karte sehen und entscheiden, welche Karte zu Ihrem Briefing hinzugefügt werden soll.
+
+   >[!TIP]
+   >
+   >Sie können Dateien nicht direkt zur Zusammenfassung hinzufügen. Sie müssen die Dateiinformationen zuerst auf die Karten übertragen, die Sie an den Brief senden können.
+
 
 1. Klicken Sie auf **Suchen**-Symbol ![Suchen](assets/search-icon.png), um im Ideationsbereich nach Elementen zu suchen, und klicken Sie dann auf die -Anzeige in der Liste, um dorthin zu navigieren.
 
@@ -196,7 +210,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
 
 1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
+1. Klicken Sie auf **Symbol** Dokumente hinzufügen![ (Symbol ](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
    >[!TIP]
    >
@@ -273,7 +287,7 @@ Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren k�
    | Aktion | Tastenkombination |
    | --- | --- |
    | Vergrößern/Verkleinern | Strg/⌘ + / − |
-   | An Auswahl anpassen/anpassen | – |
+   | An Auswahl anpassen/anpassen | — |
    | Zum Cursor zoomen | Strg/⌘ + Bildlauf |
    | Schwenken der Arbeitsfläche | Leertaste gedrückt halten + ziehen |
    | Punktraster ein-/ausblenden | GB |
