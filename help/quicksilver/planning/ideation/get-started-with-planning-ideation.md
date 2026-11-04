@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Die Ideation Spaces nutzen Enterprise CX Coworker, um Briefs zu generieren, die 
 Der geplante Veröffentlichungszeitplan für Ideation Space kann sich ändern und umfasst die folgenden Milestones:
 
 * **Geschlossen Beta:** Im Juli 2026 für eine geringe Anzahl von Kunden eingeführt.
-* **Open Beta:** für November 2026 geplant. Hierbei handelt es sich um ein Opt-in-Angebot, bei dem Kunden die Option aktiv aktivieren und konfigurieren müssen, anstatt sie aktiv abzuwählen.
-* **Allgemeine Verfügbarkeit:** für 2027 geplant.
+* **Open Beta:** Geplant für den 12. November 2026. Hierbei handelt es sich um ein Opt-in-Angebot, bei dem Sie die Option aktiv aktivieren müssen, anstatt sie aktiv abzuwählen.
+* **Allgemeine Verfügbarkeit:** Geplant für den 1. Februar 2027.
 
 ## Produktanforderungen
 
