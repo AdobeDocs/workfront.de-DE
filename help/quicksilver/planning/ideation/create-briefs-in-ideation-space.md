@@ -147,7 +147,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[ finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[&#x200B; finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Bedingt) Um eine bestehende Zusammenfassung im Ideation-Bereich zu öffnen, melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
 
@@ -210,7 +210,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
 
 1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-1. Klicken Sie auf **Symbol** Dokumente hinzufügen![ (Symbol ](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
+1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
    >[!TIP]
    >
