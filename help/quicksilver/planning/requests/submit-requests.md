@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -219,7 +219,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >
    >Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">Wenn es einen Konflikt in den ausgewählten Werten eines abhängigen Felds im Anfrageformular gibt, müssen Sie den Konflikt lösen, bevor Sie das Formular speichern können.</span>
 
 1. (Optional und bedingt) Klicken Sie **Formular ausfüllen** um eine Datei anzuhängen und KI das Formular mit Informationen innerhalb der Datei für Sie ausfüllen zu lassen. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >* Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
    >* Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
    >* Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">Wenn es einen Konflikt in den ausgewählten Werten eines von der Anfrage abhängigen Felds gibt, müssen Sie den Konflikt lösen, bevor Sie die Anfrage speichern können.</span>
 
 1. (Optional) Klicken Sie nach Bearbeiten der Anfrage auf **Änderungen übermitteln**.
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.

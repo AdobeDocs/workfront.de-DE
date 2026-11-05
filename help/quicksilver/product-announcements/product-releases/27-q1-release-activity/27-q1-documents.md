@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten für das erste Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '211'
 ht-degree: 5%
 ---
 
@@ -34,21 +34,57 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 -->
 
-## Konfigurieren einheitlicher E-Mail-Benachrichtigungen zur Überprüfung und Genehmigung
-
->[!IMPORTANT]
->
->Diese Funktion ist in der Vorschau-Umgebung vorübergehend nicht verfügbar.
-
-
 <!--
+
+## Consistent review and approval buttons across documents
+
 >[!NOTE]
 >
->Preview: October 29, 2026
->Production fast release: November 12, 2026
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
 >Production for everyone: January 21, 2027
 
+Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
+
+In addition to a new look and feel, some buttons have new names:
+
+| Previous name | New name |
+| --- | --- |
+| Open proof | Open viewer |
+| Review and approve | Make decision |
+| Complete my review | Complete review |
+| Open in Frame.io | Open viewer |
+
+For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
+
 -->
+
+<!--
+
+## Turn the Approved with changes decision on or off
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+If your organization uses Adobe cloud storage, System Administrators can now turn the "Approved with changes" decision on or off for document approvals. When it's on, reviewers see three decisions (Approved, Approved with changes, and Needs Work) in both the Workfront approval interface and the Frame.io viewer. When it's off, reviewers see only Approved and Needs Work.
+
+The setting lives on the Approval Settings page in Setup, and a live preview on that page shows exactly which decisions reviewers currently see.
+
+For more information, see [Configure the Approved with changes decision](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/configure-approved-with-changes.md).
+
+-->
+
+## Konfigurieren einheitlicher E-Mail-Benachrichtigungen zur Überprüfung und Genehmigung
+
+
+>[!NOTE]
+>
+>Vorschau: 5. November 2026
+>Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktion für alle: 21. Januar 2027
 
 Sie können jetzt einheitliche E-Mail-Benachrichtigungen zur Überprüfung und Genehmigung konfigurieren. Workfront hat diese E-Mails immer gesendet, aber bisher konnten Sie sie nicht konfigurieren. Es gibt jetzt 18 Benachrichtigungen, die als einheitliche Genehmigungen gruppiert sind und standardmäßig aktiv sind. Workfront-Admins können sie für alle Personen im Setup aktivieren oder deaktivieren und Benutzende können sie in ihren Profilen verwalten.
 
