@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 8%
+source-wordcount: '5600'
+ht-degree: 9%
 ---
 # Typen von Ereignisbenachrichtigungen
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen für Objekte wie Projekten, Aufgaben und Problemen ausgelöst werden, wie in [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md) erläutert.
+
 
 Diese Benachrichtigungen können auf System- und Gruppenebene konfiguriert werden:
 
@@ -957,3 +960,156 @@ Siehe auch [Benachrichtigungen: Delegierung](../../../workfront-basics/using-not
 | Aufgaben und Probleme | Delegierung von Aufgaben und Problemen beenden | Zugewiesene Person | Ich beende die Delegierung meiner Aufgaben und Probleme (Bestätigung) | Aktiv (nur Sofort) |
 | Aufgaben und Probleme | Delegierung von Aufgaben und Problemen | Delegieren | Jemand delegiert Aufgaben und Probleme an mich. | Aktiv (nur Sofort) |
 | Aufgaben und Probleme | Beenden der Delegierung von Aufgaben und Problemen | Delegieren | Jemand beendet die Delegierung von Aufgaben und Problemen an mich. | Aktiv (nur Sofort) |
+
+<div class="preview">
+
+## Einheitliche Genehmigungen
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Objekttyp</th> 
+   <th>Ereignis</th> 
+   <th>Empfänger</th> 
+   <th>Beschreibung</th> 
+   <th>Standardzustand</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Als genehmigende oder prüfende Person hinzugefügt</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Sie werden als genehmigende Person oder Prüfende Person zu einer Dokumentgenehmigung hinzugefügt.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Als genehmigende oder prüfende Person entfernt</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Sie werden als genehmigende Person oder Prüfende Person von einer Dokumentgenehmigung entfernt.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Rolle geändert</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Ihre Rolle als Genehmiger oder Prüfer ändert sich bei einer Dokumentgenehmigung.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Entscheidung getroffen - Genehmigt</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine genehmigende Person trifft eine Entscheidung von genehmigt für ein Genehmigungs-Dokument.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Entscheidung getroffen - Mit Änderungen genehmigt</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine genehmigende Person trifft eine Entscheidung von Genehmigt mit Änderungen in einer Dokumentgenehmigung.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Entscheidungsfindung - Erfordert Arbeit</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine genehmigende Person trifft die Entscheidung, dass eine Dokumentgenehmigung erforderlich ist.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Genehmigung abgeschlossen - Genehmigt</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine Dokumentengenehmigung endet mit der endgültigen Entscheidung Genehmigt .</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Genehmigung abgeschlossen - Mit Änderungen genehmigt</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine Dokumentengenehmigung endet mit der endgültigen Entscheidung Genehmigt mit Änderungen.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Genehmigung abgeschlossen - Überarbeitung erforderlich</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Eine Dokumentengenehmigung endet mit der endgültigen Entscheidung: „Überarbeitung erforderlich“.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Prüfung abgeschlossen</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Ein Reviewer schließt die Überprüfung bei einer Dokumentgenehmigung ab.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Alle Prüfungen abgeschlossen</p> </td> 
+   <td> <p>Dokumentbesitzer</p> </td> 
+   <td> <p>Jeder Reviewer schließt seine Überprüfung bei einer Dokumentengenehmigung ab.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Frist läuft bald ab</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Die Frist für eine Dokumentgenehmigung, der Sie angehören, nähert sich.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Frist abgelaufen</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Eine Dokumentengenehmigung, der Sie angehören, verstreicht ihre Frist ohne eine endgültige Entscheidung.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Erinnerung – 24 Stunden</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Sie haben noch 24 Stunden, um das Dokument zu überprüfen und zu genehmigen.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Erinnerung – 72 Stunden</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Sie haben noch 72 Stunden, um das Dokument zu überprüfen und zu genehmigen.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Dokument</p> </td> 
+   <td> <p>Dokumente, die einer gruppierten Genehmigung hinzugefügt oder daraus entfernt wurden</p> </td> 
+   <td> <p>Genehmiger oder Prüfer</p> </td> 
+   <td> <p>Dokumente werden einer gruppierten Dokumentengenehmigung, zu der Sie gehören, hinzugefügt oder daraus entfernt.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Limit für Videogenehmigungen fast erreicht (80 %)</p> </td> 
+   <td> <p>System-/Gruppenadministrator</p> </td> 
+   <td> <p>Eine Videogenehmigung erreicht 80 % des Video-Genehmigungslimits ihres Plans.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Limit für Videogenehmigungen erreicht</p> </td> 
+   <td> <p>System-/Gruppenadministrator</p> </td> 
+   <td> <p>Eine Videogenehmigung erreicht das Video-Genehmigungslimit ihres Plans.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

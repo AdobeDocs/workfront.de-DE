@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 9%
+source-wordcount: '449'
+ht-degree: 7%
 ---
 # Ändern des Status eines Projekts
 
@@ -112,14 +112,7 @@ Old:
 * **Beim Aktualisieren eines Projekts auf „Abgeschlossen“** Stellen Sie sicher, dass alle Aufgaben und Probleme im Projekt abgeschlossen sind. Sie können nicht den Status Abgeschlossen für ein Projekt oder einen anderen Status auswählen, der Abgeschlossen entspricht, wenn es Aufgaben oder Probleme gibt, die im Projekt nicht abgeschlossen wurden. Dazu gehört die Genehmigung von Aufgaben oder Problemen, die den Status „Ausstehende Genehmigung abschließen“ aufweisen.
 * **Beim Aktualisieren eines Projekts von „Abgeschlossen“ auf „Aktuell“:** Wenn alle Aufgaben und Probleme im Projekt abgeschlossen sind, stellen Sie sicher, dass der Abschlussmodus des Projekts auf „Manuell“ festgelegt ist. Wenn der Fertigstellungsmodus des Projekts auf Automatisch festgelegt ist, bleibt der Status des Projekts „Abgeschlossen“.
 
-<!--
-* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* Wenn ein Projektstatus gelöscht oder nicht mehr verfügbar ist, wird der Status des Projekts als „Nicht zutreffend“ angezeigt.  Benutzende mit der Berechtigung Verwalten für das Projekt können den Status auf einen anderen Status aktualisieren oder Workfront-Admins bitten, den Status neu zu erstellen oder einen neuen hinzuzufügen.
 
 ## Projektstatus ändern
 
@@ -134,8 +127,7 @@ ALSO: see in the steps below for more commented out text.
 
    Der Projektstatus wird auf den ausgewählten Status aktualisiert.
 
-<!--
-1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Bedingt) Wenn der Status des Projekts **_Nicht verfügbar_** ist, klicken Sie auf das Warnzeichen für das Feld **Status**, wählen Sie einen neuen Status aus der Liste aus und klicken Sie dann auf **Speichern**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Wenn kein akzeptabler Status angezeigt wird, bitten Sie Ihren Administrator, einen zu erstellen.
+
