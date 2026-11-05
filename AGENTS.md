@@ -41,7 +41,7 @@ Zur Erinnerung.
 
 ## Konventionen für Bestätigung und Veröffentlichung
 
-Die vollständige Version finden ](.github/copilot-instructions.md) unter [.github/copilot-instructions.md
+Die vollständige Version finden [&#128279;](.github/copilot-instructions.md) unter .github/copilot-instructions.md
 Commit-Nachrichtenformat (unbedingter Betreff ≤ ~50 Zeichen; 📖 für Ergänzungen, ✏️ für
 Änderungen) und PR-Struktur (Jira-ID aus dem Zweignamen; `# Summary`,
 `# Changes` nach Datei, `# Context` → `## Jira`).

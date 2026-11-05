@@ -18,7 +18,7 @@ Wahrheit, die die Vorlagen und den Veröffentlichungskalender umfasst:
 
 ## Kritische Regel - Bestimmen Sie zuerst das Dokumentenquartal
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > Nie eine Funktion einem Dokumentquartal zuweisen, wenn Kalenderquartalsmathematik verwendet wird
 > Vorschau- oder Produktionsdatum Dokumentquartal basiert auf welcher (**)**
 > Die Funktion wird gemäß der internen Gruppierung des Workfront-Veröffentlichungskalenders in ausgeliefert, die
