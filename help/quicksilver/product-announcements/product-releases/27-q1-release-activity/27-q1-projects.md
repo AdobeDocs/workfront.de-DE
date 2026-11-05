@@ -4,10 +4,10 @@ description: Projektverbesserungen im ersten Quartal 2027
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b15349a7451b15009bce3902d874a97de1e6021a
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 7%
+source-wordcount: '251'
+ht-degree: 6%
 ---
 
 # Projektverbesserungen im ersten Quartal 2027
@@ -15,6 +15,19 @@ ht-degree: 7%
 Auf dieser Seite werden die Projektverbesserungen beschrieben, die mit der Version vom ersten Quartal 2027 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Nicht verfügbare Statusanleitung
+
+>[!NOTE]
+>
+>Vorschau: 4. November 2026
+>Produktionsschnellveröffentlichung: 4. November 2026
+>Produktion für alle: 4. November 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Wenn für das aktuelle Objekt kein gespeichertes Problem, keine gespeicherte Aufgabe oder kein gespeicherter Projektstatus verfügbar ist, wird jetzt eine Warnung angezeigt, die erklärt, warum das funktioniert, und der gespeicherte Status-Code wird angezeigt. „Nicht verfügbar“ wird nur als Anzeigetext angezeigt, nicht als Ersatzstatus. Benutzende mit der Berechtigung Verwalten für das Objekt können einen anderen Status auswählen. Admins können einen anderen Status erstellen.
+
+Weitere Informationen finden Sie unter [Problemstatus aktualisieren](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md). Die Aktualisierung des Projekt- und Aufgabenstatus ähnelt der Aktualisierung des Anfragestatus.
 
 ## Wichtige Threads an den Anfang der Aktualisierungen anheften
 

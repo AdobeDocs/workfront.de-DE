@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2027
@@ -28,6 +28,18 @@ ht-degree: 0%
 In diesem Artikel werden die Funktionen beschrieben, die in der Version vom ersten Quartal 2027 für Workfront Planning veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verbesserte Konflikterkennung in abhängigen Feldern beim Senden von Anfragen
+
+>[!NOTE]
+>
+>Vorschau: 5. November 2026
+>Produktionsschnellveröffentlichung: 17. Dezember 2026
+>Produktion für alle: 21. Januar 2027
+
+Wenn Sie eine Anfrage senden, bei der ein abhängiges verbundenes Feld einen Abhängigkeitskonflikt aufweist, zeigt das System einen Fehler an und verhindert, dass Sie die Anfrage senden, bis der Konflikt behoben ist. Anfragen, die noch nicht genehmigt wurden, zeigen auch Konflikte an, die durch spätere Änderungen an abhängigen Feldern in der Regeleinrichtung verursacht wurden, sowohl beim Anzeigen als auch beim Bearbeiten einer Anfrage.
+
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Bessere Sichtbarkeit der Schnellsuchergebnisse in der Tabellenansicht
 
