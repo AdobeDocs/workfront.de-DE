@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '757'
+ht-degree: 10%
 ---
 # Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
 
@@ -44,6 +44,10 @@ Das Widget Meine Genehmigungen unterstützt Genehmigungen von den folgenden Work
 * Korrekturabzüge
 * Planen von Datensatzanfragen
 * Arbeitszeittabellen
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen den Adobe-Cloud-Speicher verwendet, wird eine Dokumentgenehmigung im Widget nur angezeigt, wenn das Projekt, das das Dokument enthält, für Sie freigegeben wird.
 
 ## Zugriffsanforderungen
 
@@ -79,6 +83,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 +++
 
 ## Genehmigen von Arbeit über das Widget Meine Genehmigungen
+
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
@@ -161,8 +166,25 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    </tr>
    </table>
 
-Nachdem Sie eine Entscheidung getroffen haben, wird die Genehmigung aus dem Widget Meine Genehmigung entfernt.
+## Wenn Genehmigungen aus dem Widget entfernt werden
 
->[!NOTE]
->
->Arbeitsgenehmigungen können auch aus dem Widget Meine Genehmigungen entfernt werden, wenn das Projekt, die Aufgabe oder das Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ gekennzeichnet ist.
+Eine Genehmigung wird aus dem Widget Meine Genehmigungen entfernt, nachdem Sie eine Entscheidung darüber getroffen haben. Genehmigungen werden auch in den folgenden Situationen entfernt:
+
+* **Arbeitsgenehmigungen**: Genehmigungen für Projekte, Aufgaben und Probleme werden aus dem Widget entfernt, wenn das Projekt einen der folgenden Status aufweist:
+  * Abgeschlossen
+  * Eingestellt
+  * Zurückgestellt
+
+  >[!NOTE]
+  >
+  >Wenn für ein Projekt die Genehmigung aussteht, kann für die aktuellen genehmigenden Personen weiterhin die eigene Genehmigung des Projekts angezeigt werden. Genehmigungen für Aufgaben und Probleme werden jedoch nicht angezeigt.
+
+
+* **Legacy-Dokumentgenehmigungen**: Legacy-Dokumentgenehmigungen werden aus dem Widget entfernt, basierend auf dem Status des Objekts, an das das Dokument direkt angehängt ist, und nicht auf einem übergeordneten Objekt. Die Genehmigung wird entfernt, wenn sich dieses Objekt in einem der folgenden Status befindet:
+  * Projekt: Abgeschlossen oder Eingestellt
+  * Aufgabe: Abgeschlossen
+  * Problem: Geschlossen oder ein Status, der Geschlossen entspricht. Dazu gehören „Resolved“, „Won&#39;t Resolve“, „Cannot Duplicate“ und „Verified Complete“.
+
+* **Einheitliche Genehmigungen**: Einheitliche Genehmigungen bleiben unabhängig vom Projekt-, Aufgaben- oder Problemstatus im Widget. Ihre Sichtbarkeit wird durch den Genehmigungs-Workflow und Ihre ausstehenden Genehmigungsaufgaben gesteuert, sodass eine Genehmigung aus dem Widget entfernt werden kann, bevor der gesamte Workflow abgeschlossen ist.
+
+Benutzerdefinierte Status folgen der Gleichungen mit der Zuordnung, sodass ein Status, der einem der oben genannten Status entspricht, dasselbe Ergebnis erzielt. Die Genehmigung kann für das Objekt auch dann ausstehend bleiben, wenn es aus dem Widget entfernt wird. Weitere Informationen zu benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
