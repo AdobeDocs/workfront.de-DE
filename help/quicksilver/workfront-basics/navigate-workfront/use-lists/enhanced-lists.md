@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -149,6 +149,19 @@ Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen au
    >Beachten Sie, dass nicht alle Listen alle Feldtypen unterstützen.
 
 ![Beispiel für eine erweiterte Liste](assets/glist-exchange-rates.png)
+
+## Elemente inline bearbeiten
+
+Einige erweiterte Listen ermöglichen die Inline-Bearbeitung von Objekten. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste angezeigt werden, wird das Objekt sofort aktualisiert.
+
+In der Liste:
+
+1. Suchen Sie das Element, das Sie bearbeiten möchten, und klicken Sie dann in ein beliebiges Feld in der Liste.
+1. Bearbeiten Sie die Informationen in dieser Zelle und drücken Sie dann die Eingabetaste.
+1. Drücken Sie die Tabulatortaste, um zur nächsten bearbeitbaren Zelle zu wechseln.
+1. Nachdem Sie alle Zellen bearbeitet haben, drücken Sie die Eingabetaste , um die Änderungen zu speichern.
+
+![Erweiterte Liste inline bearbeiten](assets/edit-enhanced-list-inline.png)
 
 ## Elemente über die Aktionsleiste bearbeiten
 
