@@ -66,7 +66,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Verwenden von Kollegen in Workfront
 
-1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „Mitarbeiter![ (Symbol „Mitarbeiter](assets/coworker-icon.png).
+1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](assets/coworker-icon.png).
 1. Geben Sie Ihre Frage oder Ihren Prompt in das Panel auf der rechten Seite des Bildschirms ein.
 
 1. Wenn Coworker nicht die gewünschte Antwort liefert, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
@@ -88,6 +88,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Um frühere Chats anzuzeigen und zu verwalten, klicken Sie auf das Symbol Chats ![Chats icon](assets/ai-icon.png) im Bedienfeld „Mitarbeiter“.
 
    Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
-1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![ (Symbol „Erweitern](assets/coworker-expand-icon.png).
+1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![&#x200B; (Symbol „Erweitern](assets/coworker-expand-icon.png).
 1. Um zur Adobe CX Enterprise Coworker-Benutzeroberfläche zu gelangen, klicken Sie auf das Apps![Apps-](assets/apps-icon.png) oben rechts auf der Seite und wählen Sie Coworker aus der Liste der verfügbaren Apps aus.
 
