@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: 7ddca116d08e6c0a5bbfaaf35434aa167c1d2683
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 5%
 ---
 # Workfront-Kenntnisse in CX Enterprise Coworker
@@ -60,6 +60,22 @@ Diese Fähigkeit fragt Workfront Planning-Objekte ab und verwaltet sie, z. B.:
 <!--
 * Business rules
 -->
+
+<!--
+
+### Ideation space skills
+
+Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+
+* Thing 1
+* Thing 2
+* Other thing
+
+For more information about Ideation Space, see []().
+
+-->
+
+## Workfront-Kenntnisse
 
 ### Verwalten von Workfront-Objekten
 
