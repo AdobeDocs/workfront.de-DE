@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -150,6 +150,19 @@ Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen au
 
 ![Beispiel für eine erweiterte Liste](assets/glist-exchange-rates.png)
 
+## Elemente inline bearbeiten
+
+Einige erweiterte Listen ermöglichen die Inline-Bearbeitung von Objekten. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste angezeigt werden, wird das Objekt sofort aktualisiert.
+
+In der Liste:
+
+1. Suchen Sie das Element, das Sie bearbeiten möchten, und klicken Sie dann in ein beliebiges Feld in der Liste.
+1. Bearbeiten Sie die Informationen in dieser Zelle und drücken Sie dann die Eingabetaste.
+1. Drücken Sie die Tabulatortaste, um zur nächsten bearbeitbaren Zelle zu wechseln.
+1. Nachdem Sie alle Zellen bearbeitet haben, drücken Sie die Eingabetaste , um die Änderungen zu speichern.
+
+![Erweiterte Liste inline bearbeiten](assets/edit-enhanced-list-inline.png)
+
 ## Elemente über die Aktionsleiste bearbeiten
 
 Sie können die Aktionsleiste in einer erweiterten Liste verwenden, um Elemente in der Liste zu bearbeiten. Nicht alle Aktionsleisten enthalten dieselben Optionen. Außerdem können Sie in einigen Listen möglicherweise keine Elemente auswählen, und die Aktionsleiste ist nicht verfügbar.
@@ -271,7 +284,7 @@ Führen Sie einen der folgenden Schritte aus, um die Gesamtzahl der Elemente in 
 
 So ändern Sie die Zeilenhöhe in einer Ansicht:
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
@@ -404,7 +417,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    >
    >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
 
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
 
    >[!TIP]
    >
@@ -419,7 +432,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
 1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
 1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
    * Fett
    * Kursiv
 

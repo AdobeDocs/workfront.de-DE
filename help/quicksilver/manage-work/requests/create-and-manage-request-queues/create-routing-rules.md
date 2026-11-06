@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 8%
+source-wordcount: '553'
+ht-degree: 7%
 ---
 # Erstellen von Routing-Regeln
 
@@ -132,6 +132,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Dieser Prozess definiert nur die Routingregel. Um sicherzustellen, dass das Problem beim Senden an die Anfrage-Warteschlange weitergeleitet wird, müssen Sie die Routing-Regel auf der Registerkarte **Warteschlangendetails** unter **Standardroute** auswählen.
 
+   Um eine vorhandene Routingregel zu bearbeiten, klicken Sie in eine beliebige Zelle, um Informationen hinzuzufügen oder zu ändern. Die Routingregel wird automatisch aktualisiert.
+   Die Liste der Routing-Regeln ist eine erweiterte Liste und kann andere Funktionen als andere Listen in Workfront haben. Weitere Informationen zu erweiterten Listen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    Informationen zum Hinzufügen einer Standardroute zu einer Anfrage-Warteschlange finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Wenn Sie mehrere Routing-Regeln mit der Anfrage-Warteschlange verknüpfen möchten, müssen Sie mehrere Warteschlangenthemen erstellen und jedes mit einer separaten Routing-Regel verknüpfen. Weitere Informationen zum Erstellen eines Warteschlangenthemas finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
