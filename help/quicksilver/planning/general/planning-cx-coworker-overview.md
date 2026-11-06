@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 4%
+source-wordcount: '1088'
+ht-degree: 3%
 ---
 
 # Übersicht über Adobe Workfront Planning CX Enterprise Coworker
@@ -42,6 +42,8 @@ CX Enterprise Coworker ist eine Gesprächsoberfläche, auf der Sie ein Ziel in e
 Coworker behält alles, was AI Assistant heute tut, und fügt leistungsfähigere End-to-End-Funktionen sowohl in einem neuen Vollbilderlebnis als auch in der rechten Leiste von Workfront hinzu.
 
 Sie wird innerhalb der bestehenden Zugriffssteuerungen auf Produktebene Ihres Unternehmens ausgeführt, sodass Benutzende nur Aktionen ausführen können, zu denen sie bereits in Workfront berechtigt sind. Der schreibgeschützte Zugriff wird dabei standardmäßig von Workfront-Admins gesteuert.
+
+Coworker nutzt die Workfront MCP-Server-Funktionen, um Aktionen in Ihrem Auftrag durchzuführen. Weitere Informationen finden Sie unter [Workfront-Kenntnisse in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
    Suchen Sie das Symbol **Mitarbeiter** ![Mitarbeiter-Symbol](assets/coworker-icon.png) in der rechten oberen Ecke der Seite oder fahren Sie mit den folgenden Schritten fort.
 
-1. Klicken Sie auf eine **Arbeitsbereichskarte**.
+1. Führen Sie einen der folgenden Schritte aus:
 
-1. Klicken Sie auf **Karte vom Typ Datensatz**.
-
-1. Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![In neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png) .
+* Klicken Sie auf eine **Arbeitsbereichskarte**.
+* Klicken Sie auf **Karte vom Typ Datensatz**.
+* Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![In neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png) .
 
 1. Klicken Sie auf **Symbol &quot;**&quot; ![Symbol „Kollege](assets/coworker-icon.png) in der rechten oberen Ecke des Bildschirms.
 
@@ -173,7 +175,9 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
    Sie können beispielsweise einen der folgenden Typen eingeben:
 
-   * Erstellen Sie einen neuen Kampagnendatensatz mit dem Namen Summer Sale 2026
+   * Erstellen Sie einen Arbeitsbereich und benennen Sie ihn „Marketing-Team“.
+   * Erstellen Sie eine Kampagne und einen Personas-Datensatztyp in diesem Arbeitsbereich.
+   * Erstellen Sie einen Kampagnendatensatz mit dem Namen Summer Sale 2026
    * Aktualisieren Sie das Budgetfeld im Sommerkampagnendatensatz auf 75.000 $
    * Löschen Sie den Kampagnendatensatz mit dem Namen „Alte Promotion“.
    * Die versehentlich gelöschte Kampagne wiederherstellen

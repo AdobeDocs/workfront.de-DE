@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1851'
 ht-degree: 1%
 ---
 
@@ -30,9 +30,35 @@ ht-degree: 1%
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>
 
-<span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit dem Ideenraum für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit Ideationsplatzierungen für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-{{planning-important-intro}}
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>\
+</span>
+
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben, um auf Workfront Planning zugreifen zu können.
+>
+>Die hier beschriebene Funktion ist nicht verfügbar, wenn Ihr Unternehmen Workfront Planning als eigenständiges Produkt erworben hat.
+>
+>Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsdatensätze umwandeln oder als externe Datei speichern. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene.
 
@@ -287,7 +313,7 @@ Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren k�
    | Aktion | Tastenkombination |
    | --- | --- |
    | Vergrößern/Verkleinern | Strg/⌘ + / − |
-   | An Auswahl anpassen/anpassen | — |
+   | An Auswahl anpassen/anpassen | – |
    | Zum Cursor zoomen | Strg/⌘ + Bildlauf |
    | Schwenken der Arbeitsfläche | Leertaste gedrückt halten + ziehen |
    | Punktraster ein-/ausblenden | GB |

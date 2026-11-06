@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 7%
@@ -169,7 +169,7 @@ So aktualisieren Sie den Anfragestatus in der Anfragekopfzeile manuell:
 
 1. (Bedingt) Wenn der Status des Problems **_Nicht verfügbar_** ist, klicken Sie auf das Warnzeichen für das Feld **Status**, wählen Sie einen neuen Status aus der Liste aus und klicken Sie dann auf **Speichern**.
 
-Wenn kein akzeptabler Status angezeigt wird, bitten Sie Ihren Administrator, einen zu erstellen.
+   Wenn kein akzeptabler Status angezeigt wird, bitten Sie Ihren Administrator, einen zu erstellen.
 
 
 <!--
