@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 4ce90527f9255cab318f64d6a489d0e81822bf4b
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '552'
+ht-degree: 8%
 ---
 # Verwenden von CX Enterprise Coworker in Workfront
 
@@ -88,9 +88,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Um frühere Chats anzuzeigen und zu verwalten, klicken Sie auf das Symbol Chats ![Chats icon](assets/ai-icon.png) im Bedienfeld „Mitarbeiter“.
 
    Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
-1. Um Chat-Artefakte wie Ausgabelisten anzuzeigen und zu verwalten, klicken Sie auf das Artefaktsymbol ![Artefaktsymbol](assets/artifacts-icon.png).
-
-   Weitere Informationen zu Artefakten in Coworker finden Sie unter [Artefakte](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in der Adobe CX Enterprise Coworker-Dokumentation.
-1. Um Einstellungen für Kollegen zu verwalten, klicken Sie auf das Symbol Einstellungen ![Einstellungen](assets/coworker-settings-icon.png).
 1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![&#x200B; (Symbol „Erweitern](assets/coworker-expand-icon.png).
 1. Um zur Adobe CX Enterprise Coworker-Benutzeroberfläche zu gelangen, klicken Sie auf das Apps![Apps-](assets/apps-icon.png) oben rechts auf der Seite und wählen Sie Coworker aus der Liste der verfügbaren Apps aus.
+
