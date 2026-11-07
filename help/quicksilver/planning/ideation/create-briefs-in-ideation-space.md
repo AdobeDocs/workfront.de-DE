@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 1%
 ---
 
@@ -148,7 +148,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -173,7 +173,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[&#x200B; finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[ finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Bedingt) Um eine bestehende Zusammenfassung im Ideation-Bereich zu öffnen, melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
 
@@ -185,7 +185,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
 1. (Bedingt und optional) Um einen anderen vorhandenen Ideationsraum zu öffnen, klicken Sie auf das Dropdown-Menü rechts neben dem Ideennamen, suchen Sie nach dem Namen und klicken Sie dann auf die Idee, wenn sie in der Liste angezeigt wird.
 
-   Der **Ideationsraum** wird geöffnet und der CX Coworker wird rechts geöffnet.
+   Der **Ideationsraum** wird geöffnet und „Kollege“ wird rechts geöffnet.
 1. Verwenden Sie die Eingabeaufforderung des Mitarbeiters, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
 
    Geben Sie zum Beispiel „Erstellen Sie eine Kampagne „Zurück zur Schule“ für Schüler der Klasse K-12, die durch den Monat August läuft, für Eltern und Lehrer in den USA ein“.  Um die Zusammenfassung so vollständig wie möglich zu gestalten, geben Sie so viele Informationen an, wie Sie für welche Art von Kampagne verfügbar haben, den Zeitplan, die Stakeholder, Validierungs-Checkpoints und andere Details.
@@ -236,7 +236,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
 
 1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
+1. Klicken Sie auf **Symbol** Dokumente hinzufügen![ (Symbol ](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
    >[!TIP]
    >
