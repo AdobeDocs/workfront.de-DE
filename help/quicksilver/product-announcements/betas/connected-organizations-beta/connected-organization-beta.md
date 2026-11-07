@@ -1,17 +1,17 @@
 ---
 product-area: betas
-title: Erste Schritte mit der Funktion „Connected Organisations“
+title: Beta-Programm für Connected Organisations-Funktionen
 description:
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1424'
 ht-degree: 0%
 ---
-# Erste Schritte mit der Funktion „Verbundene Organisationen“
+# Beta-Programm zur Funktion für verbundene Organisationen
 
 >[!IMPORTANT]
 >

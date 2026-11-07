@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 90%
 ---
 # Handbuch für Workfront {#using}
@@ -457,6 +457,7 @@ ht-degree: 90%
       * [Benutzerdefiniertes SMTP als Option für ausgehende E-Mails entfernen](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta-Programme {#beta}
     * [Beta-Programme](product-announcements/betas/betas.md)
+    * {hide-from-toc}[Beta-Programm für die Funktion „Connected Organisations“](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Beta-Version von Arbeitsflächen-Dashboards {#canvas-dashboards-beta}
       * [Informationen zur Beta-Version von Arbeitsflächen-Dashboards](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[Reporting-Arbeitsfläche - Betaversion - Übersicht](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
