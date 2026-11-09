@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 3%
+source-wordcount: '855'
+ht-degree: 2%
 ---
 # Rich-Text-Felder in der Adobe Workfront-API
 
 <!-- Audited: 5/2025 -->
 
 Einige Objekte in Adobe Workfront ermöglichen die Speicherung von Text mit Rich-Text-Formatierung. In der Workfront-API wird Rich-Text als JSON unter Verwendung des Open-Source-Frameworks Draft.js gespeichert.
+
+>[!NOTE]
+>
+>Die in diesem Artikel beschriebenen Rich-Text-Felder sind die Felder „Text mit Formatierung“. Dieser Feldtyp kann nicht mehr zu neuen Feldern hinzugefügt werden. Vorhandene Felder sollten in den Feldtyp „Rich-Text“ konvertiert werden.
+> 
+>Beachten Sie, dass in den neuen Rich-Text-Feldern Inhalte als HTML gespeichert werden. Sie speichern jedoch keine Stile, die im Feldeditor angewendet wurden. Das Entfernen von Formatierungsinformationen aus dem Speicher kann dazu beitragen, unerwartete UI-Probleme und Sicherheitslücken zu vermeiden.
 
 ## Beispiel für eine Übersicht
 

@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '252'
+ht-degree: 2%
 ---
 # Speicherung von Rich-Text-Feldern in der API
+
+>[!NOTE]
+>
+>Die in diesem Artikel beschriebenen Rich-Text-Felder sind die Felder „Text mit Formatierung“. Dieser Feldtyp kann nicht mehr zu neuen Feldern hinzugefügt werden. Vorhandene Felder sollten in den Feldtyp „Rich-Text“ konvertiert werden.
+> 
+>Beachten Sie, dass in den neuen Rich-Text-Feldern Inhalte als HTML gespeichert werden. Sie speichern jedoch keine Stile, die im Feldeditor angewendet wurden. Das Entfernen von Formatierungsinformationen aus dem Speicher kann dazu beitragen, unerwartete UI-Probleme und Sicherheitslücken zu vermeiden.
 
 Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es über die Workfront-API gespeichert und kann als Parameterwert darauf zugegriffen werden.
 
