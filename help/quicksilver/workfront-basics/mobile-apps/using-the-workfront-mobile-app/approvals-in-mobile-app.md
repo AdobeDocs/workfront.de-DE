@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '290'
 ht-degree: 3%
 ---
 # Validierungen in der [!DNL Adobe Workfront] Mobile App
+
+>[!IMPORTANT]
+>
+>Die Mobile App von Workfront befindet sich im Wartungsmodus und wird nicht mehr neu entwickelt.
+> 
+>Einheitliche Genehmigungen werden in der Workfront Mobile App nicht unterstützt.
 
 Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie &#x200B;] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
 

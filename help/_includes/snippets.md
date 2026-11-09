@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # Snippets
@@ -362,6 +362,12 @@ OLD:
 ## Korrekturabzug für Mobilgeräte - Menü „Mehr“ {#mobile-proof-more-menu}
 
 1. Öffnen Sie den Dokument-Korrekturabzug und wählen Sie **[!UICONTROL Mehr]** Menü ![Mehr](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
+
+## Mobile - keine Neuentwicklung {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Die Mobile App von Workfront befindet sich im Wartungsmodus und wird nicht mehr neu entwickelt.
 
 <!-- My Updates -->
 

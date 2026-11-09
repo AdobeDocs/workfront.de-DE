@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 13%
 ---
 # Filtern von Projektlisten in [!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 Standardmäßig zeigt [!DNL Adobe Workfront View] die Liste [!UICONTROL Alle Projekte] in [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
 

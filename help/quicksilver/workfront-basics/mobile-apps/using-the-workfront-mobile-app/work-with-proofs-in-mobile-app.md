@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 ---
 # Testsendungen in der Mobile App von [!DNL Adobe Workfront] überprüfen und Entscheidungen treffen
+
+{{mobile-maintenance-mode}}
 
 Wenn Ihnen ein Korrekturabzug zur Genehmigung zugewiesen wird, wird er in der Liste der Genehmigungen in der Mobile App angezeigt. Sie können den Korrekturabzug direkt in der App überprüfen und eine Entscheidung darüber treffen. Informationen zur Überprüfung und Genehmigung von Testsendungen in [!DNL Adobe Workfront] finden Sie unter [Testsendungen in überprüfen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 

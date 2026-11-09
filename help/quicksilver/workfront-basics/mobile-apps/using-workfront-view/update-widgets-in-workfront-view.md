@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 8%
 ---
 # Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails]
+
+{{mobile-maintenance-mode}}
 
 Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL &#x200B; können Sie zusätzliche Informationen über das &#x200B;]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 
