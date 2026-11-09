@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 5%
 ---
 # Abschnitt [!UICONTROL Meine Arbeit] in der Mobile App
+
+{{mobile-maintenance-mode}}
 
 Im Abschnitt [!UICONTROL Meine Arbeit] des Bereichs [!UICONTROL Startseite] werden Ihre Aufgaben, Probleme, Projekte, Genehmigungen, Anfragen und Arbeitszeittabellen angezeigt.
 
@@ -33,7 +35,7 @@ Im Abschnitt [!UICONTROL Meine Arbeit] des Bereichs [!UICONTROL Startseite] werd
 
 ## Anpassen des Abschnitts [!UICONTROL Meine Arbeit]
 
-Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL &#x200B; Arbeit“ angezeigt &#x200B;] sollen, und die Elementreihenfolge ändern.
+Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL  Arbeit“ angezeigt ] sollen, und die Elementreihenfolge ändern.
 
 1. Tippen Sie im schwebenden Menü auf Ihr Foto oder Ihre Initialen, um auf Ihr Profil zuzugreifen.
 1. Scrollen Sie zum Abschnitt **[!UICONTROL Konfiguration]** und tippen Sie auf **[!UICONTROL Einstellungen]**.
@@ -42,6 +44,6 @@ Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL &#x200B; Arbei
 
    >[!NOTE]
    >
-   >Das [!UICONTROL &#x200B; „Aufgaben und &#x200B;]&quot; wird immer angezeigt und kann nicht ausgeblendet werden.
+   >Das [!UICONTROL  „Aufgaben und ]&quot; wird immer angezeigt und kann nicht ausgeblendet werden.
 
    ![Mobile-Einstellungen](assets/mobile-settings-338x366.png)

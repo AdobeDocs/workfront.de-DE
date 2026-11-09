@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
 ---
 # Verwenden der [!DNL Adobe Workfront] Mobile App: Artikelindex
+
+{{mobile-maintenance-mode}}
 
 <!-- Audited: 2/2024 -->
 
@@ -32,7 +34,7 @@ Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und E
 * Workflow mit einstufigen Aktionen fortsetzen
 * Bleiben Sie unterwegs produktiv
 
-Sie können die App aus dem [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) oder dem [Google Play Store herunterladen und &#x200B;](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
+Sie können die App aus dem [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) oder dem [Google Play Store herunterladen und ](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 In der Mobile App können Sie Arbeitselemente abschließen und Informationen wie in der Browser-Version von [!DNL Workfront] anzeigen. Diese Funktionen und mehr sind verfügbar:
 
@@ -57,9 +59,9 @@ In der Mobile App können Sie Arbeitselemente abschließen und Informationen wie
 Weitere Informationen zur [!DNL Adobe Workfront] Mobile App finden Sie in den folgenden Artikeln:
 
 * [[!DNL Adobe Workfront] für [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [Betatester  [!DNL Android] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [Betatester  [!DNL Android] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
 * [[!DNL Adobe Workfront] für [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Betatester  [!DNL iOS] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [Betatester  [!DNL iOS] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL Startseite] Bereichswidgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [Abschnitt [!UICONTROL Meine Arbeit] in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [[!DNL Adobe Workfront] [!UICONTROL Boards] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)

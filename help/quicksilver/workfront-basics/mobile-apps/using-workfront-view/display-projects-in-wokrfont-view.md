@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 11%
 ---
 # Projekte in der Ansicht [!UICONTROL Adobe Workfront anzeigen]
+
+{{mobile-maintenance-mode}}
 
 Standardmäßig werden in der Liste der in [!DNL Adobe Workfront View] angezeigten Projekte die 100 zuletzt aktiven Projekte angezeigt. Die Liste der Projekte ist nach keinem Kriterium gruppiert.
 
@@ -83,13 +85,13 @@ So zeigen Sie Details zu einem Projekt in [!DNL Workfront View] an:
 1. Tippen Sie auf der Startseite [!DNL Workfront] Ansicht auf ein beliebiges Projekt in der Liste, um die Projektdetails anzuzeigen.\
    Die Projektinformationen werden in den Widgets angezeigt, die auf dem Bildschirm verfügbar sind.\
    Sie können bis zu vier Widgets gleichzeitig anzeigen und Sie können entfernen und zu jedem Projekt Widgets hinzufügen, um verschiedene Informationen über das Projekt anzuzeigen.\
-   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] ](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
 ## Navigieren durch Projekte in [!DNL Workfront View]
 
 1. Tippen Sie in der Liste der Projekte in der [!DNL Workfront View]-App auf den Namen eines Projekts.\
    Informationen über das Projekt werden in den Widgets angezeigt, die auf den Bildschirm hochgeladen wurden.\
-   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] ](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
 1. Wischen Sie von rechts nach links, um das folgende Projekt in der Liste anzuzeigen.\
    Beim Scrollen durch die einzelnen Projekte werden jeweils dieselben Widgets angezeigt.\

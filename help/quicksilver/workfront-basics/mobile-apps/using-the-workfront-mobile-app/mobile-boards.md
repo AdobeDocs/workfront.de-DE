@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 ---
 # [!DNL Adobe Workfront] [!UICONTROL Boards] für Mobilgeräte
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Zusammenarbeit von Teams ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand bieten, die Spalten und Karten enthält. Weitere Informationen zu Pinnwänden finden Sie unter [Pinnwände - Übersicht](/help/quicksilver/agile/boards-overview.md).
 
@@ -56,7 +58,7 @@ Um Feedback zu mobilen Boards zu geben, klicken Sie auf das Symbol **[!UICONTROL
 
 >[!NOTE]
 >
->Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront]&#x200B;[!UICONTROL &#x200B; Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
+>Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront][!UICONTROL  Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
 
 ## Board-Inhalte anzeigen
 

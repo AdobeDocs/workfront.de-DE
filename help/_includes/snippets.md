@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # Snippets
@@ -62,7 +62,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront.
 
-## ​1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
+## &#x200B;1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
@@ -96,7 +96,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup-2026.png).
 
@@ -284,7 +284,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Planung]**.
 
@@ -363,6 +363,12 @@ OLD:
 
 1. Öffnen Sie den Dokument-Korrekturabzug und wählen Sie **[!UICONTROL Mehr]** Menü ![Mehr](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
 
+## Mobile - keine Neuentwicklung {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Die Mobile App von Workfront befindet sich im Wartungsmodus und wird nicht mehr neu entwickelt.
+
 <!-- My Updates -->
 
 ## Schritt 1: Meine Updates herunterladen - {#step1-to-my-updates}
@@ -410,7 +416,7 @@ OLD:
 
 ## Schritt 1: Erfahren Sie mehr über die Auslastung - {#step1-to-utilization-report}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **&#x200B;**&#x200B;und dann auf [!UICONTROL **Nutzung**].
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **** und dann auf [!UICONTROL **Nutzung**].
 
 <!-- Review and approve work -->
 

@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 13%
 ---
 # Filtern von Projektlisten in [!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 Standardmäßig zeigt [!DNL Adobe Workfront View] die Liste [!UICONTROL Alle Projekte] in [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
 
@@ -70,29 +72,29 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Wählen Sie aus den folgenden Filtern:
 
    * [!UICONTROL Portfolios]: Wählen Sie bestimmte Portfolios aus, deren Projekte Sie anzeigen möchten.
-   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ &#x200B;].
+   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ ].
    * [!UICONTROL Fortschritt]: Wählen Sie diese Option aus, um nur Projekte mit einem bestimmten [!UICONTROL Fortschrittsstatus] anzuzeigen.
-   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ &#x200B;].
+   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ ].
    * [!UICONTROL Geplanter Start]: Wählen Sie diese Option aus, um nur Projekte mit dem [!UICONTROL Geplanten Startdatum] in den folgenden Zeitrahmen anzuzeigen:
 
      * Letzte 3 Monate
      * Letzte 2 Monate
      * Letzter Monat
      * Letzte zwei Wochen
-   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Geplantes Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in ] kommenden Zeitrahmen nur Projekte mit dem [!UICONTROL Geplantes Abschlussdatum“ anzuzeigen:
 
      * Zwei Wochen
      * Ein Monat
      * Zwei Monate
      * Drei Monate
-   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Projizierten Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in ] kommenden Zeitrahmen nur Projekte mit dem [!UICONTROL Projizierten Abschlussdatum“ anzuzeigen:
 
      * Zwei Wochen
      * Ein Monat
      * Zwei Monate
      * Drei Monate
    * [!UICONTROL Verantwortlicher]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die bestimmten Verantwortlichen zugewiesen sind.
-   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen &#x200B;].
+   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen ].
 
 
 

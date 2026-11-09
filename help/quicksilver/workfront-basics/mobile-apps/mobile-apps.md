@@ -21,15 +21,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 29%
 ---
 # Apps
 
+{{mobile-maintenance-mode}}
+
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Verwenden der Mobile [!DNL Adobe Workfront] App](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
 * [Verwenden Sie [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
