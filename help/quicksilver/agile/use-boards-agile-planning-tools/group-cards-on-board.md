@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 12%
 ---
 # Verwenden von Gruppen auf einer Pinnwand
+
+{{boards-maintenance-mode}}
 
 Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt. Nicht zugewiesene Karten oder Karten ohne Tags werden in ihrem eigenen Swimlane angezeigt.
 

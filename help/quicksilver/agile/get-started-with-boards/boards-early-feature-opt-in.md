@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
 ---
 # Frühzeitiges Opt-in für Funktionen [!DNL Workfront] [!UICONTROL Boards]
+
+{{boards-maintenance-mode}}
 
 Das frühe Funktions-Opt-in für [!DNL Adobe Workfront] [!UICONTROL Boards] wurde im Juli 2022 eingeführt.
 
@@ -236,7 +238,7 @@ Der [!DNL Workfront]-Administrator kann jedoch die Option Pinnwände im [!UICONT
 
 >[!NOTE]
 >
->Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt &#x200B;].
+>Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt ].
 
 ### Kann ich die frühen Funktionen deaktivieren, sobald ich Mitglied geworden bin?
 
@@ -244,5 +246,5 @@ Nur [!DNL Workfront] Administratoren können den Erhalt frühzeitiger Funktionen
 
 {{step1-to-boards}}
 
-1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL &#x200B; (Early Feature Opt-in &#x200B;]) oben im Dashboard-Bildschirm.
+1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL  (Early Feature Opt-in ]) oben im Dashboard-Bildschirm.
 1. Klicken Sie **[!UICONTROL Deaktivieren]**.

@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 4%
+source-wordcount: '919'
+ht-degree: 5%
 ---
 # Verwalten von Arbeitsabläufen
 
->[!IMPORTANT]
->
->Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
+{{boards-workstreams}}
 
 Ein Arbeitsablauf ist eine konfigurierbare Gruppe von Pinnwänden und Karten für die Zusammenarbeit bei der Arbeit. Arbeitsabläufe können verschiedene Arten von Pinnwänden enthalten, die aus Vorlagen und einer Liste von Arbeitsaufgaben erstellt wurden. In einem Arbeitsablauf können Sie Arbeiten in Iterationen oder Sprints verfolgen.
 
@@ -74,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 {{step1-to-boards}}
 
-1. Klicken Sie **&#x200B;**&#x200B;Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
+1. Klicken Sie **** Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
 1. Geben Sie einen Namen ein, der ersetzt werden soll **[!UICONTROL Nicht benannter Arbeitsablauf]** und drücken Sie die Eingabetaste.
 
    Sie können dem Arbeitsablauf Pinnwände hinzufügen oder auf &quot;[!UICONTROL **Pinnwände“**], um zum Dashboard zurückzukehren.
@@ -88,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 | Vorlage | Beschreibung |
 |---------|----------|
 | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
-| Kanban-Board | Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Aufnahmespalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr** &#x200B;] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Kanban-Board | Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Aufnahmespalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr** ] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospektiv-Board | Die folgenden Spalten sind auf der Pinnwand vorhanden: Was ist gut gelaufen? Was könnte verbessert werden? Wen sollen wir feiern? Was können wir tun, um schneller voranzukommen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
 | Iterationsprozess | Dies ist die Pinnwand zum Definieren und Ausführen einer Iteration. <p>Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr**] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 

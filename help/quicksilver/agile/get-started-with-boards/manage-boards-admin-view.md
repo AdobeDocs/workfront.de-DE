@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 8%
 ---
 # Verwalten der Admin-Ansicht für Pinnwände
+
+{{boards-maintenance-mode}}
 
 Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten, einschließlich des Zeitpunkts der letzten Aktualisierung, der Anzahl der Karten, die jede Karte hat, und mehr.
 

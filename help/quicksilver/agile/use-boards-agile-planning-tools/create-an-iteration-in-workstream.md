@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 13%
 ---
 # Erstellen einer Iteration in einem Arbeitsablauf
 
->[!IMPORTANT]
->
->Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
+{{boards-workstreams}}
 
 Eine Iteration ist ein bestimmter Zeitraum, der für die Durchführung von Arbeiten reserviert ist. Einige Agile-Teams bezeichnen eine Iteration möglicherweise als Sprint.
 
@@ -100,7 +98,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Die Iteration wird jetzt in der Ansicht „Iteration“ der Kartenliste und im Bereich „Metriken“ auf der Iterationskonsole angezeigt.
 
-   Informationen zum Hinzufügen von Karten zu einer Iteration finden [&#x200B; unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Informationen zum Hinzufügen von Karten zu einer Iteration finden [ unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Bearbeiten einer vorhandenen Iteration
 
@@ -110,7 +108,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Klicken Sie auf der Registerkarte „Kartenliste“ in der Ansicht „Iteration“ auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png).
    * Klicken Sie auf der Iterationskonsole auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) im Bereich Metriken oben rechts.
 
-1. Bearbeiten [!UICONTROL &#x200B; im Bedienfeld &#x200B;]Iterationskonfiguration“ die Iteration nach Bedarf.
+1. Bearbeiten [!UICONTROL  im Bedienfeld ]Iterationskonfiguration“ die Iteration nach Bedarf.
 1. Um den Namen der Iteration zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
 
    Sobald eine Iteration gestartet wurde, können Sie nur den Namen der Iteration und nicht das Datum oder die Iterationslänge ändern.

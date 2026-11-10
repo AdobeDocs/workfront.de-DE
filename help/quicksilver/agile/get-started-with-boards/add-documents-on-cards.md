@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 17%
 ---
 # Hinzufügen von Dokumenten auf Karten
+
+{{boards-maintenance-mode}}
 
 Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinzufügen. Alle Dokumente, die Sie der Karte hinzufügen, werden auf der Registerkarte Dokumente der damit verbundenen Aufgabe oder Anfrage verfügbar, und die zu der Aufgabe oder Anfrage hinzugefügten Dokumente sind auf der Karte sichtbar. Dieselben Dateitypen werden in beiden Bereichen unterstützt. Weitere Informationen zu Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -76,7 +78,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Öffnen Sie die verbundene Karte, der Sie ein Dokument hinzufügen möchten.
 1. Ziehen Sie die Datei per Drag-and-Drop in den Bereich [!UICONTROL Dokumente] oder klicken Sie auf [!UICONTROL **Dokument hinzufügen**], um eine Datei auszuwählen.
 
-   Die Datei wird im Bereich &quot;[!UICONTROL &quot; &#x200B;].
+   Die Datei wird im Bereich &quot;[!UICONTROL &quot; ].
 
    ![Dokumente zur Karte hinzugefügt](assets/add-document-to-card.png)
 

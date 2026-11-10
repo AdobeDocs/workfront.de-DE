@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 6%
 ---
 # Hinzufügen vorhandener Aufgaben oder Probleme zu einer [!DNL Workfront]
 
->[!IMPORTANT]
->
->Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
+{{boards-workstreams}}
 
 Sie können einer Pinnwand oder einem Arbeitsablauf in [!DNL Adobe Workfront] über eine Listen- oder Berichtsansicht oder über die Objektdetails beliebige Aufgaben oder Probleme hinzufügen.
 
@@ -82,7 +80,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    Wenn Sie eine Teilaufgabe auswählen, wird sie auch als Karte auf der Pinnwand hinzugefügt.
 
 1. Klicken Sie auf [!UICONTROL **Mehr**] > [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -90,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 
@@ -102,7 +100,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie [!UICONTROL **linken Bedienfeld**] Aufgaben [!UICONTROL **oder**] Probleme“.
 1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die bzw. das Sie einer Pinnwand oder einem Arbeitsablauf hinzufügen möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -110,7 +108,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 

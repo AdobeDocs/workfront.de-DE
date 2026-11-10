@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 10%
 ---
 # Hinzufügen von Tags
+
+{{boards-maintenance-mode}}
 
 Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. Anschließend können Sie nach diesen Tags filtern, um verwandte Karten anzuzeigen.
 
@@ -74,7 +76,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**]&#x200B;[!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -98,7 +100,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 
    Klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld [!UICONTROL Arbeitsablauf konfigurieren] zu öffnen. Klicken Sie dann auf **[!UICONTROL Tag-Manager]**.
 
-1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **-Tags die Option** Tag hinzufügen“.
+1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **]-Tags die Option[!UICONTROL ** Tag hinzufügen“.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
