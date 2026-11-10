@@ -46,14 +46,14 @@ Willkommen auf der Homepage für Adobe Workfront und zugehörige technische Doku
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Veröffentlichungen von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
->Versionen [!TAB 2027]
+>[!TAB Versionen  2027]
 
 * [Übersicht über die Version im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 * [Adobe Workfront Fusion-Veröffentlichungen](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
->Versionen [!TAB 2026]
+>[!TAB Versionen  2026]
 
 * [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
 * [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
