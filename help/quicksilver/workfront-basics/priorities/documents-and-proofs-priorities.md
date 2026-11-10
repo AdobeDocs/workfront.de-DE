@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 18%
+source-wordcount: '592'
+ht-degree: 19%
 ---
 # Hochladen von Dokumenten und Erstellen von Korrekturabzügen in „Prioritäten“
 
@@ -112,29 +112,6 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 1. Klicken Sie auf **Hochladen**.
-
-## Hochladen eines Dokuments in ein Adobe Cloud-Speicherprojekt
-
-Sie können keine Dokumente direkt in eine Aufgabe oder ein Problem in einem Adobe Cloud-Speicherprojekt hochladen. Laden Sie stattdessen das Dokument über die Registerkarte **Projekt** in das Projekt hoch.
-
-{{step1-to-priorities}}
-
-1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf das Symbol **Zusammenfassung** ![Symbol Zusammenfassung öffnen](assets/summary-icon.png).
-1. Klicken Sie im Zusammenfassungsbereich auf die Registerkarte **Projekt**.
-1. Klicken Sie auf das **Datei hochladen**-Symbol ![Datei hochladen](assets/upload-file-icon.png).
-1. Verwenden Sie Drag-and-Drop oder Cmd/Strg + V, um die Datei aus der Zwischenablage einzufügen
-
-   oder
-
-   Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
-1. (Optional) Hinzufügen eines Kommentars.
-1. (Optional) Weitere Dateien hinzufügen.
-
-   >[!NOTE]
-   >
-   >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
-1. Klicken Sie auf **Hochladen**.
-
 
 ## Erstellen eines einfachen oder erweiterten Korrekturabzugs
 
