@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 6%
 ---
 # Voreinstellungen für Projekte, Aufgaben oder Probleme für Untergruppen sperren oder entsperren
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie im linken Bedienfeld auf **Gruppen**.
 1. Klicken Sie auf den Namen der Gruppe, für die Sie eine Projektvoreinstellung sperren oder entsperren möchten.
-1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** oder **Voreinstellungen für Aufgaben und Probleme**.
+1. Klicken Sie auf der linken Seite **Projektvoreinstellungen** oder **Voreinstellungen für Aufgaben und Probleme**.
 
 1. Führen Sie auf der angezeigten Seite eine der folgenden Aktionen für eine Voreinstellung aus, die auf Systemebene entsperrt wurde, oder für eine Gruppe oberhalb Ihrer Gruppe:
 

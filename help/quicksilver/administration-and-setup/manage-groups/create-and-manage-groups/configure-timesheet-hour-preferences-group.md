@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 4%
 ---
 # Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe konfigurieren
@@ -107,7 +107,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren einer entsperrten Arb
 1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, deren Arbeitszeittabelle oder Stundeneinstellungen Sie konfigurieren möchten.
-1. Klicken Sie im linken Bedienfeld auf **Arbeitszeittabellen und Stunden**.
+1. Klicken Sie auf der angezeigten Seite links auf **Arbeitszeittabellen und Stunden**.
 
 1. Konfigurieren Sie auf der angezeigten Seite im Abschnitt **Allgemeine**&quot; eine der folgenden Optionen:
 
