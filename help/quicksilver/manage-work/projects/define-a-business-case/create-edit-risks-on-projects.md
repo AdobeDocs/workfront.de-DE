@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1064'
 ht-degree: 5%
-
 ---
-
 # Erstellen und Bearbeiten von Risiken für Projekte
 
 <!--Audited: 06/2025-->
@@ -131,8 +129,6 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
 1. Gehen Sie zu dem Projekt, für das Sie Risiken erstellen möchten.
 1. Klicken Sie **linken** auf „Risiken“.
-
-   ![Risiken-Abschnitt der Aufgabe](assets/risks-section-on-project-2022.png)
 
 1. Klicken Sie auf **Weitere Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
 
