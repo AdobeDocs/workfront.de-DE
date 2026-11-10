@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 20%
@@ -56,12 +56,12 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Kopieren | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
@@ -100,7 +100,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 ## Aufgaben
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
 | Freigeben | ✓&#42; |   |   |   |
@@ -132,7 +132,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 ## Probleme
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-------------------------------|----------|--------|-------------|---------------|
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bearbeiten | ✓ | ✓ | ✓ |   |
 | Löschen | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -162,7 +162,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios haben.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------|----------|--------|-------------|---------------|
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
 | Freigeben | ✓&#42; |   |   |   |
@@ -186,7 +186,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios habe
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
 | Freigeben | ✓&#42; |   |   |   |
@@ -210,7 +210,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben
 Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle anderen Zugriffsebenen haben Ansichtszugriff auf Berichte.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
 | Integrierte Berichte anzeigen | ✓&#42; |   |   |   |
@@ -232,7 +232,7 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 ## Filter, Ansichten und Gruppierungen
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Erstellen | ✓* | ✓* | ✓* |   |
 | Löschen | ✓* | ✓* | ✓* |   |
 | Freigeben | ✓* | ✓* | ✓* |   |
@@ -247,7 +247,7 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 ## Dokumente
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Freigeben | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -284,7 +284,7 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
 | Erstellen | ✓* |   |   |   |
 | Löschen | ✓* |   |   |   |
 | Abrechnungssätze bearbeiten | ✓* |   |   |   |
@@ -308,7 +308,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 ## Aufgabengebiete
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Ansicht | ✓ | ✓ | ✓ |   |
 | Bearbeiten | ✓ |   |   |   |
 | Erstellen | ✓* |   |   |   |
@@ -328,18 +328,18 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -347,10 +347,10 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -361,7 +361,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 ## Teams
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer* |
-|-----------------------------------------|-----------|------------|-------------|------------------|
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
 | Erstellen | ✓* |   |   |   |
 | Löschen | ✓* |   |   |   |
 | Teams bearbeiten, denen sie angehören | ✓* |   |   |   |
@@ -376,7 +376,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 ## Vorlagen
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-----------------------|----------|--------|-------------|---------------|
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
 | Erstellen | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; |   |   |   |
 | Freigeben | ✓&#42; |   |   |   |
@@ -394,7 +394,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten haben.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Abrechnungssätze bearbeiten | ✓&#42; |   |   |   |
 | Kostensätze bearbeiten | ✓&#42; |   |   |   |
 | Allgemeine Finanzen bearbeiten | ✓&#42; |   |   |   |
@@ -418,7 +418,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenverwaltung haben. Andere Lizenztypen können nur eingeschränkten oder gar keinen Zugriff auf die Ressourcenverwaltung in Workfront haben.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |
 | Ressourcenpools erstellen, bearbeiten und löschen&#42;&#42; | ✓&#42; |   |   |   |
 | Geplante Stunden im Workload Balancer aktualisieren&#42;&#42;&#42; | ✓&#42; |   |   |   |
@@ -439,7 +439,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 ## Bereich für Szenarienplaner
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
 | Erstellen/Bearbeiten vorhandener Pläne und Initiativen | ✓ | ✓ |   |   |
 | Informationen zu Aufgabengebieten in Plänen und Initiativen hinzufügen oder bearbeiten&#42; | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Kosteninformationen zu Plänen und Initiativen&#42; | ✓ | ✓ |   |   |
@@ -460,7 +460,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Tarifkarten haben.
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Ansicht | ✓ | ✓ |   |   |
 | Bearbeiten | ✓ |   |   |   |
 | Erstellen | ✓* |   |   |   |
@@ -476,7 +476,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Tarifkarten hab
 <!-- ask Alina about this section -->
 
 | Aktionen | Ansicht | Bearbeiten |
-|---|---|---|
+| --- | --- | --- |
 | Erstellen |   | ✓ |
 | Alle Ziele bearbeiten/löschen |   | ✓ |
 | Ziele im Hauptmenü anzeigen | ✓ | ✓ |

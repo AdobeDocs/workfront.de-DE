@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1093'
 ht-degree: 6%
 ---
 # Deaktivieren oder Reaktivieren einer Person {#deactivate-or-reactivate-a-user}
@@ -167,7 +167,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 Deaktivierte Benutzende verlieren ihre zugewiesene Standard-Proofing-Rolle und ihre Proofing-Lizenz (wenn Sie einen veralteten Workfront Premium-Plan verwenden). Wenn Sie den Benutzer erneut aktivieren möchten, müssen Sie:
 
 * Weisen Sie die Lizenz neu zu (wenn Sie einen alten Workfront Premium-Plan verwenden). Weitere Informationen zu Workfront-Proofing-Plänen finden Sie unter [Zugriff auf die Proofing-Funktionalität in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [&#x200B; Sie unter „Konfigurieren &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
+* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [ Sie unter „Konfigurieren ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
 
 ## Informationen zur Deaktivierung von Workfront-Administratoren und Benutzern von Standard- oder Planlizenzen
 
