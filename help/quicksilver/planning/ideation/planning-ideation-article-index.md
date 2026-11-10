@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '229'
 ht-degree: 0%
 ---
 
@@ -31,12 +31,10 @@ ht-degree: 0%
 
 <span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit Ideationsplatzierungen für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben, um auf Workfront Planning zugreifen zu können.
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die nur für Workfront-Kunden verfügbar sind, die auch über Adobe Workfront Planning verfügen. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben.
 >
 >Die hier beschriebene Funktion ist nicht verfügbar, wenn Ihr Unternehmen Workfront Planning als eigenständiges Produkt erworben hat.
 >

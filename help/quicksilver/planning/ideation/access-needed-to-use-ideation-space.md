@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 0%
+source-wordcount: '931'
+ht-degree: 1%
 ---
 
 # Zugriff für die Nutzung des Ideenraums erforderlich
@@ -32,12 +32,9 @@ ht-degree: 0%
 <span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit Ideationsplatzierungen für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>\
-</span>
-
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben, um auf Workfront Planning zugreifen zu können.
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die nur für Workfront-Kunden verfügbar sind, die auch über Adobe Workfront Planning verfügen. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben.
 >
 >Die hier beschriebene Funktion ist nicht verfügbar, wenn Ihr Unternehmen Workfront Planning als eigenständiges Produkt erworben hat.
 >
@@ -62,7 +59,7 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront Planning bietet jetzt eine zusätzliche Funktion, mit der Sie Ideen ausarbeiten können, bevor Sie Ihre Kampagnen starten.
 
-Bei Verwendung des Ideationsraums können Sie die Gesprächsfunktionen von Adobe Enterprise CX Coworker nutzen, um Daten umzuwandeln und Eingaben in konkrete Pläne zu lenken und Teams einen informierten Ausgangspunkt anstelle einer leeren Seite zu geben.
+Wenn Sie den Ideationsbereich in Workfront verwenden, können Sie die Dialogfunktionen der Adobe Enterprise CX Coworker in Workfront nutzen, um Daten umzuwandeln und Eingaben in greifbare Pläne zu lenken und Teams einen informierten Ausgangspunkt anstelle einer leeren Seite zu geben.
 
 In diesem Artikel werden die Zugriffsberechtigungen beschrieben, die Sie für den Zugriff auf den Ideationsbereich von Workfront Planning benötigen.
 
@@ -70,29 +67,41 @@ Allgemeine Informationen zum Ideation-Bereich finden Sie unter [Erste Schritte m
 
 ## Produktanforderungen
 
-Der Ideation-Bereich ist kein eigenständiges Produkt, sondern eine zusätzliche Funktion von Adobe Workfront Planning.
-
-Sie können auf den Ideationsbereich Ihrer Organisation zugreifen und Sie haben Zugriff auf die folgenden Produkte:
-
-* Adobe Workfront mit Workfront Planning
-* Enterprise CX Coworker
-
-Je nachdem, ob Sie auf den Ideationsbereich zugreifen, müssen Sie Zugriff auf die folgenden Pakete haben:
-
-* Während der Open Beta-Version müssen Sie über Folgendes verfügen:
-
-  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
-
-* Nach der Veröffentlichung der allgemeinen Verfügbarkeit haben Sie möglicherweise eine der folgenden Möglichkeiten:
-
-  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
-  * Ein Adobe Workfront Planning als eigenständiges Produkt
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->Der Ideationsraum ist nur über das Workfront-Hauptmenü oder über Workfront Planning zugänglich. Sie benötigen keine separate Anmeldung, um auf Ideation Space zuzugreifen. Sie ist sofort verfügbar, wenn Sie sich bei Workfront anmelden können.
+>Sie benötigen keine separate Anmeldung, um auf Ideation Space zuzugreifen. Sie ist sofort verfügbar, wenn Sie sich bei Workfront anmelden können und Workfront Planning besitzen.
+>
+>Weitere Informationen über den Zugriff, der für die Verwendung des Ideationsraums erforderlich ist, finden Sie unter [Zugriff erforderlich, um den Ideationsraum zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
-Informationen zu den Veröffentlichungsphasen des Ideation-Bereichs finden Sie unter [Erste Schritte mit dem Ideation-Bereich für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+Sie können auf den Ideenbereich Ihrer Organisation zugreifen und haben Zugriff auf Folgendes:
+
+* Cloud-Anbieter:
+
+  * AWS
+
+    Azure- und GCP-Anbieter werden nicht unterstützt.
+
+* Produkte:
+
+  * Adobe Workfront mit Workfront Planning
+  * CX Enterprise Coworker in Workfront
+
+    >[!IMPORTANT]
+    >
+    >CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Unternehmen zur Verfügung, der Raum für Ideen steht Workfront-Kunden jedoch nicht zur Verfügung, die keine Kollegen haben.
+
+* Adobe-Pakete:
+
+  * Während der Open Beta-Version (beginnend mit dem 12. November 2026) müssen Sie über Folgendes verfügen:
+
+    * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
+
+  * Nach der Veröffentlichung der allgemeinen Verfügbarkeit (geplant für den 1. Februar 2027) haben Sie möglicherweise eine der folgenden Möglichkeiten:
+
+    * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
+    * Ein Adobe Workfront Planning als eigenständiges Produkt
 
 
 <!--
@@ -127,15 +136,26 @@ Die folgenden Einstellungen sind erforderlich, um in Workfront auf Ideation Spac
 
   >[!IMPORTANT]
   >
-  >CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Der Bereich „Ideen“ steht Workfront-Kunden, die nicht über CX Coworker verfügen, jedoch nicht zur Verfügung.
-
-* Deaktivieren Sie die Einstellung Ideenraum deaktivieren im Abschnitt Zusätzliche Einschränkung festlegen Ihrer Zugriffsebene.
-
-  >[!TIP]
+  >CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar.
   >
-  >Als Workfront-Admin können Sie den Zugriff auf Ideation Space für bestimmte Benutzende einschränken, indem Sie die Einstellung Ideation Space deaktivieren in ihrer Zugriffsebene deaktivieren.
+  >KI-Assistent steht diesen Organisationen zur Verfügung.
+  >
+  >Ideationsraum steht Workfront-Kunden nicht zur Verfügung, die keine Kollegen haben, aber möglicherweise über einen KI-Assistenten verfügen.
 
-  Weitere Informationen finden Sie [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Deaktivieren Sie die folgenden Einstellungen im Abschnitt Zusätzliche Einschränkung festlegen der Zugriffsebene eines Benutzers:
+
+  * CX-Coworker-Panel in Workfront deaktivieren
+  * Bereich zum Entwickeln von Ideen deaktivieren
+
+    >[!TIP]
+    >
+    >Als Workfront-Admin können Sie den Zugriff auf Ideation Space für bestimmte Benutzende einschränken, indem Sie die Einstellung Ideation Space deaktivieren in ihrer Zugriffsebene deaktivieren.
+    >
+    > Systemadministratoren haben immer Zugriff auf Ideation Space.
+    >
+    >Weitere Informationen finden Sie [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+
 
 ## Lizenzanforderungen
 
@@ -147,13 +167,13 @@ Ihre Workfront-Zugriffsebene muss die folgenden Lizenztypen enthalten, um auf Id
   * Ein Workflow- und ein Planungspaket während der offenen Beta-Version
   * Workflow- und Planungspaket oder Workfront Planning als eigenständiges Produkt nach allgemeiner Verfügbarkeit.
 
-## Workfront-Berechtigungsanforderungen
+## Anforderungen an Workfront-Planungsberechtigungen
 
 Wenn Sie den Ideation-Bereich von Workfront Planning verwenden, wird jeder Planungsdatensatz mit einer Zusammenfassung in Ideation-Bereich verbunden.
 
 Die Berechtigungen für die Ideationsspeicherübersicht werden von den Berechtigungen für Workfront-Planungsdatensätze übernommen. <!--not sure if this is right, because now you can share the ideation with others??-->
 
-Sie müssen Beitragen oder höhere Berechtigungen für einen Datensatztyp in Planen zum Erstellen von Datensätzen haben, um einen Datensatz im Ideenbereich zu erstellen oder zu bearbeiten.
+Sie müssen Beitragen oder höhere Berechtigungen für einen Datensatztyp in Planen zum Erstellen von Datensätzen haben, um einen Datensatz im Ideationsbereich zu erstellen oder zu bearbeiten.
 
 Planende Benutzer mit Ansichtsberechtigungen für Datensätze können den Ideenraum eines Datensatzes anzeigen.
 
@@ -162,7 +182,7 @@ Die folgende Tabelle zeigt die Verbindung zwischen den Berechtigungen für Workf
 | Berechtigung auf Datensatzebene planen | Berechtigungen auf kurzer Ebene zu Ideenraum |
 |---|---|
 | Beitragen von oder höhere Berechtigungen für einen Datensatz | Kann eine Zusammenfassung im Ideenbereich des Datensatzes erstellen |
-| Anzeigen der Berechtigungen für einen Datensatz | Kann die Zusammenfassung dieses Datensatzes im Ideenraum lesen, ihn jedoch nicht ändern |
+| Anzeigen der Berechtigungen für einen Datensatz | Kann die Zusammenfassung des Datensatzes im Ideationsraum lesen, ihn jedoch nicht ändern |
 
 ## Ideenraum-Berechtigungen
 
@@ -174,17 +194,17 @@ Darüber hinaus können Sie anderen Benutzern die Berechtigung erteilen, den Ide
 
 Beachten Sie Folgendes:
 
-* Die Ersteller von Ideen haben immer Editor-Berechtigungen für ihre eigenen Ideen.
+* Ersteller von Ideenbeschreibungen haben immer Editor-Berechtigungen für ihre eigenen Beschreibungen.
 
-* Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs zu erstellen und sie in andere Programme zu exportieren.
+* Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs zu erstellen und sie in Planning oder eine Datei zu exportieren.
 
 Im Folgenden finden Sie Ideenraum-Berechtigungen und die Funktionen, die sie bieten:
 
 | Ideationsraum-Berechtigung | Funktionen |
 |---|---|
-| Bearbeiterin bzw. Bearbeiter | Kann den Ideenraum bearbeiten, herunterladen und freigeben |
-| Kommentator | Kann den Ideenraum anzeigen und kommentieren |
-| Viewer | Kann den Ideenraum anzeigen |
+| Bearbeiterin bzw. Bearbeiter | Kann einen Ideenraum bearbeiten, herunterladen und freigeben |
+| Kommentator | Kann einen Ideenraum anzeigen und kommentieren |
+| Viewer | Kann einen Ideenraum anzeigen |
 
 Weitere Informationen zum Freigeben eines Ideenraums finden Sie unter [Freigeben eines Ideenraums](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 

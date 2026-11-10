@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 1%
+source-wordcount: '667'
+ht-degree: 2%
 ---
 
 # Ideenraum mit anderen teilen
@@ -33,12 +33,10 @@ ht-degree: 1%
 
 <span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit Ideationsplatzierungen für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben, um auf Workfront Planning zugreifen zu können.
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die nur für Workfront-Kunden verfügbar sind, die auch über Adobe Workfront Planning verfügen. Ihr Unternehmen muss ein zusätzliches Planungspaket erwerben.
 >
 >Die hier beschriebene Funktion ist nicht verfügbar, wenn Ihr Unternehmen Workfront Planning als eigenständiges Produkt erworben hat.
 >
@@ -95,29 +93,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud-Anbieteranforderungen</p></td> 
+   <td><p>AWS</p>
+   <p><b>HINWEIS:</b></p>
+   <p>Es werden keine anderen Cloud-Anbieter unterstützt</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul> 
-<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+<li><p>Beliebiger Workflow mit einem Planungspaket</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>Systemanforderungen</p></td> 
+   <td><p>Die Einstellungen für Kollegen und MCP in Ihren Systemeinstellungen im Bereich Setup müssen aktiviert sein.</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow-Lizenz</p></td> 
    <td><p>Standard</p>
@@ -127,24 +137,28 @@ Or
    <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td> 
    <ul>
-   <li><p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   </li>
+   <li><p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>Die Einstellung Ideenraum deaktivieren in Ihrer Zugriffsebene muss deaktiviert sein</p></li>
+   <li><p>Die Einstellung CX Coworker-Bedienfeld in Workfront deaktivieren in Ihrer Zugriffsebene muss deaktiviert sein</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten </p>
       <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
-      <p>Anzeigen von Berechtigungen für Workfront-Objekte, um sie zu Briefs hinzuzufügen <!--not sure if this is available--></p>
-      <p>Editor-Berechtigungen für den Ideenraum eines Briefs zum Erstellen von Briefs</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>Editor-Berechtigungen für den Ideenraum zum Erstellen von Briefs</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
