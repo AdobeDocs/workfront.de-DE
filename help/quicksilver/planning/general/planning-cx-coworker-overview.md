@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 3%
+source-wordcount: '1097'
+ht-degree: 4%
 ---
 
 # Übersicht über Adobe Workfront Planning CX Enterprise Coworker
@@ -129,7 +129,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Beim Erstellen, Aktualisieren oder Löschen eines Objekts durch einen Kollegen zeigt der Mitarbeiter die beabsichtigten Aktionen an und bittet um Bestätigung. Anschließend können Sie die Aktionen bestätigen oder abbrechen.
 
-## Derzeit für Kollegen verfügbare Funktion
+## Derzeit für Mitarbeiter in Workfront Planning verfügbare Funktion
 
 Derzeit ist Coworker im Planungsbereich von Workfront verfügbar und verwendet eine Reihe von Kenntnissen, um auf Informationen für Planning-Objekte zuzugreifen und diese zu bearbeiten. Weitere Informationen finden Sie unter [Workfront-Kenntnisse in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
@@ -137,14 +137,16 @@ Sie können Coworker verwenden, um die folgenden Aktionen auszuführen:
 
 * Nach Datensätzen suchen. Sie können nach Informationen suchen, die in beliebigen Datensatzfeldern enthalten sind.
 * Einträge erstellen. Eine ID mit einem Link zum neuen Datensatz wird angezeigt, nachdem der Datensatz erstellt wurde. Sie können die Felder angeben, die Sie während des Erstellungsprozesses aktualisieren möchten, z. B. Datum oder Beschreibung.
-* Erstellen Sie Datensätze basierend auf einem Dokument, das Sie hochladen. Workfront unterstützt die folgenden Dokumentenformate für den Coworker:
+* Erstellen Sie Datensätze basierend auf einem Dokument, das Sie hochladen. Workfront unterstützt die folgenden Dokumentenformate für das Anhängen an Coworker:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT und die meisten Bildformate
 * Aktualisieren Sie die Felder für die Datensätze, die Sie auf dem Bildschirm sehen
 * Löschen, Duplizieren oder Wiederherstellen von Datensätzen
 * Datensätze mit anderen Datensätzen verknüpfen
 * Anzeigen des Änderungsverlaufs eines Datensatzes
-* Importieren Sie 10.000 oder mehr Datensätze, indem Sie eine Excel-Datei an Coworker anhängen.
+* Importieren Sie 10.000 oder mehr Datensätze, indem Sie eine Excel-Datei an Coworker anhängen
+* Geschäftsregeln erstellen und verwalten
+
 
 ## Kollegen in Workfront-Planung suchen
 
@@ -155,7 +157,7 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
 ## Zugriff auf Mitarbeiter im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 
