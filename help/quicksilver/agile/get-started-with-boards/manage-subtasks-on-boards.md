@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 10%
 ---
 # Verwalten von Teilaufgaben auf Pinnwänden
+
+{{boards-maintenance-mode}}
 
 Durch die Verwendung von Teilaufgaben auf Karten können Sie eine hierarchische Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen. Eine Unteraufgabe, die Sie einer Karte auf einer Workfront-Pinnwand hinzufügen, wird der Aufgabe im Workfront-Projekt ebenfalls hinzugefügt. Weitere Informationen zu Teilaufgaben und Aufgaben auf Projektebene finden Sie unter [Erstellen von Teilaufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

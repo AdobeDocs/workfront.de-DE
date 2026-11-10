@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 6%
 ---
 # Hinzufügen vorhandener Aufgaben oder Probleme zu einer [!DNL Workfront]
 
->[!IMPORTANT]
->
->Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
+{{boards-workstreams}}
 
 Sie können einer Pinnwand oder einem Arbeitsablauf in [!DNL Adobe Workfront] über eine Listen- oder Berichtsansicht oder über die Objektdetails beliebige Aufgaben oder Probleme hinzufügen.
 

@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 4%
 ---
 # Verwenden des Dashboards für Pinnwände
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
+{{boards-workstreams}}
 
 Das Dashboard „Pinnwände“ zeigt die Liste der Pinnwände und Arbeitsabläufe an, auf die Sie Zugriff haben, einschließlich der von Ihnen erstellten Pinnwände und der Pinnwände, denen Sie hinzugefügt wurden. Einzelne Boards, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind, werden zuerst angezeigt.
 

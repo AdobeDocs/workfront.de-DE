@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # Snippets
@@ -131,6 +131,24 @@ Sie können die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeig
 ## Schritt 1: Zu den Pinnwänden - {#step1-to-boards}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Pinnwände]**.
+
+## Pinnwände - Wartungsmodus {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boards werden derzeit nicht neu entwickelt.
+
+## Pinnwände - Arbeitsabläufe nicht verfügbar {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards werden derzeit nicht neu entwickelt.
+> 
+>Die Arbeitsablauffunktion in Pinnwänden ist veraltet, bleibt aber für Kunden verfügbar, die sie bereits verwendeten.
+>
+>* Es wird empfohlen, von der Verwendung von Arbeitsabläufen abzurücken, da sie nicht mehr unterstützt werden.
+>* Wenn Sie im Dashboard „Pinnwände“ nicht über die Registerkarte „Arbeitsabläufe“ verfügen, können Sie keine Arbeitsabläufe hinzufügen.
+>* Wenn Sie Zugriff auf Arbeitsabläufe haben, können Sie neue Arbeitsabläufe hinzufügen und vorhandene Arbeitsabläufe verwalten. Wenn Sie einen Arbeitsablauf archivieren oder löschen, können Sie ihn nicht wiederherstellen. Wenn Sie einen verbleibenden Arbeitsablauf haben und ihn archivieren oder löschen, sind Arbeitsabläufe für Ihre Workfront-Instanz vollständig veraltet und Sie können keine neuen Arbeitsabläufe hinzufügen.
 
 <!-- Blueprints -->
 

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 6%
 ---
 # Anpassen der auf einer Karte angezeigten Felder
+
+{{boards-maintenance-mode}}
 
 Standardmäßig werden alle verfügbaren Felder auf einer Karte angezeigt, sowohl in der Vollansicht, wenn die Karte geöffnet ist, als auch in der reduzierten Kartenansicht auf der Pinnwand. Sie können wie folgt anpassen, welche Felder angezeigt werden:
 

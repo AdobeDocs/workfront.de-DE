@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 37%
+source-wordcount: '179'
+ht-degree: 40%
 ---
 # Überblick über Agile-Planungs-Tools: Artikelindex
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie zusätzliche Agile-Planungstools nutzen.
 
@@ -44,10 +46,6 @@ Zu den für Scrum nützlichen Tools gehören:
 * Arbeitsabläufe und Iterations-Boards
 * Kartenliste oder Auftragsbestand
 * Iterationsmetriken
-
->[!IMPORTANT]
->
->Arbeitsabläufe und zugehörige Tools stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
 Sie können eines oder alle dieser Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne sich auf eine bestimmte Agile-Methode festzulegen.
 

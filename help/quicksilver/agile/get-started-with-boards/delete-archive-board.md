@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 12%
 ---
 # Löschen oder Archivieren einer Pinnwand
+
+{{boards-maintenance-mode}}
 
 Sie können eine Pinnwand in [!DNL Workfront] löschen oder archivieren. Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus der [!DNL Workfront] entfernt, während beim Archivieren einer Pinnwand alle Karten beibehalten werden und diese zu einem späteren Zeitpunkt wiederhergestellt werden können.
 
