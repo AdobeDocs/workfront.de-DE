@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 0%
+source-wordcount: '2214'
+ht-degree: 1%
 ---
 # Beta-Programm zur Funktion für verbundene Organisationen
 
@@ -98,37 +98,211 @@ Die erste Phase des Beta-Programms ermöglicht es Ihnen, die beiden Instanzen zu
 | **Anfordern der Annahme** | Sobald sich beide Seiten einig sind, akzeptiert der Provider die Anfrage und der Client kann sehen, dass sie akzeptiert wurde. |
 | **Von KI entworfene Statusaktualisierungen** | Wenn ein Anfragender in einem Kommentar nach dem Status fragt, kann der Anbieter mithilfe von KI-Befehlen schnell und konsistent einen Antwortentwurf erstellen. <br> Der Entwurf enthält Informationen aus den mit der Anfrage verbundenen Objekten, z. B. geplantes Abschlussdatum, Bedingung und Stunden, die für die geplanten Stunden protokolliert wurden. <br> Es handelt sich dabei um eine Zusammenfassung der wichtigsten Informationen, nicht um einen Export nach Feld. Eine Person prüft und bearbeitet sie, bevor sie eine Antwort an den Client sendet. |
 
+## Beta-Version verwenden
+
+Sprechen Sie mit Ihrem Adobe Beta-Programm-Manager, um an der Beta-Version teilzunehmen.
+
+### Was wir von den Teilnehmern verlangen
+
+* Nehmen Sie an einem wöchentlichen Feedback-Aufruf teil.
+
+* Nehmen Sie sich etwa eine Stunde pro Woche Zeit, um selbst praktische Tests durchzuführen. Live-Arbeitssitzungen zum Anruf sind eine Option.
+
+* Bringen Sie, soweit möglich, die Perspektiven beider Partner zu den Treffen mit.
+
+* Identifizieren Sie die zu verbindenden Workfront-Umgebungen und stellen Sie Administratorkonten für eine geringe Anzahl von Adobe-Technikern bereit, damit diese die Verbindung validieren können.
+
+### Was wir lernen wollen
+
+* Ist das Spiegeln eines Objekts und das Synchronisieren nur ausgewählter Daten das richtige Freigabemodell? Ist es flexibel genug für jede Seite?
+
+* Ist die Phasenfolge richtig oder sollte eine spätere Funktion früher kommen?
+
+* Welche Touchpoints fehlen bei der Zusammenarbeit?
+
+* Wie sollten Feldbenennung und -zuordnung zwischen den beiden Instanzen funktionieren?
+
+  Heute gehören das Formular und die Anfrage dem Client. Der Anbieter sieht sie schreibgeschützt mit den Feldnamen des Clients.
+
+* Was benötigt die IT, um eine Verbindung zu genehmigen und zu verwalten?
+
 ## End-to-End-Workflow
 
-In diesem Abschnitt wird der Arbeitsablauf für zwei an dieser Integration beteiligte Parteien beschrieben, nachdem die Workfront-Instanzen ihrer respektierten Organisationen miteinander verbunden wurden.
+In diesem Abschnitt wird der Arbeitsablauf für zwei an dieser Integration beteiligten Parteien beschrieben.
 
 Als Beispiele verwenden wir einen Client- und Provider-Workflow.
 
-### Workflow des Kunden
+Der Workflow umfasst die folgenden Schritte:
 
-Als Anfragende in der Organisation des Kunden haben Sie folgende Möglichkeiten:
+1. [Erstellen einer Instanzverbindung](#1-create-an-instance-connection)
+1. [Verbindung quittieren](#2-acknowledge-the-connection)
+1. [Freigeben eines Anfrageformulars für die verbundene Organisation](#3-share-a-request-form-with-the-connected-organization)
+1. [Senden Sie eine Anfrage](#4-submit-a-request)
+1. [Überprüfen der Anfrage und Erstellen eines Projekts](#5-review-the-request-and-create-a-project)
+1. [Mitwirken am unternehmensübergreifenden Gespräch](#6-collaborate-in-the-cross-company-conversation)
 
-1. Erstellen Sie ein Anfrageformular oder bitten Sie einen Administrator, es zu erstellen, zu veröffentlichen und es für die Organisation des verbundenen Anbieters freizugeben.
+### Voraussetzungen
 
-2. Öffnen Sie das veröffentlichte Formular im Bereich Anfragen , geben Sie eine Eingabeaufforderung ein und fügen Sie alle Dateien hinzu.
+* Sie müssen Systemadministrator sein und in beiden Fällen uneingeschränkten Zugriff auf den Bereich **Setup** haben.
+* Die anfragende Instanz benötigt die eindeutige Kunden **GUID** der empfangenden Instanz.
+* Das Formular, das Sie freigeben möchten, muss veröffentlicht werden.
 
-3. Überprüfen Sie, wie der Inhalt den Formularfeldern zugeordnet ist, akzeptieren Sie ihn und senden Sie ihn.
+### &#x200B;1. Erstellen einer Instanzverbindung
 
-### Workflow des Anbieters
+Richten Sie in der anfordernden Instanz (dem Client) Folgendes ein:
 
-Gehen Sie als Work Manager in der Organisation des Anbieters wie folgt vor:
+1. Melden Sie sich bei der Client-Umgebung an und gehen Sie zu **Setup** > **Instanzverbindungen**. Die Seite listet alle Verbindungen auf und ist leer, wenn noch keine vorhanden sind.
+1. Klicken Sie **Verbindung erstellen**.
+1. Fügen Sie im Feld **Verbindung erstellen** die **Empfangsinstanz-GUID“**. Dies ist ein Pflichtfeld.
+1. (Optional) Legen Sie ein **Ablaufdatum** fest. Die Verbindung funktioniert nach diesem Datum nicht mehr.
+1. Klicken Sie **Verbindung erstellen**.
 
-1. Empfangen Sie die Anfrage im Bereich Anfragen als schreibgeschützte Kopie.
+   Die neue Verbindung wird in der Liste der Verbindungen mit dem Status **Ausstehend** angezeigt.
+1. Wählen Sie die neue Verbindung aus, um deren Details anzuzeigen.
 
-2. Besprechen Sie die Anfrage durch Kommentare, bis beide Seiten ausgerichtet sind, und akzeptieren Sie sie dann.
+   >[!TIP]
+   >
+   >Eine ausstehende Verbindung hat keine Freigabe. Die empfangende Instanz muss sie zuerst bestätigen.
 
-3. Konvertieren Sie die Anfrage in ein Projekt, wobei Sie das Portfolio, das Programm und die Vorlage bei Bedarf auswählen.
 
-4. Wählen Sie aus, welche Projektfelder auf die Kundenanfrage zurückgespiegelt werden sollen.
+### &#x200B;2. Verbindung quittieren
 
-5. Beantworten Sie Statusfragen in Kommentaren oder generieren Sie eine Entwurfsstatusaktualisierung, überprüfen Sie sie und veröffentlichen Sie sie in Ihrer Anfrage. Er wird auch auf der ursprünglichen Anforderung des Clients angezeigt.
+Richten Sie in der empfangenden Instanz (dem Anbieter) Folgendes ein:
 
-   Ab diesem Zeitpunkt fungiert die Anfrage auf der Anbieterseite als Replikation der ursprünglichen Anfrage des Kunden, sodass Kommentare und vereinbarte Daten synchron bleiben.
+1. Melden Sie sich bei der Instanz des Anbieters an und gehen Sie zu **Hauptmenü** > **Setup** > **Verbindungen**.
+1. Klicken Sie auf den Namen, um die Verbindung von der empfangenden Instanz aus zu öffnen. In einem Banner wird die folgende Meldung angezeigt: **Eine Instanz möchte eine Verbindung zu Ihrer Instanz herstellen. Wählen Sie mindestens einen geeigneten Empfänger aus und bestätigen Sie dann die Verbindung. Es wird nichts freigegeben, bis Sie dies tun.**
+1. Öffnen **unter &quot;** Empfänger“ die Liste **Suchgruppen und Benutzer** und wählen Sie aus, wer Arbeit von der anfordernden Instanz erhalten kann. Sie können Gruppen und einzelne Benutzer auswählen. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Klicken Sie **Bestätigen**, um die Verbindung zu akzeptieren, oder klicken Sie auf eine der folgenden Optionen:
+
+   * **Ablehnen**, um die Verbindung abzulehnen.
+   * **Schließen**, um sie ausstehend zu lassen.
+
+   Die Meldung „Changes saved“ (Änderungen gespeichert) wird angezeigt, und der Verbindungsstatus ändert sich in **Active**. Die Liste zeigt jetzt die zulässigen Empfänger, das Erstellungsdatum und das Ablaufdatum an.
+
+   >[!TIP]
+   >
+   >**Bestätigen** bleibt abgeblendet, bis Sie mindestens einen geeigneten Empfänger auswählen.
+
+### &#x200B;3. Freigeben eines Anfrageformulars von der anfragenden Organisation
+
+In der Workfront-Instanz des Clients:
+
+1. Wechseln Sie **Hauptmenü** > **Anfragen** und klicken Sie auf **Formulare anfordern**.
+1. Öffnen Sie das veröffentlichte Formular, das Sie freigeben möchten.
+1. Klicken Sie auf **Freigabe**.
+
+   Beachten Sie die folgenden Registerkarten im Feld **Freigeben**:
+
+   * **Interne Freigabe**
+   * **Öffentliche Freigabe**
+   * **Verbundene Organisationen**
+1. Öffnen Sie die **Verbundene Organisationen** .
+1. Wählen **Feld** Organisation“ die Instanz des verbundenen Anbieters aus.
+1. Wählen Sie im Feld **Benutzer und Gruppen** aus, wer in dieser Organisation das Formular verwenden kann. Benutzer und Gruppen hinzufügen.
+1. Klicken Sie auf **Speichern**.
+
+Eine **Ihre Änderungen wurden erfolgreich gespeichert** Meldung bestätigt die Freigabe. <!--need to submit a UI text change - remove "successfully"-->
+
+### &#x200B;4. Senden Sie eine Anfrage
+
+Senden Sie als Benutzer in der Client-Instanz eine Anfrage wie folgt:
+
+1. Melden Sie sich bei der Workfront-Instanz des Clients an und gehen Sie zu **Hauptmenü** > **Anfragen**.
+
+   Auf **Seite „Neue Anfrage senden** werden die neuesten Formulare aufgelistet, einschließlich des soeben freigegebenen.
+
+   Oben wird ein Hinweis angezeigt **Firmenübergreifende Anforderung: Mit diesem Formular gesendete Anfragen sind für die verbundene Organisation sichtbar.**
+1. Füllen Sie das Formular manuell aus oder verwenden Sie **Formular ausfüllen**, damit KI es für Sie erledigt.
+1. (Optional) Gehen Sie wie folgt vor, um das Formular „Ausfüllen“ zu verwenden:
+
+   1. Klicken Sie **Formular ausfüllen**.
+   1. Beschreiben Sie Ihre Anfrage, fügen Sie eine zugehörige E-Mail ein oder klicken Sie auf **Dateien anhängen**, um eine Datei hochzuladen. AI findet die relevanten Details und wendet sie auf das Formular an.
+   1. Klicken Sie **Auf Formular anwenden**. In einer Fortschrittsleiste wird **Formular ausfüllen** angezeigt, während Feldwerte generiert werden.
+   1. Um den KI-Schritt zu überspringen, klicken Sie auf **Überspringen**.
+1. Überprüfen Sie die generierten Werte und bearbeiten Sie alle Elemente, die geändert werden müssen.
+1. Klicken Sie **Senden** um die Anfrage zu senden.
+
+   Eine **Anfrage erfolgreich gesendet** wird mit dem Link **Ihre Anfrage anzeigen** angezeigt.
+
+   Die neue Anfrage wird der Anfrageliste mit dem Formularnamen und dem Status &quot;**&quot;**.
+
+   >[!TIP]
+   >
+   >KI-Antworten können ungenau sein. Überprüfen Sie die ausgefüllten Werte immer, bevor Sie den Vorgang starten.
+
+### &#x200B;5. Überprüfen der Anfrage und Erstellen eines Projekts
+
+1. Melden Sie sich bei der Workfront-Instanz des Anbieters an und gehen Sie zu **Hauptmenü** > **Anfragen**.
+
+Die eingehende Anfrage wird in der Liste angezeigt.
+
+Der **Typ** der Anfrage wird als &quot;**: &lt; Name der Client-Instanz >** markiert, wodurch er als von der verbundenen Organisation stammend markiert wird.
+
+1. Öffnen Sie die Anfrage. Neben dem Titel wird ein **Freigegeben für: &lt; Name der Client-Instanz >**-Badge angezeigt, und das Bedienfeld „Kommentare“ zeigt die folgende **Firmenübergreifende Konversation** Hinweis: **Diese Diskussion ist für &lt; Name der Organisation des Kunden > sichtbar.**
+1. Überprüfen Sie die Anfrageinformationen und die Formularantworten.
+1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Anfragenamen und dann auf **Objekt erstellen**.
+1. Aktualisieren Sie **Dialogfeld &quot;** erstellen“ die folgenden Felder:
+   * **Aktion**: Wählen Sie eine Aktion aus dem Menü aus. Beispiel: **Ein einzelnes Projekt erstellen**
+   * **Projektvorlage**: Eine verfügbare Vorlage auswählen.
+   * **Projektinhaber**: Fügen Sie einen Projektinhaber hinzu.
+   * **Modul**: Wählen Sie ein Produkt aus, in dem das Objekt angezeigt werden soll. Wenn Sie **Workflow** auswählen, wird ein Projekt in der Instanz des Anbieters von Workfront erstellt.
+   * **Benutzerdefinierte Formulare**: Fügen Sie bei Bedarf benutzerdefinierte Formulare an.
+   * **Portfolio** und **Program**: Fügen Sie Portfolios oder Programme für das neue Projekt hinzu.
+1. Klicken Sie auf **Erstellen**.
+
+   Die Anfrage in der Instanz des Anbieters ist jetzt mit dem neuen Projekt verknüpft, und der Status der Anfrage ändert sich in **In Bearbeitung**. Die anfragende Instanz des Clients sieht die Statusänderung in der eigenen Kopie der Anfrage.
+
+### &#x200B;6. Mitwirken am unternehmensübergreifenden Gespräch
+
+Benutzer in beiden Organisationen können zu ihren jeweiligen Anfragen Stellung nehmen. Das Banner **Firmenübergreifende Konversation** erinnert daran, dass alles, was hier geschrieben ist, für die andere Organisation sichtbar ist.
+
+Führen Sie einen der folgenden Schritte aus:
+
+1. So fordern Sie eine Aktualisierung von der Client-Instanz an:
+
+   1. Öffnen Sie die Anfrage und navigieren Sie zum Bedienfeld **Kommentare**.
+   1. Klicken Sie auf **Neuer Kommentar**, geben Sie Ihre Nachricht ein und klicken Sie auf **Senden**.
+
+1. So aktualisieren Sie die Anfrage aus der Instanz des Anbieters:
+
+   1. Öffnen Sie die Anfrage. Der neue Kommentar wird mit einer Beschriftung **Neu** hervorgehoben.
+   1. Klicken Sie **Antwort** schreiben Sie die Antwort und klicken Sie auf **Senden**.
+
+1. Folgenachricht für die Client-Instanz:
+
+   1. Öffnen Sie die Anfrage. Die Antwort des Anbieters erscheint unter dem ursprünglichen Kommentar.
+   1. Klicken Sie auf **Gefällt mir**, um es zu bestätigen, oder **Antwort hinzufügen**, um die Diskussion fortzusetzen.
+
+
+
+
+<!--
+### Client's workflow
+
+As a requestor in the client's organization, you can do the following:  
+
+1. Create or ask an administrator to create a request form, publish it, and share it with the connected provider's organization.
+
+2. Open the published form from the Requests area, enter a prompt, and attach any files.
+
+3. Review how the content maps to the form fields, accept, and submit.
+
+### Provider's workflow
+
+As a work manager in the provider's organization, do the following: 
+
+1. Receive the request in your Requests area as a read-only copy.
+
+2. Discuss the request through comments until both sides are aligned, then accept it.
+
+3. Convert the request into a project, choosing the portfolio, program, and template, if needed.
+
+4. Choose which project fields are mirrored back to the client's request. 
+
+5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
+
+    From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Sicherheit und Governance
 
@@ -193,33 +367,7 @@ In den folgenden Phasen wird unser aktueller Entwicklungs- und Veröffentlichung
 </tbody>
 </table>
 
-## Beta-Version verwenden
 
-Sprechen Sie mit Ihrem Adobe Beta-Programm-Manager, um an der Beta-Version teilzunehmen.
-
-### Was wir von den Teilnehmern verlangen
-
-* Nehmen Sie an einem wöchentlichen Feedback-Aufruf teil.
-
-* Nehmen Sie sich etwa eine Stunde pro Woche Zeit, um selbst praktische Tests durchzuführen. Live-Arbeitssitzungen zum Anruf sind eine Option.
-
-* Bringen Sie, soweit möglich, die Perspektiven beider Partner zu den Treffen mit.
-
-* Identifizieren Sie die zu verbindenden Workfront-Umgebungen und stellen Sie Administratorkonten für eine geringe Anzahl von Adobe-Technikern bereit, damit diese die Verbindung validieren können.
-
-### Was wir lernen wollen
-
-* Ist das Spiegeln eines Objekts und das Synchronisieren nur ausgewählter Daten das richtige Freigabemodell? Ist es flexibel genug für jede Seite?
-
-* Ist die Phasenfolge richtig oder sollte eine spätere Funktion früher kommen?
-
-* Welche Touchpoints fehlen bei der Zusammenarbeit?
-
-* Wie sollten Feldbenennung und -zuordnung zwischen den beiden Instanzen funktionieren?
-
-  Heute gehören das Formular und die Anfrage dem Client. Der Anbieter sieht sie schreibgeschützt mit den Feldnamen des Clients.
-
-* Was benötigt die IT, um eine Verbindung zu genehmigen und zu verwalten?
 
 
 

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '660'
 ht-degree: 5%
 ---
 # Benutzerdefinierten Status als Standardstatus für eine Gruppe verwenden
@@ -77,16 +77,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Status ausgeben
 
-Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Problemtypen dafür aktiviert sein (Fehlerbericht, Änderungsauftrag, Problem und Anfrage). Im folgenden Problemstatus kann beispielsweise der Status Erneut geöffnet nicht als Standardstatus verwendet werden, da der Problemtyp „Änderungsanforderung“ nicht ausgewählt ist:
+Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Problemtypen dafür aktiviert sein (Fehlerbericht, Änderungsauftrag, Problem und Anfrage). Im folgenden Problemstatus kann die Statusidee beispielsweise nicht als Standardstatus verwendet werden, da der Problemtyp „Änderungsanforderung“ nicht ausgewählt ist:
 
-![Alle Problemtypen aktiviert](assets/all-4-issue-types-enabled.png)
+![Alle Problemtypen aktiviert](assets/new-all-issue-types-enabled.png)
 
 ## Festlegen eines benutzerdefinierten Status als Standardstatus für eine Gruppe
 
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png) und klicken Sie dann auf den Namen der Gruppe, in der Sie Status erstellen oder anpassen möchten.
-1. Klicken Sie im linken Bedienfeld auf **Status** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+1. Klicken Sie im linken Bedienfeld auf **Status** ![Statussymbol](assets/status-icon.png).
 1. Öffnen Sie **Registerkarte**, **Aufgaben** oder **Probleme** je nach dem Typ des Status, den Sie als Standardstatus festlegen möchten.
 1. Klicken **oben rechts auf** Standardstatus festlegen“.
 1. Wählen Sie in dem angezeigten Dropdown-Bereich neben dem Status, für den Sie den Standardstatus festlegen möchten, den Standardstatus aus, den Sie festlegen möchten.
@@ -122,4 +122,3 @@ Wenn Sie einen Standardstatus ausblenden (indem Sie die Option „Status ausblen
 
 Wenn kein verfügbarer Status des entsprechenden Typs vorhanden ist, wird der Statustyp als **Ausgeblendet** und ist nicht für Arbeitselemente verfügbar.
 
-![Kein verfügbarer Status](assets/when-hide-default-status-no-equivalent.png)

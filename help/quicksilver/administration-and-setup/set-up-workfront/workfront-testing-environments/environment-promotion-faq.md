@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '260'
 ht-degree: 5%
 ---
 # Häufig gestellte Fragen zur Umgebungsförderung
@@ -47,7 +47,7 @@ Eine domänenübergreifende Umgebungsförderung wird derzeit nicht unterstützt.
 
 * Ein Workfront-Administrator kann die Lizenz Ihres Unternehmens suchen.
 
-  1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+  1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
   1. Klicken Sie **linken** auf „System“
   1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 Der Plan wird oben rechts auf der Seite angezeigt.

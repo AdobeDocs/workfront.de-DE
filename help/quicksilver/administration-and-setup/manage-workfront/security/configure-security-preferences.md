@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 10%
@@ -102,26 +102,26 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Schnellen Release-Prozess aktivieren</p> </td> 
-      <td>Ermöglicht die Aktivierung monatlicher Workfront-Versionen für Ihr Unternehmen anstelle vierteljährlicher Versionen.</p><p>Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation</a>.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>Einbetten von Workfront in einen iframe zulassen</p> </td> 
-      <td>Ermöglicht das Einbetten von Workfront in einen iframe.<p>Standardmäßig ist diese Option deaktiviert.</p><p><b>WICHTIG</b>: Wenn eine Web-basierte Anwendung in einem iframe angezeigt wird, wird die Anwendung anfällig für eine Sicherheitslücke durch Clickjacking.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">SAML 2.0-Authentifizierung in Office 365-Add-ins zulassen.</td> 
-      <td> <p>Ermöglicht das Einbetten von Workfront in einen iframe nur für Office 365-Add-Ins, wenn Workfront mit einer SAML 2.0-Lösung für einmaliges Anmelden integriert ist. </p> <p>Standardmäßig ist diese Option aktiviert.</p> <p><b>HINWEIS</b>: Wenn Sie die obige Option <strong>Einbetten von Workfront in einen iframe zulassen</strong> aktivieren, wird die Option <strong>SAML 2.0-Authentifizierung in Office 365-Add-</strong> zulassen) aktiviert und abgeblendet.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Verwendung von Sitzungsinformationen beim Erstellen von URLs für externe Seiten aktivieren</td> 
-      <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Diese Option ist nicht sicher und standardmäßig deaktiviert. Es wird empfohlen, stattdessen OAuth für Integrationen zu verwenden.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Externe Webseite in ein Dashboard einbetten</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront nutzen</td> 
-      <td> <p>Ermöglicht Benutzenden den Zugriff auf die Mobile Apps (Workfront View für iPad und Mobile Apps)</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>Schnellen Release-Prozess aktivieren</p> </td> 
+         <td>Ermöglicht die Aktivierung monatlicher Workfront-Versionen für Ihr Unternehmen anstelle vierteljährlicher Versionen.</p><p>Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation</a>.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>Einbetten von Workfront in einen iframe zulassen</p> </td> 
+         <td>Ermöglicht das Einbetten von Workfront in einen iframe.<p>Standardmäßig ist diese Option deaktiviert.</p><p><b>WICHTIG</b>: Wenn eine Web-basierte Anwendung in einem iframe angezeigt wird, wird die Anwendung anfällig für eine Sicherheitslücke durch Clickjacking.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">SAML 2.0-Authentifizierung in Office 365-Add-ins zulassen.</td> 
+         <td> <p>Ermöglicht das Einbetten von Workfront in einen iframe nur für Office 365-Add-Ins, wenn Workfront mit einer SAML 2.0-Lösung für einmaliges Anmelden integriert ist. </p> <p>Standardmäßig ist diese Option aktiviert.</p> <p><b>HINWEIS</b>: Wenn Sie die obige Option <strong>Einbetten von Workfront in einen iframe zulassen</strong> aktivieren, wird die Option <strong>SAML 2.0-Authentifizierung in Office 365-Add-</strong> zulassen) aktiviert und abgeblendet.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Verwendung von Sitzungsinformationen beim Erstellen von URLs für externe Seiten aktivieren</td> 
+         <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Diese Option ist nicht sicher und standardmäßig deaktiviert. Es wird empfohlen, stattdessen OAuth für Integrationen zu verwenden.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Externe Webseite in ein Dashboard einbetten</a>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront nutzen</td> 
+         <td> <p>Ermöglicht Benutzenden den Zugriff auf die Mobile Apps (Workfront View für iPad und Mobile Apps)</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>Mit Personen ohne Workfront-Konto über E-Mail-Adressen zusammenarbeiten</p> </td> 
       <td>Ermöglicht es Workfront-Benutzern, bestimmte Elemente für Personen ohne Workfront-Konto freizugeben, indem ihre E-Mail-Adresse anstelle ihres Namens angegeben wird. Benutzer können die folgenden Elemente über ihre E-Mail-Adresse für externe Benutzer freigeben:
        <ul>
@@ -196,7 +196,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
     <tr> 
       <td role="rowheader">Planungs-Designer</td> 
       <td>Dies ist nur für Kunden verfügbar, die ein Workfront Planning-Paket erworben haben. Wenn Sie diese Einstellung aktivieren, können Ihre Benutzerinnen und Benutzer mit der Planning-Designer Arbeitsbereiche erstellen und bearbeiten. Weitere Informationen finden Sie <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Erste Schritte mit der Adobe Workfront Planning Designer</a>.</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Schreibgeschützte MCP-Tools</td> 
