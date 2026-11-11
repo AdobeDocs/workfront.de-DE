@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 1%
 ---
 
@@ -187,7 +187,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie **Aktivieren**, um die Regel für diesen Datensatztyp zu aktivieren, und klicken Sie dann auf **Speichern**.
 
    Regeln werden sofort nach ihrer Aktivierung angewendet und alle Benutzer, die zum Bearbeiten oder Löschen von Datensätzen im ausgewählten Datensatztyp berechtigt sind, müssen sie befolgen.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) dem Namen der Geschäftsregel in der Seitenkopfzeile, um das Feld **Regeldetails** zu öffnen und Informationen zur Geschäftsregel zu aktualisieren.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png), um den Namen der Geschäftsregel in der Seitenkopfzeile zu öffnen, **Regeldetails** und die Informationen zur Geschäftsregel zu aktualisieren.
 1. (Optional und empfohlen) Klicken Sie auf den Rückwärtspfeil links neben **Geschäftsregeln** in der Kopfzeile der Seite, um die Seite für den Datensatztyp anzuzeigen, und gehen Sie zu einer Tabellenansicht oder öffnen Sie die Seite eines Datensatzes. Versuchen Sie dann, einen Datensatz zu bearbeiten oder zu löschen, um die soeben erstellte Regel zu testen.
 
 ## Verwalten von Geschäftsregeln

@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1377'
 ht-degree: 2%
 ---
 
@@ -49,7 +49,7 @@ Future - when they make it available in Planning: replace the above with this OR
 >
 -->
 
-Sie können Workfront Planning-Arbeitsbereiche, Datensatztypen, Felder und Ansichten mithilfe von Umgebungsförderungsfunktionen von einer Workfront-Umgebung in eine andere kopieren.
+Sie können Workfront Planning-Arbeitsbereiche und deren zusätzliche Objekte mithilfe der Funktionen zur Umgebungsförderung von Adobe Workfront von einer Workfront-Umgebung in eine andere kopieren.
 
 Anstatt alles manuell neu zu erstellen, stellen Sie die Konfiguration in einem Paket in der Quellumgebung zusammen und installieren Sie es in der Zielumgebung.
 
@@ -58,7 +58,7 @@ Die Verwendung der Umgebungsförderung mit Planning ähnelt der Verwendung für 
 ## Überlegungen zur Verwendung der Umgebungsförderung mit Planning
 
 * Sie müssen ein Workfront-Administrator sein, um die Umgebung für die Promotion verwenden zu können.
-* Die folgenden Daten werden über die Umgebungsförderung importiert:
+* Wenn Sie einen Arbeitsbereich in eine andere Umgebung kopieren, werden die folgenden mit diesem Arbeitsbereich verknüpften Objekte ebenfalls durch Umgebungs-Promotion importiert:
 
   * Arbeitsbereiche
   * Workspace-Abschnitte
@@ -67,22 +67,34 @@ Die Verwendung der Umgebungsförderung mit Planning ähnelt der Verwendung für 
   * Ansichten
   * Hierarchien
   * Freigabeeinstellungen für alle Objekte
-  * Automatisierungen <!--this might not be part of it; Lilit is checking-->
   * Antragsformulare
   * Geschäftsregeln
   * Verbundene Objekte
-  * Objekte, von denen der Arbeitsbereich abhängig ist oder für die andere Objekte freigegeben sind, z. B. Gruppe, Teams, Aufgabengebiete. Die folgenden Szenarien sind vorhanden:
+  * Objekte, von denen der Arbeitsbereich abhängig ist oder für die andere Objekte freigegeben sind, z. B. Gruppen, Teams, Aufgabengebiete, Unternehmen und Benutzer.
+
+    Die folgenden Szenarien sind vorhanden:
 
     * Wenn in der Zielumgebung bereits ein Objekt mit demselben Namen vorhanden ist, kennzeichnet Workfront einen Konflikt und Sie entscheiden, wie Sie ihn handhaben möchten.
     * Wenn ein Team oder eine Gruppe, für die ein Objekt freigegeben ist, nicht in der Zielumgebung vorhanden ist, wird es bei der Promotion erstellt.
+  <!--* Automations -- this is not promoted, for now, per Lilit -->
 * Für jedes Objekt haben Sie folgende Möglichkeiten:
 
   * Als neues Objekt erstellen
   * Vorhandenes Objekt verwenden, aber mit einem neuen Namen erstellen
   * Vorhandenes Objekt überschreiben. Das Überschreiben ersetzt die -Konfiguration im Ziel.
+* Die folgenden Objekte können nicht exportiert werden:
+
+  * Automatisierungen, die zu dem Arbeitsbereich gehören, den Sie kopieren
+  * Einträge
+  * Felder, die nicht zu den exportierten Arbeitsbereichen gehören
+
+* Workspace-übergreifende verbundene Datensatztypen können nicht höher gestuft werden, es sei denn, sie existieren bereits in der Zielumgebung.
+
+  Es wird empfohlen, zunächst die Arbeitsbereiche zu bewerben, die die arbeitsbereichsübergreifenden verbindbaren Datensatztypen enthalten, und erst danach die Arbeitsbereiche zu bewerben, die auf diese Datensatztypen verweisen.
 
 * Die Installation kann einige Minuten dauern. Sie können eine Installation bei Bedarf von der Ergebnisseite aus zurücksetzen.
 * Es wird empfohlen, den Prozess vor dem Fortfahren zu testen, sofern dies möglich ist. Sie können eine Installation in einer Sandbox- oder Vorschau-Umgebung durchführen, bevor Sie sie zur Produktion weiterleiten.
+
 
 ## Zugriffsanforderungen
 
@@ -113,8 +125,7 @@ Die Verwendung der Umgebungsförderung mit Planning ähnelt der Verwendung für 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>  
-   <p>Sie müssen Systemadministrator sein</p> 
+   <td> <p>Sie müssen Systemadministrator sein</p> 
 </td> 
   </tr> 
   <tr> 
@@ -143,7 +154,7 @@ Befolgen Sie die Anweisungen in den folgenden Abschnitten, um eine Planning-Konf
 
 ### Erstellen eines Pakets in der Quellumgebung
 
-1. Verwenden Sie eine Quellumgebung, in der Ihre gewünschte Konfiguration vorhanden ist.
+1. Wechseln Sie in eine Quellumgebung, in der die gewünschte Konfiguration vorhanden ist.
 1. Klicken Sie in der Quellumgebung auf das **Hauptmenü** ![Hauptmenü](assets/main-menu-shell.png) und gehen Sie dann zu **Setup** > **System** > **Umgebungsförderung**.
 Die Liste **Konfigurationspakete** zeigt vorhandene Pakete mit ihrem Status, ihrer Quellumgebung und dem Ort ihrer Bereitstellung an.
 1. Klicken Sie **Paket erstellen**.
@@ -193,16 +204,28 @@ Vor der Installation des Pakets in der Zielumgebung wird empfohlen, es in einer 
 1. Klicken Sie auf der Paketseite nach der Überprüfung auf **Installieren**.
 1. Wählen Sie in **Liste** Zielumgebung“ die Umgebung aus, für die die Bereitstellung erfolgen soll (z. B. Ihre Produktionsumgebung), und klicken Sie auf **Weiter**. Das Standardziel ist die aktuelle Umgebung.
 1. Bestätigen Sie auf der **Paketinformationen** die Quellumgebung und die Umgebung, in der Sie bereitstellen.
-1. Erweitern Sie im Abschnitt **Objektzuordnung** jede Objektgruppierung, z. B. **Gruppe** und **Planning Workspace**, um die Objekte zu überprüfen.
+1. Erweitern Sie im Abschnitt **Objektzuordnung** jede Objektgruppierung, z. B. einen **Planning Workspace**, um die Objekte zu überprüfen.
+
+   >[!TIP]
+   >
+   >Gruppen, Teams, Rollen, Unternehmen und Benutzende werden hier möglicherweise angezeigt, wenn eines der Workspace-Objekte für sie freigegeben ist.
+
 1. Überprüfen Sie für jedes Objekt die Spalten **Kollision** und **Status** und wählen Sie dann eine **Bereitstellungsaktion** aus der Liste aus. Wählen Sie aus den folgenden Optionen:
 
+
    * **Neu erstellen**: Fügt das Objekt zum Ziel hinzu. Verwenden Sie diese Option, wenn keine Kollision erkannt wird.
-   * **Use existing**: Ordnet das Objekt einem Objekt zu, das bereits im Ziel vorhanden ist, z. B. einer Gruppe mit demselben Namen.
+   * **Use existing**: Ordnet das Objekt einem Objekt zu, das bereits im Ziel vorhanden ist, z. B. einem Arbeitsbereich mit demselben Namen.
    * **Mit neuem Namen erstellen**: Fügt das Objekt unter einem von Ihnen angegebenen Namen hinzu.
    * **Überschreiben**: Ersetzt das vorhandene Objekt im Ziel durch das Objekt aus dem Paket.
+
+   >[!TIP]
+   >
+   >Wenn das System keinen Arbeitsbereich mit derselben ID findet, versucht es, anhand des Arbeitsbereichsnamens eine Übereinstimmung zu finden.
+
 1. (Optional) Um mehrere Objekte gleichzeitig zu ändern, aktivieren Sie die entsprechenden Kontrollkästchen, wählen Sie eine Aktion in der Liste Bereitstellungsaktion oben in der Gruppe aus und klicken Sie auf Auf ausgewählte anwenden. Verwenden Sie die Filter oberhalb der Liste, z. B. Nur Fehler anzeigen , um den Fokus auf bestimmte Objekte zu legen.
 1. Beheben Sie alle Fehlerindikatoren. Wenn Sie für **Objekt „Vorhandenes verwenden** auswählen, müssen Sie auch das Objekt auswählen, dem es zugeordnet ist.  Andernfalls wird im Status ein Fehler angezeigt und **Bereitstellen** bleibt nicht verfügbar.
 1. Klicken Sie **Bereitstellen** und dann **Bereitstellen** zur Bestätigung.
+
 
    Workfront zeigt eine Installationsseite mit der Meldung **Dieses Paket wird installiert** an. Dies kann einige Minuten dauern.
 

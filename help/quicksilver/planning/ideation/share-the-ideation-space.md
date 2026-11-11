@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 2%
 ---
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Cloud-Anbieteranforderungen</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>HINWEIS:</b></p>
-   <p>Es werden keine anderen Cloud-Anbieter unterstützt</p>
+   <p>Wir unterstützen keine anderen Cloud-Anbieter.</p>
    </td> 
   </tr>
 <tr> 
@@ -192,7 +192,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
      Jeder Benutzer in Ihrem Unternehmen, der über einen Workflow und eine Planungslizenz auf der Zugriffsebene verfügt, kann die Idee finden und kommentieren.
    * **Jeder mit dem Link kann einen Kommentar abgeben**
 
-     Jeder, den Sie über einen Link auf die Idee informieren, kann diese kommentieren, auch externe Personen in Ihrem Unternehmen.
+     Jeder, mit dem Sie einen Link zur Ideenarbeitsfläche teilen, kann diesen kommentieren, auch externe Personen in Ihrem Unternehmen.
 
 1. Klicken Sie **Link kopieren**, um einen Link zu der Idee zu erstellen und sie für andere freizugeben. Der Link wird der Zwischenablage hinzugefügt.
 1. Klicken Sie im Feld Einstellungen auf den Pfeil nach hinten, um zur Freigabe zurückzukehren.
@@ -200,11 +200,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    | Ideationsraum-Berechtigung | Funktionen |
    |---|---|
-   | **Editor** | Kann den Ideenraum bearbeiten, herunterladen und freigeben |
-   | **Kommentator** | Kann den Ideenraum anzeigen und kommentieren |
-   | **Viewer** | Kann den Ideenraum anzeigen |
+   | **Editor** | Kann die Ideen-Arbeitsfläche bearbeiten, herunterladen und teilen |
+   | **Kommentator** | Kann die Ideen-Arbeitsfläche anzeigen und kommentieren |
+   | **Viewer** | Kann die Ideen-Arbeitsfläche anzeigen |
 
-1. (Optional) Fügen Sie Ihrer Zuweisung eine Nachricht hinzu und klicken Sie dann auf **Einladen**.
+1. (Optional) Fügen Sie Ihrer Freigabeeinladung eine Nachricht hinzu und klicken Sie dann auf **Einladen**.
 
    Die eingeladenen Benutzer erhalten eine E-Mail-Benachrichtigung über ihre Berechtigungszuweisung.
 

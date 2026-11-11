@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3504'
 ht-degree: 2%
 ---
 # Aktualisieren der Arbeit
@@ -627,13 +627,21 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 ## Kommentare anheften
 
-Sie können Kommentare der obersten Ebene oben auf der Registerkarte „Kommentare“ anheften. Antworten, die Teil eines Threads sind, können nicht angeheftet werden.
+Wichtige Threads können oben auf der Registerkarte Aktualisierungen angeheftet werden, um sie in einem Abschnitt angeheftete Threads vom Aktualisierungsverlauf zu trennen.
 
-1. Gehen Sie zu einem Objekt, das das Anheften von Kommentaren unterstützt, klicken Sie im linken Bereich auf Aktualisierungen und dann auf die Registerkarte **Kommentare**.
+Beachten Sie beim Anheften von Threads Folgendes:
+
+* Sie können Kommentare der obersten Ebene oben auf der Registerkarte „Kommentare“ anheften. Antworten, die Teil eines Threads sind, können nicht angeheftet werden.
+* Später können Sie Threads wieder lösen.
+* Jeder, der zum Anzeigen eines Objekts mit dem Bereich „Aktualisierungen“ berechtigt ist, kann einen Thread anheften oder entfernen.
+
+So heften Sie einen Kommentar-Thread an:
+
+1. Gehen Sie zu einem Objekt, das einen **Updates**-Bereich hat, klicken Sie im linken **auf** Updates und klicken Sie dann auf die Registerkarte **Kommentare**.
 
    Weitere Informationen finden Sie unter [Registerkarte „Aktualisierungen“ - Übersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Fügen Sie einen Kommentar hinzu oder klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Kommentar auf **Thread anheften**. Der Kommentar und alle vorhandenen Antworten werden oben auf der Registerkarte „Kommentare“ angeheftet.
+1. Fügen Sie einen Kommentar hinzu oder klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Kommentar auf **Thread anheften**. Der Kommentar und alle vorhandenen Antworten werden oben auf der Registerkarte Kommentare für Sie und alle, die das Objekt anzeigen können, angeheftet.
 
    Ein neuer **angeheftete Threads**-Abschnitt wird oben auf der Registerkarte &quot;**&quot;**.
 
@@ -645,7 +653,41 @@ Sie können Kommentare der obersten Ebene oben auf der Registerkarte „Kommenta
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## Löschen eines Kommentars oder einer Antwort
 
