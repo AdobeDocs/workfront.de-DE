@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 1%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Cloud-Anbieteranforderungen</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>HINWEIS:</b></p>
-   <p>Es werden keine anderen Cloud-Anbieter unterstützt</p>
+   <p>Wir unterstützen keine anderen Cloud-Anbieter.</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -170,7 +170,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Um Datensätze mithilfe des Ideationsbereichs erstellen oder bearbeiten zu können, benötigen Sie einen Arbeitsbereich und einen Datensatztyp in Workfront Planning.
 * Neue Datensätze beginnen immer mit Platzhalterinhalten, unabhängig davon, wie Sie sie erstellen.
 * Wenn Sie einen Planungsdatensatz löschen, der mit einer Ideenbeschreibung verknüpft ist, bleibt die Zusammenfassung im Ideenbereich, und der zugehörige Bereich wird nicht gelöscht.
-* Die Synchronisation von Informationen erfolgt nur vom Ideationsraum bis zur Workfront-Planung. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz mit der Ideation Space Brief. <!--this might change?-->
+* Die Synchronisation von Informationen erfolgt nur vom Ideationsraum bis zur Workfront-Planung. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz mit der Ideation Space Brief. <!--this might change after beta?-->
 * Die folgenden Szenarien treten auf, wenn Felder in Workfront Planning erstellt, bearbeitet oder entfernt werden:
 
   * Neue Felder, die für Datensätze erstellt wurden, die mit Ideenbeschreibungen verknüpft sind, werden täglich zur Zusammenfassung hinzugefügt. Neue Felder erscheinen leer in der Ideenbeschreibung.
@@ -189,8 +189,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie auf die Karte für einen Datensatztyp, dem Sie Datensätze hinzufügen können.
 1. Führen Sie einen der folgenden Schritte aus, um einen Datensatz zu erstellen:
 
-   * Klicken Sie in einer beliebigen Ansicht der Seite mit dem Datensatztyp auf **Neuer Datensatz** in der oberen rechten Ecke der Seite und im Feld **Wählen Sie eine Methode zum Hinzufügen Ihrer Datensätze aus** klicken Sie auf **Öffnen Sie den Ideationsbereich** und klicken Sie dann auf **Fortfahren**.
-   * Scrollen Sie nach unten in der Datensatztabelle, klicken Sie auf **Neue Zeile** und dann auf **Ideationsbereich öffnen**.
+   * Klicken Sie in einer beliebigen Ansicht der Seite mit dem Datensatztyp auf **Neuer Datensatz** in der oberen rechten Ecke der Seite und im Feld **Wählen Sie eine Methode zum Hinzufügen Ihrer Datensätze aus** klicken Sie auf **Ideationsbereich starten** und klicken Sie dann auf **Weiter**.
+   * Scrollen Sie nach unten in der Datensatztabelle, klicken Sie auf **Neue Zeile** und dann auf **Ideationsbereich starten**.
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    ![Neues Eintragsfeld mit der Schaltfläche „Ideationsraum öffnen“](assets/new-record-creation-picker-with-ideation.png)
 
-   Der Ideationsbereich wird in einer neuen Registerkarte geöffnet.
+1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
 
-   Der Mitarbeiter wird im rechten Bedienfeld geöffnet.
+   Folgendes geschieht:
 
-   Der Datensatz wird sofort mit einem Platzhalternamen erstellt.
+   * Die Arbeitsfläche „Ideationsraum“ wird in einer neuen Registerkarte geöffnet.
+
+   * Der Mitarbeiter wird im rechten Bedienfeld geöffnet.
+
+   * Der Datensatz wird sofort mit einem Platzhalternamen erstellt.
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
 1. Wechseln Sie zu einem vorhandenen Datensatz in Workfront Planning und öffnen Sie dessen Detailseite.
 
-1. Klicken Sie **Öffnen im Ideationsbereich** ![](assets/open-in-ideation-space.png). Dadurch wird der Ideationsbereich in einer neuen Registerkarte geöffnet.
+1. Klicken **oben rechts auf** Detailseite auf „Im Ideationsbereich öffnen“. Dadurch wird der Ideationsbereich in einer neuen Registerkarte geöffnet.
 
    Wenn bereits eine Idee für den Datensatz vorhanden ist, wird dieser Bereich geöffnet.
 

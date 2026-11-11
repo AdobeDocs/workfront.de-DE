@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 1%
 ---
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Cloud-Anbieteranforderungen</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>HINWEIS:</b></p>
-   <p>Es werden keine anderen Cloud-Anbieter unterstützt</p>
+   <p>Wir unterstützen keine anderen Cloud-Anbieter.</p>
    </td> 
   </tr>
 <tr> 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -180,11 +180,13 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    * Navigieren Sie zum **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Ideationsraum**
    * Wechseln Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > **Neuer Datensatz** > **Ideen-Raum starten**
 
-   Der Bereich „Ideen“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel im folgenden Format:
+1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
+
+   Die Arbeitsfläche „Ideationsraum“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel nach dem folgenden Format:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Weitere Informationen zum Erstellen von Datensätzen mithilfe der Ideation Space-[&#x200B; finden Sie unter „Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Weitere Informationen zur Erstellung von Datensätzen mithilfe von Ideation Space finden Sie unter [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Bedingt) Um eine bestehende Zusammenfassung im Ideation-Bereich zu öffnen, melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
 
@@ -203,7 +205,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 1. (Optional) Klicken Sie auf das Symbol **+** im Eingabeaufforderungsfeld „Mitarbeiter“ und fügen Sie Informationen wie folgt hinzu:
 
    * **Befehle**: Verwenden Sie einen Befehl aus der Liste, um einen Kollegen zur Eingabe von Inhalten aufzufordern.
-   * **Datei anhängen**: Hängen Sie eine Datei an das Eingabeaufforderungsfeld an, um sie oder ihre Informationen zum Ideenraum hinzuzufügen. Sie müssen Ihren Kollegen bitten, Karten basierend auf der Datei zu erstellen, um die Karten später an den Brief zu senden.
+   * **Datei anhängen**: Hängen Sie eine Datei an das Eingabeaufforderungsfeld an, um sie oder ihre Informationen zur Ideenarbeitsfläche hinzuzufügen. Sie müssen Ihren Kollegen bitten, Karten basierend auf der Datei zu erstellen, um die Karten später an den Brief zu senden.
    * **Objekt referenzieren**: Wählen Sie ein Objekt aus der Liste aus, um in Ihrer Idee darauf zu verweisen. Das Objekt muss in Workfront vorhanden sein.
 
 1. Klicken Sie auf die Eingabetaste.
@@ -216,14 +218,14 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
 1. (Bedingt) Wenn ein Mitarbeiter anbietet, Karten für die Idee zu erstellen, antworten Sie **Ja**.
 
-   Karten werden dem Ideenraum hinzugefügt und Sie können die Quellen für jede Karte sehen und entscheiden, welche Karte zu Ihrem Briefing hinzugefügt werden soll.
+   Karten werden der Ideenarbeitsfläche hinzugefügt, und Sie können die Quellen für jede Karte anzeigen und entscheiden, welche Karte zu Ihrem Briefing hinzugefügt werden soll.
 
    >[!TIP]
    >
    >Sie können Dateien nicht direkt zur Zusammenfassung hinzufügen. Sie müssen die Dateiinformationen zuerst auf die Karten übertragen, die Sie an den Brief senden können.
 
 
-1. Klicken Sie auf **Suchen**-Symbol ![Suchen](assets/search-icon.png), um im Ideationsbereich nach Elementen zu suchen, und klicken Sie dann auf die -Anzeige in der Liste, um dorthin zu navigieren.
+1. Klicken Sie auf das **Suchen**-Symbol ![Suchen](assets/search-icon.png), um auf der Ideenarbeitsfläche nach Elementen zu suchen, und klicken Sie dann, wenn es in der Liste angezeigt wird, um dorthin zu navigieren.
 
 1. (Optional) Klicken Sie **Quellen** am unteren Rand jeder Karte, um zu verstehen, wo die Informationen erfasst wurden.
 
@@ -233,7 +235,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke des Bereichs und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
 
    Benutzer erhalten eine E-Mail-Benachrichtigung über das Tag.
-1. (Optional) Klicken Sie auf das **Filter**-Symbol ![](assets/filter-comments-icon.png) in der Kommentarkarte, um Kommentare nach folgenden Kriterien zu filtern:
+1. (Optional) Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-comments-icon.png) innerhalb der Kommentarkarte, um Kommentare nach folgenden Kriterien zu filtern:
 
    * Prüfer
    * Zeitpunkt, zu dem der Kommentar hinzugefügt wurde
@@ -247,27 +249,31 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
 
 1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
+1. Klicken Sie auf **Dokumente hinzufügen**-Symbol ![Dokumente hinzufügen](assets/add-documents-in-ideation-space.png) in der linken oberen Ecke der Ideenarbeitsfläche, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
    >[!TIP]
    >
    >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
-   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Ideenraums](#configure-the-ideation-space) in diesem Artikel.
+   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche ](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
    > 
-1. Klicken Sie auf das **WF-Taxonomiekarte hinzufügen**-Symbol ![Aus Workfront Planning hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
+1. Klicken Sie auf das Symbol **Workfront Connected Planning-Datensätze hinzufügen** ![Workfront Connected Planning-Datensätze hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
 
    Es wird eine Karte für den Datensatz erstellt, den Sie der Platzierung hinzufügen möchten. Der Datensatztyp wird in der oberen linken Ecke der Datensatzkarte angezeigt.
 
    >[!TIP]
    >
-   >Das Symbol **WF-Taxonomiekarte hinzufügen** <!--check UI name--> ist nicht verfügbar, wenn Sie über das Hauptmenü auf den Ideationsbereich zugreifen, und die Zusammenfassung ist nicht mit einem Planungsdatensatz verbunden.
+   >* Das Symbol **Workfront Connected Planning Records hinzufügen** ist nicht verfügbar, wenn Sie über das Hauptmenü auf den Ideationsbereich zugreifen, und die Zusammenfassung ist nicht mit einem Planning-Datensatz verbunden.
+   >
+   >* Es stehen nur verbundene Planungsdatensätze zur Verfügung, die der Arbeitsfläche des Ideationsraums als Kontext für Ihre Idee hinzugefügt werden können. Jede verbundene Datensatzkarte, die der Arbeitsfläche hinzugefügt wird, beeinflusst den Typ des erstellten Inhalts und verwendet diesen Kontext, sofern er bei Ihrer Idee verwendet wird.
+   >
+   >   Wenn Sie beispielsweise eine Kampagne erstellen möchten, die vorhandene Datensatztypen nutzen muss, fügen Sie diese Datensätze zu Ihrer Arbeitsfläche hinzu.
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) auf der verbundenen Datensatzkarte und klicken Sie auf **In Workfront anzeigen**.
 
    Die Detailseite des Datensatzes wird in Workfront Planning auf einer anderen Browser-Registerkarte geöffnet.
-1. (Optional) Wählen Sie den Ideenrahmen oder eine Karte aus, klicken Sie auf das Symbol **Löschen** und klicken Sie dann zur Bestätigung auf **Löschen**. Die Karte wird aus dem Ideationsraum entfernt.
+1. (Optional) Wählen Sie den Ideenrahmen oder eine Karte aus, klicken Sie auf das Symbol **Löschen** und klicken Sie dann zur Bestätigung auf **Löschen**. Die Karte wird aus der Arbeitsfläche „Ideationsraum“ entfernt.
 
-   Wenn Sie Karten löschen, die einem gespeicherten Dokument oder Datensatz entsprechen, werden die Elemente aus dem Ideationsraum entfernt, bleiben aber in ihren jeweiligen Anwendungen.
+   Wenn Sie Karten löschen, die einem gespeicherten Dokument oder Datensatz entsprechen, werden die Elemente aus der Arbeitsfläche entfernt, bleiben jedoch in ihren jeweiligen Anwendungen.
 
 1. (Optional) Verwenden Sie das **Mitarbeiter fragen** in der rechten unteren Ecke jederzeit, um Ihre Idee zu verfeinern.
 
@@ -277,7 +283,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
    ![In Eingabeaufforderungsleiste kopieren](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Optional) Klicken Sie auf **Rückgängig** oder **Wiederholen** Symbole ![Rückgängig und Wiederholen](assets/undo-redo-icons.png) oben im Ideenbereich, um eine Aktion abzubrechen oder rückgängig zu machen.
+1. (Optional) Klicken Sie auf die **Rückgängig** oder **Wiederholen**-Symbole ![Rückgängig und Wiederholen](assets/undo-redo-icons.png) oben auf der Arbeitsfläche, um eine Aktion abzubrechen oder rückgängig zu machen.
 1. Zoomen Sie heran, um das vollständige Bild zu sehen: Ihr ursprüngliches Kampagnenziel, alle KI-generierten Konzeptkarten mit Zitaten, zusätzliche Dokumente, die echten Workfront-Planungsdatensätze, die Sie eingezogen haben (Produkte, Personas usw.). Die **Brief** Zusammenfassungskarte in der linken unteren Ecke zieht alles zusammen.
 
 1. Klicken Sie auf das Bild für die Kurzvorschau in der linken unteren Ecke, prüfen Sie die Kurzvorschau und klicken Sie dann auf eine der folgenden Optionen:
@@ -296,11 +302,13 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Damit ist die Erstellung des Datensatzes oder der Datei mit den Zusatzinformationen abgeschlossen. Wenn Sie von einem vorhandenen Datensatz aus beginnen, werden die Informationen aus der Zusammenfassung zum Datensatz hinzugefügt. Wenn Sie mit einem neuen Datensatz beginnen, wird der Datensatz mit den Informationen in der Zusammenfassung erstellt.
 
    Weitere Informationen zur Aktualisierung von Planungsdatensätzen mithilfe von Briefs finden Sie im Abschnitt „Überlegungen zur Verwendung des Ideationsraums zur Erstellung von Datensätzen“ im Artikel [Erstellen von Planungsdatensätzen aus Ideationsraumbeschreibungen](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+1. (Optional) Klicken Sie auf **Freigeben**, um die Ideenarbeitsfläche mit anderen zu teilen.
 
+   Weitere Informationen finden Sie unter [Ideen für andere freigeben](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-## Ideationsbereich konfigurieren
+## Konfigurieren der Arbeitsfläche für Ideationsraum
 
-Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren können, was Sie auf dem Bildschirm sehen, und Ihnen beim Navigieren durch den Bereich helfen.
+Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren können, was Sie auf dem Bildschirm sehen, und Sie bei der Navigation auf der Arbeitsfläche unterstützen.
 
 1. Klicken Sie auf das **Einstellungen**-Symbol ![Einstellungen](assets/setting-icon.png), um zu steuern, woher KI Informationen abruft, und wählen Sie dann einen der folgenden **Source-Typen**:
 
@@ -322,7 +330,7 @@ Es gibt Steuerelemente für den Ideationsbereich, mit denen Sie konfigurieren k�
    * **Punktraster anzeigen**: Aktivieren Sie die Auswahl, um das Punktraster anzuzeigen.
    * **Produkttour**: Deaktivieren Sie die Auswahl, um sich von Leitungshinweisen bei der Verwendung von Ideation-Raum abzumelden.
 
-1. Klicken Sie auf **Hilfe**-Symbol ![Hilfe-Symbol](assets/more-information-icon.png), um die Tastaturbefehle anzuzeigen, mit denen Sie im Ideenraum navigieren oder einen anderen Zoom-Wert auswählen können:
+1. Klicken Sie auf **Hilfe**-Symbol ![Hilfe-Symbol](assets/more-information-icon.png), um die Tastaturbefehle anzuzeigen, mit denen Sie auf der Arbeitsfläche navigieren oder einen anderen Zoom-Wert auswählen können:
 
 | Aktion | Tastenkombination |
 | --- | --- |

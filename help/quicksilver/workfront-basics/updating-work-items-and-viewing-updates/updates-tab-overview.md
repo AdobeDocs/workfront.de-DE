@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 4%
+source-wordcount: '1391'
+ht-degree: 3%
 ---
 # Überblick über den Abschnitt „Aktualisierungen“
 
@@ -154,12 +154,22 @@ Der Abschnitt Aktualisierungen zeigt Informationen auf den folgenden Registerkar
 
   Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **Systemaktivität**: Zeigt Systemaktualisierungen an, bei denen es sich um Informationsmeldungen handelt, die von Workfront erstellt werden, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen am Status, Namen oder benutzerdefinierten Feldern bei Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im Rahmen der bisherigen Kommentar-Funktion auf Systemaktivitätsdatensätze geantwortet wurden, werden auf der Registerkarte Systemaktivität schreibgeschützt angezeigt. Weitere Informationen finden Sie [Konfigurieren von Systemaktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Alle (schreibgeschützt)** Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine schreibgeschützte Registerkarte. Sie können in vorhandenen Kommentaren auf der Registerkarte Alle nicht auf Kommentare antworten oder andere Benutzer taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link von der Registerkarte Alle zur Registerkarte Kommentare . Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
   >[!NOTE]
   >
   >Die Registerkarten „Kommentare“ und „Systemaktivität“ werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
+* **Kommentare zusammenfassen**: Dadurch wird das Bedienfeld „KI-Assistent“ oder „Mitarbeiter“ auf der rechten Seite geöffnet und eine von KI generierte Zusammenfassung des gesamten Aktualisierungsverlaufs des Objekts bereitgestellt.
+
+  >[!NOTE]
+  >
+  >Sie müssen die KI-Assistentenvereinbarung unterzeichnen oder die Voreinstellungen für Mitarbeiter und MCP in Ihrem Setup-Bereich aktivieren, um die Registerkarte **Kommentare zusammenfassen** verwenden zu können. Ihr Unternehmen verfügt möglicherweise entweder über den KI-Assistenten oder die CX Enterprise Coworker für Workfront.
+  >
+  >Weitere Informationen finden Sie unter [KI-Assistent in Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) und [Überblick über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
 
 ### Ähnlichkeiten und Unterschiede zwischen den Aktualisierungsbereichen verschiedener Objekte
 
