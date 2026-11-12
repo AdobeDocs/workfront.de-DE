@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Referenzvorlagen für Versionshinweise
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +150,9 @@ Jeder Abschnitt des H3-Produktbereichs enthält eine HTML-Tabelle. Verwenden Sie
 - Funktionszelle: `<a>` Tag mit `class="MCXref xref" xrefformat="{para}"` gefolgt von `<p>` Beschreibung
 - Die `href` verweist auf die Produktbereichsseite (kein spezifischer Anker)
 - Datumszellen: in `<p>` Tags eingeschlossen
-- Fügen Sie bei außerplanmäßigen Elementen `<p>[!BADGE Off schedule]{type=Neutral}</p>` nach dem Link hinzu
-- Leere `<p></p>` nach dem Link ist akzeptabel, wenn kein Abzeichen benötigt wird
-- HTML-Einzüge konsistent mit bestehenden Dateien halten
+- Fügen Sie bei außerplanmäßigen Elementen `<p>[!BADGE Off schedule]{type=Neutral}</p>` als eigenen Absatz direkt unter dem Link-Absatz vor dem Beschreibungsabsatz hinzu
+- Fügen Sie bei Artikeln, die gleichzeitig für Vorschau und Produktion freigegeben werden, `<p>[!BADGE Concurrent release]{type=Neutral}</p>` an derselben Position hinzu
+- Leere `<p></p>` nach dem Link ist akzeptabel, wenn kein Abzeichen erforderlich ist - Die Einrückung in HTML muss konsistent mit bestehenden Dateien bleiben
 
 ### Nachfolgende Abschnitte - Übersicht
 

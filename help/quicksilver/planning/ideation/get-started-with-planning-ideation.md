@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 0%
+source-wordcount: '1442'
+ht-degree: 1%
 ---
 
 # Erste Schritte mit Ideation Space für Adobe Workfront Planning
@@ -83,7 +83,7 @@ Der geplante Veröffentlichungszeitplan für Ideation Space kann sich ändern un
 
 * **Allgemeine Verfügbarkeit:** Geplant für den 1. Februar 2027.
 
-## Produktanforderungen
+## Eignungsanforderungen für ein Produkt
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Sie können auf den Ideenbereich Ihrer Organisation zugreifen und haben Zugriff 
 
     Für beide Pakete muss Adobe CX Enterprise Coworker aktiviert sein
 
+* Adobe Workfront-Lizenz:
 
+  * Workflow- und Planungs-Systemadministratoren oder Benutzer mit Standardlizenz
 
+Weitere Informationen finden Sie unter [Zugriff erforderlich, um den Ideationsbereich zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## Zielgruppe und Anwendungsfälle
+## Zugriff auf den Ideenraum
 
-Der Bereich „Ideen“ richtet sich an Produkt- und Markenvermarkter, die für die Gestaltung der Kampagnenstrategie und die Erstellung von Kampagnenseminaren verantwortlich sind.
+So erhalten Sie Zugriff auf den Ideenraum:
 
-<!--
-Too much: 
+1. Stellen Sie sicher, dass Sie die Produktanforderungen erfüllen, wie im Abschnitt [Produktanforderungen](#product-requirements) in diesem Artikel beschrieben.
+1. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um Interesse an der Teilnahme an Closed Beta zu bekunden oder Open Beta beizutreten, sobald es verfügbar ist.
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   Systemadministratoren haben standardmäßig Zugriff auf den Ideation Space und können ihn nicht entfernen, wenn er in Open Beta verfügbar wird. Sie können sie für alle anderen Benutzer in einer der folgenden Umgebungen aktivieren:
 
-Als Workspace-Manager können Sie den Ideationsbereich verwenden, um Datensätze in Workfront Planning zu erstellen, indem Sie die folgenden Schritte ausführen:
+   * Produktion
+   * Vorschau
+   * Benutzerdefinierte Sandboxes
 
-* Erstellen Sie im Ideenbereich eine Zusammenfassung, nachdem Sie es über „Planung“ gestartet haben, während Sie mit der Erstellung oder Bearbeitung von Datensätzen beginnen.
-* Verwenden Sie KI-Aufforderungen, um Details aus anderen Datensätzen in Ihrem System oder aus dem Web zu erfassen und die Erstellung von Ideenbeschreibungen abzuschließen.
-* Erstellen Sie aus den Briefs Planungs-Datensatztypen.
-* Verfeinern Sie Ihre Ideenbeschreibungen und aktualisieren Sie bestehende Datensatztypen in Planning.
+1. Gehen Sie als Systemadministrator wie folgt vor:
 
-Im Folgenden finden Sie Anwendungsfälle für die Verwendung von Ideation Space:
+   * Aktivieren Sie in Ihren Systemeinstellungen die Einstellung „Mitarbeiter- und MCP-Tools“, um dem gesamten Unternehmen Zugriff auf Mitarbeiter zu gewähren.
+   * Deaktivieren Sie die folgenden Einstellungen für Benutzer von Standardlizenzen in ihren Zugriffsebenen:
+     * CX-Coworker-Panel in Workfront deaktivieren
+     * Bereich zum Entwickeln von Ideen deaktivieren
 
-* **Aktualisieren einer früheren Kampagne mit historischer Leistung**
+   Weitere Informationen zur Verwendung des Ideationsbereichs finden Sie auch in den folgenden Artikeln:
 
-  * Sie können beispielsweise vorhandene Kampagnen für ein neues Quartal, eine neue Saison oder ein neues Produktmoment aktualisieren.
-  * Dadurch entsteht ein „Delta Brief“, der auf der vorherigen Leistung basiert und beschreibt, was bleibt, welche Änderungen vorgenommen werden und warum.
+   * [Zugriff für die Nutzung des Ideenraums erforderlich](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [Erstellen von Briefs im Ideationsraum](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **Erstellen Sie eine neue Kampagne mit historischer Leistung**
+1. (Empfohlen) Identifizieren Sie Ihre erste Kampagne: eine kürzlich aktualisierte Kampagne oder eine neue Initiative, die von Grund auf neu erstellt werden soll.
 
-  * Sie können beispielsweise eine Kampagne erstellen, wenn Sie ein neues Produkt, Segment oder eine neue Initiative ohne direkten Kampagnenverlauf starten.
-  * Dies erzeugt einen neuen Überblick durch geführte Ideen, einen empfohlenen Kanal-Mix und das anfängliche Konzept oder die Ausrichtung der Nachricht.
+## Suchen des Ideationsbereichs
+
+Nachdem Sie sichergestellt haben, dass Sie Zugriff auf die richtigen Produkte, Pakete sowie die konfigurierte System- und Zugriffsebene haben, können Sie den Ideation-Bereich in den folgenden Bereichen von Workfront finden:
+
+* Öffnen Sie im Workfront-Hauptmenü den Bereich Ideation .
+
+  ![Ideationsbereich im Hauptmenü](assets/ideation-space-area-icon-in-main-menu.png)
+
+* In Workfront Planning beim manuellen Hinzufügen eines neuen Datensatzes
+
+  ![Ideenraum beim Hinzufügen eines neuen Datensatzes](assets/ideation-space-in-planning-new-record.png)
+
+* In Workfront Planning beim Bearbeiten eines vorhandenen Datensatzes
+
+  ![Ideenraum auf der Seite „Datensatzdetails“](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>Sie können den Bereich „Ideen“ nicht mithilfe einer Layout-Vorlage aus dem Hauptmenü entfernen. Weitere Informationen dazu, wie Sie einem Benutzer den Zugriff auf Ideation Space verweigern, finden Sie unter [Zugriff erforderlich, um den Ideation Space zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
 
 ## Ideationsraum und die Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Im Folgenden finden Sie einige der Funktionen von Coworker bei der Verwendung im
   * **Überprüfen vor Abschluss**. KI-generierte Antworten können ungenau sein. Überprüfen Sie daher immer **Quellen** auf einer Karte und vergleichen Sie diese mit verknüpften Quellen, bevor Sie einen Datensatz abschließen.
   * **KI-Karten mit echten Datensätzen**. Ziehen Sie die tatsächlichen Datensätze per Drag-and-Drop in den Ideenbereich.
 
-## Zugriff auf den Ideenraum
+## Zielgruppe und Anwendungsfälle
 
-So erhalten Sie Zugriff auf den Ideenraum:
+Der Bereich „Ideen“ richtet sich an Produkt- und Markenvermarkter, die für die Gestaltung der Kampagnenstrategie und die Erstellung von Kampagnenseminaren verantwortlich sind.
 
-1. Stellen Sie sicher, dass Sie die Produktanforderungen erfüllen, wie im Abschnitt [Produktanforderungen](#product-requirements) in diesem Artikel beschrieben.
-1. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um Interesse an der Teilnahme an Closed Beta zu bekunden oder Open Beta beizutreten, sobald es verfügbar ist.
+<!--
+Too much: 
 
-   Systemadministratoren haben standardmäßig Zugriff auf den Ideation Space und können ihn nicht entfernen, wenn er in Open Beta verfügbar wird. Sie können sie für alle anderen Benutzer in einer der folgenden Umgebungen aktivieren:
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * Produktion
-   * Vorschau
-   * Benutzerdefinierte Sandboxes
+Als Workspace-Manager können Sie den Ideationsbereich verwenden, um Datensätze in Workfront Planning zu erstellen, indem Sie die folgenden Schritte ausführen:
 
-1. (Empfohlen) Identifizieren Sie Ihre erste Kampagne: eine kürzlich aktualisierte Kampagne oder eine neue Initiative, die von Grund auf neu erstellt werden soll.
+* Erstellen Sie im Ideenbereich eine Zusammenfassung, nachdem Sie es über „Planung“ gestartet haben, während Sie mit der Erstellung oder Bearbeitung von Datensätzen beginnen.
+* Verwenden Sie KI-Aufforderungen, um Details aus anderen Datensätzen in Ihrem System oder aus dem Web zu erfassen und die Erstellung von Ideenbeschreibungen abzuschließen.
+* Erstellen Sie aus den Briefs Planungs-Datensatztypen.
+* Verfeinern Sie Ihre Ideenbeschreibungen und aktualisieren Sie bestehende Datensatztypen in Planning.
 
-Weitere Informationen zur Verwendung des Ideationsbereichs finden Sie auch in den folgenden Artikeln:
+Im Folgenden finden Sie Anwendungsfälle für die Verwendung von Ideation Space:
 
-* [Zugriff für die Nutzung des Ideenraums erforderlich](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Erstellen von Briefs im Ideationsraum](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **Aktualisieren einer früheren Kampagne mit historischer Leistung**
 
-## Suchen des Ideationsbereichs
+  * Sie können beispielsweise vorhandene Kampagnen für ein neues Quartal, eine neue Saison oder ein neues Produktmoment aktualisieren.
+  * Dadurch entsteht ein „Delta Brief“, der auf der vorherigen Leistung basiert und beschreibt, was bleibt, welche Änderungen vorgenommen werden und warum.
 
-Nachdem Sie sichergestellt haben, dass Sie Zugriff auf die richtigen Produkte, Pakete sowie die konfigurierte System- und Zugriffsebene haben, können Sie den Ideation-Bereich in den folgenden Bereichen von Workfront finden:
+* **Erstellen Sie eine neue Kampagne mit historischer Leistung**
 
-* Beim manuellen Hinzufügen eines neuen Datensatzes in Workfront Planning
-
-  ![Ideenraum in Planung](assets/ideation-space-in-planning-new-record.png)
-* Öffnen Sie im Workfront-Hauptmenü den Bereich Ideation .
-
-  ![Ideationsbereich im Hauptmenü](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->Sie können den Bereich „Ideen“ nicht mithilfe einer Layout-Vorlage aus dem Hauptmenü entfernen. Weitere Informationen dazu, wie Sie einem Benutzer den Zugriff auf Ideation Space verweigern, finden Sie unter [Zugriff erforderlich, um den Ideation Space zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
+  * Sie können beispielsweise eine Kampagne erstellen, wenn Sie ein neues Produkt, Segment oder eine neue Initiative ohne direkten Kampagnenverlauf starten.
+  * Dies erzeugt einen neuen Überblick durch geführte Ideen, einen empfohlenen Kanal-Mix und das anfängliche Konzept oder die Ausrichtung der Nachricht.
 
 ## Vom Ideationsraum generierte Objekte
 

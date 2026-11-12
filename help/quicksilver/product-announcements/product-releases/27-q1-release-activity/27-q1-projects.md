@@ -4,10 +4,10 @@ description: Projektverbesserungen im ersten Quartal 2027
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 6%
+source-wordcount: '355'
+ht-degree: 4%
 ---
 
 # Projektverbesserungen im ersten Quartal 2027
@@ -15,6 +15,22 @@ ht-degree: 6%
 Auf dieser Seite werden die Projektverbesserungen beschrieben, die mit der Version vom ersten Quartal 2027 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Auflösen von Kommentar-Threads
+
+>[!NOTE]
+>
+>Vorschau: 12. November 2026
+>Produktionsschnellveröffentlichung: 17. Dezember 2026
+>Produktion für alle: 21. Januar 2027
+
+Sie können jetzt einen Kommentar-Thread für ein Objekt, auf das Sie Zugriff haben, über das Menü Mehr der oberen Meldung im Bereich Aktualisierungen auflösen. Dadurch wird sie für alle Viewer aus dem Kommentar-Stream ausgeblendet. Sie können die Lösung später aufheben, um sie zurückzubringen.
+
+Gelöste Threads sind schreibgeschützt. Sie können sie also erst bearbeiten, löschen, beantworten, reagieren oder anheften, wenn sie nicht aufgelöst wurden.
+
+Sie können einen Filter verwenden, um aufgelöste Threads auf der Registerkarte Aktualisierungen anzuzeigen.
+
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nicht verfügbare Statusanleitung
 

@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 1%
 ---
 
@@ -177,8 +177,17 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
 1. Melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus, um den Ideationsbereich zum ersten Mal zu öffnen und Briefs zu erstellen:
 
-   * Navigieren Sie zum **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Ideationsraum**
-   * Wechseln Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > **Neuer Datensatz** > **Ideen-Raum starten**
+   * Navigieren Sie zum **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) und klicken Sie auf **Ideationsraum**
+
+     ![Ideenraum im Hauptmenü](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * Wechseln Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf **Neuer Datensatz** > klicken Sie auf **Ideationsbereich starten**
+
+     ![Ideenraum in neuem Rekord](assets/ideation-space-in-planning-new-record.png)
+
+   * Gehen Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > klicken Sie auf **Öffnen Sie im Ideationsbereich**
+
+     ![Ideenraum in Datensatzdetails](assets/ideation-space-button-in-details-page.png)
 
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
 

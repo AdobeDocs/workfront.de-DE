@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 90%
@@ -2225,7 +2225,7 @@ ht-degree: 90%
     * [Grundlagen zur Adobe Workfront-Planung-API](planning/general/planning-api-basics.md)
     * [Überblick über den KI-Assistenten von Adobe Workfront-Planung](planning/general/planning-ai-assistant-overview.md)
     * [Übersicht über Adobe Workfront Planning CX Enterprise Coworker](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[Verwenden der Umgebungsförderung für die Adobe Workfront-Planung](planning/general/planning-environment-promotion.md)
+    * [Verwenden der Umgebungsförderung für die Adobe Workfront-Planung](planning/general/planning-environment-promotion.md)
     * [Erste Schritte mit Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Veröffentlichungen von Adobe Workfront-Planung für 2024](planning/general/release-activity.md)
     * [Veröffentlichungen von Adobe Workfront-Planung für 2023](planning/general/release-activity-archives-2023.md)
@@ -2343,13 +2343,13 @@ ht-degree: 90%
     * [Instanz von Adobe Workfront Planning als eigenständiges Produkt verwalten](planning/planning-sta/manage-planning-sta-instance.md)
     * [Verwalten von Benutzern in Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Verwalten von Teams in Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Der Ideenraum in Workfront Planning {#ideation}
-    * {hide-from-toc}[Ideenraum für Adobe Workfront Planning: Artikelindex](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Erste Schritte mit dem Ideenraum für Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Zugriff für die Nutzung des Ideenraums erforderlich](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[Erstellen Sie Briefs im Ideationsbereich](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Erstellen von Planungsdatensätzen aus Ideation-Raumauszügen](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Ideenraum mit anderen teilen](planning/ideation/share-the-ideation-space.md)
+  * Der Ideenraum in Workfront Planning {#ideation}
+    * [Ideenraum für Adobe Workfront Planning: Artikelindex](planning/ideation/planning-ideation-article-index.md)
+    * [Erste Schritte mit dem Ideenraum für Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Zugriff für die Nutzung des Ideenraums erforderlich](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Erstellen von Briefs im Ideationsbereich](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Ideenraum mit anderen teilen](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront-Integrationen {#adobe-workfront-integrations}
   * [Adobe Workfront-Integrationen](workfront-integrations-and-apps/workfront-integrations.md)

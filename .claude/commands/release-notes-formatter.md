@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: Formatieren und validieren Sie die Versionshinweise zu Workfront, um Konsistenz, korrekte Struktur und ordnungsgemäße Verknüpfung zu gewährleisten. Wird nur für Versionshinweise in Produktversionsverzeichnissen verwendet oder wenn der Benutzer Versionshinweise, Produktversionen oder vierteljährliche Versionen erwähnt. Gilt nicht für Artikel mit Anleitungen oder allgemeine Dokumentationen.
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # Formatierung von Versionshinweisen
 
@@ -91,7 +89,7 @@ Regeln:
 
 2. **Einführungsabsatz** mit geplantem Veröffentlichungsmonat
 
-3. **`>[!IMPORTANT]`-Block** mit Tabelle mit Freigabezeitplan
+3. **`>[!IMPORTANT]`Block** mit der Tabelle Versionszeitplan , gefolgt von der Badge-Legende, die die Badges für die gleichzeitige Version und die Zeitplanfehler beschreibt (siehe die Vorlage „Übersichtsseite“ in der Referenzdatei)
 
 4. **H2-`Adobe Workfront enhancements`** mit Aufzählung von Anker-Links:
 
@@ -100,8 +98,11 @@ Regeln:
 * [Document enhancements](#document-enhancements)
 ```
 
+- Wenn ein Produktbereich auskommentiert ist, entfernen Sie seinen Link vollständig aus dieser Liste. Kommentieren Sie den Link nicht aus.
+
 &#x200B;5. **H3 pro Produktbereich** mit HTML-Funktionstabelle (siehe .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Innerhalb jeder Tabelle **Neueste Funktionen zuerst** - die neueste Zeile wird oben in der Tabelle angezeigt (nach der Kopfzeile)
+     - Wenn ein Feature über ein Badge verfügt (`[!BADGE Off schedule]{type=Neutral}` oder `[!BADGE Concurrent release]{type=Neutral}`), fügen Sie es in seinem eigenen `<p>` direkt unter den Feature Link-Absatz vor den Description-Absatz ein.
 
 &#x200B;6. **Nachfolgende Abschnitte** (H2): Versionshinweise für andere Bereiche, Desktop Proofing Viewer-Updates, Ankündigungen, API-Version, Wartungs-Updates, Schulungs-Updates
 
@@ -134,6 +135,8 @@ Wenden Sie diese Korrekturen bei der Formatierung an:
 | Zusätzliche Leerzeichen in Legendenlinien | Nachfolgende Leerzeichen kürzen |
 | HTML in den Produktbereichsseiten | Als Markdown beibehalten (HTML dient nur zur Tabellenübersicht) |
 | Fehlende `exl-id` | Lassen Sie es weg - erzeugen Sie keine |
+| Badge platziert nach der Beschreibung in einer Übersichtstabelle | Verschieben Sie sie direkt unter dem Funktions-Link in ihre eigene `<p>` |
+| Mini-Inhaltsverzeichnis-Link zu einem auskommentierten Abschnitt | Entfernen Sie den Link aus der Liste, kommentieren Sie ihn nicht aus |
 
 ### Schritt 6: Übersichtsseite synchronisieren
 
@@ -193,15 +196,9 @@ Häufige Fehler, die zu vermeiden sind:
 - Erstellen der Übersichtsseite eines neuen Quartals ohne Aktualisierung der Registerkarte „Neueste Version“ von `home.md` (es verweist weiterhin auf das alte Quartal).
 - Es wird vergessen, das neue Quartal auch zur Registerkartenliste des aktuellen Jahres hinzuzufügen.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Upstream aktualisiert
-
-### Schritt 8: Aktualisieren der Indexseite für Produktversionen
-=======
-
 ### Schritt 9: Aktualisieren der Indexseite für Produktversionen
-&#x200B;>>>>>>>>>>Gestaffelte Änderungen
-> 
->Wenn Sie eine **Übersichtsseite eines neuen Quartals“ erstellen** aktualisieren Sie `help/quicksilver/product-announcements/product-releases/product-releases.md` ebenfalls mit derselben Änderung:
+
+Wenn Sie eine **Übersichtsseite eines neuen Quartals“ erstellen** aktualisieren Sie `help/quicksilver/product-announcements/product-releases/product-releases.md` ebenfalls mit derselben Änderung:
 
 - Den `<p>Releases in {year}</p>` Block für das aktuelle Jahr finden Sie in der Spalte &quot;Workfront-Versionen“.
 - Fügen Sie oben **der Liste** Jahres eine neue `<li>` hinzu, die mit der Übersichtsseite des neuen Quartals verknüpft ist, und zwar im selben Format wie die vorhandenen Einträge:
@@ -288,6 +285,9 @@ Die vierteljährliche Produktionsfreigabe erfolgt normalerweise am Donnerstag de
 - [ ] Funktionstabellen-Zeilen in der Übersicht stimmen mit dem Inhalt der Produktbereichsseite überein
 - [ ] Keine fehlerhaften internen Links
 - [ ] Anker-Links in der Übersicht stimmen mit den IDs im Abschnitt H3 überein
+- [ ] Mini-Inhaltsverzeichnis mit Überblick enthält keine Links zu auskommentierten Abschnitten, und die Abzeichen befinden sich direkt unter dem Funktions-Link
+- [ ] Block Überblick enthält `>[!IMPORTANT]` Badge-Legende. Darin wird jedes in einer Tabelle verwendete Badge beschrieben
+- [ ] Jede Verbesserungstabelle in der Übersicht, die nicht auskommentiert ist, enthält im Mini-Inhaltsverzeichnis einen entsprechenden Link, sodass Abschnitte, die wieder hinzugefügt werden, wenn sie nicht auskommentiert sind, nicht verpasst werden
 - [ ] Funktionen werden als „Newest-First“ sortiert (Produktbereichsseiten und Übersichtstabellen)
 - [ ] Neue Versionshinweise werden in `help/quicksilver/TOC.md` unter dem richtigen Quartal aufgeführt, wobei die Übersicht zuerst und die Produktbereiche in alphabetischer Reihenfolge aufgeführt werden (Sonstige Letzte)
 - [ ] Wenn die Übersichtsseite eines neuen Quartals erstellt wurde, verweisen `help/quicksilver/home.md` Registerkarte „Neueste Version“ und die Registerkarte des aktuellen Jahres darauf

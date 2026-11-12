@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 17%
+source-wordcount: '1542'
+ht-degree: 13%
 ---
 
 # Übersicht über die Version im ersten Quartal 2027
@@ -27,13 +27,19 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
 >| <ul><li>2026.11 (12. November 2026)</li><li>2026.12 (17. Dezember 2026)</li><li>2027.01 (21. Januar 2027)</li></ul> | <ul><li>2027.01 (21. Januar 2027)</li></ul> |
 >
 >Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Funktionen, die diesem Zeitplan nicht entsprechen, weisen eines der folgenden Badges auf:
+>
+>* [!BADGE Gleichzeitige Veröffentlichung]{type=Neutral}
+>   Diese Funktionen werden aufgrund technischer Situationen, wie z. B. der Veröffentlichungszeitpläne anderer Adobe-Produkte, die Teil der Funktion sind, gleichzeitig in der Vorschau- und Produktionsumgebung veröffentlicht.
+>* [!BADGE Aus Zeitplan]{type=Neutral}
+>   Diese Funktionen werden außerhalb des standardmäßigen Workfront-Veröffentlichungszeitplans veröffentlicht.
 
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [KI-Verbesserungen](#ai-enhancements)
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Verbesserungen bei Projekten](#project-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
@@ -50,6 +56,16 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Umgebungs-Promotion für Workfront Planning verfügbar</a></p>
+                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
+                <p>Workfront-Administratoren können jetzt Workfront Planning-Arbeitsbereiche und deren Objekte von einer Umgebung in eine andere übertragen.</p>
+            </td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Berechtigungen zum Entfernen eines beigefügten benutzerdefinierten Formulars</a></p>
                 <p>Beim Freigeben eines benutzerdefinierten Formulars können Sie jetzt Berechtigungen für Benutzende mit Verwaltungszugriff festlegen, um das Formular aus Objekten zu entfernen, mit denen es verbunden ist.</p>
             </td>
@@ -63,7 +79,7 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
                 <p>Sie können jetzt ein benutzerdefiniertes Feld als Favorit markieren, sodass es oben in den verfügbaren Feldern angezeigt wird, wenn Sie Filter, Ansichten und Gruppierungen erstellen, sowie in der Feldbibliothek von Form Designer.</p>
             </td>
             <td><p>29. Oktober 2026</p></td>
-            <td><p>12. November 2026</p></td>
+            <td><p>17. Dezember 2026</p></td>
             <td><p>21. Januar 2027</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Der Änderungsverlauf verfolgt jetzt Canvas Dashboard-Objekte</a></p>
-                <p>Der Änderungsverlauf zeichnet jetzt auf, wer ein Arbeitsflächen-Dashboard oder einen Bericht erstellt, aktualisiert oder gelöscht hat, wann und was sich geändert hat.</p>
                 <p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Der Änderungsverlauf zeichnet jetzt auf, wer ein Arbeitsflächen-Dashboard oder einen Bericht erstellt, aktualisiert oder gelöscht hat, wann und was sich geändert hat.</p>
             </td>
             <td><p>29. Oktober 2026</p></td>
             <td><p>29. Oktober 2026</p></td>
@@ -216,9 +232,18 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Auflösen von Kommentar-Threads</a></p>
+                <p>Sie können jetzt einen Kommentar-Thread auflösen, um ihn für alle Betrachter aus dem Kommentar-Stream auszublenden, und ihn später auflösen, um ihn zurückzubringen.</p>
+            </td>
+            <td><p>12. November 2026</p></td>
+            <td><p>17. Dezember 2026</p></td>
+            <td><p>21. Januar 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Nicht verfügbare Statusanleitung</a></p>
-                <p>Wenn ein gespeichertes Problem, eine Aufgabe oder ein Projektstatus nicht verfügbar ist, wird jetzt eine Warnung mit einer Erklärung dafür angezeigt und der gespeicherte Status-Code wird angezeigt.</p>
                 <p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Wenn ein gespeichertes Problem, eine Aufgabe oder ein Projektstatus nicht verfügbar ist, wird jetzt eine Warnung mit einer Erklärung dafür angezeigt und der gespeicherte Status-Code wird angezeigt.</p>
             </td>
             <td><p>4. November 2026</p></td>
             <td><p>4. November 2026</p></td>
@@ -330,6 +355,18 @@ Für folgende Elemente gibt es derzeit keine Updates in der Version:
 
 ## Desktop Proofing Viewer-Updates
 
+### Version 2.4.0
+
+>[!NOTE]
+>
+>Produktionsversion für alle Kunden: 11. November 2026
+
+Der Desktop Proofing Viewer wurde von Version 2.3.0 auf Version 2.4.0 aktualisiert. Diese Aktualisierung umfasst Aktualisierungen der internen Tools und wirkt sich nicht auf die Endbenutzerfunktionen aus.
+
+Dieses Update ist sowohl für macOS als auch für Windows.
+
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ### Version 2.3.0
 
 >[!NOTE]
@@ -346,6 +383,31 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
+
+### Ideenraum für Workfront Planning jetzt in Open Beta verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 12. November 2026
+>Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktion für alle: 12. November 2026
+>[!BADGE Gleichzeitige Veröffentlichung]{type=Neutral}
+
+>[!NOTE]
+>
+>Diese Funktion ist als offenes Beta-Programm verfügbar. Ideationsraum steht nur Kunden zur Verfügung, die zusätzlich zu einem Workflow-Paket ein Workfront Planning-Paket erworben haben. Sie ist nicht für Kunden verfügbar, die Workfront Planning als eigenständiges Produkt erworben haben.
+
+Workfront Planning umfasst jetzt Ideation Space, einen kollaborativen Bereich, in dem Teams Ideen erfassen, organisieren, verfeinern und bewerten können, bevor sie in umsetzbare Arbeit umgewandelt werden. Ideation Space hilft Stakeholdern dabei, das Brainstorming zu zentralisieren, Prioritäten auszurichten und genehmigte Konzepte nahtlos in Planungs-Workflows zu übertragen.
+
+Mithilfe der CX Enterprise Coworker können Sie jetzt Ideenbeschreibungen erstellen, die Sie in Dateien oder in Workfront-Planungsdatensätze exportieren können.
+
+Mit Ideation Space können Sie:
+
+* Erfassen Sie Ideen und arbeiten Sie mit Ihren Teams und Stakeholdern zusammen.
+* Ideen mit Einblick in den Aufnahmeprozess organisieren, bewerten und priorisieren.
+* Genehmigte Ideen in Planungsunterlagen und Workflows umwandeln.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit dem Ideenraum für Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ### Veraltete Felder für Abrechnung und Kostensatz in Aufgabengebiet-Listenansichten werden entfernt
 
