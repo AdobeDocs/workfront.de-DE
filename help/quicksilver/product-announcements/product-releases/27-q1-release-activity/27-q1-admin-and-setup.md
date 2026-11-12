@@ -4,10 +4,10 @@ description: Verbesserungen für Administratoren im ersten Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 ---
 
 # Verbesserungen für Administratoren im ersten Quartal 2027
@@ -15,6 +15,27 @@ ht-degree: 3%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2027 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Umgebungs-Promotion für Workfront Planning verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 12. November 2026
+>Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktion für alle: 12. November 2026
+>[!BADGE Gleichzeitige Veröffentlichung]{type=Neutral}
+
+>[!NOTE]
+>
+>Umgebungsaktion für Workfront Planning ist nur für Kunden verfügbar, die ein Workfront Planning-Paket zusätzlich zu einem Workflow-Paket erworben haben. Sie ist nicht für Kunden verfügbar, die Workfront Planning als eigenständiges Produkt erworben haben.
+
+Workfront-Administratoren können jetzt Workfront Planning-Arbeitsbereiche und deren Objekte von einer Umgebung in eine andere übertragen, sodass Sie Konfigurationen nicht mehr manuell neu erstellen müssen. Dies spart Zeit und verringert die Fehler, die bei der manuellen Einrichtung auftreten.
+
+Datensätze, Automatisierungen und Felder, die nicht zu den exportierten Arbeitsbereichen gehören, können nicht beworben werden.
+
+Diese Funktion erfordert Workflow- und Planungspakete für Prime oder Ultimate, eine Standardlizenz und Workfront-Administratorzugriff.
+
+Weitere Informationen finden Sie [Verwenden der Umgebungsförderung für Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Berechtigungen zum Entfernen eines beigefügten benutzerdefinierten Formulars
 
@@ -33,7 +54,7 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 >[!NOTE]
 >
 >Vorschau: 29. Oktober 2026
->Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktionsschnellveröffentlichung: 17. Dezember 2026
 >Produktion für alle: 21. Januar 2027
 
 Sie können jetzt ein benutzerdefiniertes Feld als Favorit markieren, entweder in der Feldliste oder im Designer für benutzerdefinierte Formulare. Wenn Sie in bestimmten Listen und Berichten (z. B. Projekt-, Aufgaben- und Problemlisten) arbeiten und Filter, Ansichten und Gruppierungen erstellen, werden die Lieblingsfelder oben in der Liste der verfügbaren Felder im Abschnitt Vorgeschlagen angezeigt.
@@ -69,4 +90,4 @@ Der Änderungsverlauf zeichnet jetzt Änderungen an den Arbeitsflächen-Dashboar
 
 Um Änderungen am Arbeitsflächen-Dashboard nachzuverfolgen, müssen Sie die Objekte **Dashboard**, **Report** und **Report Config** unter „Setup“ > „Tracking ändern“ > „Konfiguration“ konfigurieren.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
