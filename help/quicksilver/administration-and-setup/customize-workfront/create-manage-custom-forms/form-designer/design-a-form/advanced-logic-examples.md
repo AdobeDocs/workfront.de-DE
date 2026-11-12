@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # Beispiele für erweiterte Logik in benutzerdefinierten Formularen
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 Der/die Benutzende sieht Validierungsfehler, wenn er/sie nicht die richtige Anzahl von Optionen auswählt.
 
 ![Beispiele für Validierungsfehler](assets/min-max-selections.png)
+
+## Validierung der Formel in Trigger nur bei sichtbarem Feld
+
+Die Überprüfungslogik wird immer aktiviert, auch wenn das Feld nicht angezeigt wird. Wenn ein(e) Benutzende(r) mit einem Feld interagiert, das eine Validierungslogik enthält, und das Feld später durch die Anzeigelogik ausgeblendet wird, tritt der Validierungsfehler auch dann auf, wenn der Wert des Felds gelöscht wurde, bevor das Feld ausgeblendet wurde.
+
+Problemumgehung: Verwenden Sie dieselbe Bedingung aus der Anzeigeregel in der Validierungsformel, um sicherzustellen, dass die Validierung nur ausgelöst wird, wenn das Feld sichtbar ist.
+
+Sie haben beispielsweise zwei Felder, A und B.
+Feld B verfügt über eine Anzeigeregel, die es nur sichtbar macht, wenn der Wert von Feld A `"show"` ist.
+
+Feld B enthält außerdem die folgende Validierungsformel:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+Um Feld B nur dann zu validieren, wenn es sichtbar ist, können Sie die Anzeigebedingung in die Validierungsformel einbeziehen:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+Auf diese Weise wird der Validierungsfehler nur angezeigt, wenn Feld A auf `"show"` eingestellt ist und die anderen Validierungsbedingungen erfüllt sind.
+
