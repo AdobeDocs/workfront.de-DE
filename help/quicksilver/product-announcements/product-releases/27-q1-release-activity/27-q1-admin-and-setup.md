@@ -4,10 +4,10 @@ description: Verbesserungen für Administratoren im ersten Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 3%
 ---
 
 # Verbesserungen für Administratoren im ersten Quartal 2027
@@ -20,10 +20,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 ver
 
 >[!NOTE]
 >
->Vorschau: 12. November 2026
->Produktions-Schnellveröffentlichung: 12. November 2026
->Produktion für alle: 12. November 2026
->[!BADGE Gleichzeitige Veröffentlichung]{type=Neutral}
+>Schnellveröffentlichung für Produktion und Sandboxes: 12. November 2026
+>Produktion, Vorschau, Sandboxes für alle: werden bald kommuniziert
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 >[!NOTE]
 >
@@ -90,4 +89,4 @@ Der Änderungsverlauf zeichnet jetzt Änderungen an den Arbeitsflächen-Dashboar
 
 Um Änderungen am Arbeitsflächen-Dashboard nachzuverfolgen, müssen Sie die Objekte **Dashboard**, **Report** und **Report Config** unter „Setup“ > „Tracking ändern“ > „Konfiguration“ konfigurieren.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).

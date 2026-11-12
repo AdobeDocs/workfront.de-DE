@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 
@@ -57,12 +57,12 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Umgebungs-Promotion für Workfront Planning verfügbar</a></p>
-                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
+                <p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
                 <p>Workfront-Administratoren können jetzt Workfront Planning-Arbeitsbereiche und deren Objekte von einer Umgebung in eine andere übertragen.</p>
             </td>
+            <td><p>In Kürze zu kommunizieren</p></td>
             <td><p>12. November 2026</p></td>
-            <td><p>12. November 2026</p></td>
-            <td><p>12. November 2026</p></td>
+            <td><p>In Kürze zu kommunizieren</p></td>
         </tr>
         <tr>
             <td>
@@ -380,7 +380,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -431,13 +431,13 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueFormat=HTML
     &quot;
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
