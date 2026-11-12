@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 7%
@@ -180,6 +180,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Gruppenadministratoren können Geschäftsprofile verwalten</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Gruppenadministratoren können jetzt Geschäftsprofile für die von ihnen verwalteten Gruppen erstellen, bearbeiten und löschen, ohne dass sie Systemadministratorzugriff benötigen.</p>
             </td>
             <td><p>30. Juli 2026</p></td>
@@ -895,6 +896,11 @@ Im Laufe der Zeit haben wir erweiterte Raten-Management-Funktionen und spezielle
 
 Mit der Version vom Januar 2027 sind die alten Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** nicht mehr in der Workfront-API oder in Aufgabengebiet-Listenansichten verfügbar, einschließlich Filter-/Ansicht-/Gruppierungskonfigurationen (sowohl Direktverweise als auch berechnete Spalten im Textmodus).
 
+Obwohl diese Felder noch bis Januar verfügbar sind, funktionieren sie möglicherweise nicht ordnungsgemäß. Admins, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows aktualisieren, um die empfohlenen Erlebnisse bei der Verwaltung und Überprüfung von Aufgabengebieten zu verwenden:
+
+* Greifen Sie direkt über die Seite „Aufgabengebiet“ > „Tarife“ auf die Tarife für Aufgabengebiete zu und verwalten Sie sie.
+* Verwenden Sie Tarifberichte, um Tarifinformationen in allen Aufgabengebieten zu überprüfen, zu analysieren und in Berichten zu erfassen.
+
 Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (verwenden Sie nach Bedarf `costRates` oder `billingRates`):
 
     &quot;
@@ -905,13 +911,6 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueExpression=CONCAT({startDate},“ - &quot;,{endDate},“: &quot;,{value})
     valueFormat=HTML
     &quot;
-
-Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizierten Tarifverwaltungserfahrungen:
-
-* Greifen Sie direkt über die Seite „Aufgabengebiet“ > „Tarife“ auf die Tarife für Aufgabengebiete zu und verwalten Sie sie.
-* Verwenden Sie Tarifberichte, um Tarifinformationen in allen Aufgabengebieten zu überprüfen, zu analysieren und in Berichten zu erfassen.
-
-Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
 Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
