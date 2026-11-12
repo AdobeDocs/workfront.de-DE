@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 4%
 ---
 
@@ -387,10 +387,28 @@ Produktanforderung: Workfront Workflow oder Workfront Planning.
 
 Produktanforderung: Alle Kunden
 
-Mit Reporting-Tools können Sie Canvas-Dashboards über Chat erstellen und verwalten. Beschreiben Sie den gewünschten Bericht in einfacher Sprache, und die KI-Agentenplattform erstellt das Dashboard und die Widgets für Sie, indem Sie Ihre Workfront-Daten verwenden.
+### Pinnwände
+
+| Titel | Tool-Name | Funktion | Aktion |
+| --- | --- | --- | --- |
+| Board abrufen | `boards_get_board` | Ruft Board-Daten mit unterschiedlichen Detailstufen ab. | Lesen |
+| Karte abrufen | `boards_get_card` | Ruft eine einzelne Karte nach Pinnwand-ID und Karten-ID ab. | Lesen |
+| Karte erstellen | `boards_create_card` | Erstellt eine neue Karte auf einer Pinnwand in einer bestimmten Spalte. | Schreiben |
+| Karte aktualisieren | `boards_update_card` | Aktualisiert eine Karte, einschließlich Skalarfeldern, Verschiebungen, Archivierungsstatus, Tags, Mitgliedern oder trennt sie von Workfront. | Schreiben |
+| Karte verbinden | `boards_connect_card` | Erstellt eine Workfront-Aufgabe oder -Anfrage und verknüpft sie mit einer -Karte. | Schreiben |
+| Pinnwand-Tag erstellen | `boards_create_board_tag` | Erstellt ein neues Tag im Tag-Katalog einer Pinnwand. | Schreiben |
+| Checklisten-Element erstellen | `boards_create_checklist_item` | Fügt einer Karte ein Checklistenelement oder eine Teilaufgabe hinzu. | Schreiben |
+| Checklisten-Element aktualisieren | `boards_update_checklist_item` | Aktualisiert den Namen, die Beschreibung, das Fälligkeitsdatum, den Status oder die Schätzung eines Checklisten-Elements. | Schreiben |
+| Checklisten-Element löschen | `boards_delete_checklist_item` | Löscht ein Checklisten-Element von der übergeordneten Karte. | Schreiben |
+| Spalte erstellen | `boards_create_column` | Fügt einer Pinnwand eine neue Spalte hinzu. | Schreiben |
+| Spalte aktualisieren | `boards_update_column` | Benennt eine Pinnwand-Spalte um. | Schreiben |
+| Spalte löschen | `boards_delete_column` | Löscht eine Pinnwand-Spalte und verschiebt bei Bedarf zuerst die Karten. | Schreiben |
+| Pinnwand erstellen | `boards_create_board` | Erstellt eine neue Basis-Pinnwand, optional innerhalb eines Arbeitsbereichs. | Schreiben |
 
 
 ### Dashboards für die Arbeitsfläche
+
+Mit den Tools für Arbeitsflächen-Dashboards können Sie über den Chat Arbeitsflächen-Dashboards erstellen und verwalten. Beschreiben Sie den gewünschten Bericht in einfacher Sprache, und die KI-Agentenplattform erstellt das Dashboard und die Widgets für Sie, indem Sie Ihre Workfront-Daten verwenden.
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Der Workfront MCP-Server verfolgt die Benutzerinteressen von Kunden. Die erfasst
 Benutzer können die Telemetriesammlung deaktivieren, indem sie sich an den Support wenden, um eine Anfrage zu stellen.
 
 
-## Weitere Tools in Kürze verfügbar
-
-Wir arbeiten daran, dem Workfront MCP-Server in Zukunft die folgenden Tools hinzuzufügen:
-
-* Pinnwände
