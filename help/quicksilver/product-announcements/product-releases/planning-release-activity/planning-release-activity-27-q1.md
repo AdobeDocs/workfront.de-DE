@@ -18,16 +18,29 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 0%
+source-wordcount: '1716'
+ht-degree: 1%
 ---
 # Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2027
 
 In diesem Artikel werden die Funktionen beschrieben, die in der Version vom ersten Quartal 2027 für Workfront Planning veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Planungs-Automatisierung freigeben
+
+>[!NOTE]
+>
+>Vorschau: 12. November 2026
+>Produktions-Schnellveröffentlichung: 12. November 2026
+>Produktion für alle: 12. November 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Neue Workfront-Planungsautomatisierungen sind jetzt standardmäßig nur noch den Besitzenden verfügbar, anstatt automatisch für alle Benutzenden im Arbeitsbereich freigegeben zu werden. Besitzer können auswählen, wer Zugriff erhält, indem sie die Automatisierung mit anderen teilen. Sie können anderen Benutzern die Zugriffsebene **Verwalten**, **Bearbeiten** oder **Ausführen** zuweisen. Vorhandene Automatisierungen bleiben für die Workspace-Benutzer freigegeben, sodass der aktuelle Zugriff nicht beeinträchtigt wird.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 ## Umgebungs-Promotion für Workfront Planning verfügbar
 
