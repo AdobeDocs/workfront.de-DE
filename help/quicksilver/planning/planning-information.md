@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 72%
-
+source-wordcount: '796'
+ht-degree: 66%
 ---
-
 # Allgemeine Informationen und Artikelindex für Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
@@ -143,3 +141,11 @@ Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Wor
 ## Workfront Planning als eigenständiges Produkt
 
 Kunden können Workfront Planning erwerben, ohne eine Workflow-Lizenz zu erwerben. Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
+## Workfront Planning and Ideation Space (Beta)
+
+Der Adobe Ideation-Bereich ist Adobes KI-gestützte strategische Ideationsfunktion, die direkt in Workfront Planning integriert ist. Es bietet Marketing-Teams einen strukturierten, dateninformierten Ausgangspunkt für die Kampagnenstrategie. Sie ersetzen manuelle Recherchen und Rätselraten durch KI-generierte Briefs, die auf der realen Leistungsgeschichte eines Unternehmens basieren.
+
+Diese Funktion ist derzeit als Beta-Programm verfügbar.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit Ideationsraum für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).

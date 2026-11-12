@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3799'
 ht-degree: 2%
 ---
 # Aktualisieren der Arbeit
@@ -653,41 +653,39 @@ So heften Sie einen Kommentar-Thread an:
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## Auflösen von Kommentar-Threads
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+Um Speicherplatz zu sparen und die Navigation auf der Registerkarte Kommentare zu vereinfachen, können Sie Kommentar-Threads auflösen, wodurch sie im Aktualisierungsverlauf ausgeblendet werden.
 
-Consider the following when resolving comments: 
+Beachten Sie beim Auflösen von Kommentaren Folgendes:
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* Sie können Kommentar-Threads auflösen, nicht einzelne Kommentare. Die Funktion ist nur für den ersten Kommentar in einem Thread verfügbar.
+* Kommentare, die Teil eines aufgelösten Threads sind, sind schreibgeschützt.
+* Sie können Kommentare, die Teil eines aufgelösten Threads sind, nicht bearbeiten, löschen, beantworten, liken oder anheften.
+* Sie können aufgelöste Kommentare anzeigen oder für sich selbst ausblenden.
+* Sie können Threads auflösen, wodurch sie mit allen Funktionen zurück an den Aktualisierungsstrom geleitet werden.
 
-To resolve comment threads: 
+So lösen Sie Kommentar-Threads auf:
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. Wechseln Sie zu einem Objekt, das über **Registerkarte** verfügt, klicken Sie **linken Bereich auf** Updates und klicken Sie dann auf die Registerkarte **Kommentare**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Weitere Informationen finden Sie unter [Registerkarte „Aktualisierungen“ - Übersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. Klicken Sie im oberen Kommentar eines vorhandenen Threads auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Kommentar und dann auf **Auflösen**.
 
-   ************add a screen shot***************
+   ![Menü „Mehr kommentieren“ mit Optionen „Anheften“ und „Auflösen“](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   Das Feld **Kommentar auflösen** wird geöffnet und erinnert Sie daran, dass der Kommentar im Bereich Aktualisierungen ausgeblendet wird und Sie nicht mehr mit ihm interagieren können.
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. (Optional) Wählen Sie die Einstellung **Nicht mehr anzeigen**, wenn Sie nicht möchten, dass die Warnung jedes Mal angezeigt wird, wenn Sie Kommentare auflösen. Sie können das Feld **Kommentar auflösen** nicht erneut anzeigen, wenn Sie diese Einstellung auswählen.
+1. Klicken Sie **Resolve**.
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   Der Thread wird aufgelöst und alle Kommentare im Thread werden auf der Registerkarte **Aktualisierungen** ausgeblendet.
+1. (Optional) Klicken Sie auf den Filter in der oberen rechten Ecke der Registerkarte „Aktualisierungen“ und deaktivieren Sie die Einstellung **Aufgelöste Kommentare ausblenden**. Gelöste Threads werden auf der Registerkarte Aktualisierungen angezeigt. Diese Einstellung wirkt sich nur auf Ihre Ansicht aus. Andere Benutzer können die aufgelösten Kommentare ausblenden.
 
 </div>
--->
 
 ## Löschen eines Kommentars oder einer Antwort
 
@@ -700,7 +698,7 @@ Kein Workfront-Benutzer (einschließlich der Workfront-Administratorin bzw. -Adm
 1. Navigieren Sie zu dem Kommentar oder der Antwort, den/die Sie löschen möchten.
 1. Klicken Sie auf das **Mehr** neben dem Kommentar oder der Antwort, den/die Sie löschen möchten, und klicken Sie dann auf **Löschen**.
 
-   ![Menü Stream-Kommentar aktualisieren Mehr](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Menü „Mehr kommentieren“ mit Optionen „Anheften“ und „Auflösen“](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. Klicken Sie in der angezeigten Meldung auf **Löschen**.
 
