@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
@@ -199,7 +199,7 @@ Der/die Benutzende sieht Validierungsfehler, wenn er/sie nicht die richtige Anza
 
 ![Beispiele für Validierungsfehler](assets/min-max-selections.png)
 
-## Validierung der Formel in Trigger nur bei sichtbarem Feld
+### Validierung der Formel in Trigger nur bei sichtbarem Feld
 
 Die Überprüfungslogik wird immer aktiviert, auch wenn das Feld nicht angezeigt wird. Wenn ein(e) Benutzende(r) mit einem Feld interagiert, das eine Validierungslogik enthält, und das Feld später durch die Anzeigelogik ausgeblendet wird, tritt der Validierungsfehler auch dann auf, wenn der Wert des Felds gelöscht wurde, bevor das Feld ausgeblendet wurde.
 
