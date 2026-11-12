@@ -63,7 +63,7 @@ Die folgenden Artikel enthalten Informationen zu Ideation Space und geben Ihnen 
 
 * Beginnen Sie hier, um ein allgemeines Verständnis von Ideation Space in Workfront zu erhalten: [Erste Schritte mit Ideation Space für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 * Stellen Sie als System-Admin sicher, dass Sie verstehen, wie Sie Ihrem Unternehmen Ideation-Raum zur Verfügung stellen: [Zugriff erforderlich, um den Ideation-Raum zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* Wenn Sie bereit sind, Ihre erste Kampagnenstrategie zu erstellen, erfahren Sie, wie Sie mithilfe von Ideation Space Briefs erstellen[ (Erstellen Sie Briefs im Ideation Space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* Wenn Sie bereit sind, Ihre erste Kampagnenstrategie zu erstellen, erfahren Sie, wie Sie mithilfe von Ideation Space Briefs erstellen[&#x200B; (Erstellen Sie Briefs im Ideation Space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * Wenn Sie von Workfront Planning aus arbeiten, erfahren Sie, wie Sie Datensätze mithilfe von Ideation Space erstellen: [Erstellen oder Bearbeiten von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
 * Zusammenarbeit mit anderen auf Ideation Space: [Teilen Sie einen Ideation Space mit anderen](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 
