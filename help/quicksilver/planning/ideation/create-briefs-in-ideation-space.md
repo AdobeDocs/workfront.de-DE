@@ -266,7 +266,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    >[!TIP]
    >
    >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
-   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche ](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
+   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche &#x200B;](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
    > 
 1. Klicken Sie auf das Symbol **Workfront Connected Planning-Datensätze hinzufügen** ![Workfront Connected Planning-Datensätze hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
 
