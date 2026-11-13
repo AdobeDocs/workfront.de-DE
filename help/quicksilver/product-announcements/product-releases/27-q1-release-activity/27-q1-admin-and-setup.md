@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 3%
 ---
 
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 ver
 >[!NOTE]
 >
 >Schnellveröffentlichung für Produktion und Sandboxes: 12. November 2026
->Produktion, Vorschau, Sandboxes für alle: werden bald kommuniziert
+>Produktion, Vorschau, Sandboxes für alle: 17. Dezember 2026
 >[!BADGE Außerplanmäßig]{type=Neutral}
 
 >[!NOTE]
@@ -89,4 +89,4 @@ Der Änderungsverlauf zeichnet jetzt Änderungen an den Arbeitsflächen-Dashboar
 
 Um Änderungen am Arbeitsflächen-Dashboard nachzuverfolgen, müssen Sie die Objekte **Dashboard**, **Report** und **Report Config** unter „Setup“ > „Tracking ändern“ > „Konfiguration“ konfigurieren.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
