@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # Workfront-Kenntnisse in CX Enterprise Coworker
 
@@ -59,19 +59,27 @@ Diese Fähigkeit fragt Workfront Planning-Objekte ab und verwaltet sie, z. B.:
 * Einträge
 * Geschäftsregeln
 
-<!--
+### Ideation Space (Beta)-Fähigkeiten
 
-### Ideation space skills
+>[!NOTE]
+>
+>Ideationsraum ist derzeit in der Beta-Phase als zusätzliche Funktion von Workfront Planning verfügbar.
+>
+>Weitere Informationen zu Ideation Space finden Sie unter [Erste Schritte mit Ideation Space für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+Ideation Space ist die KI-gestützte strategische Ideationsfunktion von Adobe, die direkt in Workfront Planning integriert ist. Es bietet Marketing-Teams einen strukturierten, dateninformierten Ausgangspunkt für die Kampagnenstrategie. Sie ersetzen manuelle Recherchen und Rätselraten durch KI-generierte Briefs, die auf der realen Leistungsgeschichte eines Unternehmens basieren.
 
-* Thing 1
-* Thing 2
-* Other thing
+Coworker hat verschiedene Fähigkeiten, mit Workfront Planning Ideation Space zu arbeiten. Diese umfassen Maßnahmen wie:
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* Kampagnenideen - Ideenkarten für Kampagnen und andere Themen auf der Arbeitsfläche mithilfe der angehängten Quelldokumente und anderen Quellen sammeln und generieren. Dies ist der wichtigste Ausgangspunkt für Ideen.
+* Kampagnenunterhaltung - Arbeiten Sie mit Kampagnenideen im Gespräch innerhalb der Ideation Space-App.
+* Kampagnenübersicht - Erstellen und verfeinern Sie eine strukturierte Kampagnenübersicht mit Leitplanken, um sie vollständig und auf dem Laufenden zu halten.
+* Fragen und Antworten zu Dokumenten - Stellen Sie Fragen zu Dokumenten, die Sie Ihrer Ideensitzung beigefügt haben.
+* Forschung - Ziehen Sie Forschung ein, um Ihre Idee auf der Arbeitsfläche zu informieren.
+* Einstiegsaufforderungen - Hier erhalten Sie Vorschläge zum Starten oder Erweitern Ihrer Idee.
+* Arbeitsfläche öffnen - Startet eine Ideation Space-Arbeitsfläche oder springt in sie hinein (wird verwendet, wenn von einem regulären Chat außerhalb der App aus gestartet wird).
 
 ## Workfront-Kenntnisse
 

@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # CX Enterprise Coworker-Eingabeaufforderungen und Best Practices
@@ -355,7 +355,7 @@ Siehe Beispiel-Eingabeaufforderungen für Dokument- und Asset-Genehmigungen in d
 * Können Sie anzeigen, wer dieses Projekt geändert hat und was sie geändert haben?
 * Ich muss alle Aktualisierungen sehen, die in der letzten Woche an diesem Datensatz vorgenommen wurden
 
-### Verwenden von System Designer in Workfront Planning
+### Verwenden von Planning Designer in Workfront Planning
 
 * [Erstellen und Konfigurieren von Arbeitsbereichen](#create-and-configure-workspaces)
 * [Datensatztypen definieren](#define-record-types)
@@ -386,3 +386,15 @@ Siehe Beispiel-Eingabeaufforderungen für Dokument- und Asset-Genehmigungen in d
 * Erstellen Sie eine Zeitleisten -Ansicht in Planning, um meinen Kampagnenkalender nach Start- und Enddatum anzuzeigen
 * Meinen Planungsinitiativen eine neue Tabellenansicht hinzufügen, die nur den aktiven Status filtert
 * Duplizieren Sie meine aktiven Planning-Kampagnen und ändern Sie die Sortierung.
+
+### Mitarbeiter in Ideation Space für Workfront Planning (Betaversion)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Kampagnenideen - Ideenkarten für Kampagnen und andere Themen auf der Arbeitsfläche mithilfe der angehängten Quelldokumente und anderen Quellen sammeln und generieren. Dies ist der wichtigste Ausgangspunkt für Ideen.
+* Kampagnenunterhaltung - Arbeiten Sie mit Kampagnenideen im Gespräch innerhalb der Ideation Space-App.
+* Kampagnenübersicht - Erstellen und verfeinern Sie eine strukturierte Kampagnenübersicht mit Leitplanken, um sie vollständig und auf dem Laufenden zu halten.
+* Fragen und Antworten zu Dokumenten - Stellen Sie Fragen zu Dokumenten, die Sie Ihrer Ideensitzung beigefügt haben.
+* Forschung - Ziehen Sie Forschung ein, um Ihre Idee auf der Arbeitsfläche zu informieren.
+* Einstiegsaufforderungen - Hier erhalten Sie Vorschläge zum Starten oder Erweitern Ihrer Idee.
+* Arbeitsfläche öffnen - Startet eine Ideation Space-Arbeitsfläche oder springt in sie hinein (wird verwendet, wenn von einem regulären Chat außerhalb der App aus gestartet wird).

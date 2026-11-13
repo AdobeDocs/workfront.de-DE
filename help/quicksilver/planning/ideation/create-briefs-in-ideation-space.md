@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2125'
 ht-degree: 1%
 ---
 
@@ -233,6 +233,9 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    >
    >Sie können Dateien nicht direkt zur Zusammenfassung hinzufügen. Sie müssen die Dateiinformationen zuerst auf die Karten übertragen, die Sie an den Brief senden können.
 
+1. (Optional) Klicken Sie auf **Chats**-Symbol ![Chats-Symbol](assets/chats-icon-coworker.png) in der oberen rechten Ecke des Bedienfelds „Mitarbeiter“ und klicken Sie dann auf **Neuer Chat**, um eine neue Eingabeaufforderung zu öffnen, oder klicken Sie auf einen der vorherigen Chats in der Liste, um zu einem älteren Chat zurückzukehren.
+
+   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
 
 1. Klicken Sie auf das **Suchen**-Symbol ![Suchen](assets/search-icon.png), um auf der Ideenarbeitsfläche nach Elementen zu suchen, und klicken Sie dann, wenn es in der Liste angezeigt wird, um dorthin zu navigieren.
 
