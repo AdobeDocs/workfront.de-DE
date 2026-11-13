@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 3%
 ---
 
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 ver
 >[!NOTE]
 >
 >Schnellveröffentlichung für Produktion und Sandboxes: 12. November 2026
->Produktion, Vorschau, Sandboxes für alle: werden bald kommuniziert
+>Produktion, Vorschau, Sandboxes für alle: 17. Dezember 2026
 >[!BADGE Außerplanmäßig]{type=Neutral}
 
 >[!NOTE]

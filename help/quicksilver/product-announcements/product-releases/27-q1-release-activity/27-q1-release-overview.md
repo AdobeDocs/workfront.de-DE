@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -60,9 +60,9 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
                 <p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
                 <p>Workfront-Administratoren können jetzt Workfront Planning-Arbeitsbereiche und deren Objekte von einer Umgebung in eine andere übertragen.</p>
             </td>
-            <td><p>In Kürze zu kommunizieren</p></td>
+            <td><p>17. Dezember 2026</p></td>
             <td><p>12. November 2026</p></td>
-            <td><p>In Kürze zu kommunizieren</p></td>
+            <td><p>17. Dezember 2026</p></td>
         </tr>
         <tr>
             <td>
