@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 3%
 ---
 # Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)
@@ -64,9 +64,8 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 * [Benutzerdefinierte Datenobjekte](#custom-data-objects)
 * [Organisationsobjekte](#organization-objects)
 * [Andere Konfigurationsobjekte](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Workfront Planning-Objekte](#workfront-planning-objects)
+
 
 ### Arbeitsobjekte
 
@@ -139,25 +138,24 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Workfront Planning-Objekte
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning-Objekte sind nur für Kunden verfügbar, die zusätzlich zu einem Workfront-Paket ein Planning-Paket erworben haben.
+>
+>Die Umgebungs-Promotion ist nicht für Kunden verfügbar, die Workfront Planning als eigenständiges Produkt erworben haben.
 
-| Promotable object | Included promotable linked objects |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Arbeitsbereiche | Workspace-Abschnitte |
+| Eintragstypen | Verbundene Datensatztypen* <br> Felder <br> Ansichten <br> Hierarchien <br> Anfrageformularen |
+| Freigabe für alle Objekte | Gruppen <br> Teams <br> Aufgabengebiete <br> Benutzer <br>Unternehmen |
 
+*Nur verbundene Datensatztypen, die zu den importierten Arbeitsbereichen gehören, werden in die Zielumgebung übertragen.
+
+Weitere Informationen finden Sie [Verwenden der Umgebungsförderung für Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Umgebungsförderungsstatus
 
@@ -195,7 +193,7 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
+   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>

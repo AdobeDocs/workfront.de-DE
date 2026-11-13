@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2146'
 ht-degree: 4%
 ---
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
@@ -102,6 +102,8 @@ ODER
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Verwalten Sie die Berechtigungen für den Arbeitsbereich und den Datensatztyp, für den Sie Automatisierungen erstellen möchten. </p>
    <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben</p>
+   <p>Ersteller von Automatisierungen haben Verwaltungsberechtigungen für ihre eigenen Automatisierungen</p>
+   <p>Sie benötigen zur Bearbeitung der Automatisierung mindestens Bearbeitungsberechtigungen und zur Ausführung Berechtigungen für Ausführen .</p>
    </td> 
   </tr>  
 </tbody> 
@@ -298,7 +300,7 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
        >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
@@ -361,3 +363,79 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * Klicken Sie **Löschen**, um die Automatisierung zu löschen. Eine gelöschte Automatisierung kann nicht wiederhergestellt werden.
 
      Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
+
+## Automatisierungen freigeben
+
+Als Ersteller einer Automatisierung haben Sie standardmäßig Verwaltungsberechtigungen für sie.
+
+Darüber hinaus können Sie sie für andere Benutzer oder Teams freigeben.
+
+Benutzende, die Teil des Arbeitsbereichs sind, erhalten standardmäßig keine Berechtigungen für die Automatisierungen im Arbeitsbereich. Sie müssen eine Automatisierung speziell für sie freigeben.
+
+1. Navigieren Sie zum Datensatztyp, dessen Automatisierungen Sie freigeben möchten.
+1. Klicken Sie auf **Menü** Mehr“ rechts neben dem Namen des Datensatztyps und dann auf **Automatisierungen**.
+
+   Eine Liste von Automatisierungen wird geöffnet.
+1. (Bedingt) Wenn die Liste keine Automatisierungen enthält, erstellen Sie eine, wie im Abschnitt [Konfigurieren einer Automatisierung in Workfront Planning](#configure-an-automation-in-workfront-planning) in diesem Artikel beschrieben.
+1. Klicken Sie in der Automatisierungsliste auf das **Mehr**-Menü rechts neben dem Automatisierungsnamen und dann auf **Freigeben**.
+1. Geben Sie im Freigabefeld den Namen der Benutzer oder Teams ein, für die Sie freigeben möchten. <!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. Wählen Sie aus den folgenden Freigabeberechtigungsebenen:
+
+   | Berechtigungsebene | Zulässige Aktionen |
+   | --- | --- |
+   | **Verwalten** | Kann die Automatisierung löschen, bearbeiten, starten und anzeigen |
+   | **Bearbeiten** | Kann die Automatisierung bearbeiten, starten und anzeigen |
+   | **Ausführen** | Kann die Automatisierung starten und anzeigen |
+
+1. Um die Berechtigungen eines vorhandenen Benutzers zu ändern, öffnen Sie dasselbe Dialogfeld und wählen Sie in der Dropdown-Liste neben seinem Namen eine andere Berechtigungsstufe aus. Oder klicken Sie auf Entfernen , um den gesamten Zugriff zu widerrufen.
+1. Klicken Sie **Speichern**, um die Freigabeänderungen zu speichern.
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->
