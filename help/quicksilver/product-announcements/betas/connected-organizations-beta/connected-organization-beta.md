@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
 # Beta-Programm zur Funktion für verbundene Organisationen
@@ -224,11 +224,13 @@ Senden Sie als Benutzer in der Client-Instanz eine Anfrage wie folgt:
 
    Eine **Anfrage erfolgreich gesendet** wird mit dem Link **Ihre Anfrage anzeigen** angezeigt.
 
-   Die neue Anfrage wird der Anfrageliste mit dem Formularnamen und dem Status &quot;**&quot;**.
+   Die neue Anfrage wird der Anfrageliste mit dem Formularnamen und dem Status **Neu** sowohl in der Client- als auch in der Anbieterinstanz hinzugefügt.
 
    >[!TIP]
    >
    >KI-Antworten können ungenau sein. Überprüfen Sie die ausgefüllten Werte immer, bevor Sie den Vorgang starten.
+
+   Die erstellte Anfrage ist in der Instanz des Anbieters schreibgeschützt.
 
 ### &#x200B;5. Überprüfen der Anfrage und Erstellen eines Projekts
 
@@ -250,7 +252,7 @@ Der **Typ** der Anfrage wird als &quot;**: &lt; Name der Client-Instanz >** mark
    * **Portfolio** und **Program**: Fügen Sie Portfolios oder Programme für das neue Projekt hinzu.
 1. Klicken Sie auf **Erstellen**.
 
-   Die Anfrage in der Instanz des Anbieters ist jetzt mit dem neuen Projekt verknüpft, und der Status der Anfrage ändert sich in **In Bearbeitung**. Die anfragende Instanz des Clients sieht die Statusänderung in der eigenen Kopie der Anfrage.
+   Die Anfrage in der Instanz des Anbieters ist jetzt mit dem neuen Projekt verknüpft, und der Status der Anfrage ändert sich in **In Bearbeitung**, wenn das Projekt den Status „Aktuell“ hat. Die anfragende Instanz des Clients sieht die Statusänderung in der eigenen Kopie der Anfrage.
 
 ### &#x200B;6. Mitwirken am unternehmensübergreifenden Gespräch
 

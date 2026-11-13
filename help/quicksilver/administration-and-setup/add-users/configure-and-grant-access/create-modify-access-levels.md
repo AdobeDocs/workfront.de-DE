@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 12%
 ---
 # Benutzerdefinierte Zugriffsebenen erstellen und ändern
@@ -250,19 +250,18 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
       <td role="rowheader">Benutzende dürfen auf Marken zugreifen</td> 
       <td>Ermöglicht Benutzenden den Zugriff auf und die Verwaltung von GenStudio-Marken in Workfront. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Zugriff auf Markenberechtigungen gewähren</a>.</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">Bereich zum Entwickeln von Ideen deaktivieren</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>Wählen Sie diese Einstellung aus, um Benutzern den Zugriff auf den Ideenraum zu ermöglichen.</p> 
+      <p>Dies ist standardmäßig ausgewählt.</p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Erste Schritte mit Ideationsraum für Adobe Workfront Planning </a>.</p>
+      <p><b>HINWEIS:</b></p>
+      <p>Ideationsraum ist in Beta nur für Kunden verfügbar, die auch über ein Workfront-Planungspaket verfügen.</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 
