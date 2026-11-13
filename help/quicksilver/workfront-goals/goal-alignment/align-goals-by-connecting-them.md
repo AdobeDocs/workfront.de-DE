@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 12%
-
+source-wordcount: '729'
+ht-degree: 11%
 ---
-
 # Ausrichten von Zielen durch Verbinden in Adobe Workfront Goals
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ Wenn alle Mitarbeiter in Ihrem Unternehmen ihre Ziele an den Zielen Ihres Untern
 
 Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront:
 
-* Sie können eine Ausrichtung zwischen Zielen erstellen, indem Sie Ziele miteinander verbinden.
+* Sie können eine Ausrichtung zwischen Zielen erstellen, indem Sie Ziele miteinander verbinden. Dieser Artikel beschreibt diesen Ansatz.
 
-* Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes Ziel konvertieren. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels.
+* Sie können auch zwei Ziele ausrichten, indem Sie die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes Ziel konvertieren. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels.
+
+  Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[ durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >Ein Ziel kann insgesamt 1000 Fortschrittsindikatoren aufweisen.
 
-In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[&#x200B; durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Zugriffsanforderungen
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    Das Ziel, mit dem Sie begonnen haben (Ziel 2), ist jetzt das untergeordnete Ziel des übergeordneten Ziels, mit dem Sie es abgestimmt haben (Ziel 1).\
    Die abgestimmten Ziele werden im Abschnitt „Zielausrichtung“ mit Ziel 2 als sekundärer Ziel 1 verbunden angezeigt.
-Das untergeordnete Ziel wird im Abschnitt Fortschrittsanzeigen des übergeordneten Ziels angezeigt, da sein Fortschritt den Fortschritt des übergeordneten Ziels aktualisiert.
+   Das untergeordnete Ziel wird im Abschnitt Fortschrittsanzeigen des übergeordneten Ziels angezeigt, da sein Fortschritt den Fortschritt des übergeordneten Ziels aktualisiert.
 
    ![Abgestimmte Karten](assets/goal-1-and-2-aligned-cards-350x427.png)
 
