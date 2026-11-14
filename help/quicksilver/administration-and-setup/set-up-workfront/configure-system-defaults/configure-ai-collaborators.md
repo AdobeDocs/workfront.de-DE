@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 3%
+source-wordcount: '1993'
+ht-degree: 2%
 ---
 # KI-Mitwirkende konfigurieren
 
@@ -42,15 +42,11 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
   Weitere Informationen zu Adobe CX Enterprise Coworker finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 Von KI-Mitwirkenden verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen KI-Mitwirkenden erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">Projektkoordinator: Ein vorkonfigurierter Mitarbeiter, der den Projektstatus überwacht und Projektaktualisierungen sendet, ohne einen externen Agenten konfigurieren zu müssen.</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">Weitere Informationen finden Sie unter [Verwenden des Projektkoordinators](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
 
 
 ## Zugriffsanforderungen
@@ -108,8 +104,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 >
 >Wir sind bestrebt, uns mit einem beliebigen Agentenanbieter zu verbinden. Wenn der von Ihnen verwendete Anbieter daher derzeit nicht mit Work Agents kompatibel ist, wenden Sie sich bitte an Ihr Account-Team, um Hilfe zu erhalten.
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## Erstellen eines neuen KI-Reviewers
 
 KI-Reviewer können so konfiguriert werden, dass sie Workfront-Marken oder Adobe Brand Intelligence verwenden.
@@ -137,8 +131,6 @@ Arbeitsagenten sind Agenten, die Sie in Workfront Aufgaben oder Problemen zuweis
 Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Arbeitsagenten können <span class="preview">native Arbeitsagenten sein, die Coworker verwenden, </span> oder von einer unterstützten externen Plattform wie Copilot Studio, Claude, OpenAI und IBM stammen.
 
 >Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 Von Arbeitsagenten verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen Arbeitsagenten erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## Konfigurieren eines Projektkoordinators
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+Der Projektkoordinator ist ein vorkonfigurierter Mitarbeiter, der den Projektstatus überwacht und dabei hilft, die Arbeit auf Kurs zu halten. Im Gegensatz zu Arbeitsagenten erfordert der Projektkoordinator nicht die Konfiguration eines externen Agenten.
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. Klicken Sie in der linken Navigation auf **KI-Mitwirkende**.
+1. Klicken **oben rechts** Bildschirm auf „Neuer Mitarbeiter“.
+1. Wählen Sie **Projektkoordinator** aus und klicken Sie dann auf **Weiter**.
+1. Geben Sie im Feld **Name des KI** Mitarbeiters“ einen Namen für den Projektkoordinator ein. Dies ist der Name, der als Mitwirkender an Ihrem Projekt angezeigt wird.
+1. (Optional) Geben Sie im Feld **KI-Mitwirkende-Beschreibung** eine Beschreibung dessen ein, was der Projektkoordinator tut oder wozu er dient.
+1. Wählen **Feld „Zugriffsebene** eine Zugriffsebene für den Projektkoordinator aus. Diese Zugriffsebene steuert, was die beteiligten Personen an Projekten tun können, ebenso wie eine Zugriffsebene steuert, was Benutzende tun können.
+1. (Optional) Wählen Sie im Feld **Gruppen** die Gruppen aus, mit denen der Projektkoordinator verknüpft werden soll.
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.
+
+1. Geben Sie im Bereich **Koordinatoraktionen** an, wie der Projektkoordinator Projektaktualisierungen sendet. Der Projektkoordinator muss über die Berechtigung zum Ausführen dieser Aktionen verfügen. Ein Projektkoordinator kann sich auch zu dem Projekt und seinen Aufgaben äußern.
+
+   Projektaktualisierungen können eine Zusammenfassung des Fortschritts, des Projektzustands, überfällige oder gefährdete Aufgaben oder Genehmigungen sowie fehlende Felder oder Zuweisungen enthalten.
+
+   * Wählen **im Feld** aus, ob der Projektkoordinator täglich oder wöchentlich Aktualisierungen sendet.
+   * (Bedingt) Wenn Sie „Wöchentlich“ im Feld **Tag** ausgewählt haben, wählen Sie den Wochentag aus, an den Aktualisierungen gesendet werden.
+   * Wählen Sie **Feld &quot;**&quot; die Zeit aus, zu der Aktualisierungen gesendet werden.
+   * Wählen Sie **Feld** die Zeitzone für die Zeitaktualisierung aus.
+   * Wählen Sie im Feld **Wer erhält die Aktualisierung** aus, ob die Aktualisierung an den Projektbesitzer oder an Projektbeteiligte gesendet werden soll. Die Standardeinstellung ist der Projektbesitzer.
+
+1. Klicken Sie auf **Speichern**.
+
+Fügen Sie nach dem Speichern des Projektkoordinators das Feld **Projektkoordinator** zur Projektkopfzeile in den von Ihren Benutzern verwendeten Layout-Vorlagen hinzu. Benutzende können einem Projekt keinen Projektkoordinator zuweisen, bis das Feld in der Kopfzeile verfügbar ist.
+
+Anweisungen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+Weitere Informationen zum Projektkoordinator, einschließlich seiner Zuweisung zu Projekten, finden Sie unter [Verwenden des Projektkoordinators](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 </div>
 

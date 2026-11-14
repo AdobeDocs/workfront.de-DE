@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 2%
 ---
 # KI-Mitwirkung
@@ -27,9 +27,7 @@ ht-degree: 2%
 
 KI-Mitwirkende sind KI-Agenten, die Sie Aufgaben auf dieselbe Weise zuweisen können wie eine Person. Sie können KI-Mitwirkende in Ihre vorhandenen Workflows integrieren und so Ihrem Team die Freiheit geben, sich auf das zu konzentrieren, was am wichtigsten ist.
 
-Zu den verfügbaren KI-Mitwirkungstypen gehören KI-Prüfer und Arbeitsagenten.<!--<span class="preview">and Project Coordinators.</span>-->
-
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+Zu den verfügbaren KI-Kollaboratortypen gehören KI-Reviewer, <span class="preview"> und Projektkoordinatoren</span>.
 
 Für Arbeitsagenten können Sie einen Agenten über eine unterstützte externe Plattform verbinden <span class="preview">oder, falls in Ihrem Unternehmen Adobe CX Coworker aktiviert ist, Adobe Native auswählen, um einen einsatzbereiten Agenten mit Adobe CX Coworker zu verwenden. Für die native Option von Adobe sind keine Anmeldeinformationen für externe Plattformen erforderlich.</span>
 
