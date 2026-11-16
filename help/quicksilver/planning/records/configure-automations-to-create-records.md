@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 4%
 ---
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
@@ -336,7 +336,7 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
        >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
@@ -402,6 +402,10 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
 
 ## Automatisierungen freigeben
 
+>[!NOTE]
+>
+>Diese Funktion wurde am 16. November 2026 vorübergehend aus allen Umgebungen entfernt und wird zu einem späteren Zeitpunkt aktiviert.
+
 Als Ersteller einer Automatisierung haben Sie standardmäßig Verwaltungsberechtigungen für sie.
 
 Darüber hinaus können Sie sie für andere Benutzer oder Teams freigeben.
@@ -432,7 +436,7 @@ Benutzende, die Teil des Arbeitsbereichs sind, erhalten standardmäßig keine Be
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
