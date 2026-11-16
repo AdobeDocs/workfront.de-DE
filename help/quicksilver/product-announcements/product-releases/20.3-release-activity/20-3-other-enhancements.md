@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 3%
 ---
 # Weitere Verbesserungen in Version 20.3
@@ -129,7 +129,7 @@ Es gibt jetzt auch einen Link Benutzerdetails , der die folgenden Benutzerinform
 
 Jetzt können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzende zu ändern, die über ein eigenes Branding verfügen.
 
-Weitere Informationen finden Sie unter [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Gruppenadministratoren können Genehmigungsprozesse erstellen und verwalten
 

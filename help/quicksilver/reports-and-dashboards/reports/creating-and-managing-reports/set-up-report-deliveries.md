@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 1%
 ---
 # Überblick über den Berichtversand
@@ -175,13 +175,15 @@ Der Zeitstempel enthält:
 * Zeit
 * Zeitzone, in der der Bericht gesendet wurde
 
+<!--
 ### Branding {#branding}
 
-Wenn Ihr Workfront-Administrator Ihr Workfront-Instanz benutzerdefiniertes Branding hinzugefügt hat, enthalten die im PDF-Format gesendeten Berichte auch Ihr personalisiertes Logo.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-Berichte, die in allen anderen Formaten gesendet werden, können nicht mit Ihrem Logo personalisiert werden.
+Reports sent in all other formats cannot be personalized with your logo.
 
-Weitere Informationen zum Branding Ihrer Workfront-Instanz finden Sie im Artikel [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### Formatierung {#formatting}
 

@@ -30,18 +30,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5690922c396a91f0fbf8cfa88e885f1e819aeae0
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 59%
 ---
 # Anpassen von Adobe Workfront
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Benutzerdefiniertes Branding in Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [Layout-Vorlagen](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [Benutzerdefinierte Formulare: Artikelindex](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [Status und Prioritätskennzeichnungen](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [Genehmigungsprozesse und Meilensteinpfade](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Benutzerdefinierte Bedingungen](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+Dieser Abschnitt zum Anpassen von Workfront enthält auch einen Artikel zum Konfigurieren [ benutzerdefinierten Hilfe-URL](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md).
+
+>[!NOTE]
+>
+>Branding ist für Adobe Workfront nicht verfügbar. Branding wurde im Rahmen des Onboardings von Workfront in Adobe CX Enterprise eingestellt.
