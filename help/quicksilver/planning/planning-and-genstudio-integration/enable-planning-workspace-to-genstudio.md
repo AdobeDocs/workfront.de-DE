@@ -37,7 +37,7 @@ Sie müssen über Folgendes verfügen:
 * Zugriff auf Workfront Planning und GenStudio for Performance Marketing.
 * Ein Adobe Cloud Storage-Projekt, das mit dem Arbeitsbereich verknüpft werden soll. Ein Organisations-Admin kann in der Adobe Admin Console eine erstellen.
 
-  Weitere Informationen finden Sie unter [Verwalten von Adobe-](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)<!--ensure this site still works-->
+  Weitere Informationen finden Sie unter [Verwalten von Adobe-](https://helpx.adobe.com/de/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)<!--ensure this site still works-->
 
 ## Zugriffsanforderungen
 
@@ -73,7 +73,7 @@ ODER
    <td> 
    <p> Sie müssen Adobe Storage Cloud-Projekte in der Adobe Admin Console erstellen </p>
 
-<p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Verwalten von Projekten</a>
+<p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Verwalten von Projekten</a>
 
 </td> 
   </tr>
