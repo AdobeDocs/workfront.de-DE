@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1917'
 ht-degree: 2%
 ---
 # Die [!DNL Adobe Workfront] benutzerdefinierte Sandbox-Aktualisierungsumgebung
@@ -108,6 +108,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 ## Adobe-Cloud-Speicher in der benutzerdefinierten Aktualisierungs-Sandbox
 
 Der Adobe-Cloud-Speicher ist in der benutzerdefinierten Aktualisierungs-Sandbox verfügbar, sodass Sie ihn testen können, bevor Sie ihn in der Produktion aktivieren. Allerdings ist der Frame.io-Viewer in Sandbox-Umgebungen nicht verfügbar, sodass das vollständige, einheitliche Prüf- und Validierungserlebnis in der Produktion validiert werden muss.
+
+>[!IMPORTANT]
+>
+>Wenn Sie die benutzerdefinierte Aktualisierungs-Sandbox aus der Produktion aktualisieren, werden keine Adobe Cloud-Speicherdaten in die Sandbox kopiert. Adobe Cloud-Speicherprojekte, ihre Dokumente und zugehörigen Daten sind nicht in der Aktualisierung enthalten. Dies ist das zu erwartende Verhalten. Ältere Workfront-Speicherprojekte und -Dokumente werden weiterhin wie gewohnt in die Sandbox kopiert.
+>
+>Um den Adobe-Cloud-Speicher in der benutzerdefinierten Aktualisierungs-Sandbox zu testen, erstellen Sie neue Adobe-Cloud-Speicherprojekte und laden Sie Dokumente direkt in diese Umgebung hoch.
 
 Nachdem Sie auf eine Version von Workfront aktualisiert haben, die den Adobe-Cloud-Speicher unterstützt, müssen Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox aktualisieren, um auf die Adobe-Cloud-Speicherfunktionen in der Sandbox zuzugreifen. Sobald die Aktualisierung abgeschlossen ist, können Sie mit dem Testen von Adobe Cloud Storage beginnen. Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 

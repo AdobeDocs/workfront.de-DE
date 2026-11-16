@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 13%
+source-wordcount: '197'
+ht-degree: 14%
 ---
 # Layoutvorlagen: Artikelindex
 
@@ -40,7 +40,6 @@ Workfront-Benutzeroberfläche für Ihre Benutzer.
 In den folgenden Artikeln wird beschrieben, wie Sie die Benutzeroberfläche von Workfront mithilfe von Layout-Vorlagen anpassen können:
 
 * [Über das standardmäßige Adobe Workfront-Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Adobe Workfront mit einer Layout-Vorlage markieren](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)

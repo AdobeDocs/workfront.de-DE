@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1856'
 ht-degree: 1%
 ---
 # Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2027
@@ -29,13 +29,27 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Planungs-Automatisierung freigeben
+## Neue Workfront-Vorlagen: Projekt mit AEM-Workflow erstellen und mehrere Datensätze erstellen
 
 >[!NOTE]
 >
 >Vorschau: 12. November 2026
 >Produktions-Schnellveröffentlichung: 12. November 2026
 >Produktion für alle: 12. November 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+In Workfront Fusion sind jetzt zwei neue Automatisierungsvorlagen verfügbar.
+
+* **Projekt mit AEM-Workflow erstellen** Erstellt ein Projekt aus einer Projektvorlage und erstellt optional die verknüpften AEM-Ordner, die für die Projektvorlage konfiguriert sind, und verknüpft sie mit dem neuen Projekt.
+* **Mehrere Datensätze erstellen:** Erstellt einen oder mehrere Datensätze für einen Datensatztyp mit einem neuen Datensatz für jede Auswahl in einem Mehrfachauswahl- oder verbundenen Feld im aktuellen Datensatz. Jeder neue Datensatz wird mit dem aktuellen Datensatz verknüpft, und Sie ordnen die Felder zu, die in die neuen Datensätze kopiert werden.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Planungs-Automatisierung freigeben
+
+>[!NOTE]
+>
+>Diese Funktion wurde vorübergehend aus allen Umgebungen entfernt und wird zu einem späteren Zeitpunkt aktiviert.
 >[!BADGE Außerplanmäßig]{type=Neutral}
 
 Neue Workfront-Planungsautomatisierungen sind jetzt standardmäßig nur noch den Besitzenden verfügbar, anstatt automatisch für alle Benutzenden im Arbeitsbereich freigegeben zu werden. Besitzer können auswählen, wer Zugriff erhält, indem sie die Automatisierung mit anderen teilen. Sie können anderen Benutzern die Zugriffsebene **Verwalten**, **Bearbeiten** oder **Ausführen** zuweisen. Vorhandene Automatisierungen bleiben für die Workspace-Benutzer freigegeben, sodass der aktuelle Zugriff nicht beeinträchtigt wird.

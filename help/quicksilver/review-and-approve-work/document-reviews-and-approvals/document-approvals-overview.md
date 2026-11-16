@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # Einheitliche Prüfung und Genehmigung - Übersicht
@@ -580,6 +580,10 @@ Sie können gemeinsam mit Ihrem Adobe-Account-Team die entsprechende Anzahl von 
 Teilweise. Genehmigungs-Workflows können in einer Workfront-Sandbox-Umgebung getestet werden. Das Frame.io-Viewer-Erlebnis ist jedoch in Sandbox nicht verfügbar. Zum Testen der Überprüfungsoberfläche selbst ist eine Produktionsumgebung erforderlich.
 
 Um die Offenlegung während des Rollouts zu begrenzen, können Sie eine einheitliche Überprüfung und Genehmigung für eine bestimmte Gruppe in Ihrer Workfront-Produktionsumgebung aktivieren. Auf diese Weise können Sie ein zielgerichtetes Pilotprojekt mit einer kleineren Benutzergruppe ausführen, bevor Sie es allgemeiner einführen.
+
+**Warum werden meine Adobe-Cloud-Speicherprojekte und -Dokumente nach einer Aktualisierung nicht in der Sandbox angezeigt?**
+
+Dies ist das zu erwartende Verhalten. Wenn eine Sandbox aus der Produktion aktualisiert wird, werden keine Adobe Cloud-Speicherdaten in die Sandbox kopiert. Adobe Cloud-Speicherprojekte, ihre Dokumente und zugehörigen Daten sind nicht in der Aktualisierung enthalten. Ältere Workfront-Speicherprojekte und -Dokumente werden weiterhin wie gewohnt in die Sandbox kopiert. Um den Adobe-Cloud-Speicher in einer Sandbox zu testen, erstellen Sie neue Adobe-Cloud-Speicherprojekte und laden Sie Dokumente direkt in diese Umgebung hoch. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**

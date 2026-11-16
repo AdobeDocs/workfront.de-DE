@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 0%
 ---
 # Übersicht über den Adobe Cloud-Speicher
@@ -138,6 +138,12 @@ Informationen zur Aktivierung der Adobe-Cloud-Datenspeicherung in Ihrer Umgebung
 ## Adobe Cloud-Speicher in Sandbox-Umgebungen
 
 Der Adobe-Cloud-Speicher ist in [!DNL Workfront] Sandbox-Umgebungen verfügbar, sodass Sie ihn testen können, bevor Sie ihn in der Produktionsumgebung aktivieren. Der Frame.io-Viewer ist jedoch nicht in Sandbox verfügbar, sodass das vollständige, einheitliche Überprüfungs- und Validierungserlebnis in der Produktion validiert werden muss.
+
+>[!IMPORTANT]
+>
+>Wenn eine Sandbox aus der Produktion aktualisiert wird, werden keine Adobe Cloud-Speicherdaten in die Sandbox kopiert. Adobe Cloud-Speicherprojekte, ihre Dokumente und zugehörigen Daten sind nicht in der Aktualisierung enthalten. Dies ist das erwartete Verhalten und ein Ergebnis der Architektur von Adobe Cloud Storage. Ältere Workfront-Speicherprojekte und -Dokumente werden weiterhin wie gewohnt in die Sandbox kopiert.
+>
+>Um den Adobe-Cloud-Speicher in einer Sandbox zu testen, erstellen Sie neue Adobe-Cloud-Speicherprojekte und laden Sie Dokumente direkt in diese Umgebung hoch.
 
 Wenn Sie über eine benutzerdefinierte Aktualisierungs-Sandbox verfügen, müssen Sie sie nach dem Upgrade auf eine Version von Workfront aktualisieren, die Adobe Cloud Storage unterstützt, um auf die Adobe Cloud Storage-Funktionen in der Sandbox zuzugreifen. Weitere Informationen finden Sie unter [Die benutzerdefinierte  [!DNL Adobe Workfront] -Sandbox-Umgebung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 

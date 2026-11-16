@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 5%
 ---
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
@@ -247,14 +247,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >* [!UICONTROL Listen]
    >* [!UICONTROL Bedienfeld Zusammenfassung]
    >* [!UICONTROL Startseite]
-   >* [!UICONTROL Branding]
    > 
    >Informationen zum Anpassen dieser zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
    >
    >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Passen Sie den [!UICONTROL Zusammenfassungsbereich] mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [Passen Sie die Startseite mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Marke Adobe [!DNL Workfront] mit einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optional) Wenn Sie ein Element im linken Bedienfeld hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Dashboard hinzufügen]**, geben Sie den **[!UICONTROL Schnellverknüpfungsnamen]** für das Element ein und wählen Sie dann das Dashboard aus.

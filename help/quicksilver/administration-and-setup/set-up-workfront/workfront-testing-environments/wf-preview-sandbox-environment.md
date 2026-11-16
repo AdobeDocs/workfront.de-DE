@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1509'
 ht-degree: 0%
 ---
 # Die Sandbox-[!DNL Adobe Workfront]
@@ -83,6 +83,18 @@ Die Daten fließen unidirektional von der Produktion zur Vorschau und nicht umge
 Die Sandbox-Vorschau ermöglicht es [!DNL Workfront] auch, neue Funktionen in einer sicheren Umgebung bereitzustellen, bevor sie für die Produktion bereitgestellt werden können. Sie können die neuen Funktionen testen und [!DNL Workfront] Feedback zu ihrer Funktionalität geben, indem Sie auf die Sandbox „Vorschau“ zugreifen. Aus diesem Grund ist der Code der Sandbox-Vorschau immer vor dem Produktions-Code, obwohl Ihre Daten wöchentlich aktualisiert werden.
 
 Die Vorschauumgebung ist ideal für Schulungen, das Testen neuer Funktionen und das Bestimmen der Einrichtungsfunktionalität.
+
+## Adobe-Cloud-Speicher in der Vorschau-Sandbox
+
+Der Adobe-Cloud-Speicher ist in der Sandbox-Vorschau verfügbar, sodass Sie ihn testen können, bevor Sie ihn in der Produktion aktivieren. Allerdings ist der Frame.io-Viewer in Sandbox-Umgebungen nicht verfügbar, sodass das vollständige, einheitliche Prüf- und Validierungserlebnis in der Produktion validiert werden muss.
+
+>[!IMPORTANT]
+>
+>Wenn die Vorschau-Sandbox aus der Produktion aktualisiert wird, werden keine Adobe Cloud-Speicherdaten in die Sandbox kopiert. Adobe Cloud-Speicherprojekte, ihre Dokumente und zugehörigen Daten sind nicht in der Aktualisierung enthalten. Dies ist das zu erwartende Verhalten. Ältere Workfront-Speicherprojekte und -Dokumente werden weiterhin wie gewohnt in die Sandbox kopiert.
+>
+>Um den Adobe-Cloud-Speicher in der Vorschau-Sandbox zu testen, erstellen Sie neue Adobe-Cloud-Speicherprojekte und laden Sie Dokumente direkt in diese Umgebung hoch.
+
+Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!IMPORTANT]
 >

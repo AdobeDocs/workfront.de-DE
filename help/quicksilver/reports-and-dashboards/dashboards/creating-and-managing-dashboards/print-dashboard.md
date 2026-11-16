@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 11%
+source-wordcount: '431'
+ht-degree: 12%
 ---
 # Drucken eines Dashboards
 
@@ -95,7 +95,7 @@ Die folgenden Informationen sind in der gedruckten oder exportierten Dashboard-D
 * Berichtstitel
 * Zeitstempel der letzten Berichterstellung
 * Alle Objekte im Dashboard, einschließlich Listenansichten, externen Web-Seiten, Berichten und Kalendern
-* Das Logo Ihres Unternehmens, wenn es von Ihrem Workfront-Administrator in Ihrer globalen Navigationsleiste angepasst wurde. Weitere Informationen zum Branding der Workfront-Site finden Sie unter [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### Was wird nicht angezeigt? {#what-is-not-displayed}
 
