@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Genehmigungsprozesse und Meilensteinpfade](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Benutzerdefinierte Bedingungen](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
 
-Dieser Abschnitt zum Anpassen von Workfront enthält auch einen Artikel zum Konfigurieren [ benutzerdefinierten Hilfe-URL](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md).
+Dieser Abschnitt zum Anpassen von Workfront enthält auch einen Artikel zum Konfigurieren [&#x200B; benutzerdefinierten Hilfe-URL](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md).
 
 >[!NOTE]
 >
