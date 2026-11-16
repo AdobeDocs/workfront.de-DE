@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2454'
 ht-degree: 4%
 ---
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
@@ -237,9 +237,10 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
      Eine der folgenden Aktionen auswählen:
 
-     * Erstellen mehrerer Projekte
+     * Erstellen eines Projekts mit einem AEM-Workflow
      * Einzelnes Projekt erstellen
-     * Erstellen eines Projekts
+     * Erstellen mehrerer Projekte
+     * Mehrere Datensätze erstellen
      * Eintrag erstellen
      * Programm erstellen
      * Portfolio erstellen
@@ -250,6 +251,12 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
      >Nachdem Sie die Automatisierung gespeichert haben, können Sie die in diesem Feld ausgewählte Aktion nicht mehr ändern.
 
 1. (Bedingt) Aktualisieren Sie je nach ausgewählter Aktion die folgenden Felder:
+
+   * **Erstellen eines Projekts mit einem AEM-Workflow**:
+     * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
+     * **Projektvorlage**: Wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen des Projekts verwenden wird.
+     * **Verknüpfte Ordner erstellen**: Aktivieren Sie diese Option, wenn Sie verknüpfte Ordner für das Projekt erstellen möchten.
+
 
    * **Erstellen eines einzelnen Projekts**: <!--replace to the left: Create a single project-->
      * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
@@ -284,9 +291,38 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
 
        * **Feld für den verbundenen Datensatztyp, der für den aktuellen Datensatz angezeigt wird**: Dies ist das verbundene Feld für den Datensatztyp, der für die Aktion ausgewählt wurde, für die der aktuelle Datensatz angezeigt wird.
 
-       Wenn Sie beispielsweise eine Automatisierung für Kampagnen erstellen, über die Produktdatensätze verbunden werden sollen, ist dies das verbundene Feld auf dem Produktdatensatztyp, in dem die Kampagnen angezeigt werden, nachdem die Produkte mithilfe der Automatisierung erstellt wurden.
+         Wenn Sie beispielsweise eine Automatisierung für Kampagnen erstellen, über die Produktdatensätze verbunden werden sollen, ist dies das verbundene Feld auf dem Produktdatensatztyp, in dem die Kampagnen angezeigt werden, nachdem die Produkte mithilfe der Automatisierung erstellt wurden.
 
-       Dies ist ein Pflichtfeld.
+         Dies ist ein Pflichtfeld.
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
+
+       * **Übertragen von**: Wählen Sie Felder aus dem Datensatztyp aus, für den die Automatisierung erstellt wird, um sie den Feldern des verbundenen Datensatztyps zuzuordnen.
+       * **Übertragen an**: Wählen Sie Felder aus dem neu erstellten Datensatz aus, die mit Informationen aus dem Datensatz gefüllt werden, für den Sie die Automatisierung ausführen.
+
+       >[!TIP]
+       >
+       >* Die Feldtypen vom ursprünglichen Datensatztyp müssen mit den Feldtypen vom neu erstellten Datensatztyp übereinstimmen.
+       >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
+
+
+   * **Erstellen mehrerer Datensätze**:
+     * **Datensatztyp**: Wählen Sie den Datensatztyp aus, den Sie erstellen möchten.
+
+       Der Unterabschnitt **Einstellungen** wird angezeigt. Aktualisieren Sie die folgenden Felder **Unterabschnitt** Einstellungen“:
+
+       * **Feld für den verbundenen Datensatztyp, der für den aktuellen Datensatz angezeigt wird**: Dies ist das verbundene Feld für den Datensatztyp, der für die Aktion ausgewählt wurde, für die der aktuelle Datensatz angezeigt wird.
+
+         Wenn Sie beispielsweise eine Automatisierung für Kampagnen erstellen, über die Produktdatensätze verbunden werden sollen, ist dies das verbundene Feld auf dem Produktdatensatztyp, in dem die Kampagnen angezeigt werden, nachdem die Produkte mithilfe der Automatisierung erstellt wurden.
+
+         Dies ist ein Pflichtfeld.
+
+       * **Feld, durch dessen Auswahl neue Datensätze erstellt werden:**
+
+         Dies ist das Feld, aus dem die neuen Datensätze erstellt werden.
+
+         Wenn beispielsweise ein Planungsdatensatz ein Feld enthält, das drei Regionen repräsentiert, z. B. Vereinigtes Königreich, EU und USA, werden durch Auswahl dieses Felds drei neue Datensätze erstellt, einer für jede Option.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
@@ -300,7 +336,7 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
        >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
@@ -396,7 +432,7 @@ Benutzende, die Teil des Arbeitsbereichs sind, erhalten standardmäßig keine Be
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
