@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 4%
 ---
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
@@ -401,6 +401,10 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
      Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
 
 ## Automatisierungen freigeben
+
+>[!NOTE]
+>
+>Diese Funktion wurde am 16. November 2026 vorübergehend aus allen Umgebungen entfernt und wird zu einem späteren Zeitpunkt aktiviert.
 
 Als Ersteller einer Automatisierung haben Sie standardmäßig Verwaltungsberechtigungen für sie.
 
