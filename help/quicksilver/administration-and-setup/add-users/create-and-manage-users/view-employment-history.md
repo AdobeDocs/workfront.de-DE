@@ -7,9 +7,9 @@ description: Sie können den Beschäftigungshistorie eines Benutzers anzeigen, e
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # Beschäftigungshistorie der Benutzer anzeigen
@@ -38,6 +38,10 @@ Karen Sterling ist seit ihrer Einstellung am 3. März 2019 Geschäftsführerin. 
 
 Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den Gesamtverlauf eines einzelnen Benutzers auf seiner Benutzerseite anzeigen.
 
+>[!NOTE]
+>
+>Der Beschäftigungshintergrund eines Benutzers berücksichtigt derzeit nicht das Startdatum eines Benutzers.
+
 ### Anzeigen des Beschäftigungsverlaufs in der Benutzerliste
 
 {{step-1-to-users}}
@@ -59,7 +63,7 @@ Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den G
 {{step-1-to-users}}
 
 1. Klicken Sie auf den Namen des Benutzers, für den Sie den Beschäftigungsverlauf anzeigen möchten.
-1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken &#x200B;](assets/employment-history-left-nav.png)).
+1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken ](assets/employment-history-left-nav.png)).
 1. Um einen ausgewählten Datumsbereich anzuzeigen, klicken Sie auf die Datumsauswahl und passen Sie die Daten an.
 
    Wenn Sie den Beschäftigungsverlauf eines Benutzers auf seiner Seite anzeigen, können Sie den gesamten Beschäftigungsverlauf des Benutzers anzeigen.
