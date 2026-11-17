@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 14%
 ---
 # Arbeitselemente mit dem Plug-in &quot;[!DNL Adobe Workfront]&quot; als abgeschlossen markieren
+
+{{cc-plugin-legacy-only}}
 
 Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und Ihre Arbeit nahtlos [!DNL Adobe Workfront] mit dem Plug-in abschließen:
 
@@ -67,7 +69,7 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
