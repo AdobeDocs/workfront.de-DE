@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # Snippets
@@ -233,6 +233,12 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## CC-Plug-in nur veralteter Speicher {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>Das [!DNL Adobe Workfront] für [!DNL Creative Cloud] Plug-in funktioniert nur mit Projekten, die sich auf veraltetem Workfront-Speicher befinden. Es unterstützt keine Projekte im Adobe Cloud-Speicher.
 
 ## Anpassen der Einstellungen für automatisierte Korrekturabzüge {#adjust-proof-settings}
 

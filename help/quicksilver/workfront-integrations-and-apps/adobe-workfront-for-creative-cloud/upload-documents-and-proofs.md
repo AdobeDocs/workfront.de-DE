@@ -25,12 +25,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
 ---
 # Hochladen von Dokumenten und Testsendungen aus der [!DNL Adobe Workfront plugin] in die [!DNL Creative Cloud]
+
+{{cc-plugin-legacy-only}}
 
 Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in [!DNL Adobe Workfront] zu speichern.
 

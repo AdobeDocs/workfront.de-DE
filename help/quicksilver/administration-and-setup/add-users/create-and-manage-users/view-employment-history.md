@@ -7,9 +7,9 @@ description: Sie können den Beschäftigungshistorie eines Benutzers anzeigen, e
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # Beschäftigungshistorie der Benutzer anzeigen
@@ -37,6 +37,10 @@ Karen Sterling ist seit ihrer Einstellung am 3. März 2019 Geschäftsführerin. 
 ## Beschäftigungshistorie anzeigen
 
 Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den Gesamtverlauf eines einzelnen Benutzers auf seiner Benutzerseite anzeigen.
+
+>[!NOTE]
+>
+>Der Beschäftigungshintergrund eines Benutzers berücksichtigt derzeit nicht das Startdatum eines Benutzers.
 
 ### Anzeigen des Beschäftigungsverlaufs in der Benutzerliste
 

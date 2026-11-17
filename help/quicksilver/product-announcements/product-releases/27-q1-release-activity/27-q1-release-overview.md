@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -114,6 +114,16 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Verwenden von Writer-Playbooks zum Erstellen von Arbeitsagenten</a></p>
+                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
+                <p>Sie können jetzt Writer-Playbooks verwenden, um Arbeitsagenten zu erstellen.</p>
+            </td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
         </tr>
         <tr>
             <td>
