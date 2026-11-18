@@ -20,25 +20,27 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '95'
 ht-degree: 9%
 ---
 # [!DNL Adobe Workfront] für [!DNL Mobile Device Management] (MDM)
 
 {{mobile-maintenance-mode}}
 
-Adobe [!DNL Workfront] ist eine Partnerschaft mit einigen [!DNL Mobile Device Management] (MDM)-Plattformen eingegangen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten. Die [!DNL Workfront] Mobile App ist auf den folgenden Verwaltungsplattformen für mobile Geräte verfügbar:
+Adobe [!DNL Workfront] ist eine Partnerschaft mit [!DNL Mobile Device Management] (MDM)-Plattformen eingegangen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten. Die [!DNL Workfront] Mobile App ist auf den folgenden Verwaltungsplattformen für mobile Geräte verfügbar:
 
-## Handbügeleisen
+<!--
+## MobileIron
 
-In der Hilfedokumentation von [!DNL MobileIron] finden Sie weitere Informationen zur Installation der [!DNL Workfront] Mobile App von der Plattform aus:
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-Informationen zum Konfigurieren von [!DNL Workfront] für [!DNL MobileIron] finden Sie [Konfigurieren [!DNL Adobe Workfront] für [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## stimmen
 
@@ -48,5 +50,3 @@ Die Workfront Mobile App ist jetzt im [!DNL Microsoft Intune] App Store verfügb
 * Android
 
 Ihre Workfront-Instanz muss sich auf dem Adobe Identity Management System (IMS) befinden.
-
-<!--remove this note October 2026-->

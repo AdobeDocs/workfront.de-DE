@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '441'
 ht-degree: 5%
 ---
 # Verbesserungen bei Mobilgeräten und Integrationen in Version 20.4
@@ -58,7 +58,7 @@ Workfront ist eine Partnerschaft mit MobileIron eingegangen, einer MDM-Plattform
 
 Mit Workfront für MobileIron können Admins Funktionen wie Kopieren/Einfügen und Bildschirmaufnahmen einschränken. Sie können die App &quot;Workfront for MobileIron“ unter [https://marketplace.mobileiron.com/listing/workfront herunterladen](https://marketplace.mobileiron.com/listing/workfront).
 
-Informationen zum Konfigurieren der App finden Sie unter [Konfigurieren von Adobe Workfront für MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## Schnelles Erstellen einer Aufgabe in der Workfront Mobile App
 
