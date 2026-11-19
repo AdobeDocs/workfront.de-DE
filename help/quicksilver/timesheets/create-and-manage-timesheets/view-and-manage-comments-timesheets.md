@@ -158,7 +158,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
    >   * Befehlstaste + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer ](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
+1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer &#x200B;](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
 
 ### Kommentar zu einem Arbeitselement in einer Arbeitszeittabelle {#comment-on-a-work-item-in-a-timesheet}
 
