@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1119'
 ht-degree: 4%
-
 ---
-
 # Neuberechnen von Projekt-Timelines
 
 <!--Audited: 06/2025-->
@@ -115,10 +113,11 @@ Standardmäßig werden die Projektzeitleisten täglich neu berechnet, wenn sich 
 >[!IMPORTANT]
 >
 >* Wenn die Zeitleiste eines Projekts länger als 15 Jahre ist, ist die automatische Neuberechnung für dieses Projekt deaktiviert und Sie können nur den Typ „Manuelles Update“ auswählen. Wenn Sie die Daten im Projekt auf weniger als 15 Jahre ändern, müssen Sie Ihre Zeitleiste einmal manuell neu berechnen, bevor sie automatisch berechnet wird.
+>* Zeitleisten werden für Projekte mit Aufgaben mit einer Dauer von mehr als 1000 Tagen nicht automatisch neu berechnet. Sie müssen die Timelines für diese Projekte manuell neu berechnen.
 >* Für die Sandbox-Umgebungen „Vorschau“ und „Benutzerdefinierte Aktualisierung“ ist die nächtliche Neuberechnung deaktiviert und die Projektzeitleisten werden nicht automatisch neu berechnet. Sie müssen die Zeitleiste des Projekts für die Sandbox-Umgebungen „Vorschau“ und „Benutzerdefinierte Aktualisierung“ manuell neu berechnen.
 >* Wenn ein Projekt komplex ist, wird die automatische Neuberechnung der Zeitleiste möglicherweise nicht ausgeführt.
 > Ein Beispiel für ein komplexes Projekt kann ein Projekt mit mehreren Abhängigkeiten, einer großen Anzahl von Aufgaben, mehreren projektübergreifenden Vorgängern oder mehreren Aufgabeneinzügen sein.
-> Workfront fügt rechts neben dem Projektnamen auf der Projektseite einen Warnhinweis ein, der darauf hinweist, dass die Zeitleiste des Projekts manuell neu berechnet werden muss. Nur Benutzer mit der Berechtigung Verwalten für das Projekt können die Timeline manuell neu berechnen.
+> Workfront platziert rechts neben dem Projektnamen auf der Projektseite einen Warnhinweis, der darauf hinweist, dass die Projektzeitleiste manuell neu berechnet werden muss. Nur Benutzer mit der Berechtigung Verwalten für das Projekt können die Timeline manuell neu berechnen.
 >
 >   ![Projektwarnung zur Neuberechnung der Zeitleiste](assets/project-warning-to-manually-recalculate-timeline.png)
 >
@@ -139,7 +138,7 @@ Workfront berechnet die Zeitleisten täglich nur für Projekte neu, die alle fol
 
 * Sie haben ein Datum für die letzte Aktualisierung innerhalb der letzten 3 Monate. Ein Workfront-Administrator kann diese Standardfunktion ändern. Weitere Informationen finden Sie unter [Konfigurieren von Zeitleisten-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* Das Datum der letzten Berechnung der Projekt-Zeitleiste liegt nicht im aktuellen Kalendertag. Das bedeutet, dass das letzte Berechnungsdatum der Projekt-Zeitleiste vor 00% :00 aktuellen Tages liegt.
+* Das Datum der letzten Berechnung der Projekt-Zeitleiste liegt nicht im aktuellen Kalendertag. Das bedeutet, dass das letzte Berechnungsdatum der Projekt-Zeitleiste vor 00:00 Uhr des aktuellen Tages liegt.
 
 Sie können konfigurieren, wie oft die Zeitleiste für Ihr Projekt aktualisiert wird. Wenn die Projekt-Zeitleiste aktualisiert wird, wird sie auf der Grundlage der am Projekt vorgenommenen Änderungen neu berechnet.
 
@@ -201,7 +200,7 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) links neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    ODER
 

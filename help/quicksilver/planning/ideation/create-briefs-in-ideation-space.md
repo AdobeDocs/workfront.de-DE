@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Briefs im Ideenraum
+title: Erstellen von Briefs im Ideationsbereich
 description: In diesem Artikel wird beschrieben, wie Sie im Ideationsbereich Ideen diskutieren und Strategien entwickeln können, um Briefs zu erstellen. Sie können fertige Ideenbeschreibungen in eine Datei oder in Workfront Planning exportieren, um Datensätze zu erstellen oder zu aktualisieren.
 feature: Workfront Planning
 role: User, Admin
@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -188,6 +188,16 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    * Gehen Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > klicken Sie auf **Öffnen Sie im Ideationsbereich**
 
      ![Ideenraum in Datensatzdetails](assets/ideation-space-button-in-details-page.png)
+
+     >[!IMPORTANT]
+     >
+     >Der Punkt, von dem aus Sie den Ideenraum starten, bestimmt, wie die kurze Struktur aussehen wird. Die folgenden Szenarien sind vorhanden:
+     >
+     >* Wenn Sie ihn in Planning über die Schaltfläche Neuer Datensatz starten, enthält die Zusammenfassung dieselben Felder wie der Datensatztyp, mit dem Sie beginnen.
+     >
+     >* Wenn Sie es über einen vorhandenen Planungsdatensatz starten, enthält die Zusammenfassung dieselben Felder mit denselben Werten wie der Datensatz.
+     >
+     >* Wenn Sie sie über das Hauptmenü von Workfront starten, enthält die Zusammenfassung Felder und Informationen aus den Dateien, die Sie auf die Arbeitsfläche hochladen.
 
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
 
@@ -235,7 +245,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
 1. (Optional) Klicken Sie auf **Chats**-Symbol ![Chats-Symbol](assets/chats-icon-coworker.png) in der oberen rechten Ecke des Bedienfelds „Mitarbeiter“ und klicken Sie dann auf **Neuer Chat**, um eine neue Eingabeaufforderung zu öffnen, oder klicken Sie auf einen der vorherigen Chats in der Liste, um zu einem älteren Chat zurückzukehren.
 
-   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
+   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
 
 1. Klicken Sie auf das **Suchen**-Symbol ![Suchen](assets/search-icon.png), um auf der Ideenarbeitsfläche nach Elementen zu suchen, und klicken Sie dann, wenn es in der Liste angezeigt wird, um dorthin zu navigieren.
 
@@ -244,10 +254,16 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Informationen können entweder aus Workfront Planning oder dem Web importiert werden.
 
    Sie können auch auf das **Quellen**-Symbol ![Quellen-Symbol](assets/sources-icon.png) in der rechten oberen Ecke des Bereichs klicken, um eine Liste der Quellen für alle Karten im Bereich anzuzeigen.
-1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke des Bereichs und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
+1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke der Arbeitsfläche und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
 
    Benutzer erhalten eine E-Mail-Benachrichtigung über das Tag.
+
+   >[!TIP]
+   >
+   >Sie können Kommentare für eine Karte oder eine Gruppe von Karten hinzufügen.
+
 1. (Optional) Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-comments-icon.png) innerhalb der Kommentarkarte, um Kommentare nach folgenden Kriterien zu filtern:
+
 
    * Prüfer
    * Zeitpunkt, zu dem der Kommentar hinzugefügt wurde
@@ -266,7 +282,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    >[!TIP]
    >
    >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
-   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche &#x200B;](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
+   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche ](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
    > 
 1. Klicken Sie auf das Symbol **Workfront Connected Planning-Datensätze hinzufügen** ![Workfront Connected Planning-Datensätze hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
 

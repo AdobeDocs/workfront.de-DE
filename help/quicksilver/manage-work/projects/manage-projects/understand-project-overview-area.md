@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 6%
-
 ---
-
 # Verwalten von Informationen im Bereich „Überblick“ des Projekts
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Programm</td> 
-      <td>Das mit dem Portfolio des Projekts verknüpfte Programm. Sie müssen das Programm erstellen, bevor Sie es einem Projekt hinzufügen können. </td> 
+      <td></p>Das mit dem Portfolio des Projekts verknüpfte Programm. Sie müssen das Programm erstellen, bevor Sie es einem Projekt hinzufügen können.</p>
+      <p> Wenn ein Portfolio mehr als 20 aktive Programme umfasst, werden im Feld Programm in der Übersicht eines Projekts nur die ersten 20 Programme in alphabetischer Reihenfolge aufgelistet. Wenn Sie einen Teil eines Namens eingeben, werden alle aktiven Programme des Portfolios gefunden. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gruppe</td> 

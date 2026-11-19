@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1540'
 ht-degree: 1%
 ---
 
@@ -174,7 +174,16 @@ So erhalten Sie Zugriff auf den Ideenraum:
 
 ## Suchen des Ideationsbereichs
 
-Nachdem Sie sichergestellt haben, dass Sie Zugriff auf die richtigen Produkte, Pakete sowie die konfigurierte System- und Zugriffsebene haben, können Sie den Ideation-Bereich in den folgenden Bereichen von Workfront finden:
+Nachdem Sie sichergestellt haben, dass Sie Zugriff auf die richtigen Produkte, Pakete sowie konfigurierte System- und Zugriffsebenen haben, können Sie den Ideationsbereich in mehreren Bereichen von Workfront und Workfront Planning finden.
+
+>[!TIP]
+>
+>Sie können den Bereich „Ideen“ nicht mithilfe einer Layout-Vorlage aus dem Hauptmenü entfernen.
+>
+>Weitere Informationen dazu, wie Sie einem Benutzer den Zugriff auf Ideation Space verweigern, finden Sie unter [Zugriff erforderlich, um den Ideation Space zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+Zugriff auf Ideation Space in den folgenden Bereichen von Workfront:
 
 * Öffnen Sie im Workfront-Hauptmenü den Bereich Ideation .
 
@@ -188,11 +197,16 @@ Nachdem Sie sichergestellt haben, dass Sie Zugriff auf die richtigen Produkte, P
 
   ![Ideenraum auf der Seite „Datensatzdetails“](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>Der Punkt, von dem aus Sie den Ideenraum starten, bestimmt, wie die kurze Struktur aussehen wird. Die folgenden Szenarien sind vorhanden:
+>
+>* Wenn Sie ihn in Planning über die Schaltfläche Neuer Datensatz starten, enthält die Zusammenfassung dieselben Felder wie der Datensatztyp, mit dem Sie beginnen.
+>
+>* Wenn Sie es über einen vorhandenen Planungsdatensatz starten, enthält die Zusammenfassung dieselben Felder mit denselben Werten wie der Datensatz.
+>
+>* Wenn Sie sie über das Hauptmenü von Workfront starten, enthält die Zusammenfassung Felder und Informationen aus den Dateien, die Sie auf die Arbeitsfläche hochladen.
 
->[!TIP]
->
->Sie können den Bereich „Ideen“ nicht mithilfe einer Layout-Vorlage aus dem Hauptmenü entfernen. Weitere Informationen dazu, wie Sie einem Benutzer den Zugriff auf Ideation Space verweigern, finden Sie unter [Zugriff erforderlich, um den Ideation Space zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
 
 ## Ideationsraum und die Adobe CX Enterprise Coworker
 
@@ -309,10 +323,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/de/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/de/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/de/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

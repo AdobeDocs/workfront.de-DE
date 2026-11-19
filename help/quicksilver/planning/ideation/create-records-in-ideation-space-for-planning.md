@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 1%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,10 +167,12 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 ## Überlegungen zur Verwendung des Ideenraums zum Erstellen oder Bearbeiten von Planungsdatensätzen
 
 * Sie müssen den Ideationsbereich von Workfront Planning aus starten, um einen Planungsdatensatz erstellen oder bearbeiten zu können. Beim Zugriff auf den Ideenraum über das Workfront-Hauptmenü wird keine Ideenbeschreibung mit einem Planungsdatensatz verbunden.
+* Wenn Sie Ideation Space aus einem Datensatz starten, verwendet Workfront die Struktur und die Informationen des Datensatzes, um die Felder des Briefs zu erstellen und zu aktualisieren.
 * Um Datensätze mithilfe des Ideationsbereichs erstellen oder bearbeiten zu können, benötigen Sie einen Arbeitsbereich und einen Datensatztyp in Workfront Planning.
 * Neue Datensätze beginnen immer mit Platzhalterinhalten, unabhängig davon, wie Sie sie erstellen.
 * Wenn Sie einen Planungsdatensatz löschen, der mit einer Ideenbeschreibung verknüpft ist, bleibt die Zusammenfassung im Ideenbereich, und der zugehörige Bereich wird nicht gelöscht.
-* Die Synchronisation von Informationen erfolgt nur vom Ideationsraum bis zur Workfront-Planung. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz mit der Ideation Space Brief. <!--this might change after beta?-->
+* Die Synchronisierung erfolgt nur von Ideation Space bis Workfront Planning. Es gibt keine Rückwärts- oder automatische Synchronisation von einem Planungsdatensatz zu einem Ideenbericht.
+* Der Export in Workfront Planning überschreibt alle vorhandenen Felddaten im verbundenen Planning-Datensatz.
 * Die folgenden Szenarien treten auf, wenn Felder in Workfront Planning erstellt, bearbeitet oder entfernt werden:
 
   * Neue Felder, die für Datensätze erstellt wurden, die mit Ideenbeschreibungen verknüpft sind, werden täglich zur Zusammenfassung hinzugefügt. Neue Felder erscheinen leer in der Ideenbeschreibung.
@@ -208,9 +210,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    * Der Datensatz wird sofort mit einem Platzhalternamen erstellt.
 
+   * Die Ideenübersicht wird mit einem Platzhalternamen erstellt. Die Felder für die Ideenübersicht sind mit den Feldern des Datensatztyps identisch, mit dem Sie begonnen haben.
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (Optional) Bewegen Sie den Mauszeiger über das Tag **Workfront Planning** in der rechten oberen Ecke der Arbeitsfläche „Ideation Space“, um den Namen des Datensatztyps, den Arbeitsbereich, für den Sie einen Datensatz erstellen, und die Versionsnummer der Zusammenfassung, die Sie erstellen, anzuzeigen.
+
+   ![Info-Tag für Workfront Planning Workspace und den Datensatztyp auf der Arbeitsfläche](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. Fügen Sie eine Eingabeaufforderung im Dialogfeld **Mitarbeiter** hinzu und drücken Sie dann die Eingabetaste.
 
@@ -253,9 +261,12 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
    Wenn keine Idee existiert, erzeugt sie einen Ideenraum und eine kurze.
 
+   Die Ideenbeschreibung enthält dieselben Felder wie der Datensatz, von dem aus Sie gestartet haben. Die Feldwerte werden aus dem Datensatz in die Zusammenfassung gefüllt.
+
    >[!TIP]
    >
    >Es ist nicht möglich, Datensätze mithilfe des Ideationsbereichs stapelweise zu bearbeiten.
+
 1. Fahren Sie mit der Bearbeitung der Zusammenfassung fort, wie im Abschnitt [Erstellen von Datensätzen mithilfe des Ideenraums](#create-records-using-the-ideation-space) in diesem Artikel beschrieben.
 
    <!-- 

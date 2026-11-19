@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 2%
 ---
 
@@ -76,6 +76,9 @@ Beachten Sie Folgendes:
 * Die Ersteller von Ideen haben immer Editor-Berechtigungen für ihre eigenen Ideen.
 
 * Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs erstellen oder zu ihnen beitragen und sie in andere Programme exportieren zu können.
+
+* 
+  * Die Freigabe steuert nur, wer auf die Ideenarbeitsfläche zugreifen und mit ihr zusammenarbeiten kann. Datensatzaktualisierungen treten immer noch nur auf, wenn jemand die Zusammenfassung in Workfront Planning exportiert.
 
 ## Zugriffsanforderungen
 
@@ -163,7 +166,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -179,7 +182,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Zugriff auf den Ideenraum.
 
-   Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+   Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
 1. Klicken **oben rechts auf** Freigeben“ und dann auf das Symbol **Einstellungen** ![Einstellungen](assets/setting-icon.png) in der oberen rechten Ecke des Felds **Dokument freigeben**. <!--should this say "document"?-->
 1. Wählen Sie in **Liste &quot;** hat“ eine der folgenden Optionen aus:
