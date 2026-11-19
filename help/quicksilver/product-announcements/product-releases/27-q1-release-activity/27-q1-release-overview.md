@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
+* [Agile-Verbesserungen](#agile-enhancements)
 * [KI-Verbesserungen](#ai-enhancements)
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
 * [Verbesserungen bei Projekten](#project-enhancements)
@@ -100,6 +101,29 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
             <td><p>29. Oktober 2026</p></td>
             <td><p>29. Oktober 2026</p></td>
             <td><p>29. Oktober 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Agile-Verbesserungen
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Aktualisiertes Erscheinungsbild für die Bearbeitung von Feldern auf Agile-Karten</a></p>
+                <p>Die Felder, die Sie zum Bearbeiten von Agile-Karten verwenden, haben ein aktualisiertes Erscheinungsbild, das anderen Stilen in Workfront entspricht.</p>
+            </td>
+            <td><p>19. November 2026</p></td>
+            <td><p>17. Dezember 2026</p></td>
+            <td><p>21. Januar 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -282,6 +306,15 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
         </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Das Erscheinungsbild für das Bedienfeld „Zusammenfassung“ für Aufgaben, Probleme und Dokumente wurde aktualisiert</a></p>
+                <p>Das Bedienfeld Zusammenfassung zeigt ein aktualisiertes Erscheinungsbild mit Informationen und Feldern, die in separate Registerkarten unterteilt sind.</p>
+            </td>
+            <td><p>19. November 2026</p></td>
+            <td><p>17. Dezember 2026</p></td>
+            <td><p>21. Januar 2027</p></td>
+        </tr>
 <!--
         <tr>
             <td>
@@ -390,7 +423,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -441,13 +474,13 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueFormat=HTML
     &quot;
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '14759'
+source-wordcount: '14764'
 ht-degree: 90%
 ---
 # Handbuch für Workfront {#using}
@@ -20,6 +20,7 @@ ht-degree: 90%
     * Version 1. Quartal 2027 {#release-27-q1}
       * [Übersicht über die Version im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
       * [Verbesserungen für Administratoren im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
+      * [Agile-Verbesserungen im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md)
       * [KI-Verbesserungen für das erste Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Verbesserungen bei Dokumenten für das erste Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
       * {hide-from-toc}[Verbesserungen beim Finanzmanagement im ersten Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
