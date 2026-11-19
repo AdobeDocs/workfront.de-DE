@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 6%
+source-wordcount: '487'
+ht-degree: 5%
 ---
 # Konfigurieren der Zeitleisten-Neuberechnungen für Projekte
 
@@ -67,6 +67,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Automatische Neuberechnungen konfigurieren
 
 Als [!DNL Adobe Workfront] können Sie konfigurieren, wenn [!DNL Workfront] Projektzeitleisten automatisch neu berechnet. [!DNL Workfront] können Projektzeitleisten entweder jede Nacht oder bei einer Änderung des Projektumfangs oder beides neu berechnen.
+
+>[!NOTE]
+>
+>Um eine optimale Leistung zu gewährleisten, werden die Timelines für Projekte mit Aufgaben mit einer Dauer von mehr als 1000 Tagen nicht automatisch neu berechnet. Sie müssen die Timelines für diese Projekte manuell neu berechnen.
+
 
 {{step-1-to-setup}}
 

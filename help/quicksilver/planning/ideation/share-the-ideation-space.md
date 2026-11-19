@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 2%
 ---
 
@@ -76,6 +76,9 @@ Beachten Sie Folgendes:
 * Die Ersteller von Ideen haben immer Editor-Berechtigungen für ihre eigenen Ideen.
 
 * Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs erstellen oder zu ihnen beitragen und sie in andere Programme exportieren zu können.
+
+* &#x200B;
+  * Die Freigabe steuert nur, wer auf die Ideenarbeitsfläche zugreifen und mit ihr zusammenarbeiten kann. Datensatzaktualisierungen treten immer noch nur auf, wenn jemand die Zusammenfassung in Workfront Planning exportiert.
 
 ## Zugriffsanforderungen
 

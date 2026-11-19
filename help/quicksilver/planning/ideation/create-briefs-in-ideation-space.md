@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Briefs im Ideenraum
+title: Erstellen von Briefs im Ideationsbereich
 description: In diesem Artikel wird beschrieben, wie Sie im Ideationsbereich Ideen diskutieren und Strategien entwickeln können, um Briefs zu erstellen. Sie können fertige Ideenbeschreibungen in eine Datei oder in Workfront Planning exportieren, um Datensätze zu erstellen oder zu aktualisieren.
 feature: Workfront Planning
 role: User, Admin
@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -189,6 +189,16 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
      ![Ideenraum in Datensatzdetails](assets/ideation-space-button-in-details-page.png)
 
+     >[!IMPORTANT]
+     >
+     >Der Punkt, von dem aus Sie den Ideenraum starten, bestimmt, wie die kurze Struktur aussehen wird. Die folgenden Szenarien sind vorhanden:
+     >
+     >* Wenn Sie ihn in Planning über die Schaltfläche Neuer Datensatz starten, enthält die Zusammenfassung dieselben Felder wie der Datensatztyp, mit dem Sie beginnen.
+     >
+     >* Wenn Sie es über einen vorhandenen Planungsdatensatz starten, enthält die Zusammenfassung dieselben Felder mit denselben Werten wie der Datensatz.
+     >
+     >* Wenn Sie sie über das Hauptmenü von Workfront starten, enthält die Zusammenfassung Felder und Informationen aus den Dateien, die Sie auf die Arbeitsfläche hochladen.
+
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
 
    Die Arbeitsfläche „Ideationsraum“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel nach dem folgenden Format:
@@ -244,10 +254,16 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    Informationen können entweder aus Workfront Planning oder dem Web importiert werden.
 
    Sie können auch auf das **Quellen**-Symbol ![Quellen-Symbol](assets/sources-icon.png) in der rechten oberen Ecke des Bereichs klicken, um eine Liste der Quellen für alle Karten im Bereich anzuzeigen.
-1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke des Bereichs und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
+1. (Optional) Klicken Sie **Kommentare** ![Kommentarsymbol](assets/comments-icon.png) in der oberen rechten Ecke der Arbeitsfläche und **@** Taggen Sie die anderen, um innerhalb des Bereichs mit dem Brainstorming zu beginnen.
 
    Benutzer erhalten eine E-Mail-Benachrichtigung über das Tag.
+
+   >[!TIP]
+   >
+   >Sie können Kommentare für eine Karte oder eine Gruppe von Karten hinzufügen.
+
 1. (Optional) Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-comments-icon.png) innerhalb der Kommentarkarte, um Kommentare nach folgenden Kriterien zu filtern:
+
 
    * Prüfer
    * Zeitpunkt, zu dem der Kommentar hinzugefügt wurde
