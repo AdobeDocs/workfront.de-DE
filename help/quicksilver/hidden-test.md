@@ -10,14 +10,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 02c20015be69f0f6c2bcd915eccb37ea4fbb50fe
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 34%
 ---
 # Ausgeblendeter Test
 
 Ausgeblendete Datei, die zum Testen der Veröffentlichungszeiten in einem größeren Repository verwendet wird.
+
+&#x200B;19. November
 
 Wenden Sie sich an Bob, wenn Probleme auftreten.
 
@@ -230,7 +232,7 @@ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene 
    <td> 
 <p>Jedes Adobe Workfront Workflow-Paket und jedes Adobe Workfront Planning-Paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-Plattform (****Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???*****)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
