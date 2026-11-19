@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 4%
-
 ---
-
 # Bearbeiten von Aufgaben in einer Liste {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -212,7 +210,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der &#x200B;](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -483,6 +481,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
     </tbody> 
    </table>
 
+
 1. Workfront aktualisiert alle projektinternen und projektübergreifenden Abhängigkeiten, wenn Sie die Zeitleiste einer Aufgabe ändern.
 1. Klicken Sie **Speichern**, wenn Sie Ihre Aufgabenänderungen dauerhaft beibehalten und die Zeitleiste des Projekts speichern möchten.
 
@@ -526,6 +525,19 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
       <tr> 
       </tbody> 
       </table>
+
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
 
 1. Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds, um es zu schließen.
 

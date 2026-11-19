@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 12%
+source-wordcount: '759'
+ht-degree: 11%
 ---
 # Zusammenfassung für Dokumente – Überblick
 
@@ -92,11 +92,15 @@ Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
    ![Zusammenfassungsdetails](assets/document-summary-panel.png)
 
-   Nachdem Sie die Zusammenfassung geöffnet haben, bleibt sie auf dieser Seite geöffnet (auch wenn Sie auf andere Dokumente klicken), bis Sie sie manuell schließen.
+<span class="preview">In Vorschau:
+![Zusammenfassungsdetails](assets/document-details-summary-legacy.png)
+</span>
+
+Nachdem Sie die Zusammenfassung geöffnet haben, bleibt sie auf dieser Seite geöffnet (auch wenn Sie auf andere Dokumente klicken), bis Sie sie manuell schließen.
 
 
 ### Details
@@ -112,17 +116,29 @@ Erweitern Sie den Abschnitt Überblick , um eine Miniaturansicht anzuzeigen oder
 
 ![Dokumentzusammenfassung - Übersicht](assets/details-section.png)
 
+<span class="preview">In Vorschau:
+![Zusammenfassungsdetails](assets/document-details-summary-legacy.png)
+</span>
+
 #### Benutzerdefinierte Formulare {#custom-forms}
 
 Verwenden Sie den Abschnitt Benutzerdefinierte Forms , um benutzerdefinierte Formulare, die mit dem Dokument verknüpft sind, hinzuzufügen, zu bearbeiten oder anzuzeigen. Beginnen Sie mit der Eingabe des Namens des benutzerdefinierten Formulars, um es dem Dokument hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Formulars zu einem Dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Hinzufügen eines benutzerdefinierten Formulars in der Dokumentzusammenfassung](assets/custom-forms-section.png)
 
+<span class="preview">In Vorschau:
+![Hinzufügen eines benutzerdefinierten Formulars in der Dokumentzusammenfassung](assets/custom-form-summary-legacy.png)
+</span>
+
 ### Updates
 
 Verwenden Sie den Abschnitt Aktualisierungen , um eine Aktualisierung anzuzeigen, die jemand für das Dokument oder den Korrekturabzug vorgenommen hat. Die Zusammenfassung zeigt die ersten zwei Kommentare an. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Korrekturabzug](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Abschnitt „Aktualisierungen“ im Bedienfeld „Zusammenfassung“](assets/updates-section.png)
+
+<span class="preview">In Vorschau:
+![Abschnitt „Aktualisierungen“ im Bedienfeld „Zusammenfassung“](assets/updates-summary-legacy.png)
+</span>
 
 ### Genehmigungen
 
@@ -135,6 +151,10 @@ Genehmigungen von Korrekturabzügen müssen im Workflow für Korrekturabzüge hi
 
 ![Genehmigungen der Dokumentzusammenfassung](assets/approvals-section.png)
 
+<span class="preview">In Vorschau:
+![Genehmigungen der Dokumentzusammenfassung](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### Versionen
 
 Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png), um Folgendes auszuführen:
@@ -146,6 +166,10 @@ Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für e
 * Löschen von Korrekturabzügen oder Dokumenten.
 
 ![Versionen der Dokumentzusammenfassung](assets/versions-section.png)
+
+<span class="preview">In Vorschau:
+![Versionen der Dokumentzusammenfassung](assets/document-versions-summary-legacy.png)
+</span>
 
 ## Zusammenfassung für Dokumente in der neuen Dokumenterfahrung
 
