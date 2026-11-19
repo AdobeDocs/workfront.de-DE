@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 6%
-
 ---
-
 # Bearbeiten von Problemen in einer Liste
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Beachten Sie beim Bearbeiten von Problemen in einer Liste Folgendes:
 * Sie können jedes Problemfeld bearbeiten, das in der Liste angezeigt wird und für das Sie über die Berechtigung zum Aktualisieren verfügen.
 * Sie können ein Problem in den folgenden Listen bearbeiten:
 
-   * Der Abschnitt „Probleme“ eines Projekts oder einer Aufgabe
-   * Anfragebericht
+  * Der Abschnitt „Probleme“ eines Projekts oder einer Aufgabe
+  * Anfragebericht
 
 So bearbeiten Sie ein Problem inline:
 
@@ -181,9 +179,22 @@ Sie können ein Problem in einer Liste mithilfe des Bedienfelds Zusammenfassung 
    | Stunden ![Zeit protokollieren](assets/log-time-icon-in-summary.png) | Klicken, um Stunden einzutragen. |
    | Genehmigungen ![Symbol für Genehmigungen](assets/approvals-icon-in-summary.png) | Klicken, um Problemgenehmigungen hinzuzufügen. |
 
-   *Wenn Ihr Unternehmen Adobe Cloud Storage für Dokumente verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe Cloud Storage-Problemen hinzufügen.
+<!--
+uncomment for prod
 
-   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*Wenn Ihr Unternehmen Adobe Cloud Storage für Dokumente verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe Cloud Storage-Problemen hinzufügen.
+
+Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 
 1. (Optional) Klicken Sie erneut auf **Zusammenfassung öffnen** oder auf das **X** Symbol oben rechts in der Zusammenfassung, um das Bedienfeld zu schließen und das Problem inline zu bearbeiten.

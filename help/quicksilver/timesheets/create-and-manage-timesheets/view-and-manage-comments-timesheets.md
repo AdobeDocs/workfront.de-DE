@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 5%
-
 ---
-
 # Anzeigen und Verwalten von Kommentaren in einer Arbeitszeittabelle
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ Sie können nur Aufgaben und Probleme in einer Arbeitszeittabelle kommentieren. 
 
 1. Wechseln Sie zur Arbeitszeittabelle, auf der Sie einen Kommentar abgeben möchten, und klicken Sie [!UICONTROL **linken**] auf „Arbeitszeittabelle“.
 1. Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf [!UICONTROL **Zusammenfassung öffnen**].
-1. Beginnen Sie mit der Eingabe einer Aktualisierung [!UICONTROL **Bereich**] Updates“ des Zusammenfassungsbereichs und klicken Sie dann auf [!UICONTROL **Senden**].
+1. Beginnen Sie mit der Eingabe einer Aktualisierung [!UICONTROL **der Registerkarte**] Updates“ des Bedienfelds Zusammenfassung und klicken Sie dann auf [!UICONTROL **Senden**].
 Die Aktualisierung wird im Abschnitt Aktualisierungen der Aufgabe und des Problems angezeigt.
 1. (Optional) Klicken Sie auf [!UICONTROL **Zusammenfassung schließen**], um das Bedienfeld Zusammenfassung zu schließen.
 

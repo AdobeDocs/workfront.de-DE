@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 12%
 ---
 # Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung
@@ -99,6 +99,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    Das Bedienfeld Zusammenfassung wird auf der rechten Seite geöffnet.
 
    ![Bedienfeld Zusammenfassung](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview">In Vorschau:
+   ![Bedienfeld Zusammenfassung](assets/summary-panel.png)
+   </span>
 
 1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder gehen Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
 

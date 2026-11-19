@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 10%
 ---
 # Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Startseite]
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ Sie können jedes Feld in jedem Arbeitselement bearbeiten, zu dessen Bearbeitung
 1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung**.
    ![Zusammenfassung öffnen](assets/open-summary-new-home.png)
 
-1. Bewegen Sie im Bedienfeld Zusammenfassung den Mauszeiger über das Feld, das Sie bearbeiten möchten.
-Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, wenn Sie den Mauszeiger darüber bewegen.
-1. Klicken Sie auf das Feld, das Sie bearbeiten möchten, und nehmen Sie dann die gewünschte Aktualisierung vor.
+1. Klicken Sie im Bedienfeld Zusammenfassung auf das Feld, das Sie bearbeiten möchten, und nehmen Sie dann die gewünschte Aktualisierung vor.
 1. Klicken Sie auf eine Stelle außerhalb des Felds, um Ihre Änderungen zu speichern.

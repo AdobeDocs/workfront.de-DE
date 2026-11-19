@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 1%
 ---
 # Der Bereich „Dokumente“
@@ -65,6 +65,11 @@ Wenn für das Dokument ein Proofing eingerichtet wurde, enthält der Abschnitt D
 Sie können auf die Überschrift Details klicken, um den Bereich Vollständige Dokumentdetails aufzurufen, wenn Sie alle Informationen zu einem Dokument benötigen.
 
 ![Bereich Dokumente](assets/documents-area-v2-350x199.png)
+
+<span class="preview">In Vorschau:
+![Bedienfeld „Dokumentenbereich - Zusammenfassung“](assets/legacy-document-summary.png)
+</span>
+
 
 Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
 

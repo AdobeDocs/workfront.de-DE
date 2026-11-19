@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 1%
-
 ---
-
 # Zeit erfassen
 
 <!--Audited: 5/2025-->
@@ -282,7 +280,13 @@ Ihre aktuelle Arbeitszeittabelle wird standardmäßig angezeigt.
 
    ![summary-panel-for-task-open-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   Ihre Aktualisierung wird im Bereich Aktualisierungen des Arbeitselements angezeigt, das der protokollierten Zeit zugeordnet ist.
+   <span class="preview">In Vorschau:
+
+   ![summary-panel-for-task-open-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   Ihre Aktualisierung wird auf der Registerkarte Aktualisierungen des Arbeitselements angezeigt, das der protokollierten Zeit zugeordnet ist.
 
    >[!TIP]
    >

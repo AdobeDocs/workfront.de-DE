@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 5%
-
 ---
-
 # Anzeigen und Aktualisieren des Prozentwerts der abgeschlossenen Aufgaben
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Sie können den abgeschlossenen Prozentsatz für eine Aufgabe in einem der folge
 
 * **Im Zusammenfassungsbereich einer Aufgabe**: Sie können den Prozentwert der Fertigstellung einer Aufgabe oben im Zusammenfassungsbereich aktualisieren, wenn Sie die Aufgabe in den folgenden Bereichen anzeigen:
 
-   * Aufgabenliste oder Bericht
-   * Arbeitszeittabelle
-   * Workload Balancer
+  * Aufgabenliste oder Bericht
+  * Arbeitszeittabelle
+  * Workload Balancer
 
   ![Prozentuale Aktualisierung in der Aufgabenzusammenfassung hervorgehoben](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview">In Vorschau:
+  ![Prozentwert der Aktualisierung in der Aufgabenzusammenfassung hervorgehoben](assets/percent-complete-summary.png)
+  </span>
 
   Weitere Informationen finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -147,8 +151,8 @@ Sie können den abgeschlossenen Prozentsatz für eine Aufgabe in einem der folge
 * Wenn Sie eine Aufgabe als zu 100 % abgeschlossen markieren, wird der Aufgabenstatus auf „Abgeschlossen“ aktualisiert. Der Status eines Problems wird auf „Geschlossen“ aktualisiert.
 * Durch das Abschließen einer Aufgabe wird auch der abgeschlossene Prozentsatz des übergeordneten Elements und des Projekts aktualisiert.
 * Die folgenden Szenarien sind für übergeordnete Aufgaben und Projekte vorhanden:
-   * Sie können den abgeschlossenen Prozentsatz einer übergeordneten Aufgabe nicht auf 100 % aktualisieren, wenn der Fertigstellungsmodus Zusammenfassung des Projekts auf „Automatisch“ eingestellt ist und die Teilaufgaben nicht abgeschlossen sind.
-   * Sie können den Prozentwert der Fertigstellung einer übergeordneten Aufgabe oder eines Projekts auf 100 % aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf „Manuell“ eingestellt ist und die Teilaufgaben abgeschlossen oder abgeschlossen sind.
+  * Sie können den abgeschlossenen Prozentsatz einer übergeordneten Aufgabe nicht auf 100 % aktualisieren, wenn der Fertigstellungsmodus Zusammenfassung des Projekts auf „Automatisch“ eingestellt ist und die Teilaufgaben nicht abgeschlossen sind.
+  * Sie können den Prozentwert der Fertigstellung einer übergeordneten Aufgabe oder eines Projekts auf 100 % aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf „Manuell“ eingestellt ist und die Teilaufgaben abgeschlossen oder abgeschlossen sind.
 
   Weitere Informationen finden Sie unter [Projekte bearbeiten](../manage-projects/edit-projects.md).
 

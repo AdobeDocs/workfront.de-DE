@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im ersten 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # Weitere Verbesserungen im Zeitrahmen der Version im ersten Quartal 2027
@@ -15,6 +15,21 @@ ht-degree: 1%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2027 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Das Erscheinungsbild für das Bedienfeld „Zusammenfassung“ für Aufgaben, Probleme und Dokumente wurde aktualisiert
+
+>[!NOTE]
+>
+>Vorschau: 19. November 2026
+>Produktionsschnellveröffentlichung: 17. Dezember 2026
+>Produktion für alle: 21. Januar 2027
+
+Das Bedienfeld „Zusammenfassung“ für Aufgaben, Probleme und Dokumente hat ein aktualisiertes Erscheinungsbild, das anderen Stilen in Workfront entspricht. Informationen und Felder sind jetzt im Bedienfeld Zusammenfassung in separate Registerkarten unterteilt.
+
+Weitere Informationen finden Sie unter:
+
+* [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Zusammenfassung für Dokumente – Überblick](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 
