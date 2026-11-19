@@ -77,7 +77,7 @@ Beachten Sie Folgendes:
 
 * Sie müssen über Editor-Berechtigungen für einen Ideenraum verfügen, um Briefs erstellen oder zu ihnen beitragen und sie in andere Programme exportieren zu können.
 
-* 
+* &#x200B;
   * Die Freigabe steuert nur, wer auf die Ideenarbeitsfläche zugreifen und mit ihr zusammenarbeiten kann. Datensatzaktualisierungen treten immer noch nur auf, wenn jemand die Zusammenfassung in Workfront Planning exportiert.
 
 ## Zugriffsanforderungen
@@ -182,7 +182,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Zugriff auf den Ideenraum.
 
-   Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+   Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
 1. Klicken **oben rechts auf** Freigeben“ und dann auf das Symbol **Einstellungen** ![Einstellungen](assets/setting-icon.png) in der oberen rechten Ecke des Felds **Dokument freigeben**. <!--should this say "document"?-->
 1. Wählen Sie in **Liste &quot;** hat“ eine der folgenden Optionen aus:
