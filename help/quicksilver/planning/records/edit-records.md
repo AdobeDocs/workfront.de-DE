@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 1%
 ---
 # Bearbeiten von Einträgen
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * Systemfelder (Erstellt von, Erstellungsdatum, Zuletzt geändert von, Zuletzt geändert Datum, Genehmigt von , Datensatz-ID)
 * Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln die neuen Informationen der Datensätze, die Sie bearbeiten, die verknüpften Datensätze in allen Arbeitsbereichen wider, in denen dieser Datensatz verknüpft ist.
 * Einträge können nicht stapelweise bearbeitet werden. <!--this will probably change-->
-* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit dem Folgenden beginnen: http://, https://, ftp:// oder www. .
+* URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit dem Folgenden beginnen: http://, https://, ftp:// oder <www>. .
 * Sie können jedem Datensatz ein Cover-Bild hinzufügen. Das Bild ist für jeden Datensatz eindeutig und gilt nicht für alle Datensätze gleichzeitig. Weitere Informationen finden Sie [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * Sie können die Reihenfolge der Felder auf der Detailseite eines Datensatzes bearbeiten. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Sie können das Start- und Enddatum eines Datensatzes bearbeiten, indem Sie die Größe der Datensätze in der Zeitleiste und in den Kalenderansichten ändern oder sie neu positionieren.
@@ -389,8 +389,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    >  * Nachschlagen von Feldern aus anderen Datensätzen, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
-1. <span class="preview">(Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern. </span>
-   <span class="preview">Datensätze werden bei ihrer Erstellung automatisch mit Farben versehen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.</span>
+1. (Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern.
+Datensätzen werden bei ihrer Erstellung automatisch Farben zugewiesen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.
 
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -448,8 +448,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
 1. (Optional) Klicken Sie auf das Informationssymbol rechts neben einem Feld, in dem es angezeigt wird, um die Beschreibung eines Felds anzuzeigen.
-1. <span class="preview">(Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern. </span>
-   <span class="preview">Datensätze werden bei ihrer Erstellung automatisch mit Farben versehen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.</span>
+1. (Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern.
+Datensätzen werden bei ihrer Erstellung automatisch Farben zugewiesen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.
 
    ![Farbauswahlfeld für Datensatzdetails](assets/color-picker-box-for-record-color-in-details-page.png)
 

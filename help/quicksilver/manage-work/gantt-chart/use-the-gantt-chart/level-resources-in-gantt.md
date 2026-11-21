@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 6%
 ---
 # Abgleichen von Ressourcen im [!UICONTROL Gantt-Diagramm]
@@ -120,7 +120,7 @@ Beachten Sie beim Abgleichen von Ressourcen für ein Projekt Folgendes:
   ![Abgleichsmodus für Ressourcen](assets/resource-leveling-mode-350x177.png)
 
 * Als Projektbesitzer oder Aufgabenbevollmächtigter können Sie eine Abgleichsverzögerung für eine Aufgabe einführen, um anzugeben, dass die Aufgabe möglicherweise zusätzliche Zeit benötigt. Informationen zum Hinzufügen einer Abgleichsverzögerung zu einer Aufgabe finden Sie unter [Aktualisieren der Abgleichsverzögerung für Aufgaben](../../../manage-work/tasks/task-information/task-leveling-delay.md).
-* Um eine optimale Leistung zu gewährleisten, funktioniert der Ressourcenabgleich nicht für Aufgaben, deren Dauer mehr als 1000 Tage beträgt.
+* Um eine optimale Leistung zu gewährleisten, können die Ressourcen von Aufgaben, deren Dauer mehr als 1000 Tage beträgt, nicht automatisch abgeglichen werden.
 
 ## Anwenden des Ressourcenabgleichs im [!UICONTROL Gantt-Diagramm]
 
