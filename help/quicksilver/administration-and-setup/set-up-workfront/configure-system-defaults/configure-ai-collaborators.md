@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 2%
 ---
 # KI-Mitwirkende konfigurieren
@@ -156,7 +156,12 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
    >Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.
 
 1. Wählen **im Bereich &quot;** des Agenten auswählen“ aus, ob Sie <span class="preview">nativen Adobe-</span> verwenden, einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
-1. <span class="preview">(Bedingt) Wenn Sie Adobe Native auswählen, bestätigen Sie, dass Adobe CX Coworker für Ihr Unternehmen aktiviert ist und dass Sie den einsatzbereiten nativen Adobe-Agenten verwenden möchten.</span>
+1. <span class="preview">(Bedingt) Wenn Sie &quot;Adobe Native“ auswählen, wählen Sie den zu verwendenden Collaborator aus: den CX Enterprise Coworker-Collaborator oder einen vordefinierten KI-Collaborator, z. B. „Aufnahmekoordinator“. Weitere Informationen zu vordefinierten Kollaborateuren, einschließlich einer Beschreibung, finden Sie unter [Konfigurieren von vordefinierten KI-Kollaborateuren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Nachdem Sie einen vordefinierten KI-Mitwirkenden aktiviert haben, dauert es etwa 30 Sekunden, bis er bereitgestellt wird. Ein Spinner wird angezeigt, bis der Collaborator bereit ist.</span>
+
 1. (Bedingt) Wenn Sie einen Agenten von einer gemeinsamen Plattform verwenden, geben Sie Authentifizierungsdetails für die Plattform des Agenten ein:
 
    | Plattform | Erforderliche Authentifizierung |

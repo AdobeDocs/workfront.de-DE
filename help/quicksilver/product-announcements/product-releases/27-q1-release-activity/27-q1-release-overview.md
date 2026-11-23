@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 13%
+source-wordcount: '1708'
+ht-degree: 12%
 ---
 
 # Übersicht über die Version im ersten Quartal 2027
@@ -141,6 +141,15 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Konfigurieren des vorgefertigten KI-Mitwirkenden-Koordinators</a></p>
+                <p>Admins können jetzt den Aufnahmekoordinator, einen vordefinierten KI-Mitwirkenden, als Arbeitsagenten konfigurieren, der Probleme auf fehlende, unklare oder inkonsistente Informationen prüft.</p>
+            </td>
+            <td><p>22. November 2026</p></td>
+            <td><p>17. Dezember 2026</p></td>
+            <td><p>21. Januar 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Verwenden von Writer-Playbooks zum Erstellen von Arbeitsagenten</a></p>
                 <p>[!BADGE Concurrent Release]{type=Neutral}</p>
                 <p>Sie können jetzt Writer-Playbooks verwenden, um Arbeitsagenten zu erstellen.</p>
@@ -152,7 +161,7 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Arbeitsagenten: Nativer Adobe-Support</a></p>
-                <p>Sie können jetzt einen Arbeitsagenten erstellen, der Adobe CX Coworker verwendet, ohne eine externe Plattform zu konfigurieren oder externe Anmeldeinformationen einzugeben.</p>
+                <p>Sie können jetzt einen Arbeitsagenten erstellen, der den CX Enterprise Coworker Collaborator verwendet, einen CX Enterprise Coworker-Agenten, der von Adobe Agent Orchestrator unterstützt wird, ohne eine externe Plattform zu konfigurieren oder externe Anmeldeinformationen einzugeben.</p>
             </td>
             <td><p>29. Oktober 2026</p></td>
             <td><p>12. November 2026</p></td>
