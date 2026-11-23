@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 2%
 ---
 # KI-Mitwirkung
@@ -29,7 +29,7 @@ KI-Mitwirkende sind KI-Agenten, die Sie Aufgaben auf dieselbe Weise zuweisen kö
 
 Zu den verfügbaren KI-Kollaboratortypen gehören KI-Reviewer, <span class="preview"> und Projektkoordinatoren</span>.
 
-Für Arbeitsagenten können Sie einen Agenten über eine unterstützte externe Plattform verbinden <span class="preview">oder, falls in Ihrem Unternehmen Adobe CX Coworker aktiviert ist, Adobe Native auswählen, um einen einsatzbereiten Agenten mit Adobe CX Coworker zu verwenden. Für die native Option von Adobe sind keine Anmeldeinformationen für externe Plattformen erforderlich.</span>
+Für Arbeitsagenten können Sie einen Agenten über eine unterstützte externe Plattform verbinden <span class="preview">oder, falls in Ihrem Unternehmen Adobe CX Coworker aktiviert ist, Adobe Native auswählen, um den CX Enterprise Coworker-Mitarbeiter oder einen vordefinierten KI-Mitarbeiter wie den Aufnahmekoordinator zu verwenden. Die native Option von Adobe erfordert keine Anmeldeinformationen für externe Plattformen. Eine Liste der Optionen finden Sie unter [Konfigurieren von vordefinierten KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
 
 ## KI-Mitwirkende bei der Arbeit
 
