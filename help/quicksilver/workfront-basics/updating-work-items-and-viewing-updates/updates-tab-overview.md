@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # Überblick über den Abschnitt „Aktualisierungen“
@@ -350,6 +350,8 @@ Beachten Sie beim Anzeigen von Aktualisierungen für Benutzer und Teams Folgende
   * Storys
   * Arbeitszeittabellen
   * Wiederholungen
+
+* Im Abschnitt Aktualisierungen eines Teams werden Aktualisierungen angezeigt, die von einem Mitglied des Teams vorgenommen wurden, einschließlich Aktualisierungen bei Projekten, mit denen das Team nicht verknüpft ist. Aktualisierungen werden nicht nach Projekten oder anderen Objekten gefiltert, mit denen das Team verknüpft ist. Um Aktualisierungen für ein bestimmtes Projekt anzuzeigen, gehen Sie zum Abschnitt Aktualisierungen dieses Projekts.
 
 * Die Registerkarte Systemaktualisierungen im Bereich Aktualisierungen für Benutzende wird durch Aktualisierungen anderer Objekte ausgefüllt. Im Folgenden finden Sie Aktualisierungen, die auf der Registerkarte Systemaktualisierungen des Benutzerprofils angezeigt werden, wenn diese Felder im Bereich Aktualisierungs-Feeds von Setup verfolgt werden:
 
