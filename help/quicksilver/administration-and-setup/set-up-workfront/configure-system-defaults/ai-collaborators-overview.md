@@ -16,20 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '153'
 ht-degree: 2%
 ---
 # KI-Mitwirkung
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
-
 KI-Mitwirkende sind KI-Agenten, die Sie Aufgaben auf dieselbe Weise zuweisen können wie eine Person. Sie können KI-Mitwirkende in Ihre vorhandenen Workflows integrieren und so Ihrem Team die Freiheit geben, sich auf das zu konzentrieren, was am wichtigsten ist.
 
-Zu den verfügbaren KI-Kollaboratortypen gehören KI-Reviewer, <span class="preview"> und Projektkoordinatoren</span>.
+Zu den verfügbaren KI-Kollaboratortypen gehören KI-Reviewer, Arbeitsagenten und Projektkoordinatoren.
 
-Für Arbeitsagenten können Sie einen Agenten über eine unterstützte externe Plattform verbinden <span class="preview">oder, falls in Ihrem Unternehmen Adobe CX Coworker aktiviert ist, Adobe Native auswählen, um den CX Enterprise Coworker-Mitarbeiter oder einen vordefinierten KI-Mitarbeiter wie den Aufnahmekoordinator zu verwenden. Die native Option von Adobe erfordert keine Anmeldeinformationen für externe Plattformen. Eine Liste der Optionen finden Sie unter [Konfigurieren von vordefinierten KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+Für Arbeitsagenten können Sie einen Agenten über eine unterstützte externe Plattform, einen vordefinierten KI-Mitarbeiter wie den Aufnahmekoordinator oder, falls in Ihrem Unternehmen Adobe CX Coworker aktiviert ist, den CX Enterprise Coworker-Mitarbeiter verbinden. Die native Option von Adobe erfordert keine Anmeldeinformationen für externe Plattformen. Eine Liste der Optionen finden Sie unter [Konfigurieren von vordefinierten KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).
 
 ## KI-Mitwirkende bei der Arbeit
 

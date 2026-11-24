@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 12%
 ---
 
@@ -142,11 +142,12 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Konfigurieren des vorgefertigten KI-Mitwirkenden-Koordinators</a></p>
+                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
                 <p>Admins können jetzt den Aufnahmekoordinator, einen vordefinierten KI-Mitwirkenden, als Arbeitsagenten konfigurieren, der Probleme auf fehlende, unklare oder inkonsistente Informationen prüft.</p>
             </td>
-            <td><p>22. November 2026</p></td>
-            <td><p>17. Dezember 2026</p></td>
-            <td><p>21. Januar 2027</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Arbeitsagenten: Nativer Adobe-Support</a></p>
+                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
                 <p>Sie können jetzt einen Arbeitsagenten erstellen, der den CX Enterprise Coworker Collaborator verwendet, einen CX Enterprise Coworker-Agenten, der von Adobe Agent Orchestrator unterstützt wird, ohne eine externe Plattform zu konfigurieren oder externe Anmeldeinformationen einzugeben.</p>
             </td>
-            <td><p>29. Oktober 2026</p></td>
             <td><p>12. November 2026</p></td>
-            <td><p>21. Januar 2027</p></td>
+            <td><p>12. November 2026</p></td>
+            <td><p>12. November 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +434,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -483,13 +485,13 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueFormat=HTML
     &quot;
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
