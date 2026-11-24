@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '499'
 ht-degree: 6%
 ---
 # Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps
@@ -219,3 +219,12 @@ Sie können Workspace-übergreifende Funktionen für einen Datensatztyp definier
    Die Einstellungen sind standardmäßig deaktiviert.
 
    Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## Konfigurieren von Standardberechtigungen für Datensätze eines Datensatztyps
+
+Sie können Datensatzberechtigungen für alle Datensätze eines Datensatztyps festlegen, indem Sie die Standardwerte auf der Ebene des Datensatztyps konfigurieren.
+
+Alle neuen Datensätze erhalten standardmäßig die Berechtigungen, die Sie im Bereich Einstellungen für den Datensatztyp festgelegt haben.
+
+Weitere Informationen finden Sie unter [Festlegen von Standardberechtigungen für Datensätze](/help/quicksilver/planning/access/set-default-record-permissions.md).
