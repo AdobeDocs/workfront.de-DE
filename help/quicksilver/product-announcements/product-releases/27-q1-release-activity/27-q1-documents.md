@@ -35,7 +35,7 @@ Adobe Cloud Drive 1.2.0 bietet neue Möglichkeiten zum Hochladen von Dateien, Ve
 * **Synchronisierungsaktivität:** Überprüfen Sie die letzten Uploads, Downloads und Änderungen und identifizieren Sie Elemente, die nicht synchronisiert werden konnten.
 * **In Workfront öffnen** Öffnen Sie den Workfront-Speicherort eines Elements direkt über die Finder-, Datei-Explorer- oder Synchronisierungsaktivität.
 
-Weitere Informationen finden Sie unter [Verwenden von Adobe Cloud ](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) und [Fehlerbehebung in Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md).
+Weitere Informationen finden Sie unter [Verwenden von Adobe Cloud &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) und [Fehlerbehebung in Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md).
 
 <!--
 
