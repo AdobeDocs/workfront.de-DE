@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -214,3 +214,4 @@ Um Protokolle für die Adobe-Unterstützung freizugeben, führen Sie die Schritt
 * **Befolgen Sie die Ordnerstruktur des Projekts.** Organisieren Sie Dateien in Projektordnern so, wie es der Projektinhaber beabsichtigt.
 * **Verwenden Sie beschreibende Dateinamen.** Helfen Sie Ihren Team-Mitgliedern, das zu finden, was sie brauchen.
 * **Erstellen von Duplikaten vermeiden.** Machen Sie keine unnötigen Kopien von Dateien.
+

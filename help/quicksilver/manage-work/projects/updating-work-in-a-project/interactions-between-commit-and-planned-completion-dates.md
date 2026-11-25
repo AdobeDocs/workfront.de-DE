@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 9%
-
 ---
-
 # Interaktionen zwischen dem Verpflichtungsdatum und dem geplanten Abschlussdatum
 
 <!--
@@ -73,7 +71,8 @@ Der Verantwortliche, der an der Aufgabe oder dem Problem arbeitet, kann das Comm
 >
 >Nur der Verantwortliche kann das Commit-Datum einer Aufgabe oder eines Problems aktualisieren.
 
-Der Verantwortliche, der das Verpflichtungsdatum ändert, ändert nicht automatisch das geplante Abschlussdatum. Umgekehrt gilt auch: Durch die Änderung des geplanten Abschlussdatums wird das Commit-Datum nicht geändert.
+
+Die Änderung des Commit-Datums durch den Aufgaben- oder Problembevollmächtigten ändert nicht automatisch das geplante Abschlussdatum. Umgekehrt gilt auch: Durch die Änderung des geplanten Abschlussdatums wird das Commit-Datum nicht geändert. Das voraussichtliche Abschlussdatum ändert sich auch, wenn der Verantwortliche das Commit-Datum aktualisiert hat.
 
 Wenn sich das Commit-Datum ändert, wird der Projektbesitzer über eine In-App-Benachrichtigung von Workfront darüber benachrichtigt, dass diese Änderung vorgenommen wurde.
 

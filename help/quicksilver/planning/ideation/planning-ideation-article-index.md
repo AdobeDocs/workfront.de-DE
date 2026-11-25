@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 0%
 ---
 
@@ -62,6 +62,7 @@ Adobe Workfront Planning bietet jetzt eine zusätzliche Funktion, mit der Sie Id
 Die folgenden Artikel enthalten Informationen zu Ideation Space und geben Ihnen eine Anleitung für seine Funktionen:
 
 * Beginnen Sie hier, um ein allgemeines Verständnis von Ideation Space in Workfront zu erhalten: [Erste Schritte mit Ideation Space für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* Aktuelle Funktionsveröffentlichungen für Ideation Space: [Ideation space for Adobe Workfront Planning release activity](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * Stellen Sie als System-Admin sicher, dass Sie verstehen, wie Sie Ihrem Unternehmen Ideation-Raum zur Verfügung stellen: [Zugriff erforderlich, um den Ideation-Raum zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * Wenn Sie bereit sind, Ihre erste Kampagnenstrategie zu erstellen, erfahren Sie, wie Sie mithilfe von Ideation Space Briefs erstellen[&#x200B; (Erstellen Sie Briefs im Ideation Space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * Wenn Sie von Workfront Planning aus arbeiten, erfahren Sie, wie Sie Datensätze mithilfe von Ideation Space erstellen: [Erstellen oder Bearbeiten von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)

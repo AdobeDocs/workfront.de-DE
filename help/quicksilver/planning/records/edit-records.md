@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 1%
@@ -261,7 +261,13 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    * Aufzählungsliste hinzufügen
    * Nummerierte Liste hinzufügen
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![Rich-Text-Symbolleiste im Absatzfeld](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. (Optional) Doppelklicken Sie auf ein Feld Verbundener Datensatz , um einem anderen Datensatz verbundene Datensätze oder Objekte hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 1. Drücken Sie **Eingabetaste** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. Ein **Gespeichert**-Indikator wird kurz in der oberen rechten Ecke der Tabellenansicht angezeigt, um anzuzeigen, dass die Änderungen gespeichert wurden.

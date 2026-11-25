@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # Verwalten der Tabellenansicht
@@ -328,7 +328,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. (Bedingt) Führen Sie je nach den angezeigten Feldtypen einen der folgenden Schritte aus:
 
-   * Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Felder formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
+   * Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Feldtypen formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in der <!--<span class="preview">or at the bottom of a grouping</span>--> Spalten und wählen Sie aus den folgenden Optionen aus:
 
      * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an.
      * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
@@ -362,6 +362,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      * Zuletzt geändert von
      * Eintrags-ID
    * Formelfelder und Lookup-Felder verfügen über die Aggregatoren, die ihrem Feldformat entsprechen.
+   * Die Aggregatoren zeigen die Ergebnisse bei der Berechnung aller auf dem Bildschirm geladenen Datensätze an und nicht aller verfügbaren Datensätze.
 
 
 

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 90%
 ---
 # Handbuch für Workfront {#using}
@@ -2231,7 +2231,7 @@ ht-degree: 90%
   * Adobe Workfront Planning-Berichte {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning-Berichte: Artikelindex](planning/reporting/reporting-in-planning-article-index.md)
     * [Workfront-Planungsinformationen in Berichten anzeigen](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[Workfront Data Connect für Workfront Planning](planning/reporting/planning-in-data-connect.md)
+    * {hide-from-toc}[Workfront Data Connect for Workfront Planning](planning/reporting/planning-in-data-connect.md)
   * Best Practices für Adobe Workfront-Planung {#adobe-workfront-planning-best-practices}
     * [Best Practices für Adobe Workfront: Artikelindex](planning/best-practices.md/best-practices-article-index.md)
     * [Stellen Sie Ihr strategisches Zuhause bereit: ein 30-tägiges Launchpad](planning/best-practices.md/30-day-launchpad.md)
@@ -2342,6 +2342,7 @@ ht-degree: 90%
     * [Verwalten von Teams in Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Der Ideenraum in Workfront Planning {#ideation}
     * [Ideenraum für Adobe Workfront Planning: Artikelindex](planning/ideation/planning-ideation-article-index.md)
+    * [Ideenraum für die Versionsaktivität von Adobe Workfront Planning](planning/ideation/ideation-space-release-notes.md)
     * [Erste Schritte mit dem Ideenraum für Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
     * [Zugriff für die Nutzung des Ideenraums erforderlich](planning/ideation/access-needed-to-use-ideation-space.md)
     * [Erstellen von Briefs im Ideationsbereich](planning/ideation/create-briefs-in-ideation-space.md)

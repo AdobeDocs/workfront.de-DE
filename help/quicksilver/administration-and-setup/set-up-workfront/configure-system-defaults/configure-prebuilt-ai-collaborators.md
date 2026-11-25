@@ -6,10 +6,10 @@ description: Als Adobe Workfront-Administrator können Sie vorgefertigte KI-Mitw
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 7%
 ---
 # Konfigurieren von vordefinierten KI-Mitwirkenden
 
@@ -71,6 +71,10 @@ Weitere Informationen finden Sie unter [Übersicht über CX Enterprise Coworker 
 ### Intake-Koordinator {#intake-coordinator}
 
 Der Aufnahmekoordinator prüft die Details, benutzerdefinierten Formulare und Anhänge von Anfragen auf fehlende, unklare oder inkonsistente Informationen. Es veröffentlicht Feedback oder nimmt Änderungen mit Genehmigung des Benutzers vor.
+
+>[!NOTE]
+>
+>Sie können den Aufnahmekoordinator bei der Erstellung der Regel einer Routingregel zuweisen, ihn aber später nicht mehr zuweisen.
 
 <!--
 ### Context Carrier {#context-carrier}
