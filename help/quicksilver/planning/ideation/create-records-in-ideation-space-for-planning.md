@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 1%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -200,6 +200,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    ![Neues Eintragsfeld mit der Schaltfläche „Ideationsraum öffnen“](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >Sie können auch über das Workfront-Hauptmenü auf den Ideationsbereich zugreifen, um Datensätze zu erstellen. Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
 
    Folgendes geschieht:
@@ -216,6 +221,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Optional) Klicken Sie auf das **Startseite**-Symbol ![Startseite des Ideationsraums](assets/ideation-space-home-icon.png) in der oberen linken Ecke der Arbeitsfläche, um den Bereich **Startseite des Ideationsraums** zu öffnen und auf eine andere Arbeitsfläche zuzugreifen.
 1. (Optional) Bewegen Sie den Mauszeiger über das Tag **Workfront Planning** in der rechten oberen Ecke der Arbeitsfläche „Ideation Space“, um den Namen des Datensatztyps, den Arbeitsbereich, für den Sie einen Datensatz erstellen, und die Versionsnummer der Zusammenfassung, die Sie erstellen, anzuzeigen.
 
    ![Info-Tag für Workfront Planning Workspace und den Datensatztyp auf der Arbeitsfläche](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

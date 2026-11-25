@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 1%
 ---
 
 # Zugriff für die Nutzung des Ideationsraums erforderlich
@@ -159,6 +159,9 @@ Die folgenden Einstellungen sind erforderlich, um in Workfront auf Ideation Spac
     >
     >Weitere Informationen finden Sie [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
+* Akzeptieren des Beta-Abkommens
+
+  Dies ist eine Anforderung während des Beta-Programms. Sie können Ideation Space nicht nutzen, ohne den Bedingungen des Beta-Programms zuzustimmen. Wenn Sie die Vereinbarung akzeptieren, tun Sie dies für Ihre Benutzerin bzw. Ihren Benutzer und nicht für die Organisation. Jeder Nutzer muss die Vereinbarung einzeln akzeptieren.
 
 
 ## Lizenzanforderungen

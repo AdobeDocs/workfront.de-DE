@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -179,15 +179,23 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
    * Navigieren Sie zum **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) und klicken Sie auf **Ideationsraum**
 
+     Der Bereich **Ideationsraum Home** wird geöffnet.
+
      ![Ideenraum im Hauptmenü](assets/ideation-space-area-icon-in-main-menu.png)
 
    * Wechseln Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf **Neuer Datensatz** > klicken Sie auf **Ideationsbereich starten**
+
+     Eine neue Arbeitsfläche, die sofort mit einem neuen Datensatz verbunden ist, wird geöffnet.
 
      ![Ideenraum in neuem Rekord](assets/ideation-space-in-planning-new-record.png)
 
    * Gehen Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > klicken Sie auf **Öffnen Sie im Ideationsbereich**
 
+     Die mit dem ausgewählten Datensatz verbundene Arbeitsfläche wird geöffnet.
+
      ![Ideenraum in Datensatzdetails](assets/ideation-space-button-in-details-page.png)
+
+     Weitere Informationen zum Erstellen von Planungsdatensätzen mithilfe von Ideation Space finden Sie unter [Erstellen von Planungsdatensätzen aus Ideation Space-Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
      >* Wenn Sie sie über das Hauptmenü von Workfront starten, enthält die Zusammenfassung Felder und Informationen aus den Dateien, die Sie auf die Arbeitsfläche hochladen.
 
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.
+1. (Bedingt) Wenn Sie Ideation Space über das **Hauptmenü** aufgerufen haben und den Bereich **Ideation Space Home** geöffnet haben, führen Sie einen der folgenden Schritte aus, um eine Ideation-Arbeitsfläche zu öffnen:
 
-   Die Arbeitsfläche „Ideationsraum“ wird geöffnet und eine neue Idee erhält standardmäßig den Titel nach dem folgenden Format:
+   * Klicken Sie auf eine kürzlich geöffnete Arbeitsfläche oben auf der Seite, um sie zu öffnen
+   * Klicken Sie **Neue Arbeitsfläche starten**, um eine neue Arbeitsfläche zu öffnen und mit der Erstellung einer Ideenbeschreibung zu beginnen
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     Die Arbeitsfläche „Ideationsraum“ wird geöffnet und die neue Idee wird nach dem folgenden Format automatisch benannt:
 
-   Weitere Informationen zur Erstellung von Datensätzen mithilfe von Ideation Space finden Sie unter [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+     `Untitled ideation - Month date, year at time`
 
-1. (Bedingt) Um eine bestehende Zusammenfassung im Ideation-Bereich zu öffnen, melden Sie sich bei Workfront mit Planning an, wo der -Mitarbeiter aktiviert wurde, und führen Sie einen der folgenden Schritte aus:
+     ![Leere Ideenleinwand mit minimiertem Brief und Kollege](assets/empty-ideation-space-with-brief-minimized.png)
+   * Suchen Sie vorhandene Arbeitsflächen in der oberen rechten Ecke der Liste **Alle Arbeitsflächen** und klicken Sie dann darauf, wenn sie in der Liste angezeigt wird
 
-   * Gehen Sie zu **Hauptmenü** ![Hauptmenü](assets/main-menu-lines.png) > **Planung** > klicken Sie auf einen Arbeitsbereich > klicken Sie auf einen Datensatztyp > klicken Sie auf einen vorhandenen Datensatz > **Öffnen Sie im Ideationsbereich**
+     ![Ideationsraum-Startbereich](assets/ideation-space-home-area.png)
 
-     Der Ideenname entspricht dem Namen des Datensatzes.
+     >[!TIP]
+     >
+     >Nicht alle Arbeitsflächen im Ideationsraum-Startbereich sind mit Planungsunterlagen verbunden.
+
+1. (Optional) Führen Sie im Bereich **Alle**&quot; einen der folgenden Schritte aus:
+
+   * Klicken Sie **Aktualisieren** ![Aktualisieren-Symbol](assets/refresh-icon.png), um die Liste aller verfügbaren Arbeitsflächen zu verlängern.
+   * Klicken Sie auf **Kartensymbol** ![Kartensymbol](assets/card-icon.png), um verfügbare Arbeitsflächen als Karten anzuzeigen.
+   * Klicken Sie auf **list icon** ![list icon](assets/list-icon.png), um die verfügbaren Arbeitsflächen in einer Listenansicht anzuzeigen.
+1. (Optional) Klicken Sie auf einer geöffneten Arbeitsfläche auf das Symbol **Startseite** ![Ideation Space Home-Symbol](assets/ideation-space-home-icon.png) im linken oberen Bereich des Bildschirms, um zum Bereich **Ideation Space Home** zurückzukehren.
+
+   >[!TIP]
+   >
+   >Das Startsymbol für Ideationsräume ![Startseite für Ideationsräume](assets/ideation-space-home-icon.png) ist auf jeder Arbeitsfläche verfügbar, selbst wenn Sie es über Workfront Planning geöffnet haben.
 
 1. (Empfohlen) Klicken Sie auf den Namen der Idee, um den Namen zu ändern, wenn Sie sie zum ersten Mal geöffnet haben.
 
-1. (Bedingt und optional) Um einen anderen vorhandenen Ideationsraum zu öffnen, klicken Sie auf das Dropdown-Menü rechts neben dem Ideennamen, suchen Sie nach dem Namen und klicken Sie dann auf die Idee, wenn sie in der Liste angezeigt wird.
+1. (Bedingt und optional) Um eine andere vorhandene Arbeitsfläche zu öffnen, klicken Sie auf das Dropdown-Menü rechts neben dem Ideennamen, suchen Sie nach dem Namen und klicken Sie dann auf die Idee, wenn sie in der Liste angezeigt wird.
 
-   Der **Ideationsraum** wird geöffnet und „Kollege“ wird rechts geöffnet.
 1. Verwenden Sie die Eingabeaufforderung des Mitarbeiters, um die Art der Zusammenfassung zu beschreiben, die Sie erstellen möchten.
 
    Geben Sie zum Beispiel „Erstellen Sie eine Kampagne „Zurück zur Schule“ für Schüler der Klasse K-12, die durch den Monat August läuft, für Eltern und Lehrer in den USA ein“.  Um die Zusammenfassung so vollständig wie möglich zu gestalten, geben Sie so viele Informationen an, wie Sie für welche Art von Kampagne verfügbar haben, den Zeitplan, die Stakeholder, Validierungs-Checkpoints und andere Details.
@@ -245,7 +268,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
 
 1. (Optional) Klicken Sie auf **Chats**-Symbol ![Chats-Symbol](assets/chats-icon-coworker.png) in der oberen rechten Ecke des Bedienfelds „Mitarbeiter“ und klicken Sie dann auf **Neuer Chat**, um eine neue Eingabeaufforderung zu öffnen, oder klicken Sie auf einen der vorherigen Chats in der Liste, um zu einem älteren Chat zurückzukehren.
 
-   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
+   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Enterprise Coworker.
 
 1. Klicken Sie auf das **Suchen**-Symbol ![Suchen](assets/search-icon.png), um auf der Ideenarbeitsfläche nach Elementen zu suchen, und klicken Sie dann, wenn es in der Liste angezeigt wird, um dorthin zu navigieren.
 
@@ -282,7 +305,7 @@ Sie können Briefs erstellen, um Planungsdatensätze zu erstellen oder zu bearbe
    >[!TIP]
    >
    >Die Einstellung Dokumente muss aktiviert sein, damit auf Dokumente zugegriffen und sie in den Bereich hochgeladen werden können.
-   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche &#x200B;](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
+   >Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Arbeitsfläche ](#configure-the-ideation-space-canvas) Ideationsraum“ in diesem Artikel.
    > 
 1. Klicken Sie auf das Symbol **Workfront Connected Planning-Datensätze hinzufügen** ![Workfront Connected Planning-Datensätze hinzufügen](assets/add-from-wf-planning-on-ideations-space.png) und wählen Sie einen verbundenen Datensatztyp und dann einen Datensatz aus jedem Typ aus, um die Informationen dieses Datensatztyps zum ausgewählten Datensatztyp hinzuzufügen.
 

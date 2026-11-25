@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 5%
-
 ---
-
 # Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ Die Kriterien, die zur Bestimmung des voraussichtlichen Abschlussdatums verwende
 
 * **Aufgaben:** Das voraussichtliche Abschlussdatum für Aufgaben wird anhand der folgenden Kriterien bestimmt:
 
-   * **Fortschrittsaktualisierungen, die vom Aufgabenbevollmächtigten an der Aufgabe vorgenommen wurden** Zu den Fortschrittsaktualisierungen gehören Änderungen an „Prozent abgeschlossen“ und Änderungen am Aufgabenstatus.
-   * **Commit-Datum** Wenn der Aufgabenzugewiesene ein Commit-Datum angibt, ändert sich das voraussichtliche Abschlussdatum, sodass es dem Commit-Datum entspricht.
+  * **Fortschrittsaktualisierungen, die vom Aufgabenbevollmächtigten an der Aufgabe vorgenommen wurden** Zu den Fortschrittsaktualisierungen gehören Änderungen an „Prozent abgeschlossen“ und Änderungen am Aufgabenstatus.
+  * **Commit-Datum** Wenn der Aufgabenzugewiesene ein Commit-Datum angibt, ändert sich das voraussichtliche Abschlussdatum, sodass es dem Commit-Datum entspricht. Das geplante Abschlussdatum des Problems wird dadurch nicht geändert.
 
-     Weitere Informationen zu Commit-Terminen finden Sie im Artikel [Übersicht über Commit-Datum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+    Weitere Informationen zu Commit-Terminen finden Sie im Artikel [Übersicht über Commit-Datum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Vorgänger:** Wenn es bei den Vorgängeraufgaben keine Verzögerungen gibt, sollte das voraussichtliche Abschlussdatum mit dem geplanten Abschlussdatum übereinstimmen. Wenn Verzögerungen auftreten, zeigen abhängige Aufgaben ein voraussichtliches Abschlussdatum an, das nach dem geplanten Abschlussdatum liegt.
+  * **Vorgänger:** Wenn es bei den Vorgängeraufgaben keine Verzögerungen gibt, sollte das voraussichtliche Abschlussdatum mit dem geplanten Abschlussdatum übereinstimmen. Wenn Verzögerungen auftreten, zeigen abhängige Aufgaben ein voraussichtliches Abschlussdatum an, das nach dem geplanten Abschlussdatum liegt.
 
-     Weitere Informationen zum geplanten Abschlussdatum von Aufgaben finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+    Weitere Informationen zum geplanten Abschlussdatum von Aufgaben finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ Die Kriterien, die zur Bestimmung des voraussichtlichen Abschlussdatums verwende
 
 * **Probleme:** Das voraussichtliche Abschlussdatum der Anfrage ist zunächst so festgelegt, dass es dem geplanten Abschlussdatum der Anfrage entspricht.
 
-  Wenn der Problembevollmächtigte ein Commit-Datum angibt, ändern sich sowohl das projizierte Abschlussdatum als auch das geplante Abschlussdatum, sodass es dem Commit-Datum entspricht.
+  Wenn der Problembevollmächtigte ein Commit-Datum angibt, ändert sich das voraussichtliche Abschlussdatum, sodass es dem Commit-Datum entspricht. Das geplante Abschlussdatum des Problems wird dadurch nicht geändert.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   Weitere Informationen zu Commit-Terminen finden Sie im Artikel [Übersicht über Commit-Datum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

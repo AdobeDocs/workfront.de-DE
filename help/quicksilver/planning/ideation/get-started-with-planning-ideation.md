@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 1%
 ---
 
@@ -169,6 +169,11 @@ So erhalten Sie Zugriff auf den Ideenraum:
    * [Zugriff für die Nutzung des Ideenraums erforderlich](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [Erstellen von Planungsdatensätzen aus Ideation Space Briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [Erstellen von Briefs im Ideationsraum](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Akzeptieren Sie das Beta-Abkommen.
+
+   Dies ist eine Anforderung während des Beta-Programms. Sie können Ideation Space nicht nutzen, ohne den Bedingungen des Beta-Programms zuzustimmen.
+
+   Wenn Sie die Vereinbarung akzeptieren, tun Sie dies für Ihre Benutzerin bzw. Ihren Benutzer und nicht für die Organisation. Jeder Nutzer muss die Vereinbarung einzeln akzeptieren.
 
 1. (Empfohlen) Identifizieren Sie Ihre erste Kampagne: eine kürzlich aktualisierte Kampagne oder eine neue Initiative, die von Grund auf neu erstellt werden soll.
 
@@ -323,10 +328,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/de/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/de/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/de/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 
