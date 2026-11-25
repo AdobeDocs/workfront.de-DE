@@ -202,7 +202,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    >[!TIP]
    >
-   >Sie können auch über das Workfront-Hauptmenü auf den Ideationsbereich zugreifen, um Datensätze zu erstellen. Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+   >Sie können auch über das Workfront-Hauptmenü auf den Ideationsbereich zugreifen, um Datensätze zu erstellen. Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
 
 1. Lesen Sie die Beta-Vereinbarung und klicken Sie auf **Zustimmen**. Sie müssen die Vereinbarung unterzeichnen, um Ideation Space zu nutzen.

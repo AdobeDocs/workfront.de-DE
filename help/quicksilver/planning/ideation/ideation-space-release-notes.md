@@ -30,4 +30,4 @@ Informationen zu Adobe Workfront Planning-Versionen finden Sie unter [Adobe Work
 
 Wenn Sie Ideation Space über das Waffelmenü von Workfront aufrufen, öffnen Sie jetzt den Ideation Space Home-Bereich. Von hier aus können Sie eine vorhandene Arbeitsfläche erneut öffnen oder erstellen, sodass Sie nicht mehr mit einer leeren Arbeitsfläche beginnen müssen, nur um zu einer vorhandenen zu gelangen. Im Bereich Startseite werden Ihre letzten Arbeitsflächen als Kacheln angezeigt. Alle anderen Arbeitsflächen werden im unteren Bereich des Bildschirms aufgelistet und es wird ein Suchfeld eingefügt. Wenn Sie auf einer Arbeitsfläche arbeiten, verwenden Sie die Schaltfläche Neue Startseite , um zum Startseiten-Bereich des Ideationsraums zurückzukehren.
 
-Weitere Informationen finden [ unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+Weitere Informationen finden [&#x200B; unter „Erstellen von Briefs im Ideenbereich](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
