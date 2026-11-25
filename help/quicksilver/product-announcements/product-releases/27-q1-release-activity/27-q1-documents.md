@@ -4,10 +4,10 @@ description: Verbesserungen bei Dokumenten für das erste Quartal 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 2%
 ---
 
 # Verbesserungen bei Dokumenten für das erste Quartal 2027
@@ -15,6 +15,27 @@ ht-degree: 5%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2027 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2027 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Neue Funktionen in Adobe Cloud Drive v1.2.0
+
+>[!NOTE]
+>
+>Vorschau: 25. November 2026
+>Produktions-Schnellveröffentlichung: 25. November 2026
+>Produktion für alle: 25. November 2026
+>[!BADGE Gleichzeitige Veröffentlichung]{type=Neutral}
+>[!BADGE Workflow-Ultimate]{type=Informative}
+
+Adobe Cloud Drive 1.2.0 bietet neue Möglichkeiten zum Hochladen von Dateien, Verwalten der Synchronisierung und Arbeiten mit Cloud-Inhalten:
+
+* **In Cloud hochladen (direkter Upload):** Klicken Sie im Finder oder Datei-Explorer mit der rechten Maustaste auf eine Datei, um sie direkt in ein Projekt im Adobe Cloud-Speicher hochzuladen, ohne sie zuerst in den Adobe Cloud Drive-Ordner zu kopieren. Überwachen Sie den Fortschritt im Abschnitt „Direkter Upload“ der Synchronisierungsaktivität.
+* **Synchronisierung anhalten und fortsetzen:** Adobe Cloud Drive bei langsamer oder getakteter Verbindung anhalten und dann fortsetzen, wenn Sie bereit sind.
+* **Versionsverlauf:** Durchsuchen gespeicherter Cloud-Versionen einer Datei, Bearbeiten von Versionsnamen und Beschreibungen und Wiederherstellen einer früheren Version.
+* **Lokalen Speicher verwalten:** Überwachen Sie die lokale Festplattenauslastung, legen Sie eine Speicherbegrenzung fest und zeigen Sie die Dateien an, die auf diesem Gerät als „Immer“ markiert sind.
+* **Synchronisierungsaktivität:** Überprüfen Sie die letzten Uploads, Downloads und Änderungen und identifizieren Sie Elemente, die nicht synchronisiert werden konnten.
+* **In Workfront öffnen** Öffnen Sie den Workfront-Speicherort eines Elements direkt über die Finder-, Datei-Explorer- oder Synchronisierungsaktivität.
+
+Weitere Informationen finden Sie unter [Verwenden von Adobe Cloud ](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) und [Fehlerbehebung in Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md).
 
 <!--
 

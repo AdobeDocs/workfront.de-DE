@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Die
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Neue Funktionen in Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE Concurrent Release]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive 1.2.0 führt das direkte Hochladen, das Anhalten und Fortsetzen der Synchronisierung, den Versionsverlauf, die lokale Speicherverwaltung, die Synchronisierungsaktivität und „In Workfront öffnen“ ein.</p>
+            </td>
+            <td><p>25. November 2026</p></td>
+            <td><p>25. November 2026</p></td>
+            <td><p>25. November 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -434,7 +445,7 @@ Der Desktop Proofing Viewer wurde auf Version 2.3.0 aktualisiert. Dieses Update 
 
 * Das zugrunde liegende Framework (Electron) wurde auf die neueste Version aktualisiert, die auf Chrome Version 156 ausgeführt wird, um Leistungs- und Sicherheitsverbesserungen zu erzielen.
 
-Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Ankündigungen
 
@@ -485,13 +496,13 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueFormat=HTML
     &quot;
 
-Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

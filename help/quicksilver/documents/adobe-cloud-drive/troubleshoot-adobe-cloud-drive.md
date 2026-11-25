@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Fehlerbehebung in Adobe Cloud Drive
@@ -166,11 +166,46 @@ Informationen zum Arbeiten mit Adobe Cloud Drive finden Sie unter [Verwenden von
 * Verwenden Sie die Workfront-Web-Oberfläche, um ein Projekt zu erstellen, umzubenennen oder zu löschen.
 * Bitten Sie den Projektbesitzer, das Projekt für Sie mit Bearbeitungszugriff freizugeben.
 
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### Die Option In Cloud hochladen ist nicht verfügbar
+
+**Mögliche Ursachen:**
+
+* Unter Mac ist Adobe Cloud Drive Finder Helper nicht aktiviert.
+
+**Lösungen:**
+
+* Wechseln Sie in Mac zu **Systemeinstellungen** > **Allgemein** > **Anmeldeelemente und Erweiterungen** und stellen Sie sicher, dass Adobe Cloud Drive Finder Helper aktiviert ist.
+
+### Uploads vom Desktop, Dokumente oder Downloads schlagen mit einem Autorisierungsfehler fehl (Mac)
+
+**Mögliche Ursachen:**
+
+* Adobe Cloud Drive ist nicht berechtigt, auf die Ordner „Desktop“, „Dokumente“ oder „Downloads“ zuzugreifen.
+* Erforderliche Ordnerzugriffsberechtigungen sind in den macOS-Einstellungen deaktiviert.
+
+**Lösungen:**
+
+1. Navigieren Sie **Systemeinstellungen** > **Datenschutz und** > **Dateien und Ordner**.
+1. Gewähren Sie Adobe Cloud Drive Zugriff auf die entsprechenden Ordner.
+1. Wiederholen Sie den Upload.
+
+### Es werden mehrere Finder-Synchronisierungsprozesse angezeigt (Mac)
+
+**Mögliche Ursachen:**
+
+* macOS zeigt in Activity Monitor möglicherweise zwei bis drei Synchronisierungsprozesse für Adobe Cloud Drive Finder im normalen Betrieb an.
+
+**Lösungen:**
+
+* Es ist keine Aktion erforderlich. Es wird erwartet, dass zwei bis drei Synchronisierungsprozesse für den Adobe Cloud Drive Finder ausgeführt werden.
+
 ## Hilfe erhalten
 
 Wenden Sie sich bei Lizenzfragen, Problemen mit dem Projektzugriff oder einer organisationsspezifischen Konfiguration an Ihren Workfront-Administrator.
 
-Um Protokolle für die Adobe-Unterstützung freizugeben, führen Sie die Schritte unter [Ausführen des Adobe-Tool zur Protokollerfassung](https://helpx.adobe.com/de/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html) aus.
+Um Protokolle für die Adobe-Unterstützung freizugeben, führen Sie die Schritte unter [Ausführen des Adobe-Tool zur Protokollerfassung](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html) aus.
 
 ## Best Practices
 

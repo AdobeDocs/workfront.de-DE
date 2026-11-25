@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # Einrichten und Verwalten von Adobe Cloud Drive für Ihr Unternehmen
@@ -128,7 +128,7 @@ Der Zugriff auf das Adobe Cloud Drive wird in der Adobe Admin Console konfigurie
 
 Wenn Adobe Adobe Cloud Drive für Ihr Unternehmen aktiviert, ist der Funktionsumschalter auf Organisationsebene standardmäßig aktiviert, und alle Benutzenden haben sofort Zugriff. Verwenden Sie dieses Verfahren, um vor der Bereitstellung der Anwendung zu bestätigen, dass der Schalter eingeschaltet ist.
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“.
 1. Klicken **im linken** auf „Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
@@ -152,7 +152,7 @@ Verwenden Sie diese Option, wenn Sie den Zugriff auf eine definierte Benutzergru
 
 So deaktivieren Sie die Funktion auf Organisationsebene:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
 1. Suchen Sie im **Mitglied**-Bedienfeld **Adobe Cloud Drive** unter **Berechtigungen** und deaktivieren Sie es.
@@ -189,7 +189,7 @@ Verwenden Sie diese Methode, wenn Ihr Unternehmen zentralisierte Bereitstellungs
 
 So erstellen Sie das Paket in der Adobe Admin Console:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen Navigationsleiste auf** Pakete“.
 1. Klicken Sie **linken Bereich auf** Vorgenerierte Pakete“.
 1. Klicken Sie auf **Registerkarte** Vorlagen“.
@@ -222,9 +222,13 @@ So erstellen Sie das Paket in der Adobe Admin Console:
    ![Schritt „Apps auswählen“ im Paket-Assistenten](assets/choose-apps-step-in-wizard.png)
 
 1. Klicken Sie auf **Weiter**.
-1. Klicken Sie im Schritt **Optionen** auf **Weiter** ohne Optionen auszuwählen.
+1. Klicken Sie im **Optionen**-Schritt auf **Aktualisierung für Endbenutzer deaktivieren**, um zu verhindern, dass Benutzer die Anwendung selbst aktualisieren, oder klicken Sie auf **Weiter**, ohne Optionen auszuwählen.
 
-   Diese Einstellungen gelten für Creative Cloud-Desktop-Programme und nicht für Adobe Cloud Drive.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >Um zu verhindern, dass Endbenutzer die Anwendung selbst aktualisieren, wählen Sie **Aktualisierung für Endbenutzer deaktivieren** im Schritt **Optionen** aus. Die anderen Einstellungen in diesem Schritt gelten für Creative Cloud-Desktop-Programme und nicht für Adobe Cloud Drive.
 
    ![Schritte für Optionen im Paket-Assistenten](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ So erstellen Sie das Paket in der Adobe Admin Console:
    ![Das Paket befindet sich im Vorbereitungsstatus](assets/package-is-preparing.png)
 
 1. Klicken Sie **Herunterladen** und speichern Sie die Paketdatei an dem gewünschten Speicherort.
+
+   >[!NOTE]
+   >
+   >Der Paket-Download-Link und das Downloader-Dienstprogramm laufen 3 Tage nach der Paketerstellung ab. Die heruntergeladene .pkg- oder .zip-Datei läuft jedoch nicht ab und kann zu einem späteren Zeitpunkt für die Installation verwendet werden.
 
 ### Methode B: Direkter Self-Service-Download von Software Distribution
 
@@ -287,7 +295,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, ist keine Adobe Admin Co
 
 Wenn der Schalter auf Organisationsebene ausgeschaltet ist:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Klicken Sie **Benutzer hinzufügen**, geben Sie die E-Mail-Adresse des Benutzers ein und klicken Sie auf **Speichern**.
@@ -298,7 +306,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, hat jeder lizenzierte Be
 
 Wenn der Schalter auf Organisationsebene deaktiviert ist und der Benutzer die Rolle **ACD-Benutzer** innehat:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Wählen Sie den Benutzer aus und klicken Sie auf **Entfernen**.
