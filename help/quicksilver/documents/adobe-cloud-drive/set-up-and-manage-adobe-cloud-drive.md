@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 1%
@@ -128,7 +128,7 @@ Der Zugriff auf das Adobe Cloud Drive wird in der Adobe Admin Console konfigurie
 
 Wenn Adobe Adobe Cloud Drive für Ihr Unternehmen aktiviert, ist der Funktionsumschalter auf Organisationsebene standardmäßig aktiviert, und alle Benutzenden haben sofort Zugriff. Verwenden Sie dieses Verfahren, um vor der Bereitstellung der Anwendung zu bestätigen, dass der Schalter eingeschaltet ist.
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“.
 1. Klicken **im linken** auf „Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
@@ -152,7 +152,7 @@ Verwenden Sie diese Option, wenn Sie den Zugriff auf eine definierte Benutzergru
 
 So deaktivieren Sie die Funktion auf Organisationsebene:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
 1. Suchen Sie im **Mitglied**-Bedienfeld **Adobe Cloud Drive** unter **Berechtigungen** und deaktivieren Sie es.
@@ -189,7 +189,7 @@ Verwenden Sie diese Methode, wenn Ihr Unternehmen zentralisierte Bereitstellungs
 
 So erstellen Sie das Paket in der Adobe Admin Console:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen Navigationsleiste auf** Pakete“.
 1. Klicken Sie **linken Bereich auf** Vorgenerierte Pakete“.
 1. Klicken Sie auf **Registerkarte** Vorlagen“.
@@ -295,7 +295,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, ist keine Adobe Admin Co
 
 Wenn der Schalter auf Organisationsebene ausgeschaltet ist:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Klicken Sie **Benutzer hinzufügen**, geben Sie die E-Mail-Adresse des Benutzers ein und klicken Sie auf **Speichern**.
@@ -306,7 +306,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, hat jeder lizenzierte Be
 
 Wenn der Schalter auf Organisationsebene deaktiviert ist und der Benutzer die Rolle **ACD-Benutzer** innehat:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Wählen Sie den Benutzer aus und klicken Sie auf **Entfernen**.
@@ -439,3 +439,4 @@ Beispiel: `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-06-1
 
 1. Überprüfen Sie in Workfront die Benutzerberechtigungen für das Projekt (**Anzeigen**, **Beitragen** oder **Verwalten**).
 1. Aktualisieren Sie die Berechtigungen der Benutzenden auf **Beitragen** oder **Verwalten**, wenn sie Dateien erstellen oder bearbeiten müssen.
+
