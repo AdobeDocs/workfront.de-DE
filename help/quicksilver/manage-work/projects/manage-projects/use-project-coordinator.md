@@ -4,15 +4,13 @@ content-type: reference
 description: Erfahren Sie, wie Sie den Projektkoordinator verwenden, einen vorkonfigurierten KI-Mitarbeiter, der den Projektstatus überwacht und überfällige Aufgaben nachverfolgt.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 6%
 
 ---
 # Verwenden des Projektkoordinators
-
-{{highlighted-preview-article-level}}
 
 Der Projektkoordinator ist ein vorkonfigurierter KI-Mitarbeiter, der Ihr Projekt überwacht und Stakeholder über wichtige Statusinformationen informiert.
 

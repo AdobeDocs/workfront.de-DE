@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Arbeitsagenten sind KI-Mitwirkende, die direkt Workfront-Aufgaben, -Problemen und -Anfragen zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Arbeitselementen wie Benutzenden zugewiesen.
 
-<span class="preview">Sie können einen einsatzbereiten nativen Adobe-Arbeitsagenten verwenden, z. B. den CX Enterprise Coworker-Mitarbeiter oder einen vordefinierten KI-Mitarbeiter wie den Aufnahmekoordinator (weitere Informationen finden Sie unter [Vordefinierte KI-Mitarbeiter konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)) </span> einen Arbeitsagenten, der mit einer externen Plattform verbunden ist. Die verfügbaren Funktionen und Setup-Anforderungen hängen von der Herkunft des Agenten ab.
+Sie können einen einsatzbereiten nativen Adobe-Arbeitsagenten verwenden, z. B. den CX Enterprise Coworker-Mitarbeiter oder einen vordefinierten KI-Mitarbeiter wie den Aufnahmekoordinator (weitere Informationen finden Sie unter [Konfigurieren von vordefinierten KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)) oder einen mit einer externen Plattform verbundenen Arbeitsagenten. Die verfügbaren Funktionen und Setup-Anforderungen hängen von der Herkunft des Agenten ab.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Voraussetzungen
 
 * Ein Administrator muss den Arbeitsagenten in Workfront konfigurieren, bevor Sie ihn verwenden können.
-* <span class="preview">Für einen nativen Adobe-Arbeitsagenten muss Adobe CX Coworker in Ihrem Unternehmen aktiviert sein.</span>
+* Für einen nativen Adobe-Arbeitsagenten muss Adobe CX Coworker in Ihrem Unternehmen aktiviert sein.
 * Für einen Arbeitsagenten, der mit einer externen Plattform verbunden ist, muss der Agent auch in dieser Plattform konfiguriert werden.
 
 ## Arbeitsagenten - Übersicht
@@ -128,7 +128,7 @@ Wenn ein Arbeitsagent einer Aufgabe oder einem Problem zugewiesen wird, beginnt 
 * Eine Aufgabe, der bereits ein Arbeitsagent und ein Benutzer zugewiesen sind, ist startbereit, und der Arbeitsagent wurde zuerst zugewiesen oder ist der primäre Zugewiesene. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Ein Benutzer und ein Arbeitsagent werden einer Aufgabe zugewiesen und der Benutzer wird entfernt.
 * Ein(e) Benutzende(r) und ein Arbeitsagent werden einer Aufgabe zugewiesen und der Arbeitsagent wird als der Primäre Beauftragte für die Aufgabe festgelegt.
-* <span class="preview">Ein nativer Workfront-Arbeitsagent wird in einer Aufgabe @mentioned.
+* Ein nativer Workfront-Arbeitsagent wird in einer Aufgabe @mentioned.
 
 Die folgenden Situationen führen nicht dazu, dass der Arbeitsagent mit der Arbeit an der Aufgabe beginnt:
 

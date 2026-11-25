@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -98,8 +98,15 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Ansicht aller Versionen eines Dokuments | Projekt > Dokumente > Dokumentdetails > Alle Versionen |
 | Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
-| Listen mit Szenarioplänen und Initiativen | Hauptmenü > Szenarien |
+| Listen mit Szenarioplänen <!--and initiatives--> | Hauptmenü > Szenarien |
 | Listen mit Zielen und Fortschrittsindikatoren | <ul><li>Hauptmenü > Ziele</li><li>Hauptmenü > Ziele > Fortschrittsanzeigen</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ So geben Sie eine Ansicht frei:
 
 Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsberechtigung haben, können Sie die Ansicht kopieren und unter einem neuen Namen speichern. Sie müssen zunächst Änderungen an der Ansicht vornehmen, bevor Sie sie kopieren können.
 
-1. Bewegen Sie im Dropdown-Menü „Ansichten“ den Mauszeiger über die Ansicht **Freigegebene**&quot;, deren Einstellungen Sie geändert haben und die Sie kopieren möchten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren**.
+1. Bewegen Sie im Dropdown-Menü „Ansichten“ den Mauszeiger über die Ansicht **Freigegebene**&quot;, deren Einstellungen Sie geändert haben und die Sie kopieren möchten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
    Eine neue Ansicht wird automatisch erstellt. Der Name der kopierten Ansicht folgt dem folgenden Muster: `Original view name (copy)`und wird im Abschnitt **Meine Ansichten** der Ansichten angezeigt.
 
@@ -380,7 +387,7 @@ Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsber
 
    >[!NOTE]
    >
-   >Die **Mit Voreinstellungen kopieren** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
+   >Die <!--<span class="preview">or **Copy with my changes**</span>--> **Mit Voreinstellungen kopieren** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
 
 ### Ansicht zurücksetzen
 
@@ -458,6 +465,26 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
 1. Wählen Sie ein Feld aus, nach dem gefiltert werden soll.
 1. Wählen Sie einen Filtermodifikator aus, z. B. „Ist beliebig von“, „Ist keiner von“, „Ist vor“ oder „Ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Wählen Sie die Feldwerte aus. Je nach Feldtyp, nach dem Sie filtern, werden Sie möglicherweise aufgefordert, das Element aus einer Liste auszuwählen, danach zu suchen oder einen Kalender zu verwenden, um einen Datumsbereich auszuwählen.
 
    ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)

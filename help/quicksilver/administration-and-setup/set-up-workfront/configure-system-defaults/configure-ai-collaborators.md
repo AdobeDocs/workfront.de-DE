@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1961'
 ht-degree: 2%
 ---
 # KI-Mitwirkende konfigurieren
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte, Aufgaben und Probleme einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
 
@@ -36,7 +34,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Arbeitsagent : Erstellen Sie einen Mitarbeiter <span class="preview">unterstützt von Adobe CX Coworker, </span> oder verbinden Sie einen Agenten von einer unterstützten externen Plattform, und weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
+* Arbeitsagent : Erstellen Sie einen auf Adobe CX Coworker basierenden Mitarbeiter, verwenden Sie einen vordefinierten Mitarbeiter oder verbinden Sie einen Agenten von einer unterstützten externen Plattform, weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
 
   Weitere Informationen finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -44,9 +42,9 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 Von KI-Mitwirkenden verwendete Lizenzen werden nicht in Rechnung gestellt. Wenn Ihr Unternehmen über 200 Workfront-Lizenzen verfügt und einen KI-Mitwirkenden erstellt, werden 201 Lizenzen verwendet, aber nur 200 in Rechnung gestellt.
 
-* <span class="preview">Projektkoordinator: Ein vorkonfigurierter Mitarbeiter, der den Projektstatus überwacht und Projektaktualisierungen sendet, ohne einen externen Agenten konfigurieren zu müssen.</span>
+* Projektkoordinator: Ein vorkonfigurierter Mitarbeiter, der den Projektstatus überwacht und Projektaktualisierungen sendet, ohne einen externen Agenten konfigurieren zu müssen.
 
-  <span class="preview">Weitere Informationen finden Sie unter [Verwenden des Projektkoordinators](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+  Weitere Informationen finden Sie unter [Verwenden des Projektkoordinators](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 
 ## Zugriffsanforderungen
@@ -95,9 +93,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ### Für Arbeitsagenten
 
-<span class="preview">Die Voraussetzungen hängen von der Herkunft des Agenten ab:</span>
+Die Voraussetzungen hängen von der Herkunft des Agenten ab:
 
-* <span class="preview">Nativ für Adobe: Für Ihr Unternehmen muss Adobe CX Coworker aktiviert sein. Es ist nicht erforderlich, einen Agenten in einer externen Plattform zu konfigurieren oder Anmeldeinformationen für eine externe Plattform bereitzustellen.</span>
+* Nativ in Adobe: Um CX Enterprise Coworker Collaborator verwenden zu können, muss Adobe CX Enterprise Coworker in Ihrem Unternehmen aktiviert sein. Sie müssen keinen Agenten in einer externen Plattform konfigurieren oder Anmeldeinformationen für eine externe Plattform angeben.
 * Externe Plattform oder benutzerdefinierter Agent: Konfigurieren Sie den Agenten auf der Plattform, mit der Sie eine Verbindung herstellen möchten, bevor Sie den Arbeitsagenten in Workfront erstellen.
 
 >[!NOTE]
@@ -124,11 +122,9 @@ KI-Reviewer können so konfiguriert werden, dass sie Workfront-Marken oder Adobe
 
 ## Konfigurieren eines Arbeitsagenten
 
-<span class="preview">Die folgende Einrichtungsanleitung spiegelt die native Unterstützung von Adobe und das ursprüngliche Setup-Modell wider, das sich noch in der Vorschau befindet.</span>
-
 Arbeitsagenten sind Agenten, die Sie in Workfront Aufgaben oder Problemen zuweisen können. Sie konfigurieren den Arbeitsagenten mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn einer Aufgabe zu, wie Sie es bei der Zuweisung von Benutzenden tun würden.
 
-Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Arbeitsagenten können <span class="preview">native Arbeitsagenten sein, die Coworker verwenden, </span> oder von einer unterstützten externen Plattform wie Copilot Studio, Claude, OpenAI und IBM stammen.
+Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Arbeitsagenten können vorgefertigte Arbeitsagenten oder Agenten sein, die einen Kollegen verwenden, oder sie können von einer unterstützten externen Plattform wie Copilot Studio, Claude, OpenAI und IBM stammen.
 
 >Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
 
@@ -155,12 +151,12 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
    >
    >Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.
 
-1. Wählen **im Bereich &quot;** des Agenten auswählen“ aus, ob Sie <span class="preview">nativen Adobe-</span> verwenden, einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
-1. <span class="preview">(Bedingt) Wenn Sie &quot;Adobe Native“ auswählen, wählen Sie den zu verwendenden Collaborator aus: den CX Enterprise Coworker-Collaborator oder einen vordefinierten KI-Collaborator, z. B. „Aufnahmekoordinator“. Weitere Informationen zu vordefinierten Kollaborateuren, einschließlich einer Beschreibung, finden Sie unter [Konfigurieren von vordefinierten KI-Kollaborateuren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+1. Wählen **im Bereich &quot;** des Agenten auswählen“ aus, ob Sie nativ Adobe verwenden, einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
+1. (Bedingt) Wenn Sie Nativ in Adobe auswählen, wählen Sie den zu verwendenden Collaborator aus: den CX Enterprise Coworker-Collaborator oder einen vordefinierten KI-Collaborator wie „Aufnahmekoordinator“. Weitere Informationen zu vordefinierten Kollaborateuren, einschließlich Beschreibungen, finden Sie unter [Konfigurieren von vordefinierten KI-Kollaborateuren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).
 
    >[!NOTE]
    >
-   ><span class="preview">Nachdem Sie einen vordefinierten KI-Mitwirkenden aktiviert haben, dauert es etwa 30 Sekunden, bis er bereitgestellt wird. Ein Spinner wird angezeigt, bis der Collaborator bereit ist.</span>
+   >Nachdem Sie einen vordefinierten KI-Mitwirkenden aktiviert haben, dauert es etwa 30 Sekunden, bis er bereitgestellt wird. Ein Spinner wird angezeigt, bis der Collaborator bereit ist.
 
 1. (Bedingt) Wenn Sie einen Agenten von einer gemeinsamen Plattform verwenden, geben Sie Authentifizierungsdetails für die Plattform des Agenten ein:
 
@@ -223,8 +219,6 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 +++
 -->
 
-<div class="preview">
-
 ## Konfigurieren eines Projektkoordinators
 
 Der Projektkoordinator ist ein vorkonfigurierter Mitarbeiter, der den Projektstatus überwacht und dabei hilft, die Arbeit auf Kurs zu halten. Im Gegensatz zu Arbeitsagenten erfordert der Projektkoordinator nicht die Konfiguration eines externen Agenten.
@@ -260,8 +254,6 @@ Fügen Sie nach dem Speichern des Projektkoordinators das Feld **Projektkoordina
 Anweisungen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Weitere Informationen zum Projektkoordinator, einschließlich seiner Zuweisung zu Projekten, finden Sie unter [Verwenden des Projektkoordinators](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
-
-</div>
 
 ## KI-Mitwirkende verwalten
 
